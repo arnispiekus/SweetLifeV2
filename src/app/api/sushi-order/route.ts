@@ -3,7 +3,15 @@ import { Resend } from 'resend';
 import { validateSushiOrder, type SushiOrderFormData } from '@/lib/sushiValidation';
 import { getSizeByPieces } from '@/data/sushiData';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Initialize Resend lazily to avoid build-time errors when API key is not set
+function getResendClient(): Resend | null {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    console.warn('RESEND_API_KEY is not configured. Email notifications will be skipped.');
+    return null;
+  }
+  return new Resend(apiKey);
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -45,7 +53,11 @@ export async function POST(request: NextRequest) {
     const paymentLink = sizeInfo?.paymentLink || '';
 
     // Send email notification to cafe owner
-    const { error: emailError } = await resend.emails.send({
+    const resend = getResendClient();
+    let emailError: Error | null = null;
+
+    if (resend) {
+      const result = await resend.emails.send({
       from: 'Sweet Life Sushi <orders@sweetlifecafe.co.uk>',
       to: ['info@sweetlifecafe.co.uk'],
       replyTo: orderData.email,
@@ -130,7 +142,9 @@ export async function POST(request: NextRequest) {
         </body>
         </html>
       `,
-    });
+      });
+      emailError = result.error;
+    }
 
     if (emailError) {
       console.error('Resend email error:', emailError);
