@@ -20,15 +20,17 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 
 ---
 
-### Phase 2: Core Layout Components
+### Phase 2: Core Layout Components ✓
 **Goal:** Build the shell — Header, Footer, Layout wrapper that appear on every page.
 
-- Migrate and adapt Header component with navigation
-- Migrate and adapt Footer component with links/social
-- Create root layout.tsx with metadata
-- Implement mobile navigation (hamburger menu)
-- Add WhatsApp floating widget
-- Ensure responsive design works
+**Status:** Complete (1 plan, 5 commits)
+
+- ✓ Migrate and adapt Header component with navigation
+- ✓ Migrate and adapt Footer component with links/social
+- ✓ Integrate Header/Footer into root layout.tsx
+- ✓ Implement mobile navigation (hamburger menu)
+- ✓ Add WhatsApp floating widget
+- ✓ Responsive design verified
 
 **Research:** None needed — adapting existing components
 
@@ -112,7 +114,7 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 | Phase | Name | Goal | Research | Status |
 |-------|------|------|----------|--------|
 | 1 | Foundation Setup | Tailwind, fonts, structure | No | ✓ |
-| 2 | Core Layout | Header, Footer, Layout | No | pending |
+| 2 | Core Layout | Header, Footer, Layout | No | ✓ |
 | 3 | Home & Static | Home, About, Contact pages | Carousel options | pending |
 | 4 | Menu System | Full menu with Revolut links | Revolut link format | pending |
 | 5 | Sushi Ordering | Pre-order flow with Resend | Resend API | pending |
@@ -120,4 +122,4 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 | 7 | Blog & Launch | Blog, polish, deploy | MDX setup | pending |
 
 ---
-*Last updated: 2025-01-18 (Phase 1 complete)*
+*Last updated: 2025-01-18 (Phase 2 complete)*
