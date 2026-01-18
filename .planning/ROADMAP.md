@@ -105,20 +105,22 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 
 ---
 
-### Phase 7: Blog & Launch
-**Goal:** Migrate blog system, polish animations, deploy to Vercel.
+### Phase 7: Polish & Launch
+**Goal:** Animations, performance, SEO, deploy to Vercel. Blog dropped (stale content).
 
-- Migrate markdown blog posts from existing site
-- Create blog listing page with post cards
-- Create dynamic blog post pages with MDX/markdown
-- Add Framer Motion animations throughout
-- Optimize performance (Lighthouse audit)
-- Configure SEO metadata and structured data
-- Deploy to Vercel
-- Test all functionality
-- DNS switch from Netlify when ready
+**Status:** In progress (1 plan complete, 7 commits)
 
-**Research:** Next.js MDX setup for blog posts
+- ✓ **Plan 01:** Framer Motion animations throughout (7 commits)
+  - Motion component library: FadeIn, ScrollReveal, StaggerContainer, MotionLink, MotionCard
+  - Scroll reveal animations on all pages
+  - Hover micro-interactions (button scale, card lift)
+- ⧖ Optimize performance (Lighthouse audit)
+- ⧖ Configure SEO metadata and structured data
+- ⧖ Deploy to Vercel
+- ⧖ Test forms and mobile
+- ⧖ DNS switch from Netlify when ready
+
+**Research:** None — blog dropped from scope
 
 ---
 
@@ -132,7 +134,7 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 | 4 | Menu System | Full menu with FoodServe links | FoodServe used | ✓ |
 | 5 | Sushi Ordering | Pre-order flow with Resend | Resend API | ✓ |
 | 6 | Bookings & Email | WhatsApp + email backup | Resend reused | ✓ |
-| 7 | Blog & Launch | Blog, polish, deploy | MDX setup | pending |
+| 7 | Polish & Launch | Animations, SEO, deploy | Blog dropped | in progress |
 
 ---
-*Last updated: 2025-01-18 (Phase 6 complete)*
+*Last updated: 2025-01-18 (Phase 7 Plan 01 complete)*

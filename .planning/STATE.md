@@ -3,8 +3,8 @@
 ## Current Position
 
 **Milestone:** 1 - Website Rebuild
-**Phase:** 6 - Bookings & Email
-**Status:** Phase 6 complete, Phase 7 (Blog & Launch) ready to plan
+**Phase:** 7 - Polish & Launch
+**Status:** Plan 01 (Animations) complete, more polish tasks remain
 
 ## Phase Status
 
@@ -16,7 +16,7 @@
 | 4 - Menu System | **complete** | 6 commits, Menu/SpecialtyMenu pages done |
 | 5 - Sushi Ordering | **complete** | 8 commits, Sushi page with pre-order form |
 | 6 - Bookings & Email | **complete** | 6 commits, Bookings page + Contact form wired |
-| 7 - Blog & Launch | pending | — |
+| 7 - Polish & Launch | **in progress** | Plan 01 done (7 commits), animations added |
 
 ## Recent Activity
 
@@ -28,6 +28,7 @@
 - 2025-01-18: Phase 4 executed — Menu system with 13 categories, specialty page with animations
 - 2025-01-18: Phase 5 executed — Sushi pre-order with gallery, video, form, Resend email
 - 2025-01-18: Phase 6 executed — Bookings page + Contact form email wiring
+- 2025-01-18: Phase 7 Plan 01 executed — Framer Motion animations throughout site
 
 ## What's Ready
 
@@ -68,6 +69,9 @@
 - **API route** — /api/contact with Resend integration
 - All pages have SEO metadata
 - Build and lint passing
+- **Motion components** — FadeIn, ScrollReveal, StaggerContainer, MotionLink, MotionButton, MotionCard
+- **Scroll animations** — All pages have viewport-triggered reveals
+- **Hover effects** — Buttons scale, cards lift with shadow
 
 ## Blockers
 
@@ -79,7 +83,8 @@ None
 - Resend API key needed in .env.local for email notifications
 - FoodServe ordering link integrated in menu pages
 - Reference codebase available at `/Users/arnispiekus/Work/Github/SweetLifeNewry` for component migration
-- Phase 7 (Blog & Launch) will need MDX setup for blog posts
+- Blog system dropped from scope (stale SEO posts)
+- Remaining Phase 7 work: SEO/structured data, performance audit, Vercel deployment
 
 ---
 *Last updated: 2025-01-18*
