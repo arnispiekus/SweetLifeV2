@@ -52,17 +52,21 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 
 ---
 
-### Phase 4: Menu System
+### Phase 4: Menu System ✓
 **Goal:** Display full menu with categories, items, and Revolut Checkout links.
 
-- Migrate menuData.ts with all 90+ items
-- Create MenuPage with category navigation
-- Create MenuCategory and MenuItem components
-- Create SpecialtyMenuPage for featured items
-- Add "Order Now" links to Revolut Checkout
-- Optimize menu images with Next.js Image component
+**Status:** Complete (1 plan, 6 commits)
 
-**Research:** Verify Revolut Checkout link format for menu items
+- ✓ Migrate menuData.ts with all 164+ items in 13 categories
+- ✓ Create MenuPage with category navigation and PDF download
+- ✓ Create MenuCategory and MenuItem components
+- ✓ Create SpecialtyMenuPage with Bingsu, Golden Toast, Bubble Tea
+- ✓ Add FoodServe ordering links
+- ✓ Optimize menu images with Next.js Image component
+- ✓ Add specialty data file (specialtyData.ts)
+- ✓ Add snowfall and floating bubbles animations
+
+**Research:** FoodServe used for ordering (not Revolut directly)
 
 ---
 
@@ -118,10 +122,10 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 | 1 | Foundation Setup | Tailwind, fonts, structure | No | ✓ |
 | 2 | Core Layout | Header, Footer, Layout | No | ✓ |
 | 3 | Home & Static | Home, About, Contact pages | Swiper 12 used | ✓ |
-| 4 | Menu System | Full menu with Revolut links | Revolut link format | pending |
+| 4 | Menu System | Full menu with FoodServe links | FoodServe used | ✓ |
 | 5 | Sushi Ordering | Pre-order flow with Resend | Resend API | pending |
 | 6 | Bookings & Email | WhatsApp + email backup | Resend + Next.js | pending |
 | 7 | Blog & Launch | Blog, polish, deploy | MDX setup | pending |
 
 ---
-*Last updated: 2025-01-18 (Phase 3 complete)*
+*Last updated: 2025-01-18 (Phase 4 complete)*

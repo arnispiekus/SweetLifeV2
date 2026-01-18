@@ -3,8 +3,8 @@
 ## Current Position
 
 **Milestone:** 1 - Website Rebuild
-**Phase:** 3 - Home & Static Pages
-**Status:** Phase 3 complete, ready to begin Phase 4
+**Phase:** 4 - Menu System
+**Status:** Phase 4 complete, ready to begin Phase 5
 
 ## Phase Status
 
@@ -13,7 +13,7 @@
 | 1 - Foundation Setup | **complete** | 4 commits, all tasks done |
 | 2 - Core Layout | **complete** | 5 commits, Header/Footer/WhatsApp done |
 | 3 - Home & Static | **complete** | 7 commits, Home/About/Contact pages done |
-| 4 - Menu System | pending | — |
+| 4 - Menu System | **complete** | 6 commits, Menu/SpecialtyMenu pages done |
 | 5 - Sushi Ordering | pending | — |
 | 6 - Bookings & Email | pending | — |
 | 7 - Blog & Launch | pending | — |
@@ -25,6 +25,7 @@
 - 2025-01-18: Phase 1 executed — dependencies, theme, fonts, structure, images
 - 2025-01-18: Phase 2 executed — Header, Footer, WhatsApp widget, layout integration
 - 2025-01-18: Phase 3 executed — Home, About, Contact pages with UI components
+- 2025-01-18: Phase 4 executed — Menu system with 13 categories, specialty page with animations
 
 ## What's Ready
 
@@ -45,6 +46,12 @@
 - **HomePage** — 9 sections with all content
 - **About Page** — story, values, promise sections
 - **Contact Page** — form and info (UI-only)
+- **MenuPage** — 13 categories with 164+ items, PDF download
+- **SpecialtyMenuPage** — Bingsu, Golden Toast, Bubble Tea with animations
+- **MenuItem** — menu item card component
+- **MenuCategory** — collapsible category accordion
+- **menuData.ts** — all menu data with interfaces
+- **specialtyData.ts** — specialty menu data
 - All pages have SEO metadata
 - Build and lint passing
 
@@ -55,7 +62,9 @@ None
 ## Notes
 
 - Contact form is UI-only; server handling comes in Phase 6 (Resend)
-- Internal links to /menu, /specialty-menu, /sushi, /bookings exist but routes not yet created
+- /sushi and /bookings routes not yet created (Phases 5 and 6)
+- sushiData included in menuData.ts for Phase 5
+- FoodServe ordering link integrated in menu pages
 - Reference codebase available at `/Users/arnispiekus/Work/Github/SweetLifeNewry` for component migration
 
 ---
