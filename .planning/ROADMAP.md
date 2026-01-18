@@ -89,17 +89,19 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 
 ---
 
-### Phase 6: Bookings & Email
+### Phase 6: Bookings & Email ✓
 **Goal:** WhatsApp-primary booking system with Resend email backup.
 
-- Create BookingsPage with event space info
-- Implement prominent WhatsApp CTA button
-- Create backup contact form
-- Set up Resend for form submissions
-- Create email templates for inquiries
-- Add confirmation/thank you states
+**Status:** Complete (1 plan, 6 commits)
 
-**Research:** Resend integration with Next.js API routes
+- ✓ Create BookingsPage with event space info and venue details
+- ✓ Implement prominent WhatsApp CTA button with pre-filled message
+- ✓ Wire up Contact page form with Resend integration
+- ✓ Create contactValidation.ts for form validation
+- ✓ Create contact API route with HTML email template
+- ✓ Add confirmation and error states to form
+
+**Research:** Resend integration pattern reused from sushi order
 
 ---
 
@@ -129,8 +131,8 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 | 3 | Home & Static | Home, About, Contact pages | Swiper 12 used | ✓ |
 | 4 | Menu System | Full menu with FoodServe links | FoodServe used | ✓ |
 | 5 | Sushi Ordering | Pre-order flow with Resend | Resend API | ✓ |
-| 6 | Bookings & Email | WhatsApp + email backup | Resend + Next.js | pending |
+| 6 | Bookings & Email | WhatsApp + email backup | Resend reused | ✓ |
 | 7 | Blog & Launch | Blog, polish, deploy | MDX setup | pending |
 
 ---
-*Last updated: 2025-01-18 (Phase 5 complete)*
+*Last updated: 2025-01-18 (Phase 6 complete)*
