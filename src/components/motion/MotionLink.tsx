@@ -39,9 +39,12 @@ export default function MotionLink({
   );
 }
 
-interface MotionButtonProps extends ComponentPropsWithoutRef<'button'> {
+interface MotionButtonProps {
   children: ReactNode;
   className?: string;
+  type?: 'button' | 'submit' | 'reset';
+  disabled?: boolean;
+  onClick?: () => void;
 }
 
 /**
@@ -51,15 +54,19 @@ interface MotionButtonProps extends ComponentPropsWithoutRef<'button'> {
 export function MotionButton({
   children,
   className = '',
-  ...props
+  type = 'button',
+  disabled,
+  onClick,
 }: MotionButtonProps) {
   return (
     <motion.button
-      whileHover={{ scale: 1.03 }}
-      whileTap={{ scale: 0.98 }}
+      type={type}
+      disabled={disabled}
+      onClick={onClick}
+      whileHover={disabled ? undefined : { scale: 1.03 }}
+      whileTap={disabled ? undefined : { scale: 0.98 }}
       transition={{ duration: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
       className={className}
-      {...props}
     >
       {children}
     </motion.button>
