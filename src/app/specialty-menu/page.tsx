@@ -7,6 +7,7 @@ import SectionHeader from '@/components/ui/SectionHeader';
 import WaveSeparator from '@/components/ui/WaveSeparator';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
+import { ScrollReveal, FadeIn } from '@/components/motion';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import {
@@ -138,45 +139,49 @@ export default function SpecialtyMenuPage() {
 
         <div className="container relative z-10">
           <div className="max-w-6xl mx-auto">
-            <SectionHeader
-              title="Bingsu"
-              subtitle="Korean Shaved Ice Dessert - A unique and refreshing treat made with finely shaved ice, topped with sweet syrups, fresh fruits, and delicious toppings. Perfect for cooling down on a warm day or as a sweet indulgence any time."
-              centered={true}
-            />
+            <ScrollReveal>
+              <SectionHeader
+                title="Bingsu"
+                subtitle="Korean Shaved Ice Dessert - A unique and refreshing treat made with finely shaved ice, topped with sweet syrups, fresh fruits, and delicious toppings. Perfect for cooling down on a warm day or as a sweet indulgence any time."
+                centered={true}
+              />
+            </ScrollReveal>
 
             {/* Bingsu Flavor Gallery */}
-            <Swiper
-              modules={[Autoplay, Pagination]}
-              slidesPerView={1}
-              spaceBetween={24}
-              pagination={{ clickable: true }}
-              autoplay={{ delay: 4000, disableOnInteraction: false }}
-              breakpoints={{
-                1024: { slidesPerView: 3, spaceBetween: 32 },
-                640: { slidesPerView: 2, spaceBetween: 24 },
-              }}
-              className="!pb-12"
-            >
-              {bingsuItems.map((item, idx) => (
-                <SwiperSlide key={idx}>
-                  <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100 flex flex-col h-full">
-                    <div className="relative aspect-square">
-                      <Image
-                        src={item.image}
-                        alt={item.name}
-                        fill
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        className="object-cover"
-                      />
+            <FadeIn delay={0.2}>
+              <Swiper
+                modules={[Autoplay, Pagination]}
+                slidesPerView={1}
+                spaceBetween={24}
+                pagination={{ clickable: true }}
+                autoplay={{ delay: 4000, disableOnInteraction: false }}
+                breakpoints={{
+                  1024: { slidesPerView: 3, spaceBetween: 32 },
+                  640: { slidesPerView: 2, spaceBetween: 24 },
+                }}
+                className="!pb-12"
+              >
+                {bingsuItems.map((item, idx) => (
+                  <SwiperSlide key={idx}>
+                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full hover:-translate-y-1">
+                      <div className="relative aspect-square">
+                        <Image
+                          src={item.image}
+                          alt={item.name}
+                          fill
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                          className="object-cover"
+                        />
+                      </div>
+                      <div className="p-6 flex-1 flex flex-col">
+                        <h3 className="text-xl font-semibold text-stone-800 text-center mb-2">{item.name}</h3>
+                        <p className="text-stone-600 text-center flex-1">{item.desc}</p>
+                      </div>
                     </div>
-                    <div className="p-6 flex-1 flex flex-col">
-                      <h3 className="text-xl font-semibold text-stone-800 text-center mb-2">{item.name}</h3>
-                      <p className="text-stone-600 text-center flex-1">{item.desc}</p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </FadeIn>
           </div>
         </div>
       </section>
@@ -185,45 +190,49 @@ export default function SpecialtyMenuPage() {
       <section className="section bg-gray-50">
         <div className="container">
           <div className="max-w-6xl mx-auto">
-            <SectionHeader
-              title="Golden Toast"
-              subtitle="An indulgent treat with thick slices of toasted bread, crispy outside and soft inside. Perfect for breakfast, brunch, or as a sweet dessert."
-              centered={true}
-            />
+            <ScrollReveal>
+              <SectionHeader
+                title="Golden Toast"
+                subtitle="An indulgent treat with thick slices of toasted bread, crispy outside and soft inside. Perfect for breakfast, brunch, or as a sweet dessert."
+                centered={true}
+              />
+            </ScrollReveal>
 
             {/* Golden Toast Gallery */}
-            <Swiper
-              modules={[Autoplay, Pagination]}
-              slidesPerView={1}
-              spaceBetween={24}
-              pagination={{ clickable: true }}
-              autoplay={{ delay: 4000, disableOnInteraction: false }}
-              breakpoints={{
-                1024: { slidesPerView: 3, spaceBetween: 32 },
-                640: { slidesPerView: 2, spaceBetween: 24 },
-              }}
-              className="!pb-12"
-            >
-              {goldenToastItems.map((item, idx) => (
-                <SwiperSlide key={idx}>
-                  <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100 flex flex-col h-full">
-                    <div className="relative aspect-square">
-                      <Image
-                        src={item.image}
-                        alt={item.name}
-                        fill
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        className="object-cover"
-                      />
+            <FadeIn delay={0.2}>
+              <Swiper
+                modules={[Autoplay, Pagination]}
+                slidesPerView={1}
+                spaceBetween={24}
+                pagination={{ clickable: true }}
+                autoplay={{ delay: 4000, disableOnInteraction: false }}
+                breakpoints={{
+                  1024: { slidesPerView: 3, spaceBetween: 32 },
+                  640: { slidesPerView: 2, spaceBetween: 24 },
+                }}
+                className="!pb-12"
+              >
+                {goldenToastItems.map((item, idx) => (
+                  <SwiperSlide key={idx}>
+                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full hover:-translate-y-1">
+                      <div className="relative aspect-square">
+                        <Image
+                          src={item.image}
+                          alt={item.name}
+                          fill
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                          className="object-cover"
+                        />
+                      </div>
+                      <div className="p-6 flex-1 flex flex-col">
+                        <h3 className="text-xl font-semibold text-stone-800 text-center mb-2">{item.name}</h3>
+                        <p className="text-stone-600 text-center flex-1">{item.desc}</p>
+                      </div>
                     </div>
-                    <div className="p-6 flex-1 flex flex-col">
-                      <h3 className="text-xl font-semibold text-stone-800 text-center mb-2">{item.name}</h3>
-                      <p className="text-stone-600 text-center flex-1">{item.desc}</p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </FadeIn>
           </div>
         </div>
       </section>
@@ -278,38 +287,142 @@ export default function SpecialtyMenuPage() {
 
         <div className="container relative z-10">
           <div className="max-w-6xl mx-auto">
-            <SectionHeader
-              title="Bubble Teas"
-              subtitle="Discover our unique tea creations, from refreshing fruit teas to creamy milk teas with various flavors and toppings."
-              centered={true}
-            />
+            <ScrollReveal>
+              <SectionHeader
+                title="Bubble Teas"
+                subtitle="Discover our unique tea creations, from refreshing fruit teas to creamy milk teas with various flavors and toppings."
+                centered={true}
+              />
+            </ScrollReveal>
 
-            <div className="text-center mb-8">
-              <h3 className="text-xl font-semibold text-stone-800 mb-2">Boba +{'\u00A3'}1.00</h3>
-              <p className="text-stone-600 mb-6">Tapioca, Popping Boba, Rainbow Jelly</p>
-              {/* Swiper carousel for Boba cards on mobile, grid on desktop */}
-              <div className="block md:hidden">
+            <FadeIn delay={0.2}>
+              <div className="text-center mb-8">
+                <h3 className="text-xl font-semibold text-stone-800 mb-2">Boba +{'\u00A3'}1.00</h3>
+                <p className="text-stone-600 mb-6">Tapioca, Popping Boba, Rainbow Jelly</p>
+                {/* Swiper carousel for Boba cards on mobile, grid on desktop */}
+                <div className="block md:hidden">
+                  <Swiper
+                    modules={[Autoplay, Pagination]}
+                    slidesPerView={1}
+                    spaceBetween={24}
+                    pagination={{ clickable: true }}
+                    autoplay={{ delay: 4000, disableOnInteraction: false }}
+                    className="!pb-12"
+                  >
+                    {bobaItems.map((item, idx) => (
+                      <SwiperSlide key={idx}>
+                        <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+                          <div className="relative aspect-square">
+                            <Image
+                              src={item.image}
+                              alt={item.name}
+                              fill
+                              sizes="100vw"
+                              className="object-cover"
+                            />
+                          </div>
+                          <div className="p-4">
+                            <h4 className="text-lg font-semibold text-stone-800 text-center mb-2">{item.name}</h4>
+                            <p className="text-sm text-stone-600 text-center">{item.desc}</p>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
+                <div className="hidden md:grid grid-cols-3 gap-6 max-w-2xl mx-auto">
+                  {bobaItems.map((item, idx) => (
+                    <div key={idx} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+                      <div className="relative aspect-square">
+                        <Image
+                          src={item.image}
+                          alt={item.name}
+                          fill
+                          sizes="(max-width: 1024px) 33vw, 25vw"
+                          className="object-cover"
+                        />
+                      </div>
+                      <div className="p-4">
+                        <h4 className="text-lg font-semibold text-stone-800 text-center mb-2">{item.name}</h4>
+                        <p className="text-sm text-stone-600 text-center">{item.desc}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </FadeIn>
+
+            {/* Milk Teas */}
+            <ScrollReveal>
+              <div className="mb-12">
+                <h3 className="text-2xl font-bold text-stone-800 text-center mb-4">Milk Teas</h3>
+                <p className="text-stone-600 text-center mb-8">Can be served hot or cold</p>
+
                 <Swiper
                   modules={[Autoplay, Pagination]}
                   slidesPerView={1}
                   spaceBetween={24}
                   pagination={{ clickable: true }}
                   autoplay={{ delay: 4000, disableOnInteraction: false }}
+                  breakpoints={{
+                    1024: { slidesPerView: 4, spaceBetween: 32 },
+                    640: { slidesPerView: 2, spaceBetween: 24 },
+                  }}
                   className="!pb-12"
                 >
-                  {bobaItems.map((item, idx) => (
+                  {milkTeaItems.map((item, idx) => (
                     <SwiperSlide key={idx}>
-                      <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+                      <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full hover:-translate-y-1">
                         <div className="relative aspect-square">
                           <Image
                             src={item.image}
                             alt={item.name}
                             fill
-                            sizes="100vw"
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                             className="object-cover"
                           />
                         </div>
-                        <div className="p-4">
+                        <div className="p-6 flex-1 flex flex-col">
+                          <h4 className="text-lg font-semibold text-stone-800 text-center mb-2">{item.name}</h4>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
+              </div>
+            </ScrollReveal>
+
+            {/* Fruit Teas */}
+            <ScrollReveal>
+              <div>
+                <h3 className="text-2xl font-bold text-stone-800 text-center mb-4">Fruit Teas</h3>
+                <p className="text-stone-600 text-center mb-8">Can be still or sparkling, cold or hot</p>
+
+                <Swiper
+                  modules={[Autoplay, Pagination]}
+                  slidesPerView={1}
+                  spaceBetween={24}
+                  pagination={{ clickable: true }}
+                  autoplay={{ delay: 4000, disableOnInteraction: false }}
+                  breakpoints={{
+                    1024: { slidesPerView: 4, spaceBetween: 32 },
+                    640: { slidesPerView: 2, spaceBetween: 24 },
+                  }}
+                  className="!pb-12"
+                >
+                  {fruitTeaItems.map((item, idx) => (
+                    <SwiperSlide key={idx}>
+                      <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full hover:-translate-y-1">
+                        <div className="relative aspect-square">
+                          <Image
+                            src={item.image}
+                            alt={item.name}
+                            fill
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                            className="object-cover"
+                          />
+                        </div>
+                        <div className="p-6 flex-1 flex flex-col">
                           <h4 className="text-lg font-semibold text-stone-800 text-center mb-2">{item.name}</h4>
                           <p className="text-sm text-stone-600 text-center">{item.desc}</p>
                         </div>
@@ -318,103 +431,7 @@ export default function SpecialtyMenuPage() {
                   ))}
                 </Swiper>
               </div>
-              <div className="hidden md:grid grid-cols-3 gap-6 max-w-2xl mx-auto">
-                {bobaItems.map((item, idx) => (
-                  <div key={idx} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-                    <div className="relative aspect-square">
-                      <Image
-                        src={item.image}
-                        alt={item.name}
-                        fill
-                        sizes="(max-width: 1024px) 33vw, 25vw"
-                        className="object-cover"
-                      />
-                    </div>
-                    <div className="p-4">
-                      <h4 className="text-lg font-semibold text-stone-800 text-center mb-2">{item.name}</h4>
-                      <p className="text-sm text-stone-600 text-center">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Milk Teas */}
-            <div className="mb-12">
-              <h3 className="text-2xl font-bold text-stone-800 text-center mb-4">Milk Teas</h3>
-              <p className="text-stone-600 text-center mb-8">Can be served hot or cold</p>
-
-              <Swiper
-                modules={[Autoplay, Pagination]}
-                slidesPerView={1}
-                spaceBetween={24}
-                pagination={{ clickable: true }}
-                autoplay={{ delay: 4000, disableOnInteraction: false }}
-                breakpoints={{
-                  1024: { slidesPerView: 4, spaceBetween: 32 },
-                  640: { slidesPerView: 2, spaceBetween: 24 },
-                }}
-                className="!pb-12"
-              >
-                {milkTeaItems.map((item, idx) => (
-                  <SwiperSlide key={idx}>
-                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100 flex flex-col h-full">
-                      <div className="relative aspect-square">
-                        <Image
-                          src={item.image}
-                          alt={item.name}
-                          fill
-                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                          className="object-cover"
-                        />
-                      </div>
-                      <div className="p-6 flex-1 flex flex-col">
-                        <h4 className="text-lg font-semibold text-stone-800 text-center mb-2">{item.name}</h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
-
-            {/* Fruit Teas */}
-            <div>
-              <h3 className="text-2xl font-bold text-stone-800 text-center mb-4">Fruit Teas</h3>
-              <p className="text-stone-600 text-center mb-8">Can be still or sparkling, cold or hot</p>
-
-              <Swiper
-                modules={[Autoplay, Pagination]}
-                slidesPerView={1}
-                spaceBetween={24}
-                pagination={{ clickable: true }}
-                autoplay={{ delay: 4000, disableOnInteraction: false }}
-                breakpoints={{
-                  1024: { slidesPerView: 4, spaceBetween: 32 },
-                  640: { slidesPerView: 2, spaceBetween: 24 },
-                }}
-                className="!pb-12"
-              >
-                {fruitTeaItems.map((item, idx) => (
-                  <SwiperSlide key={idx}>
-                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100 flex flex-col h-full">
-                      <div className="relative aspect-square">
-                        <Image
-                          src={item.image}
-                          alt={item.name}
-                          fill
-                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                          className="object-cover"
-                        />
-                      </div>
-                      <div className="p-6 flex-1 flex flex-col">
-                        <h4 className="text-lg font-semibold text-stone-800 text-center mb-2">{item.name}</h4>
-                        <p className="text-sm text-stone-600 text-center">{item.desc}</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
@@ -422,26 +439,28 @@ export default function SpecialtyMenuPage() {
       {/* Call to Action */}
       <section className="section bg-gray-50">
         <div className="container">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-stone-800 mb-4">Ready to Try Our Specialties?</h2>
-            <p className="text-lg text-stone-600 mb-8">
-              Visit us to experience these unique creations in person, or check out our full menu for more delicious options.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/menu"
-                className="inline-flex items-center justify-center bg-[#F79D28] text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition-all duration-300 hover:bg-[#E68A1A] hover:scale-105 hover:shadow-xl"
-              >
-                View Full Menu
-              </Link>
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center bg-white text-[#F79D28] border-2 border-[#F79D28] px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition-all duration-300 hover:bg-orange-50 hover:scale-105 hover:shadow-xl"
-              >
-                Contact Us
-              </Link>
+          <FadeIn>
+            <div className="text-center">
+              <h2 className="text-3xl font-bold text-stone-800 mb-4">Ready to Try Our Specialties?</h2>
+              <p className="text-lg text-stone-600 mb-8">
+                Visit us to experience these unique creations in person, or check out our full menu for more delicious options.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link
+                  href="/menu"
+                  className="inline-flex items-center justify-center bg-[#F79D28] text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition-all duration-300 hover:bg-[#E68A1A] hover:scale-105 hover:shadow-xl"
+                >
+                  View Full Menu
+                </Link>
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center bg-white text-[#F79D28] border-2 border-[#F79D28] px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition-all duration-300 hover:bg-orange-50 hover:scale-105 hover:shadow-xl"
+                >
+                  Contact Us
+                </Link>
+              </div>
             </div>
-          </div>
+          </FadeIn>
         </div>
       </section>
     </>
