@@ -4,15 +4,17 @@
 
 Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 
-### Phase 1: Foundation Setup
+### Phase 1: Foundation Setup ✓
 **Goal:** Configure Next.js project with Tailwind theme, fonts, and base structure migrated from existing site.
 
-- Set up Tailwind config with Sweet Life theme (primary: #F79D28)
-- Configure Poppins font from Google Fonts
-- Migrate global styles from existing index.css
-- Set up project structure (components/, lib/, data/, content/)
-- Copy and organize images from existing public/ folder
-- Install core dependencies (Framer Motion, Lucide React, etc.)
+**Status:** Complete (1 plan, 4 commits)
+
+- ✓ Set up Tailwind config with Sweet Life theme (primary: #F79D28)
+- ✓ Configure Poppins font from Google Fonts
+- ✓ Migrate global styles from existing index.css
+- ✓ Set up project structure (components/, lib/, data/, content/)
+- ✓ Copy and organize images from existing public/ folder
+- ✓ Install core dependencies (Framer Motion, Lucide React, etc.)
 
 **Research:** None needed — straightforward migration
 
@@ -107,15 +109,15 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 
 ## Summary
 
-| Phase | Name | Goal | Research |
-|-------|------|------|----------|
-| 1 | Foundation Setup | Tailwind, fonts, structure | No |
-| 2 | Core Layout | Header, Footer, Layout | No |
-| 3 | Home & Static | Home, About, Contact pages | Carousel options |
-| 4 | Menu System | Full menu with Revolut links | Revolut link format |
-| 5 | Sushi Ordering | Pre-order flow with Resend | Resend API |
-| 6 | Bookings & Email | WhatsApp + email backup | Resend + Next.js |
-| 7 | Blog & Launch | Blog, polish, deploy | MDX setup |
+| Phase | Name | Goal | Research | Status |
+|-------|------|------|----------|--------|
+| 1 | Foundation Setup | Tailwind, fonts, structure | No | ✓ |
+| 2 | Core Layout | Header, Footer, Layout | No | pending |
+| 3 | Home & Static | Home, About, Contact pages | Carousel options | pending |
+| 4 | Menu System | Full menu with Revolut links | Revolut link format | pending |
+| 5 | Sushi Ordering | Pre-order flow with Resend | Resend API | pending |
+| 6 | Bookings & Email | WhatsApp + email backup | Resend + Next.js | pending |
+| 7 | Blog & Launch | Blog, polish, deploy | MDX setup | pending |
 
 ---
-*Last updated: 2025-01-18*
+*Last updated: 2025-01-18 (Phase 1 complete)*
