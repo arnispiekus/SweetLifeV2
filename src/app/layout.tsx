@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppWidget from "@/components/ui/WhatsAppWidget";
+import StructuredData from "@/components/seo/StructuredData";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -55,6 +56,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <StructuredData />
+      </head>
       <body className={`${poppins.variable} font-sans antialiased`}>
         <div className="flex flex-col min-h-screen">
           <Header />
