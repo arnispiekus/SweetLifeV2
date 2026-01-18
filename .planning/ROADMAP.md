@@ -70,17 +70,22 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 
 ---
 
-### Phase 5: Sushi Ordering
+### Phase 5: Sushi Ordering ✓
 **Goal:** Improved sushi pre-order flow with cleaner UX to Revolut Checkout.
 
-- Create SushiPage with variation/size selection
-- Migrate sushi image gallery and video
-- Implement date/time picker with 24-hour validation
-- Create pre-order form with validation
-- Connect form submission to Resend for notifications
-- Link to appropriate Revolut Checkout payment
+**Status:** Complete (1 plan, 8 commits)
 
-**Research:** Resend API setup and email templates
+- ✓ Create SushiPage with variation/size selection
+- ✓ Migrate sushi image gallery (12 images) and video
+- ✓ Create LazyVideo component with IntersectionObserver
+- ✓ Implement date/time picker with 24-hour validation
+- ✓ Create SushiOrderForm with validation and API submission
+- ✓ Create sushiData.ts with variations, sizes, and payment links
+- ✓ Create sushiValidation.ts for datetime and order validation
+- ✓ Connect form submission to Resend API route
+- ✓ Link to Revolut Checkout payments per size
+
+**Research:** Resend API with lazy initialization for build compatibility
 
 ---
 
@@ -123,9 +128,9 @@ Complete migration from Vite/React to Next.js with Revolut Checkout integration.
 | 2 | Core Layout | Header, Footer, Layout | No | ✓ |
 | 3 | Home & Static | Home, About, Contact pages | Swiper 12 used | ✓ |
 | 4 | Menu System | Full menu with FoodServe links | FoodServe used | ✓ |
-| 5 | Sushi Ordering | Pre-order flow with Resend | Resend API | pending |
+| 5 | Sushi Ordering | Pre-order flow with Resend | Resend API | ✓ |
 | 6 | Bookings & Email | WhatsApp + email backup | Resend + Next.js | pending |
 | 7 | Blog & Launch | Blog, polish, deploy | MDX setup | pending |
 
 ---
-*Last updated: 2025-01-18 (Phase 4 complete)*
+*Last updated: 2025-01-18 (Phase 5 complete)*
