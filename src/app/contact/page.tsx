@@ -5,20 +5,70 @@ import PageHeader from '@/components/ui/PageHeader';
 import SectionHeader from '@/components/ui/SectionHeader';
 import WaveSeparator from '@/components/ui/WaveSeparator';
 import { MapPin, Clock, Phone, Mail, Send, MessageCircle } from 'lucide-react';
+import { validateContactForm, type ContactFormData } from '@/lib/contactValidation';
 
 export default function ContactPage() {
   const [formStatus, setFormStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+  const [errors, setErrors] = useState<string[]>([]);
+  const [formData, setFormData] = useState<ContactFormData>({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
+
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+    // Clear errors when user starts typing
+    if (errors.length > 0) {
+      setErrors([]);
+    }
+  };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setErrors([]);
+    setFormStatus('idle');
+
+    // Client-side validation
+    const validationErrors = validateContactForm(formData);
+    if (validationErrors.length > 0) {
+      setErrors(validationErrors);
+      return;
+    }
+
     setFormStatus('submitting');
 
-    // Simulate form submission - actual handling will be implemented later
-    setTimeout(() => {
-      setFormStatus('success');
-      // Reset form after success
-      (e.target as HTMLFormElement).reset();
-    }, 1000);
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        setFormStatus('success');
+        // Reset form after success
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: '',
+        });
+      } else {
+        setFormStatus('error');
+        setErrors([result.error || 'Something went wrong. Please try again.']);
+      }
+    } catch (error) {
+      console.error('Contact form error:', error);
+      setFormStatus('error');
+      setErrors(['Something went wrong. Please try again.']);
+    }
   };
 
   return (
@@ -54,7 +104,8 @@ export default function ContactPage() {
                       type="text"
                       id="name"
                       name="name"
-                      required
+                      value={formData.name}
+                      onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-stone-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
                       placeholder="Your name"
                     />
@@ -67,7 +118,8 @@ export default function ContactPage() {
                       type="email"
                       id="email"
                       name="email"
-                      required
+                      value={formData.email}
+                      onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-stone-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
                       placeholder="Your email"
                     />
@@ -82,6 +134,8 @@ export default function ContactPage() {
                     type="text"
                     id="subject"
                     name="subject"
+                    value={formData.subject}
+                    onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-stone-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
                     placeholder="Subject"
                   />
@@ -95,11 +149,23 @@ export default function ContactPage() {
                     id="message"
                     name="message"
                     rows={5}
-                    required
+                    value={formData.message}
+                    onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-stone-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
                     placeholder="Your message"
                   ></textarea>
                 </div>
+
+                {/* Validation Errors */}
+                {errors.length > 0 && (
+                  <div className="p-4 bg-red-50 border border-red-200 rounded-md">
+                    <ul className="list-disc pl-5 space-y-1">
+                      {errors.map((error, index) => (
+                        <li key={index} className="text-red-600 text-sm">{error}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
                 <button
                   type="submit"
@@ -112,9 +178,6 @@ export default function ContactPage() {
 
                 {formStatus === 'success' && (
                   <p className="text-green-600 font-medium">Thank you! Your message has been sent.</p>
-                )}
-                {formStatus === 'error' && (
-                  <p className="text-red-600 font-medium">Something went wrong. Please try again.</p>
                 )}
               </form>
             </div>
