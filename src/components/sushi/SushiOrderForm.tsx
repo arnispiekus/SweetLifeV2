@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Send, ExternalLink, Check, AlertTriangle } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { sushiVariations, sushiSizes, getSizeByPieces } from '@/data/sushiData';
 import { getMinDateTime, validatePickupDateTime } from '@/lib/sushiValidation';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -145,14 +146,18 @@ const SushiOrderForm = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-24">
           {sushiVariations.map((variation) => (
-            <button
+            <motion.button
               key={variation.title}
               onClick={() => setSelectedVariation(variation.title)}
-              className={`p-6 rounded-lg transition-all duration-300 text-center ${
+              className={`p-6 rounded-lg transition-colors duration-300 text-center ${
                 selectedVariation === variation.title
-                  ? 'bg-primary text-white shadow-lg scale-105'
-                  : 'bg-white text-stone-800 hover:bg-primary/5 shadow-md'
+                  ? 'bg-primary text-white shadow-lg'
+                  : 'bg-white text-stone-800 shadow-md'
               }`}
+              whileHover={{ scale: 1.03, y: -4 }}
+              whileTap={{ scale: 0.98 }}
+              animate={{ scale: selectedVariation === variation.title ? 1.05 : 1 }}
+              transition={{ duration: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
             >
               <div className="text-xl font-semibold mb-2">{variation.title}</div>
               <div
@@ -162,7 +167,7 @@ const SushiOrderForm = () => {
               >
                 {variation.description}
               </div>
-            </button>
+            </motion.button>
           ))}
         </div>
 
@@ -175,14 +180,18 @@ const SushiOrderForm = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-24">
           {sushiSizes.map((option) => (
-            <button
+            <motion.button
               key={option.pieces}
               onClick={() => setSelectedSize(option.pieces)}
-              className={`p-6 rounded-lg transition-all duration-300 ${
+              className={`p-6 rounded-lg transition-colors duration-300 ${
                 selectedSize === option.pieces
-                  ? 'bg-primary text-white shadow-lg scale-105'
-                  : 'bg-white text-stone-800 hover:bg-primary/5'
+                  ? 'bg-primary text-white shadow-lg'
+                  : 'bg-white text-stone-800'
               }`}
+              whileHover={{ scale: 1.03, y: -4 }}
+              whileTap={{ scale: 0.98 }}
+              animate={{ scale: selectedSize === option.pieces ? 1.05 : 1 }}
+              transition={{ duration: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
             >
               <div className="text-2xl font-semibold mb-1">{option.pieces}</div>
               <div className="text-sm mb-2">pieces</div>
@@ -193,7 +202,7 @@ const SushiOrderForm = () => {
               >
                 £{option.price}
               </div>
-            </button>
+            </motion.button>
           ))}
         </div>
 

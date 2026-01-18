@@ -1,4 +1,7 @@
+'use client';
+
 import { MessageCircle, Phone, Mail } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const WhatsAppBookingCTA = () => {
   const whatsappMessage = encodeURIComponent(
@@ -15,15 +18,18 @@ const WhatsAppBookingCTA = () => {
       </p>
 
       {/* Primary WhatsApp Button */}
-      <a
+      <motion.a
         href={`https://wa.me/447716508513?text=${whatsappMessage}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 mb-8"
+        className="inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors duration-300 shadow-lg mb-8"
+        whileHover={{ scale: 1.05, boxShadow: '0 20px 25px -5px rgb(0 0 0 / 0.1)' }}
+        whileTap={{ scale: 0.98 }}
+        transition={{ duration: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
       >
         <MessageCircle size={24} className="mr-3" />
         Book via WhatsApp
-      </a>
+      </motion.a>
 
       {/* Alternative Contact Options */}
       <div className="border-t border-stone-200 pt-6">

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const bestReviews = [
   {
@@ -113,20 +114,23 @@ const GoogleReviews: React.FC = () => {
             onFocus={handlePause}
             onBlur={handleResume}
           >
-            <button
+            <motion.button
               onClick={() => setCurrentIndex((prev) => (prev - 1 + bestReviews.length) % bestReviews.length)}
-              className="p-3 rounded-full bg-white shadow-md hover:shadow-lg transition-all duration-300 hover:bg-primary hover:text-white"
+              className="p-3 rounded-full bg-white shadow-md transition-colors duration-300 hover:bg-primary hover:text-white"
               aria-label="Previous review"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ duration: 0.2 }}
             >
               <ChevronLeft size={20} />
-            </button>
+            </motion.button>
             <div className={`grid gap-6 w-full max-w-5xl ${isMobile ? 'grid-cols-1' : 'grid-cols-3'}`}>
               {visibleReviews.map((review, idx) => {
                 const isTruncated = review.text.length > MAX_REVIEW_LENGTH && expanded !== idx;
                 const displayText = isTruncated ? review.text.slice(0, MAX_REVIEW_LENGTH) + '...' : review.text;
                 const isExpanded = expanded === idx;
                 return (
-                  <div
+                  <motion.div
                     key={idx}
                     className={`bg-white p-6 rounded-lg shadow-md flex flex-col ${
                       isMobile
@@ -136,7 +140,9 @@ const GoogleReviews: React.FC = () => {
                         : isExpanded
                           ? 'min-h-[400px]'
                           : 'aspect-[4/3]'
-                    } transition-all duration-300 overflow-hidden`}
+                    } transition-colors duration-300 overflow-hidden`}
+                    whileHover={{ y: -6, boxShadow: '0 20px 25px -5px rgb(0 0 0 / 0.1)' }}
+                    transition={{ duration: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
                   >
                     <div className="flex flex-col items-center w-full h-full">
                       {/* Header with stars and author */}
@@ -177,17 +183,20 @@ const GoogleReviews: React.FC = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </motion.div>
                 );
               })}
             </div>
-            <button
+            <motion.button
               onClick={() => setCurrentIndex((prev) => (prev + 1) % bestReviews.length)}
-              className="p-3 rounded-full bg-white shadow-md hover:shadow-lg transition-all duration-300 hover:bg-primary hover:text-white"
+              className="p-3 rounded-full bg-white shadow-md transition-colors duration-300 hover:bg-primary hover:text-white"
               aria-label="Next review"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ duration: 0.2 }}
             >
               <ChevronRight size={20} />
-            </button>
+            </motion.button>
           </div>
         </div>
       </div>

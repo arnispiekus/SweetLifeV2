@@ -24,11 +24,11 @@ p {
 }
 
 .btn-primary {
-  @apply bg-primary text-white hover:bg-primary/90;
+  @apply bg-primary text-white hover:bg-primary/90 hover:scale-[1.03] hover:shadow-lg active:scale-[0.98];
 }
 
 .btn-outline {
-  @apply border-2 border-primary text-primary hover:bg-primary/10;
+  @apply border-2 border-primary text-primary hover:bg-primary/10 hover:scale-[1.03] hover:shadow-md active:scale-[0.98];
 }
 
 .container {
@@ -48,7 +48,7 @@ p {
 }
 
 .card {
-  @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg;
+  @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
 }
 
 .nav-link {
