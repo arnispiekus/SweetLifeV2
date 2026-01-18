@@ -66,6 +66,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link
+          rel="preload"
+          href="/SweetLifeCafe_Hero_1.webp"
+          as="image"
+          type="image/webp"
+          fetchPriority="high"
+        />
         <StructuredData />
       </head>
       <body className={`${poppins.variable} font-sans antialiased`}>
