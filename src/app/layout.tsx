@@ -37,11 +37,20 @@ export const metadata: Metadata = {
     siteName: "Sweet Life Cafe",
     locale: "en_GB",
     type: "website",
+    images: [
+      {
+        url: "https://sweetlifecafe.co.uk/SweetLifeCafe_Hero_1.webp",
+        width: 1200,
+        height: 630,
+        alt: "Sweet Life Cafe - Korean Cafe & Restaurant in Newry",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sweet Life Cafe | Korean Cafe & Restaurant in Newry",
     description: "Authentic Korean cuisine, Bingsu, Bubble Tea, specialty coffee, and more in Newry.",
+    images: ["https://sweetlifecafe.co.uk/SweetLifeCafe_Hero_1.webp"],
   },
   robots: {
     index: true,
