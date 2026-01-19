@@ -20,7 +20,7 @@ const SushiGallery = () => {
           transition: background 0.3s, transform 0.3s;
         }
         .sushi-gallery .swiper-pagination-bullet-active {
-          background: #f79d28;
+          background: #F79D28;
           transform: scale(1.3);
         }
       `}</style>
@@ -34,19 +34,20 @@ const SushiGallery = () => {
           640: { slidesPerView: 2, spaceBetween: 24 },
           1024: { slidesPerView: 3, spaceBetween: 32 },
         }}
-        className="sushi-gallery !pb-12"
+        className="sushi-gallery !pb-14"
       >
         {sushiImages.map((item, idx) => (
           <SwiperSlide key={idx}>
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-              <div className="relative aspect-square">
+            <div className="group bg-white rounded-2xl shadow-warm overflow-hidden hover:shadow-warm-lg transition-all duration-500 hover:-translate-y-2">
+              <div className="relative aspect-square overflow-hidden">
                 <Image
                   src={item.image}
                   alt={item.alt}
                   fill
-                  className="object-cover"
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
             </div>
           </SwiperSlide>

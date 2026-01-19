@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Plus_Jakarta_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -10,6 +10,12 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
   variable: "--font-plus-jakarta",
+});
+
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-playfair",
 });
 
 export const metadata: Metadata = {
@@ -75,7 +81,7 @@ export default function RootLayout({
         />
         <StructuredData />
       </head>
-      <body className={`${plusJakartaSans.variable} font-sans antialiased`}>
+      <body className={`${plusJakartaSans.variable} ${playfairDisplay.variable} font-sans antialiased`}>
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow pt-16">{children}</main>
