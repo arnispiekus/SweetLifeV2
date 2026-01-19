@@ -75,7 +75,7 @@ export default function MenuPage() {
                           href="/SweetLifeMenuNewry.pdf"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center justify-center bg-primary text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition-all duration-300 hover:bg-primary/90 hover:scale-105 hover:shadow-xl group"
+                          className="btn btn-primary btn-glow inline-flex items-center justify-center text-lg group"
                         >
                           <svg
                             width="20"
@@ -97,7 +97,7 @@ export default function MenuPage() {
                         <a
                           href="/SweetLifeMenuNewry.pdf"
                           download="SweetLifeMenuNewry.pdf"
-                          className="inline-flex items-center justify-center bg-white text-primary border-2 border-primary px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition-all duration-300 hover:bg-primary/5 hover:scale-105 hover:shadow-xl group"
+                          className="btn btn-outline inline-flex items-center justify-center text-lg group"
                         >
                           <svg
                             width="20"

@@ -42,8 +42,8 @@ export default function AboutPage() {
             </ScrollReveal>
 
             {/* Image Grid */}
-            <StaggerContainer className="grid grid-cols-3 grid-rows-3 gap-4 h-96 lg:h-auto">
-              <StaggerItem className="col-span-2 row-span-3 rounded-2xl overflow-hidden shadow-lg relative">
+            <StaggerContainer className="grid grid-cols-3 grid-rows-3 gap-4 h-96 lg:h-[500px]">
+              <StaggerItem className="col-span-2 row-span-3 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl hover:shadow-primary/20 relative transition-shadow duration-300">
                 <Image
                   src="/SweetLifeLocation.webp"
                   alt="Sweet Life Location"
@@ -52,7 +52,7 @@ export default function AboutPage() {
                   className="object-cover transition-transform duration-500 hover:scale-105"
                 />
               </StaggerItem>
-              <StaggerItem className="col-span-1 row-span-2 rounded-2xl overflow-hidden shadow-lg relative">
+              <StaggerItem className="col-span-1 row-span-2 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl hover:shadow-primary/20 relative transition-shadow duration-300">
                 <Image
                   src="/goldentoast1.webp"
                   alt="A sweet dish from Sweet Life"
@@ -61,7 +61,7 @@ export default function AboutPage() {
                   className="object-cover transition-transform duration-500 hover:scale-105"
                 />
               </StaggerItem>
-              <StaggerItem className="col-span-1 row-span-1 rounded-2xl overflow-hidden shadow-lg relative">
+              <StaggerItem className="col-span-1 row-span-1 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl hover:shadow-primary/20 relative transition-shadow duration-300">
                 <Image
                   src="/displayfridge.webp"
                   alt="Sweet Life Cakes"

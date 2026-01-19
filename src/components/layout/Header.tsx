@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ShoppingBag } from 'lucide-react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -102,11 +102,12 @@ const Header = () => {
             <li>
               <a
                 href="https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642&client_is_mobile=true"
-                className="btn btn-primary ml-4 flex items-center"
+                className="btn btn-primary btn-glow ml-4 flex items-center gap-2 whitespace-nowrap"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                🍽️ Order Now
+                <ShoppingBag size={18} />
+                Order Now
               </a>
             </li>
           </ul>
@@ -181,12 +182,13 @@ const Header = () => {
           <li className="w-full flex justify-center">
             <a
               href="https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642&client_is_mobile=true"
-              className="block py-2 px-4 bg-primary text-white rounded-md font-medium text-center w-full"
+              className="flex items-center justify-center gap-2 py-3 px-4 bg-primary text-stone-900 rounded-full font-semibold text-center w-full shadow-lg shadow-primary/25"
               onClick={closeMenu}
               target="_blank"
               rel="noopener noreferrer"
             >
-              🍽️ Order Now
+              <ShoppingBag size={18} />
+              Order Now
             </a>
           </li>
         </ul>

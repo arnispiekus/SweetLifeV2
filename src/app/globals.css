@@ -1,17 +1,40 @@
 @import "tailwindcss";
 
 @theme {
+  /* Primary Colors - Korean-inspired warmth */
   --color-primary: #F79D28;
+  --color-primary-light: #FBBF67;
+  --color-primary-dark: #E08820;
   --color-secondary-light: #F8B366;
   --color-secondary: #F5A847;
-  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  /* Warm Neutrals */
+  --color-warm-cream: #FFF8F0;
+  --color-warm-stone: #F5F0EA;
+  --color-charcoal: #2D2D2D;
+
+  /* Typography */
+  --font-sans: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
   @apply bg-stone-50 text-stone-800;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* Typography Hierarchy */
+h1 {
+  @apply font-extrabold leading-tight tracking-tight;
+}
+
+h2 {
+  @apply font-bold leading-tight;
+}
+
+h3, h4 {
+  @apply font-semibold leading-tight;
+}
+
+h5, h6 {
   @apply font-medium leading-tight;
 }
 
@@ -19,16 +42,31 @@ p {
   @apply leading-relaxed;
 }
 
+/* Hero Headlines - Extra bold with better tracking */
+.hero-headline {
+  @apply font-extrabold tracking-tight;
+}
+
+/* Section Titles */
+.section-heading {
+  @apply font-bold tracking-tight;
+}
+
+/* Button System */
 .btn {
-  @apply px-6 py-3 font-medium rounded-md transition-all duration-300 inline-block;
+  @apply px-6 py-3 font-semibold rounded-full transition-all duration-300 inline-block;
 }
 
 .btn-primary {
-  @apply bg-primary text-stone-900 hover:bg-primary/90 hover:scale-[1.03] hover:shadow-lg active:scale-[0.98];
+  @apply bg-primary text-stone-900 hover:bg-primary-dark hover:scale-[1.03] hover:shadow-lg hover:shadow-primary/30 active:scale-[0.98];
 }
 
 .btn-outline {
   @apply border-2 border-primary text-primary hover:bg-primary/10 hover:scale-[1.03] hover:shadow-md active:scale-[0.98];
+}
+
+.btn-glow {
+  @apply shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/40;
 }
 
 .container {
@@ -40,15 +78,30 @@ p {
 }
 
 .section-title {
-  @apply text-3xl md:text-4xl font-semibold mb-4 text-primary;
+  @apply text-3xl md:text-4xl font-bold mb-4 text-primary tracking-tight;
 }
 
 .section-subtitle {
   @apply text-xl text-stone-600 mb-12 max-w-2xl;
 }
 
+/* Card System with Enhanced Hover */
 .card {
-  @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  @apply bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+}
+
+.card-warm {
+  @apply bg-warm-cream rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2;
+}
+
+/* Image hover effects for cards */
+.card-image-zoom {
+  @apply transition-transform duration-500 ease-out;
+}
+
+.card:hover .card-image-zoom,
+.card-warm:hover .card-image-zoom {
+  @apply scale-105;
 }
 
 .nav-link {

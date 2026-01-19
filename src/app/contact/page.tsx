@@ -99,7 +99,7 @@ export default function ContactPage() {
                 >
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <label htmlFor="name" className="block text-stone-700 font-medium mb-2">
+                      <label htmlFor="name" className="block text-stone-700 font-semibold mb-2">
                         Name *
                       </label>
                       <input
@@ -108,12 +108,12 @@ export default function ContactPage() {
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-stone-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
+                        className="w-full px-4 py-3 border border-stone-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200"
                         placeholder="Your name"
                       />
                     </div>
                     <div>
-                      <label htmlFor="email" className="block text-stone-700 font-medium mb-2">
+                      <label htmlFor="email" className="block text-stone-700 font-semibold mb-2">
                         Email *
                       </label>
                       <input
@@ -122,14 +122,14 @@ export default function ContactPage() {
                         name="email"
                         value={formData.email}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-stone-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
+                        className="w-full px-4 py-3 border border-stone-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200"
                         placeholder="Your email"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label htmlFor="subject" className="block text-stone-700 font-medium mb-2">
+                    <label htmlFor="subject" className="block text-stone-700 font-semibold mb-2">
                       Subject
                     </label>
                     <input
@@ -138,13 +138,13 @@ export default function ContactPage() {
                       name="subject"
                       value={formData.subject}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-stone-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
+                      className="w-full px-4 py-3 border border-stone-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200"
                       placeholder="Subject"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="message" className="block text-stone-700 font-medium mb-2">
+                    <label htmlFor="message" className="block text-stone-700 font-semibold mb-2">
                       Message *
                     </label>
                     <textarea
@@ -153,7 +153,7 @@ export default function ContactPage() {
                       rows={5}
                       value={formData.message}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-stone-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
+                      className="w-full px-4 py-3 border border-stone-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200"
                       placeholder="Your message"
                     ></textarea>
                   </div>
@@ -202,8 +202,8 @@ export default function ContactPage() {
                 </FadeIn>
 
                 <FadeIn delay={0.2}>
-                  <div className="bg-stone-50 p-6 rounded-lg shadow-md text-center">
-                    <h3 className="text-xl font-semibold text-primary mb-6">Contact Information</h3>
+                  <div className="bg-warm-cream p-8 rounded-2xl shadow-md hover:shadow-lg hover:shadow-primary/10 transition-shadow duration-300 text-center">
+                    <h3 className="text-xl font-bold text-primary mb-6">Contact Information</h3>
 
                     <StaggerContainer className="space-y-6">
                       <StaggerItem>

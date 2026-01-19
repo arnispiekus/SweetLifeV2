@@ -5,49 +5,27 @@ import Image from 'next/image';
 import { MapPin, Clock, ArrowRight, Phone, Mail, ShoppingBag, Check, MessageCircle } from 'lucide-react';
 import FeaturedCarousel from '@/components/ui/FeaturedCarousel';
 import GoogleReviews from '@/components/ui/GoogleReviews';
+import ParallaxHero from '@/components/hero/ParallaxHero';
 import { ScrollReveal, StaggerContainer, StaggerItem } from '@/components/motion';
 
 const FOODSERVE_URL = 'https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642';
 
 export default function HomePage() {
-  const sweetImageUrl = '/SweetLifeCafe_Hero_1.webp';
-
   return (
     <div className="overflow-x-hidden">
       <h1 className="sr-only">Sweet Life Cafe - Breakfast, Lunch & Coffee in Newry</h1>
 
-      {/* Hero Section */}
-      <section
-        className="relative min-h-screen flex items-center justify-center -mt-16"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${sweetImageUrl})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="container text-center text-white p-4">
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
-            Sweet. Savory. <span className="text-primary">Unforgettable.</span>
-          </h2>
-          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-            From authentic Korean Bingsu to vibrant poke bowls and gourmet coffee, discover the unexpected delights waiting for you at Sweet Life.
-          </p>
-          <div className="flex flex-wrap justify-center items-center gap-4">
-            <a
-              href={FOODSERVE_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary inline-flex items-center text-lg font-bold px-8 py-4 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl hover:shadow-primary/50"
-            >
-              <ShoppingBag size={22} className="mr-3" />
-              Order Now
-            </a>
-            <Link href="/menu" className="btn btn-outline text-white border-white hover:bg-white/20">
-              Explore Our Menu
-            </Link>
-          </div>
-        </div>
-      </section>
+      {/* Hero Section with Parallax */}
+      <ParallaxHero
+        backgroundImage="/SweetLifeCafe_Hero_1.webp"
+        title="Sweet. Savory."
+        highlightText="Unforgettable."
+        subtitle="From authentic Korean Bingsu to vibrant poke bowls and gourmet coffee, discover the unexpected delights waiting for you at Sweet Life."
+        ctaText="Order Now"
+        ctaUrl={FOODSERVE_URL}
+        secondaryCtaText="Explore Our Menu"
+        secondaryCtaUrl="/menu"
+      />
 
       {/* SEO Content (Screen Reader Only) */}
       <div className="sr-only">
@@ -118,7 +96,7 @@ export default function HomePage() {
                     href={FOODSERVE_URL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center bg-primary text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg transition-all duration-300 hover:bg-primary/90 hover:scale-105 hover:shadow-xl"
+                    className="btn btn-primary btn-glow inline-flex items-center text-lg"
                   >
                     <ShoppingBag size={22} className="mr-3" />
                     Start Your Order
@@ -180,15 +158,15 @@ export default function HomePage() {
 
       {/* About Section */}
       <ScrollReveal>
-        <section className="section bg-stone-100">
+        <section className="section bg-warm-cream">
           <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="text-center lg:text-left">
                 <h2 className="section-title text-center lg:text-left">About Us</h2>
-                <p className="mb-6 text-stone-700">
+                <p className="mb-6 text-stone-700 text-lg">
                   Sweet Life is a unique South Korean-style cafe located in the heart of Newry. We offer creative and indulgent foods made fresh to order, bringing the authentic taste of Korean cuisine to Ireland.
                 </p>
-                <p className="mb-6 text-stone-700">
+                <p className="mb-8 text-stone-700 text-lg">
                   Our mission is to create a warm, welcoming space where you can enjoy delicious food, refreshing drinks, and sweet treats in a cozy atmosphere.
                 </p>
                 <div className="text-center lg:text-left">
@@ -199,13 +177,13 @@ export default function HomePage() {
                 </div>
               </div>
               <ScrollReveal direction="right" delay={0.2}>
-                <div className="rounded-lg overflow-hidden shadow-xl relative aspect-[4/3]">
+                <div className="rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl hover:shadow-primary/20 relative aspect-[4/3] transition-shadow duration-300">
                   <Image
                     src="/SLNEWRY.webp"
                     alt="Sweet Life Cafe Interior"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
-                    className="object-cover"
+                    className="object-cover transition-transform duration-500 hover:scale-105"
                   />
                 </div>
               </ScrollReveal>
@@ -223,29 +201,29 @@ export default function HomePage() {
       <ScrollReveal>
         <section className="section bg-white">
           <div className="container">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <ScrollReveal direction="left" delay={0.2} className="order-2 lg:order-1">
-                <div className="rounded-lg overflow-hidden shadow-xl relative aspect-[4/3]">
+                <div className="rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl hover:shadow-primary/20 relative aspect-[4/3] transition-shadow duration-300">
                   <Image
                     src="/SushiPlatter.webp"
                     alt="Sushi Platter"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
-                    className="object-cover"
+                    className="object-cover transition-transform duration-500 hover:scale-105"
                   />
                 </div>
               </ScrollReveal>
               <div className="order-1 lg:order-2">
                 <h2 className="section-title text-center lg:text-left">Sushi</h2>
-                <p className="mb-4 text-stone-700">
+                <p className="mb-4 text-stone-700 text-lg">
                   Experience our delicious selection of freshly made sushi, available for pre-order only to ensure the highest quality and freshness.
                 </p>
-                <p className="mb-6 text-stone-700">
+                <p className="mb-6 text-stone-700 text-lg">
                   From classic rolls to creative special rolls, our sushi is prepared with premium ingredients and expert technique.
                 </p>
-                <div className="bg-primary/10 border-l-4 border-primary p-4 mb-6">
+                <div className="bg-primary/10 border-l-4 border-primary p-4 mb-8 rounded-r-lg">
                   <p className="font-medium text-stone-800">
-                    Please note: All sushi items are <span className="font-bold">Pre-Order Only</span>
+                    Please note: All sushi items are <span className="font-bold text-primary">Pre-Order Only</span>
                   </p>
                 </div>
                 <div className="text-center lg:text-left">
@@ -320,12 +298,12 @@ export default function HomePage() {
 
       {/* Location & Hours */}
       <ScrollReveal>
-        <section className="section bg-stone-100">
+        <section className="section bg-warm-stone">
           <div className="container">
             <h2 className="section-title text-center">Visit Us</h2>
             <p className="section-subtitle text-center mx-auto mb-8">We are conveniently located in the heart of Newry</p>
             <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <StaggerItem className="bg-white p-8 rounded-lg shadow-md">
+              <StaggerItem className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl hover:shadow-primary/10 transition-shadow duration-300">
                 <h3 className="text-xl font-semibold mb-4 flex items-center">
                   <MapPin size={20} className="text-primary mr-2" />
                   Location
@@ -351,7 +329,7 @@ export default function HomePage() {
                 </div>
               </StaggerItem>
 
-              <StaggerItem className="bg-white p-8 rounded-lg shadow-md">
+              <StaggerItem className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl hover:shadow-primary/10 transition-shadow duration-300">
                 <h3 className="text-xl font-semibold mb-4 flex items-center justify-center text-center">
                   <Clock size={20} className="text-primary mr-2" />
                   Opening Hours
