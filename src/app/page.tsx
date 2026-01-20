@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useRef } from 'react';
 import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion';
-import { MapPin, Clock, ArrowRight, Phone, ShoppingBag, Check, ChevronDown, Sparkles } from 'lucide-react';
+import { MapPin, ArrowRight, ShoppingBag, Check, ChevronDown, Sparkles, Users, UtensilsCrossed, Lock, UserCheck } from 'lucide-react';
 import FeaturedCarousel from '@/components/ui/FeaturedCarousel';
 import GoogleReviews from '@/components/ui/GoogleReviews';
 import { ScrollReveal, StaggerContainer, StaggerItem } from '@/components/motion';
@@ -48,9 +48,8 @@ export default function HomePage() {
             sizes="100vw"
             className="object-cover object-center scale-110"
           />
-          {/* Rich gradient overlay */}
+          {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-b from-charcoal/70 via-charcoal/50 to-charcoal/80" />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-primary/10" />
         </motion.div>
 
         {/* Hero Content */}
@@ -81,7 +80,7 @@ export default function HomePage() {
             <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white drop-shadow-2xl">
               Savory.
             </span>
-            <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-primary drop-shadow-[0_4px_30px_rgba(247,157,40,0.6)]">
+            <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-primary">
               Unforgettable.
             </span>
           </motion.h2>
@@ -107,7 +106,7 @@ export default function HomePage() {
               href={FOODSERVE_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-primary btn-glow inline-flex items-center text-lg font-bold px-10 py-4 whitespace-nowrap"
+              className="btn btn-primary inline-flex items-center text-lg font-bold px-10 py-4 whitespace-nowrap"
             >
               <ShoppingBag size={22} className="mr-3" />
               Order Now
@@ -178,10 +177,10 @@ export default function HomePage() {
       {/* ═══════════════════════════════════════════════════════════════════════════
           ORDER ONLINE - Full bleed asymmetric layout
       ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="relative bg-warm-cream">
-        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
+      <section className="relative bg-warm-cream grain-overlay">
+        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[450px]">
           {/* Left: Large Image */}
-          <ScrollReveal direction="left" className="relative h-[400px] lg:h-auto">
+          <ScrollReveal direction="left" className="relative h-[300px] lg:h-auto">
             <Image
               src="/sweetlifetakeaway.webp"
               alt="Sweet Life takeaway in branded packaging"
@@ -194,7 +193,7 @@ export default function HomePage() {
           </ScrollReveal>
 
           {/* Right: Content */}
-          <div className="flex items-center px-8 py-16 lg:px-16 lg:py-24">
+          <div className="flex items-center px-8 py-10 lg:px-16 lg:py-12">
             <ScrollReveal direction="right" delay={0.2}>
               <div className="max-w-lg">
                 <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
@@ -228,7 +227,7 @@ export default function HomePage() {
                   href={FOODSERVE_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary btn-glow inline-flex items-center text-lg"
+                  className="btn btn-primary inline-flex items-center text-lg"
                 >
                   <ShoppingBag size={20} className="mr-3" />
                   Start Your Order
@@ -242,11 +241,11 @@ export default function HomePage() {
       {/* ═══════════════════════════════════════════════════════════════════════════
           SPECIALTIES - Dramatic showcase
       ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="py-20 md:py-28 bg-white relative">
+      <section className="py-12 md:py-16 bg-white relative">
         <div className="container">
           <ScrollReveal>
-            <div className="text-center mb-16">
-              <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
+            <div className="text-center mb-10">
+              <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-3 block">
                 Fan Favorites
               </span>
               <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-charcoal mb-6">
@@ -282,10 +281,130 @@ export default function HomePage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
+          DIETARY OPTIONS - Editorial navigation cards
+      ═══════════════════════════════════════════════════════════════════════════ */}
+      <section className="py-16 md:py-20 bg-white">
+        <div className="container">
+          <ScrollReveal>
+            <div className="text-center mb-12">
+              <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
+                For Every Diet
+              </span>
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-charcoal mb-4">
+                Dietary Options Available
+              </h2>
+              <p className="text-rich-brown/70 max-w-xl mx-auto">
+                We cater to all dietary needs with 18+ options across our menus.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          {/* Editorial Navigation Cards - Horizontal layout */}
+          <div className="max-w-5xl mx-auto space-y-4">
+            {/* Keto */}
+            <ScrollReveal delay={0.1}>
+              <Link href="/menu" className="group block">
+                <div className="flex items-center bg-gradient-to-r from-blue-50 to-transparent rounded-2xl overflow-hidden border border-blue-100 hover:border-blue-200 transition-all duration-300 hover:shadow-lg">
+                  <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 overflow-hidden">
+                    <img
+                      src="/Keto/SushiBowl.webp"
+                      alt="Keto options"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                  </div>
+                  <div className="flex-1 px-6 py-4 md:px-8 flex items-center justify-between">
+                    <div>
+                      <div className="flex items-center gap-3 mb-1">
+                        <span className="bg-blue-600 text-white px-2.5 py-0.5 rounded text-xs font-bold uppercase tracking-wide">
+                          Keto
+                        </span>
+                        <span className="text-rich-brown/50 text-sm">8+ items</span>
+                      </div>
+                      <h3 className="font-display text-xl md:text-2xl font-bold text-charcoal group-hover:text-blue-600 transition-colors">
+                        Low-Carb & High-Protein
+                      </h3>
+                      <p className="text-rich-brown/60 text-sm mt-1 hidden md:block">
+                        Sushi bowls, omelettes, almond waffles & more
+                      </p>
+                    </div>
+                    <ArrowRight size={24} className="text-blue-600 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300 flex-shrink-0" />
+                  </div>
+                </div>
+              </Link>
+            </ScrollReveal>
+
+            {/* Vegan */}
+            <ScrollReveal delay={0.2}>
+              <Link href="/menu" className="group block">
+                <div className="flex items-center bg-gradient-to-r from-green-50 to-transparent rounded-2xl overflow-hidden border border-green-100 hover:border-green-200 transition-all duration-300 hover:shadow-lg">
+                  <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 overflow-hidden">
+                    <img
+                      src="/Keto/VeganBurger.webp"
+                      alt="Vegan options"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                  </div>
+                  <div className="flex-1 px-6 py-4 md:px-8 flex items-center justify-between">
+                    <div>
+                      <div className="flex items-center gap-3 mb-1">
+                        <span className="bg-green-600 text-white px-2.5 py-0.5 rounded text-xs font-bold uppercase tracking-wide">
+                          Vegan
+                        </span>
+                        <span className="text-rich-brown/50 text-sm">6+ items</span>
+                      </div>
+                      <h3 className="font-display text-xl md:text-2xl font-bold text-charcoal group-hover:text-green-600 transition-colors">
+                        Plant-Based Delights
+                      </h3>
+                      <p className="text-rich-brown/60 text-sm mt-1 hidden md:block">
+                        Burgers, tacos, kiev & sausage baps
+                      </p>
+                    </div>
+                    <ArrowRight size={24} className="text-green-600 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300 flex-shrink-0" />
+                  </div>
+                </div>
+              </Link>
+            </ScrollReveal>
+
+            {/* Gluten-Free */}
+            <ScrollReveal delay={0.3}>
+              <Link href="/menu" className="group block">
+                <div className="flex items-center bg-gradient-to-r from-amber-50 to-transparent rounded-2xl overflow-hidden border border-amber-100 hover:border-amber-200 transition-all duration-300 hover:shadow-lg">
+                  <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 overflow-hidden">
+                    <img
+                      src="/Keto/AlmondBelgianWaffle.webp"
+                      alt="Gluten-free options"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                  </div>
+                  <div className="flex-1 px-6 py-4 md:px-8 flex items-center justify-between">
+                    <div>
+                      <div className="flex items-center gap-3 mb-1">
+                        <span className="bg-amber-600 text-white px-2.5 py-0.5 rounded text-xs font-bold uppercase tracking-wide">
+                          Gluten Free
+                        </span>
+                        <span className="text-rich-brown/50 text-sm">10+ items</span>
+                      </div>
+                      <h3 className="font-display text-xl md:text-2xl font-bold text-charcoal group-hover:text-amber-600 transition-colors">
+                        GF Friendly Options
+                      </h3>
+                      <p className="text-rich-brown/60 text-sm mt-1 hidden md:block">
+                        Waffles, cakes, sandwiches & bagels
+                      </p>
+                    </div>
+                    <ArrowRight size={24} className="text-amber-600 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300 flex-shrink-0" />
+                  </div>
+                </div>
+              </Link>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
           FULL-BLEED FOOD SHOWCASE - Visual break
       ═══════════════════════════════════════════════════════════════════════════ */}
       <ScrollReveal>
-        <section className="relative h-[50vh] md:h-[60vh] overflow-hidden">
+        <section className="relative h-[40vh] md:h-[50vh] overflow-hidden">
           <Image
             src="/Bingsu/MangoCheesecakeBingsu.webp"
             alt="Mango Cheesecake Bingsu - Korean shaved ice dessert"
@@ -322,7 +441,7 @@ export default function HomePage() {
       {/* ═══════════════════════════════════════════════════════════════════════════
           ABOUT SECTION - Warm storytelling
       ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="py-20 md:py-28 bg-warm-beige relative overflow-hidden">
+      <section className="py-10 md:py-12 bg-warm-beige relative overflow-hidden grain-overlay">
         {/* Decorative background element */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
 
@@ -384,9 +503,9 @@ export default function HomePage() {
           SUSHI SECTION - Premium presentation
       ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="relative bg-charcoal text-white overflow-hidden">
-        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[450px]">
           {/* Content */}
-          <div className="flex items-center px-8 py-16 lg:px-16 lg:py-24 order-2 lg:order-1">
+          <div className="flex items-center px-8 py-10 lg:px-16 lg:py-12 order-2 lg:order-1">
             <ScrollReveal>
               <div className="max-w-lg">
                 <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
@@ -414,7 +533,7 @@ export default function HomePage() {
           </div>
 
           {/* Image */}
-          <ScrollReveal direction="right" className="relative h-[400px] lg:h-auto order-1 lg:order-2">
+          <ScrollReveal direction="right" className="relative h-[300px] lg:h-auto order-1 lg:order-2">
             <Image
               src="/SushiPlatter.webp"
               alt="Fresh Sushi Platter"
@@ -428,180 +547,110 @@ export default function HomePage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          PRIVATE ROOM - Full width showcase
+          PRIVATE EVENTS - Full-width hero treatment
       ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="py-20 md:py-28 bg-warm-cream">
-        <div className="container">
-          <ScrollReveal>
-            <div className="text-center mb-12">
-              <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
-                Special Events
-              </span>
-              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-charcoal mb-6">
-                Private Events & Parties
-              </h2>
-              <p className="text-lg text-rich-brown/70 max-w-2xl mx-auto mb-8">
-                Celebrate birthdays, baby showers, or gatherings in our cozy upstairs room. Full catering available.
-              </p>
+      <ScrollReveal>
+        <section className="relative h-[50vh] md:h-[60vh] overflow-hidden">
+          <Image
+            src="/private-room.webp"
+            alt="Private event space at Sweet Life"
+            fill
+            sizes="100vw"
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-charcoal/85 via-charcoal/50 to-transparent" />
+          <div className="absolute inset-0 flex items-center">
+            <div className="container">
+              <div className="max-w-xl text-white">
+                <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
+                  Special Events
+                </span>
+                <h3 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+                  Private Events
+                  <br />
+                  <span className="text-primary">& Parties</span>
+                </h3>
+                <p className="text-lg text-white/80 mb-6">
+                  Celebrate birthdays, baby showers, or gatherings in our cozy upstairs room. Full catering available.
+                </p>
 
-              <StaggerContainer className="flex flex-wrap justify-center gap-4 mb-10">
-                {[
-                  'Up to 30 guests',
-                  'Full catering menu',
-                  'Private atmosphere',
-                  'Dedicated staff',
-                ].map((feature, i) => (
-                  <StaggerItem
-                    key={i}
-                    className="bg-white px-5 py-2 rounded-full text-charcoal font-medium shadow-sm border border-warm-stone"
-                  >
-                    {feature}
-                  </StaggerItem>
-                ))}
-              </StaggerContainer>
-
-              <Link
-                href="/bookings"
-                className="btn btn-primary btn-glow inline-flex items-center text-lg px-8 py-4"
-              >
-                Book the Room
-                <ArrowRight size={20} className="ml-3" />
-              </Link>
-            </div>
-          </ScrollReveal>
-
-          {/* Full-width image */}
-          <ScrollReveal delay={0.2}>
-            <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-warm">
-              <Image
-                src="/private-room.webp"
-                alt="Private event space at Sweet Life"
-                fill
-                sizes="100vw"
-                className="object-cover"
-              />
-            </div>
-          </ScrollReveal>
-        </div>
-      </section>
-
-      {/* ═══════════════════════════════════════════════════════════════════════════
-          LOCATION & HOURS - Modern card layout
-      ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="py-20 md:py-28 bg-charcoal text-white">
-        <div className="container">
-          <ScrollReveal>
-            <div className="text-center mb-16">
-              <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
-                Find Us
-              </span>
-              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Visit Sweet Life
-              </h2>
-              <p className="text-lg text-white/60 max-w-xl mx-auto">
-                Conveniently located in the heart of Newry town centre
-              </p>
-            </div>
-          </ScrollReveal>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Location Card */}
-            <ScrollReveal delay={0.1}>
-              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 h-full">
-                <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center mb-6">
-                  <MapPin className="text-primary" size={24} />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Location</h3>
-                <a
-                  href="https://maps.google.com/?q=12+Monaghan+St,+Newry+BT35+6AA"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/70 hover:text-primary transition-colors block mb-6"
-                >
-                  12 Monaghan St<br />
-                  Newry BT35 6AA
-                </a>
-                <div className="aspect-video rounded-xl overflow-hidden">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2328.9160391331177!2d-6.340289684069388!3d54.17557798015985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860e39752bb8bdb%3A0xe7da43be7a44acb9!2s12%20Monaghan%20St%2C%20Newry%20BT35%206AA%2C%20UK!5e0!3m2!1sen!2sie!4v1652354523691!5m2!1sen!2sie"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    title="Sweet Life Ireland Location"
-                  />
-                </div>
-              </div>
-            </ScrollReveal>
-
-            {/* Hours Card */}
-            <ScrollReveal delay={0.2}>
-              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 h-full">
-                <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center mb-6">
-                  <Clock className="text-primary" size={24} />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Opening Hours</h3>
-                <div className="space-y-3">
-                  <div className="flex justify-between py-2 border-b border-white/10">
-                    <span className="text-white/70">Mon - Wed</span>
-                    <span className="font-medium">8am - 6pm</span>
+                {/* KPI Stat Blocks - Prominent display */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                  <div className="bg-white/10 backdrop-blur-sm px-4 py-4 rounded-xl border border-white/20 text-center">
+                    <Users size={28} className="text-primary mx-auto mb-2" />
+                    <div className="font-display text-2xl font-bold text-white">30</div>
+                    <div className="text-white/60 text-xs uppercase tracking-wide">Guests Max</div>
                   </div>
-                  <div className="flex justify-between py-2 border-b border-white/10">
-                    <span className="text-white/70">Thu - Fri</span>
-                    <span className="font-medium">8am - 8pm</span>
+                  <div className="bg-white/10 backdrop-blur-sm px-4 py-4 rounded-xl border border-white/20 text-center">
+                    <UtensilsCrossed size={28} className="text-primary mx-auto mb-2" />
+                    <div className="font-display text-2xl font-bold text-white">Full</div>
+                    <div className="text-white/60 text-xs uppercase tracking-wide">Catering</div>
                   </div>
-                  <div className="flex justify-between py-2 border-b border-white/10">
-                    <span className="text-white/70">Saturday</span>
-                    <span className="font-medium">9am - 6pm</span>
+                  <div className="bg-white/10 backdrop-blur-sm px-4 py-4 rounded-xl border border-white/20 text-center">
+                    <Lock size={28} className="text-primary mx-auto mb-2" />
+                    <div className="font-display text-2xl font-bold text-white">Private</div>
+                    <div className="text-white/60 text-xs uppercase tracking-wide">Space</div>
                   </div>
-                  <div className="flex justify-between py-2">
-                    <span className="text-white/70">Sunday</span>
-                    <span className="text-red-400 font-medium">Closed</span>
+                  <div className="bg-white/10 backdrop-blur-sm px-4 py-4 rounded-xl border border-white/20 text-center">
+                    <UserCheck size={28} className="text-primary mx-auto mb-2" />
+                    <div className="font-display text-2xl font-bold text-white">Dedicated</div>
+                    <div className="text-white/60 text-xs uppercase tracking-wide">Staff</div>
                   </div>
                 </div>
-              </div>
-            </ScrollReveal>
 
-            {/* Contact Card */}
-            <ScrollReveal delay={0.3}>
-              <div className="bg-primary rounded-2xl p-8 text-charcoal h-full flex flex-col">
-                <div className="w-12 h-12 bg-charcoal/10 rounded-xl flex items-center justify-center mb-6">
-                  <Phone className="text-charcoal" size={24} />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Get in Touch</h3>
-                <div className="space-y-4 flex-grow">
-                  <a
-                    href="tel:+447716508513"
-                    className="block text-charcoal/80 hover:text-charcoal transition-colors"
-                  >
-                    +44 7716 508513
-                  </a>
-                  <a
-                    href="mailto:info@sweetlifecafe.co.uk"
-                    className="block text-charcoal/80 hover:text-charcoal transition-colors"
-                  >
-                    info@sweetlifecafe.co.uk
-                  </a>
-                  <a
-                    href="https://wa.me/447716508513"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block text-charcoal/80 hover:text-charcoal transition-colors"
-                  >
-                    WhatsApp Us
-                  </a>
-                </div>
                 <Link
-                  href="/contact"
-                  className="btn bg-charcoal text-white hover:bg-charcoal/90 mt-6 inline-flex items-center justify-center"
+                  href="/bookings"
+                  className="btn bg-white text-charcoal hover:bg-primary hover:text-charcoal inline-flex items-center"
                 >
-                  Contact Page
+                  Book the Room
                   <ArrowRight size={18} className="ml-2" />
                 </Link>
               </div>
-            </ScrollReveal>
+            </div>
           </div>
+        </section>
+      </ScrollReveal>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
+          FIND US - Map only (Hours & Contact in footer)
+      ═══════════════════════════════════════════════════════════════════════════ */}
+      <section className="py-12 md:py-16 bg-charcoal text-white">
+        <div className="container">
+          <ScrollReveal>
+            <div className="text-center mb-10">
+              <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-3 block">
+                Find Us
+              </span>
+              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+                Visit Sweet Life
+              </h2>
+              <a
+                href="https://maps.google.com/?q=12+Monaghan+St,+Newry+BT35+6AA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-lg text-white/70 hover:text-primary transition-colors"
+              >
+                <MapPin size={20} className="mr-2 text-primary" />
+                12 Monaghan St, Newry BT35 6AA
+              </a>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.1}>
+            <div className="max-w-4xl mx-auto">
+              <div className="aspect-[16/9] md:aspect-[21/9] rounded-2xl overflow-hidden shadow-2xl border border-white/10">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2328.9160391331177!2d-6.340289684069388!3d54.17557798015985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860e39752bb8bdb%3A0xe7da43be7a44acb9!2s12%20Monaghan%20St%2C%20Newry%20BT35%206AA%2C%20UK!5e0!3m2!1sen!2sie!4v1652354523691!5m2!1sen!2sie"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  title="Sweet Life Ireland Location"
+                />
+              </div>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
     </div>

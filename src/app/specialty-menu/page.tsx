@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { ScrollReveal, FadeIn, StaggerContainer, StaggerItem } from '@/components/motion';
-import { ArrowRight, Sparkles, Coffee, IceCream, GlassWater } from 'lucide-react';
+import { ArrowRight, Sparkles, Coffee, IceCream, GlassWater, Utensils, Leaf, Heart } from 'lucide-react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import {
@@ -199,36 +199,43 @@ export default function SpecialtyMenuPage() {
             <div className="max-w-3xl">
               <FadeIn delay={0.2}>
                 <span className="text-primary font-semibold tracking-[0.3em] uppercase text-sm mb-6 block">
-                  Korean Specialties
+                  Our Best Dishes
                 </span>
               </FadeIn>
               <FadeIn delay={0.3}>
                 <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.9] mb-8">
-                  Sweet
+                  Signature
                   <br />
-                  <span className="text-primary">Creations</span>
+                  <span className="text-primary">Collection</span>
                 </h1>
               </FadeIn>
               <FadeIn delay={0.5}>
                 <p className="text-xl md:text-2xl text-white/80 max-w-xl leading-relaxed mb-10">
-                  From fluffy Korean Bingsu to crispy Golden Toast and vibrant Bubble Teas — discover our signature desserts and drinks.
+                  Customer favorites from our savory Korean dishes to sweet Bingsu and refreshing Bubble Teas — discover what makes us special.
                 </p>
               </FadeIn>
               <FadeIn delay={0.6}>
                 <div className="flex flex-wrap gap-4">
                   <a
-                    href="#bingsu"
+                    href="#savory"
                     className="btn btn-primary btn-glow inline-flex items-center"
                   >
-                    <IceCream size={20} className="mr-3" />
-                    Explore Bingsu
+                    <Utensils size={20} className="mr-3" />
+                    Savory Favorites
                   </a>
                   <a
-                    href="#bubble-tea"
+                    href="#bingsu"
                     className="btn bg-white/10 backdrop-blur-sm border border-white/30 text-white hover:bg-white hover:text-charcoal inline-flex items-center transition-all duration-300"
                   >
-                    <Coffee size={20} className="mr-3" />
-                    Bubble Teas
+                    <IceCream size={20} className="mr-3" />
+                    Sweet Treats
+                  </a>
+                  <a
+                    href="#healthy"
+                    className="btn bg-white/10 backdrop-blur-sm border border-white/30 text-white hover:bg-white hover:text-charcoal inline-flex items-center transition-all duration-300"
+                  >
+                    <Leaf size={20} className="mr-3" />
+                    Healthy Options
                   </a>
                 </div>
               </FadeIn>
@@ -236,7 +243,112 @@ export default function SpecialtyMenuPage() {
           </div>
 
           {/* Gradient fade to next section */}
-          <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#E8F4F8] to-transparent" />
+          <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-warm-cream to-transparent" />
+        </section>
+
+        {/* ═══════════════════════════════════════════════════════════════════════════
+            SAVORY SIGNATURES - Customer Favorites
+        ═══════════════════════════════════════════════════════════════════════════ */}
+        <section id="savory" className="py-20 md:py-28 bg-warm-cream">
+          <div className="container">
+            <ScrollReveal>
+              <div className="text-center mb-16">
+                <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                  <Utensils size={16} />
+                  Customer Favorites
+                </div>
+                <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-charcoal mb-6">
+                  Savory Signatures
+                </h2>
+                <p className="text-lg text-rich-brown/70 max-w-3xl mx-auto leading-relaxed">
+                  These dishes have earned rave reviews from our customers. Fresh ingredients, authentic Korean flavors, and made-to-order quality.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto" staggerDelay={0.15}>
+              {[
+                {
+                  name: 'Poke Bowl',
+                  description: 'Fresh cubed salmon or tuna over seasoned rice with avocado, edamame, seaweed, and our signature poke sauce.',
+                  image: '/Lunch/PokeBowl.webp',
+                  badge: 'Most Popular',
+                  badgeColor: 'bg-primary text-charcoal'
+                },
+                {
+                  name: 'Bibimbap',
+                  description: 'Traditional Korean rice bowl with assorted vegetables, a fried egg, and spicy gochujang sauce served in a sizzling hot stone bowl.',
+                  image: '/Bibimbap.webp',
+                  badge: 'Authentic',
+                  badgeColor: 'bg-red-500 text-white'
+                },
+                {
+                  name: 'Sourdough Pizza',
+                  description: 'Artisan sourdough crust topped with fresh ingredients. A customer favorite for lunch or a light dinner.',
+                  image: '/Lunch/SourdoughPizza.webp',
+                  badge: 'Popular',
+                  badgeColor: 'bg-primary text-charcoal'
+                },
+                {
+                  name: 'Ramen Soup',
+                  description: 'Rich, savory broth with chewy noodles, tender pork, soft-boiled egg, and fresh vegetables.',
+                  image: '/Lunch/RamenSoup.webp',
+                  badge: 'Warming',
+                  badgeColor: 'bg-amber-500 text-white'
+                },
+                {
+                  name: 'Souffle Pancakes',
+                  description: 'Cloud-like fluffy Japanese-style pancakes, light as air and served with whipped butter and maple syrup.',
+                  image: '/souffle.webp',
+                  badge: 'Iconic',
+                  badgeColor: 'bg-primary text-charcoal'
+                },
+                {
+                  name: 'Spinach Cake',
+                  description: 'Our famous green velvet cake with cream cheese frosting. Surprisingly delicious and Instagram-worthy.',
+                  image: '/Cakes/Spinach.webp',
+                  badge: 'Must Try',
+                  badgeColor: 'bg-green-600 text-white'
+                }
+              ].map((item, idx) => (
+                <StaggerItem key={idx}>
+                  <div className="group bg-white rounded-2xl shadow-warm overflow-hidden hover:shadow-warm-lg transition-all duration-500 h-full hover:-translate-y-2">
+                    <div className="relative aspect-[4/3] overflow-hidden">
+                      <Image
+                        src={item.image}
+                        alt={item.name}
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-700"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                      {item.badge && (
+                        <div className={`absolute top-4 left-4 ${item.badgeColor} px-3 py-1 rounded-full text-xs font-bold`}>
+                          {item.badge}
+                        </div>
+                      )}
+                    </div>
+                    <div className="p-6">
+                      <h3 className="font-display text-xl font-bold text-charcoal mb-2">{item.name}</h3>
+                      <p className="text-rich-brown/70 text-sm leading-relaxed">{item.description}</p>
+                    </div>
+                  </div>
+                </StaggerItem>
+              ))}
+            </StaggerContainer>
+
+            <FadeIn delay={0.3}>
+              <div className="text-center mt-12">
+                <Link
+                  href="/menu"
+                  className="btn btn-primary inline-flex items-center"
+                >
+                  View Full Menu
+                  <ArrowRight size={18} className="ml-2" />
+                </Link>
+              </div>
+            </FadeIn>
+          </div>
         </section>
 
         {/* ═══════════════════════════════════════════════════════════════════════════
@@ -362,11 +474,103 @@ export default function SpecialtyMenuPage() {
         </section>
 
         {/* ═══════════════════════════════════════════════════════════════════════════
-            BUBBLE TEA SECTION - Playful with floating bubbles
+            HEALTHY SIGNATURES - Keto, Vegan, Gluten-Free
+        ═══════════════════════════════════════════════════════════════════════════ */}
+        <section id="healthy" className="py-20 md:py-28 bg-charcoal text-white relative overflow-hidden">
+          {/* Decorative elements */}
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4" />
+          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-green-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/4" />
+
+          <div className="container relative z-10">
+            <ScrollReveal>
+              <div className="text-center mb-16">
+                <div className="inline-flex items-center gap-2 bg-green-500/20 text-green-400 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                  <Leaf size={16} />
+                  Dietary Friendly
+                </div>
+                <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                  Healthy Signatures
+                </h2>
+                <p className="text-lg text-white/70 max-w-3xl mx-auto leading-relaxed">
+                  We believe everyone deserves delicious food. Explore our 18 Keto, Vegan, and Gluten-Free options — no compromises on taste.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto" staggerDelay={0.15}>
+              {[
+                {
+                  name: 'Sushi Bowl (K)(GF)',
+                  description: 'Ketogenic and gluten-free! Fresh sashimi over cauliflower rice with avocado, cucumber, and sesame.',
+                  image: '/Keto/SushiBowl.webp',
+                  tags: ['Keto', 'GF'],
+                  tagColors: ['bg-blue-500', 'bg-amber-500']
+                },
+                {
+                  name: 'Vegan Burger (GF)(V)',
+                  description: 'Plant-based patty with fresh lettuce, tomato, pickles, and vegan aioli on a gluten-free bun.',
+                  image: '/Keto/VeganBurger.webp',
+                  tags: ['Vegan', 'GF'],
+                  tagColors: ['bg-green-500', 'bg-amber-500']
+                },
+                {
+                  name: 'Poke Bowl (GF)',
+                  description: 'Naturally gluten-free with fresh fish, rice, and our signature sauce made without soy.',
+                  image: '/Lunch/PokeBowl.webp',
+                  tags: ['GF', 'Popular'],
+                  tagColors: ['bg-amber-500', 'bg-primary']
+                }
+              ].map((item, idx) => (
+                <StaggerItem key={idx}>
+                  <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-500 h-full hover:-translate-y-2">
+                    <div className="relative aspect-[4/3] overflow-hidden">
+                      <Image
+                        src={item.image}
+                        alt={item.name}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-700"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent" />
+                      <div className="absolute top-4 left-4 flex gap-2">
+                        {item.tags.map((tag, tagIdx) => (
+                          <span key={tagIdx} className={`${item.tagColors[tagIdx]} text-white px-2 py-1 rounded text-xs font-bold`}>
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="p-6">
+                      <h3 className="font-display text-xl font-bold mb-2">{item.name}</h3>
+                      <p className="text-white/60 text-sm leading-relaxed">{item.description}</p>
+                    </div>
+                  </div>
+                </StaggerItem>
+              ))}
+            </StaggerContainer>
+
+            <FadeIn delay={0.3}>
+              <div className="text-center mt-12">
+                <Link
+                  href="/menu"
+                  className="btn bg-white text-charcoal hover:bg-primary inline-flex items-center"
+                >
+                  <Heart size={18} className="mr-2" />
+                  View All 18 Dietary Options
+                </Link>
+              </div>
+            </FadeIn>
+          </div>
+        </section>
+
+        {/* ═══════════════════════════════════════════════════════════════════════════
+            BUBBLE TEA SECTION - Refreshing drinks
         ═══════════════════════════════════════════════════════════════════════════ */}
         <section id="bubble-tea" className="py-20 md:py-28 bg-white relative overflow-hidden">
-          {/* Floating Bubbles Animation */}
-          <FloatingBubbles />
+          {/* Subtle background texture instead of floating bubbles */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")`,
+          }} />
 
           <div className="container relative z-10">
             <ScrollReveal>

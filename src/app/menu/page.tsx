@@ -1,16 +1,38 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import FeaturedCarousel from '@/components/ui/FeaturedCarousel';
 import MenuCategory from '@/components/menu/MenuCategory';
 import { menuData } from '@/data/menuData';
-import { ArrowRight, ShoppingBag, Download, Eye, FileText, Info } from 'lucide-react';
+import { ArrowRight, ShoppingBag, Download, Eye, FileText, Info, Leaf, Sparkles, Wheat } from 'lucide-react';
 import { ScrollReveal, FadeIn, StaggerContainer, StaggerItem } from '@/components/motion';
 
 const FOODSERVE_URL = 'https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642';
 
+// Dietary filter options
+const dietaryFilters = [
+  { id: 'all', label: 'All Items', icon: Sparkles, count: 184 },
+  { id: 'keto', label: 'Keto', icon: Sparkles, count: 6 },
+  { id: 'vegan', label: 'Vegan', icon: Leaf, count: 6 },
+  { id: 'gf', label: 'Gluten Free', icon: Wheat, count: 18 },
+];
+
 export default function MenuPage() {
+  const [activeFilter, setActiveFilter] = useState('all');
+
+  // Scroll to category
+  const scrollToCategory = (categoryName: string) => {
+    const id = `category-${categoryName.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
+    const element = document.getElementById(id);
+    if (element) {
+      const offset = 120; // Account for sticky header
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+    }
+  };
   return (
     <div className="overflow-x-hidden">
       {/* ═══════════════════════════════════════════════════════════════════════════
@@ -182,7 +204,7 @@ export default function MenuPage() {
       <section className="py-20 md:py-28 bg-warm-beige">
         <div className="container">
           <ScrollReveal>
-            <div className="text-center mb-16">
+            <div className="text-center mb-10">
               <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
                 Complete Selection
               </span>
@@ -195,12 +217,65 @@ export default function MenuPage() {
             </div>
           </ScrollReveal>
 
+          {/* Dietary Filter Bar */}
+          <ScrollReveal delay={0.1}>
+            <div className="bg-white rounded-2xl shadow-warm p-4 mb-8 max-w-4xl mx-auto">
+              <div className="flex flex-col sm:flex-row items-center gap-4">
+                <span className="text-sm font-semibold text-charcoal whitespace-nowrap">Filter by:</span>
+                <div className="flex flex-wrap justify-center gap-2">
+                  {dietaryFilters.map((filter) => {
+                    const Icon = filter.icon;
+                    return (
+                      <button
+                        key={filter.id}
+                        onClick={() => setActiveFilter(filter.id)}
+                        className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                          activeFilter === filter.id
+                            ? 'bg-primary text-charcoal shadow-md'
+                            : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                        }`}
+                      >
+                        <Icon size={16} />
+                        {filter.label}
+                        <span className={`text-xs px-1.5 py-0.5 rounded-full ${
+                          activeFilter === filter.id
+                            ? 'bg-charcoal/20'
+                            : 'bg-gray-200'
+                        }`}>
+                          {filter.count}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </ScrollReveal>
+
+          {/* Quick Jump Category Pills */}
+          <ScrollReveal delay={0.15}>
+            <div className="mb-10 overflow-x-auto pb-2 -mx-4 px-4">
+              <div className="flex gap-2 min-w-max">
+                {menuData.map((category) => (
+                  <button
+                    key={category.id}
+                    onClick={() => scrollToCategory(category.name)}
+                    className="px-4 py-2 bg-white rounded-full text-sm font-medium text-charcoal hover:bg-primary hover:text-charcoal transition-all duration-300 shadow-sm hover:shadow-md whitespace-nowrap"
+                  >
+                    {category.name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </ScrollReveal>
+
           <StaggerContainer className="space-y-6" staggerDelay={0.05}>
             {menuData.map((category) => (
               <StaggerItem key={category.id}>
                 <MenuCategory
                   name={category.name}
                   items={category.items}
+                  activeFilter={activeFilter}
                 />
               </StaggerItem>
             ))}

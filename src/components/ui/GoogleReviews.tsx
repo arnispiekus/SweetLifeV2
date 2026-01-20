@@ -98,17 +98,25 @@ const GoogleReviews: React.FC = () => {
   }
 
   return (
-    <section className="section bg-stone-50">
-      <div className="container">
+    <section className="py-14 md:py-20 bg-white relative overflow-hidden">
+      {/* Subtle warm accent in corner */}
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-warm-cream/50 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 pointer-events-none" />
+      <div className="container relative z-10">
         <div className="text-center mb-12">
-          <h2 className="section-title">What Our Customers Say</h2>
-          <p className="section-subtitle mx-auto">
+          <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-3 block">
+            Customer Reviews
+          </span>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-charcoal mb-4">
+            What Our Guests Say
+          </h2>
+          <p className="text-rich-brown/70 max-w-xl mx-auto">
             Real 5-star reviews from our valued customers
           </p>
         </div>
         <div className="relative">
           <div
-            className="flex justify-center items-center gap-6"
+            className="flex justify-center items-center gap-4 md:gap-6"
             onMouseEnter={handlePause}
             onMouseLeave={handleResume}
             onFocus={handlePause}
@@ -116,7 +124,7 @@ const GoogleReviews: React.FC = () => {
           >
             <motion.button
               onClick={() => setCurrentIndex((prev) => (prev - 1 + bestReviews.length) % bestReviews.length)}
-              className="p-3 rounded-full bg-white shadow-md transition-colors duration-300 hover:bg-primary hover:text-white"
+              className="p-3 rounded-full bg-white shadow-lg transition-colors duration-300 hover:bg-primary hover:text-white border border-warm-stone/20"
               aria-label="Previous review"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
@@ -132,38 +140,40 @@ const GoogleReviews: React.FC = () => {
                 return (
                   <motion.div
                     key={idx}
-                    className={`bg-white p-6 rounded-lg shadow-md flex flex-col ${
+                    className={`bg-white p-8 rounded-2xl shadow-xl flex flex-col border-0 ${
                       isMobile
                         ? isExpanded
-                          ? 'min-h-[400px]'
+                          ? 'min-h-[420px]'
                           : 'min-h-[300px] max-h-[300px]'
                         : isExpanded
-                          ? 'min-h-[400px]'
-                          : 'aspect-[4/3]'
-                    } transition-colors duration-300 overflow-hidden`}
-                    whileHover={{ y: -6, boxShadow: '0 20px 25px -5px rgb(0 0 0 / 0.1)' }}
+                          ? 'min-h-[380px]'
+                          : 'min-h-[300px]'
+                    } transition-all duration-300 overflow-hidden relative`}
+                    whileHover={{ y: -8, boxShadow: '0 25px 50px rgba(247, 157, 40, 0.2), 0 10px 30px rgba(0, 0, 0, 0.1)' }}
                     transition={{ duration: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
                   >
-                    <div className="flex flex-col items-center w-full h-full">
-                      {/* Header with stars and author */}
-                      <div className="flex flex-col items-center w-full mb-4">
-                        <div className="flex items-center mb-2 justify-center">
-                          {[...Array(5)].map((_, i) => (
-                            <Star key={i} size={16} className="text-yellow-400 fill-current" />
-                          ))}
-                        </div>
-                        <p className="text-primary font-semibold text-sm text-center">{review.author_name}</p>
+                    {/* Large decorative quote mark - more prominent */}
+                    <div className="absolute -top-2 left-6 text-primary/20 font-display text-[120px] leading-none select-none pointer-events-none">
+                      "
+                    </div>
+
+                    <div className="flex flex-col w-full h-full relative z-10">
+                      {/* Stars at top - larger */}
+                      <div className="flex items-center justify-center gap-1 mb-5">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} size={22} className="text-primary fill-primary" />
+                        ))}
                       </div>
 
                       {/* Review text content */}
-                      <div className="flex-1 w-full overflow-hidden">
-                        <div className={`text-stone-700 text-sm text-center leading-relaxed ${
-                          isMobile && !isExpanded ? 'line-clamp-6' : ''
+                      <div className="flex-1 overflow-hidden mb-5">
+                        <p className={`text-charcoal/80 text-[15px] leading-relaxed ${
+                          isMobile && !isExpanded ? 'line-clamp-5' : ''
                         }`}>
-                          {displayText}
+                          <span className="italic">{displayText}</span>
                           {isTruncated && (
                             <button
-                              className="text-primary font-semibold ml-1 underline hover:text-primary/80 transition-colors"
+                              className="text-primary font-semibold ml-1 underline hover:text-primary/80 transition-colors not-italic"
                               onClick={() => handleReadMore(idx)}
                             >
                               Read More
@@ -171,15 +181,26 @@ const GoogleReviews: React.FC = () => {
                           )}
                           {isExpanded && review.text.length > MAX_REVIEW_LENGTH && (
                             <>
-                              <span>{review.text.slice(MAX_REVIEW_LENGTH)}</span>
+                              <span className="italic">{review.text.slice(MAX_REVIEW_LENGTH)}</span>
                               <button
-                                className="text-primary font-semibold ml-1 underline hover:text-primary/80 transition-colors"
+                                className="text-primary font-semibold ml-1 underline hover:text-primary/80 transition-colors not-italic"
                                 onClick={handleReadLess}
                               >
                                 Show Less
                               </button>
                             </>
                           )}
+                        </p>
+                      </div>
+
+                      {/* Author name at bottom - enhanced */}
+                      <div className="pt-5 border-t border-warm-stone/20 mt-auto flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                          <span className="text-primary font-bold text-sm">{review.author_name.charAt(0)}</span>
+                        </div>
+                        <div>
+                          <p className="text-charcoal font-bold text-sm">{review.author_name}</p>
+                          <p className="text-charcoal/50 text-xs">Google Review</p>
                         </div>
                       </div>
                     </div>
@@ -189,7 +210,7 @@ const GoogleReviews: React.FC = () => {
             </div>
             <motion.button
               onClick={() => setCurrentIndex((prev) => (prev + 1) % bestReviews.length)}
-              className="p-3 rounded-full bg-white shadow-md transition-colors duration-300 hover:bg-primary hover:text-white"
+              className="p-3 rounded-full bg-white shadow-lg transition-colors duration-300 hover:bg-primary hover:text-white border border-warm-stone/20"
               aria-label="Next review"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}

@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Coffee, Heart, Users, Utensils, ArrowRight, Quote } from 'lucide-react';
+import { Coffee, Heart, Users, Utensils, ArrowRight, Quote, Salad } from 'lucide-react';
 import { ScrollReveal, StaggerContainer, StaggerItem, FadeIn } from '@/components/motion';
 
 export default function AboutPage() {
@@ -125,6 +125,46 @@ export default function AboutPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
+          BY THE NUMBERS - Stats section
+      ═══════════════════════════════════════════════════════════════════════════ */}
+      <section className="py-16 md:py-20 bg-charcoal relative overflow-hidden">
+        {/* Background accent */}
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4" />
+
+        <div className="container relative">
+          <ScrollReveal>
+            <div className="text-center mb-12">
+              <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
+                By the Numbers
+              </span>
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-white">
+                What Makes Us Special
+              </h2>
+            </div>
+          </ScrollReveal>
+
+          <StaggerContainer className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            {[
+              { number: '184', label: 'Menu Items', sublabel: 'Sweet & Savory' },
+              { number: '18', label: 'Dietary Options', sublabel: 'Keto • Vegan • GF' },
+              { number: '30', label: 'Guest Capacity', sublabel: 'Private Events' },
+              { number: '2019', label: 'Est.', sublabel: 'Newry, Ireland' },
+            ].map((stat, index) => (
+              <StaggerItem key={index}>
+                <div className="text-center p-6 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl hover:bg-white/10 transition-colors duration-300">
+                  <span className="block font-display text-4xl md:text-5xl font-bold text-primary mb-2">
+                    {stat.number}
+                  </span>
+                  <span className="block text-white font-semibold mb-1">{stat.label}</span>
+                  <span className="block text-white/50 text-sm">{stat.sublabel}</span>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
           QUOTE SECTION - Full width orange band
       ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="bg-primary py-16 md:py-20 relative overflow-hidden">
@@ -192,6 +232,11 @@ export default function AboutPage() {
                 icon: Users,
                 title: 'A Seat for Everyone',
                 description: 'We offer a warm, welcoming space and a diverse menu for every taste and dietary need.',
+              },
+              {
+                icon: Salad,
+                title: 'Dietary Inclusivity',
+                description: 'With 18 Keto, Vegan, and Gluten-Free options, we ensure everyone can enjoy a delicious meal.',
               },
             ].map((value, index) => (
               <StaggerItem key={index}>

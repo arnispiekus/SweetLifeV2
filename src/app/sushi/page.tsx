@@ -6,7 +6,7 @@ import SushiGallery from '@/components/sushi/SushiGallery';
 import SushiOrderForm from '@/components/sushi/SushiOrderForm';
 import LazyVideo from '@/components/ui/LazyVideo';
 import { sushiVideos, sushiVariations } from '@/data/sushiData';
-import { Phone, Mail, Clock, ArrowRight, Utensils, Leaf, Fish, Beef } from 'lucide-react';
+import { Phone, Mail, Clock, ArrowRight, Utensils, Leaf, Fish, Beef, Quote, Coffee, Sparkles } from 'lucide-react';
 import { ScrollReveal, FadeIn, StaggerContainer, StaggerItem } from '@/components/motion';
 
 const variationIcons: Record<string, React.ReactNode> = {
@@ -218,11 +218,150 @@ export default function SushiPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
+          TESTIMONIALS - Customer quotes about sushi
+      ═══════════════════════════════════════════════════════════════════════════ */}
+      <section className="py-20 md:py-28 bg-warm-cream relative overflow-hidden">
+        {/* Decorative elements */}
+        <div className="absolute top-0 left-0 w-[400px] h-[400px] bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl translate-x-1/4 translate-y-1/4" />
+
+        <div className="container relative">
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
+                What Customers Say
+              </span>
+              <h2 className="font-display text-4xl md:text-5xl font-bold text-charcoal">
+                Sushi Reviews
+              </h2>
+            </div>
+          </ScrollReveal>
+
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {[
+              {
+                quote: "The sushi platters are absolutely stunning! Fresh ingredients and beautiful presentation. Always order for our family gatherings.",
+                author: "Sarah M.",
+                detail: "Regular Customer"
+              },
+              {
+                quote: "Best sushi in Newry! The vegan options are incredible - you'd never know they're plant-based. Such attention to detail.",
+                author: "James K.",
+                detail: "Vegan Platter"
+              },
+              {
+                quote: "Pre-ordered for my birthday party and everyone was blown away. The mix platter had something for everyone.",
+                author: "Emma T.",
+                detail: "Party Order"
+              }
+            ].map((testimonial, index) => (
+              <StaggerItem key={index}>
+                <div className="bg-white rounded-2xl p-8 shadow-warm h-full flex flex-col">
+                  <Quote className="w-10 h-10 text-primary/30 mb-4" />
+                  <p className="text-rich-brown/80 leading-relaxed flex-grow mb-6 italic">
+                    &quot;{testimonial.quote}&quot;
+                  </p>
+                  <div className="border-t border-stone-200 pt-4">
+                    <p className="font-semibold text-charcoal">{testimonial.author}</p>
+                    <p className="text-sm text-primary">{testimonial.detail}</p>
+                  </div>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
           ORDER FORM SECTION
       ═══════════════════════════════════════════════════════════════════════════ */}
       <div id="order">
         <SushiOrderForm />
       </div>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
+          CROSS-SELL SECTION - Complete Your Order
+      ═══════════════════════════════════════════════════════════════════════════ */}
+      <section className="py-16 md:py-20 bg-charcoal text-white relative overflow-hidden">
+        {/* Decorative pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }} />
+        </div>
+
+        <div className="container relative">
+          <ScrollReveal>
+            <div className="text-center mb-12">
+              <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
+                Perfect Pairings
+              </span>
+              <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
+                Complete Your Order
+              </h2>
+              <p className="text-white/60 max-w-xl mx-auto">
+                Add these popular items to complement your sushi platter
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            {[
+              {
+                name: 'Specialty Lattes',
+                description: 'Try our famous Korean-style lattes - taro, matcha, or caramel.',
+                image: '/Drinks/IcedMatcha.webp',
+                icon: Coffee,
+                link: '/menu#drinks'
+              },
+              {
+                name: 'Golden Toast',
+                description: 'Our signature dessert - crispy bread with ice cream & toppings.',
+                image: '/GoldenToastBK.webp',
+                icon: Sparkles,
+                link: '/specialty-menu'
+              },
+              {
+                name: 'Bingsu',
+                description: 'Fluffy Korean shaved ice with premium toppings.',
+                image: '/Bingsu.png.webp',
+                icon: Sparkles,
+                link: '/specialty-menu'
+              }
+            ].map((item, index) => (
+              <StaggerItem key={index}>
+                <Link href={item.link} className="group block">
+                  <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-500">
+                    <div className="relative h-40 overflow-hidden">
+                      <Image
+                        src={item.image}
+                        alt={item.name}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                        className="object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 to-transparent" />
+                      <div className="absolute bottom-3 left-3">
+                        <div className="w-10 h-10 bg-primary/90 rounded-lg flex items-center justify-center">
+                          <item.icon className="w-5 h-5 text-charcoal" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="p-5">
+                      <h3 className="font-bold text-lg mb-2 group-hover:text-primary transition-colors">
+                        {item.name}
+                      </h3>
+                      <p className="text-white/60 text-sm leading-relaxed">
+                        {item.description}
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
           CONTACT SECTION - How to Order

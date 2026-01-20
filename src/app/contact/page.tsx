@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { MapPin, Clock, Phone, Mail, Send, MessageCircle, ArrowRight, Navigation } from 'lucide-react';
+import { MapPin, Clock, Phone, Mail, Send, MessageCircle, ArrowRight, Navigation, HelpCircle, ChevronDown } from 'lucide-react';
 import { validateContactForm, type ContactFormData } from '@/lib/contactValidation';
 import { ScrollReveal, FadeIn, StaggerContainer, StaggerItem } from '@/components/motion';
 
@@ -381,6 +381,102 @@ export default function ContactPage() {
               </div>
             </ScrollReveal>
           </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
+          FAQ SECTION
+      ═══════════════════════════════════════════════════════════════════════════ */}
+      <section className="py-20 md:py-28 bg-warm-cream">
+        <div className="container">
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <span className="text-primary font-semibold tracking-widest uppercase text-sm mb-4 block">
+                Questions?
+              </span>
+              <h2 className="font-display text-4xl md:text-5xl font-bold text-charcoal mb-6">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-lg text-rich-brown/70 max-w-2xl mx-auto">
+                Find answers to common questions about our menu, services, and more.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <StaggerContainer className="max-w-3xl mx-auto space-y-4">
+            {[
+              {
+                question: 'Do you accommodate dietary restrictions?',
+                answer: 'Absolutely! We offer 18 dietary-friendly options including Keto, Vegan, and Gluten-Free dishes. Look for items marked with (K), (V), or (GF) on our menu, or use the dietary filters on our menu page to find suitable options.',
+                link: { text: 'View Dietary Options', href: '/menu' }
+              },
+              {
+                question: 'Can I pre-order sushi platters?',
+                answer: 'Yes! Our sushi platters are made fresh to order. You can choose from Meat, Seafood, Vegan, or Mix options in various sizes (8, 16, 20, 30, or 50 pieces). Pre-order through our online form or contact us directly.',
+                link: { text: 'Order Sushi', href: '/sushi' }
+              },
+              {
+                question: 'Do you offer catering or private events?',
+                answer: 'Yes, we have a private event room that can accommodate up to 30 guests, perfect for birthdays, corporate events, and celebrations. We offer customized catering menus including sushi platters, Korean dishes, and dessert stations.',
+                link: { text: 'Book Private Event', href: '/bookings' }
+              },
+              {
+                question: 'What are your most popular dishes?',
+                answer: 'Our customer favorites include the Poke Bowl, Souffle Pancakes, Sourdough Pizza, and our signature Korean Bingsu. These dishes are consistently praised in reviews and are perfect for first-time visitors!',
+                link: { text: 'View Specialty Menu', href: '/specialty-menu' }
+              },
+              {
+                question: 'Do you offer online ordering for pickup?',
+                answer: 'Yes! You can order online for pickup through our FoodServe platform. Simply browse our menu, place your order, and pick it up at your selected time. Perfect for busy days!',
+                link: { text: 'Order Online', href: 'https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642', external: true }
+              },
+              {
+                question: 'Is there parking available nearby?',
+                answer: 'Yes, there are several public car parks within a short walking distance of our cafe at 12 Monaghan Street, Newry. The town centre has convenient parking options.',
+                link: { text: 'Get Directions', href: 'https://maps.google.com/?q=12+Monaghan+St,+Newry+BT35+6AA', external: true }
+              }
+            ].map((faq, index) => (
+              <StaggerItem key={index}>
+                <details className="group bg-white rounded-2xl shadow-warm overflow-hidden">
+                  <summary className="flex items-center justify-between p-6 cursor-pointer list-none hover:bg-warm-cream/50 transition-colors">
+                    <div className="flex items-center gap-4">
+                      <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-open:bg-primary transition-colors">
+                        <HelpCircle size={20} className="text-primary group-open:text-white transition-colors" />
+                      </div>
+                      <h3 className="font-semibold text-charcoal text-lg pr-4">{faq.question}</h3>
+                    </div>
+                    <ChevronDown size={20} className="text-primary flex-shrink-0 transition-transform duration-300 group-open:rotate-180" />
+                  </summary>
+                  <div className="px-6 pb-6 pt-2">
+                    <div className="pl-14">
+                      <p className="text-rich-brown/70 leading-relaxed mb-4">{faq.answer}</p>
+                      {faq.link && (
+                        faq.link.external ? (
+                          <a
+                            href={faq.link.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center text-primary font-semibold hover:underline"
+                          >
+                            {faq.link.text}
+                            <ArrowRight size={16} className="ml-2" />
+                          </a>
+                        ) : (
+                          <Link
+                            href={faq.link.href}
+                            className="inline-flex items-center text-primary font-semibold hover:underline"
+                          >
+                            {faq.link.text}
+                            <ArrowRight size={16} className="ml-2" />
+                          </Link>
+                        )
+                      )}
+                    </div>
+                  </div>
+                </details>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
         </div>
       </section>
 
