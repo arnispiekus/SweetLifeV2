@@ -397,7 +397,7 @@ export default function SushiPage() {
                       </StaggerItem>
                       <StaggerItem>
                         <a
-                          href="mailto:info@sweetlifecafe.co.uk"
+                          href="mailto:info@sweetlife.cafe"
                           className="flex items-center p-4 bg-white/90 backdrop-blur-sm rounded-xl hover:bg-white hover:shadow-lg transition-all duration-300 group"
                         >
                           <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-primary/20 transition-colors">
@@ -405,7 +405,7 @@ export default function SushiPage() {
                           </div>
                           <div>
                             <p className="text-sm text-charcoal/70">Email us</p>
-                            <p className="font-semibold text-charcoal">info@sweetlifecafe.co.uk</p>
+                            <p className="font-semibold text-charcoal">info@sweetlife.cafe</p>
                           </div>
                         </a>
                       </StaggerItem>

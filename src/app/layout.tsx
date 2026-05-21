@@ -39,13 +39,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sweet Life Cafe | Korean Cafe & Restaurant in Newry",
     description: "Authentic Korean cuisine, Bingsu, Bubble Tea, specialty coffee, and more. Order online or visit us at 12 Monaghan St, Newry.",
-    url: "https://sweetlifecafe.co.uk",
+    url: "https://sweetlife.cafe",
     siteName: "Sweet Life Cafe",
     locale: "en_GB",
     type: "website",
     images: [
       {
-        url: "https://sweetlifecafe.co.uk/SweetLifeCafe_Hero_1.webp",
+        url: "https://sweetlife.cafe/SweetLifeCafe_Hero_1.webp",
         width: 1200,
         height: 630,
         alt: "Sweet Life Cafe - Korean Cafe & Restaurant in Newry",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sweet Life Cafe | Korean Cafe & Restaurant in Newry",
     description: "Authentic Korean cuisine, Bingsu, Bubble Tea, specialty coffee, and more in Newry.",
-    images: ["https://sweetlifecafe.co.uk/SweetLifeCafe_Hero_1.webp"],
+    images: ["https://sweetlife.cafe/SweetLifeCafe_Hero_1.webp"],
   },
   robots: {
     index: true,

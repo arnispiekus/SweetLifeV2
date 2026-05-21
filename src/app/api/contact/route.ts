@@ -42,8 +42,8 @@ export async function POST(request: NextRequest) {
         : '[Website Inquiry] New Contact Form Submission';
 
       const result = await resend.emails.send({
-        from: 'Sweet Life Website <noreply@sweetlifecafe.co.uk>',
-        to: ['info@sweetlifecafe.co.uk'],
+        from: 'Sweet Life Website <noreply@sweetlife.cafe>',
+        to: ['info@sweetlife.cafe'],
         replyTo: formData.email,
         subject: emailSubject,
         html: `

@@ -43,11 +43,11 @@ const WhatsAppBookingCTA = () => {
             +447716508513
           </a>
           <a
-            href="mailto:info@sweetlifecafe.co.uk"
+            href="mailto:info@sweetlife.cafe"
             className="inline-flex items-center justify-center text-stone-700 hover:text-primary transition-colors"
           >
             <Mail size={18} className="mr-2" />
-            info@sweetlifecafe.co.uk
+            info@sweetlife.cafe
           </a>
         </div>
       </div>

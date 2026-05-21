@@ -58,8 +58,8 @@ export async function POST(request: NextRequest) {
 
     if (resend) {
       const result = await resend.emails.send({
-      from: 'Sweet Life Sushi <orders@sweetlifecafe.co.uk>',
-      to: ['info@sweetlifecafe.co.uk'],
+      from: 'Sweet Life Sushi <orders@sweetlife.cafe>',
+      to: ['info@sweetlife.cafe'],
       replyTo: orderData.email,
       subject: `New Sushi Pre-Order: ${orderData.pieces} pieces - ${orderData.variation}`,
       html: `

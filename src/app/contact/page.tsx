@@ -158,7 +158,7 @@ export default function ContactPage() {
 
             <StaggerItem>
               <a
-                href="mailto:info@sweetlifecafe.co.uk"
+                href="mailto:info@sweetlife.cafe"
                 className="group flex items-center p-5 bg-white rounded-2xl shadow-warm hover:shadow-warm-lg hover:-translate-y-1 transition-all duration-300"
               >
                 <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-primary transition-colors">
@@ -166,7 +166,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-sm text-rich-brown/60">Email</p>
-                  <p className="font-semibold text-charcoal text-sm">info@sweetlifecafe.co.uk</p>
+                  <p className="font-semibold text-charcoal text-sm">info@sweetlife.cafe</p>
                 </div>
               </a>
             </StaggerItem>

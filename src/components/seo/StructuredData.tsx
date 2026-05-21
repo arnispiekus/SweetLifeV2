@@ -3,7 +3,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": "Sweet Life Cafe",
-    "image": "https://sweetlifecafe.co.uk/images/hero-bg.jpg",
+    "image": "https://sweetlife.cafe/images/hero-bg.jpg",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "12 Monaghan Street",
@@ -18,7 +18,7 @@ export default function StructuredData() {
       "longitude": -6.3398
     },
     "telephone": "+44 28 3044 8808",
-    "url": "https://sweetlifecafe.co.uk",
+    "url": "https://sweetlife.cafe",
     "email": "sweetlifenewry@gmail.com",
     "servesCuisine": ["Korean", "Cafe", "Sushi", "Desserts", "Bubble Tea"],
     "priceRange": "££",
@@ -42,11 +42,11 @@ export default function StructuredData() {
         "closes": "17:00"
       }
     ],
-    "menu": "https://sweetlifecafe.co.uk/menu",
+    "menu": "https://sweetlife.cafe/menu",
     "acceptsReservations": "True",
     "hasMenu": {
       "@type": "Menu",
-      "url": "https://sweetlifecafe.co.uk/menu",
+      "url": "https://sweetlife.cafe/menu",
       "hasMenuSection": [
         {
           "@type": "MenuSection",

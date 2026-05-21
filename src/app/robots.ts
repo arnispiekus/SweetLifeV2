@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://sweetlifecafe.co.uk/sitemap.xml',
+    sitemap: 'https://sweetlife.cafe/sitemap.xml',
   };
 }
