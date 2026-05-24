@@ -16,9 +16,15 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Requires `.env.local` (see `.env.example`) with Supabase + Resend keys.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Menu system
+
+The menu is stored in Supabase and powers the website (`/menu`), the downloadable PDF
+(`/menu.pdf`), and an admin editor (`/admin`). Edit prices/items in the admin — no code or Canva.
+
+**See [`docs/MENU-SYSTEM.md`](docs/MENU-SYSTEM.md) for the full guide** (schema, admin usage,
+PDF, Revolut sync, and the data pipeline in `menu-extraction/`).
 
 ## Learn More
 
