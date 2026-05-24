@@ -1,38 +1,19 @@
-'use client';
-
-import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import FeaturedCarousel from '@/components/ui/FeaturedCarousel';
-import MenuCategory from '@/components/menu/MenuCategory';
-import { menuData } from '@/data/menuData';
-import { ArrowRight, ShoppingBag, Download, Eye, FileText, Info, Leaf, Sparkles, Wheat } from 'lucide-react';
-import { ScrollReveal, FadeIn, StaggerContainer, StaggerItem } from '@/components/motion';
+import MenuExplorer from '@/components/menu/MenuExplorer';
+import { getMenu } from '@/lib/menu';
+import { ArrowRight, ShoppingBag, Download, Eye, FileText } from 'lucide-react';
+import { ScrollReveal, FadeIn } from '@/components/motion';
 
 const FOODSERVE_URL = 'https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642';
 
-// Dietary filter options
-const dietaryFilters = [
-  { id: 'all', label: 'All Items', icon: Sparkles, count: 184 },
-  { id: 'keto', label: 'Keto', icon: Sparkles, count: 6 },
-  { id: 'vegan', label: 'Vegan', icon: Leaf, count: 6 },
-  { id: 'gf', label: 'Gluten Free', icon: Wheat, count: 18 },
-];
+// Always reflect the latest prices from the database.
+export const revalidate = 60;
 
-export default function MenuPage() {
-  const [activeFilter, setActiveFilter] = useState('all');
+export default async function MenuPage() {
+  const categories = await getMenu();
 
-  // Scroll to category
-  const scrollToCategory = (categoryName: string) => {
-    const id = `category-${categoryName.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
-    const element = document.getElementById(id);
-    if (element) {
-      const offset = 120; // Account for sticky header
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
-      window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
-    }
-  };
   return (
     <div className="overflow-x-hidden">
       {/* ═══════════════════════════════════════════════════════════════════════════
@@ -82,7 +63,7 @@ export default function MenuPage() {
                   Order Online
                 </a>
                 <a
-                  href="/SweetLifeMenuNewry.pdf"
+                  href="/menu.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn bg-white/10 backdrop-blur-sm border border-white/30 text-white hover:bg-white hover:text-charcoal inline-flex items-center transition-all duration-300"
@@ -129,7 +110,7 @@ export default function MenuPage() {
                     </p>
                     <div className="flex flex-wrap gap-3">
                       <a
-                        href="/SweetLifeMenuNewry.pdf"
+                        href="/menu.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-sm btn-primary inline-flex items-center"
@@ -138,7 +119,7 @@ export default function MenuPage() {
                         View Menu
                       </a>
                       <a
-                        href="/SweetLifeMenuNewry.pdf"
+                        href="/menu.pdf"
                         download="SweetLifeMenuNewry.pdf"
                         className="btn btn-sm btn-outline inline-flex items-center"
                       >
@@ -217,90 +198,7 @@ export default function MenuPage() {
             </div>
           </ScrollReveal>
 
-          {/* Dietary Filter Bar */}
-          <ScrollReveal delay={0.1}>
-            <div className="bg-white rounded-2xl shadow-warm p-4 mb-8 max-w-4xl mx-auto">
-              <div className="flex flex-col sm:flex-row items-center gap-4">
-                <span className="text-sm font-semibold text-charcoal whitespace-nowrap">Filter by:</span>
-                <div className="flex flex-wrap justify-center gap-2">
-                  {dietaryFilters.map((filter) => {
-                    const Icon = filter.icon;
-                    return (
-                      <button
-                        key={filter.id}
-                        onClick={() => setActiveFilter(filter.id)}
-                        className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                          activeFilter === filter.id
-                            ? 'bg-primary text-charcoal shadow-md'
-                            : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                        }`}
-                      >
-                        <Icon size={16} />
-                        {filter.label}
-                        <span className={`text-xs px-1.5 py-0.5 rounded-full ${
-                          activeFilter === filter.id
-                            ? 'bg-charcoal/20'
-                            : 'bg-gray-200'
-                        }`}>
-                          {filter.count}
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            </div>
-          </ScrollReveal>
-
-          {/* Quick Jump Category Pills */}
-          <ScrollReveal delay={0.15}>
-            <div className="mb-10 overflow-x-auto pb-2 -mx-4 px-4">
-              <div className="flex gap-2 min-w-max">
-                {menuData.map((category) => (
-                  <button
-                    key={category.id}
-                    onClick={() => scrollToCategory(category.name)}
-                    className="px-4 py-2 bg-white rounded-full text-sm font-medium text-charcoal hover:bg-primary hover:text-charcoal transition-all duration-300 shadow-sm hover:shadow-md whitespace-nowrap"
-                  >
-                    {category.name}
-                  </button>
-                ))}
-              </div>
-            </div>
-          </ScrollReveal>
-
-          <StaggerContainer className="space-y-6" staggerDelay={0.05}>
-            {menuData.map((category) => (
-              <StaggerItem key={category.id}>
-                <MenuCategory
-                  name={category.name}
-                  items={category.items}
-                  activeFilter={activeFilter}
-                />
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-
-          {/* Dietary Info */}
-          <ScrollReveal delay={0.3}>
-            <div className="mt-16 max-w-3xl mx-auto">
-              <div className="bg-white rounded-2xl p-8 shadow-warm">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Info className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-charcoal mb-2">
-                      Special Dietary Requirements
-                    </h3>
-                    <p className="text-rich-brown/70 leading-relaxed">
-                      Please inform our staff about any allergies or dietary restrictions. We offer vegetarian, vegan, and gluten-free options and can accommodate most dietary needs.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </ScrollReveal>
+          <MenuExplorer categories={categories} />
         </div>
       </section>
 

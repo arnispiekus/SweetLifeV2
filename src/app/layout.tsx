@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
-import WhatsAppWidget from "@/components/ui/WhatsAppWidget";
 import StructuredData from "@/components/seo/StructuredData";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -82,12 +79,7 @@ export default function RootLayout({
         <StructuredData />
       </head>
       <body className={`${plusJakartaSans.variable} ${playfairDisplay.variable} font-sans antialiased`}>
-        <div className="flex flex-col min-h-screen">
-          <Header />
-          <main className="flex-grow pt-16">{children}</main>
-          <Footer />
-          <WhatsAppWidget />
-        </div>
+        {children}
       </body>
     </html>
   );
