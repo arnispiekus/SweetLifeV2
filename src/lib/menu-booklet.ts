@@ -107,10 +107,10 @@ const SECTION_ART: Record<string, string[]> = {
   "bakery-pastries": ["illo-croissant.png"],
   "breakfast-brunch": ["illo-acai.png"],
   "lunch": ["illo-sandwich.png", "illo-wrap.png"],
-  "salads": ["illo-sandwich.png"],
+  "salads": ["illo-salad.png"],
   "cakes-cookies-bites": ["mascot-cookie.png"],
-  "signature-drinks": ["mascot-cup.png"],
-  "gourmet-lattes": ["cup-coffee.png"],
+  "signature-drinks": ["mascot-boba.png"],
+  "gourmet-lattes": ["mascot-cup.png"],
   "bingsu": ["mascot-matcha.png"],
 };
 
@@ -188,19 +188,8 @@ function sectionPage(sec: BookletSection): string {
 
 export function renderBookletHtml(data: BookletData, baseUrl = ""): string {
   const cover = `
-    <section class="page cover">
-      <img class="logo" src="/menu-art/logo-cloud.png" alt="Sweet Life">
-      <img class="wordmark" src="/menu-art/wordmark.png" alt="SWEET LIFE">
-      <div class="cover-sub">M E N U</div>
-      <div class="cover-qr">
-        <img src="/menu-art/qr-order.png" alt="Order online">
-        <div class="cover-qr-label">Scan to order online</div>
-      </div>
-      <img class="cover-mascot" src="/menu-art/mascot-cup.png" alt="">
-      <div class="cover-foot">
-        <div class="cover-loc">12 Monaghan St · Newry BT35 6AA</div>
-        <div class="cover-socials">@sweet.life.ireland &nbsp;·&nbsp; @sweetlifeireland &nbsp;·&nbsp; sweetlife.cafe</div>
-      </div>
+    <section class="cover">
+      <img src="/menu-art/cover.jpg" alt="Sweet Life Menu">
     </section>`;
 
   const sections = data.sections.map(sectionPage).join("");
@@ -232,29 +221,15 @@ html, body { margin: 0; padding: 0; }
 body { font-family: 'Plus Jakarta Sans'; color: #2c1d12; }
 /* Full-bleed background painted on every printed page (covers @page margins too) */
 .bg { position: fixed; inset: 0; z-index: -2;
-  background:
-    radial-gradient(circle at 15% 8%, #FBE7CE 0%, transparent 46%),
-    radial-gradient(circle at 85% 94%, #F1D4B2 0%, transparent 50%),
-    #FAE8D0; }
-.grain { position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .30; mix-blend-mode: multiply;
-  background-image: url('/menu-art/grain-tile.png'); background-size: 88px 88px; }
+  background: url('/menu-art/paper-bg.jpg') center center / cover no-repeat; }
 .cover { break-after: page; }
 .section { margin-top: 9mm; }
 .section:first-of-type { margin-top: 0; }
 .legend-page { break-before: page; }
 
-/* Cover */
-.cover { height: 186mm; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; position: relative; }
-.cover .logo { width: 70px; height: auto; margin-bottom: 6px; }
-.cover .wordmark { width: 230px; height: auto; }
-.cover-sub { font-family: 'Playfair Display'; font-weight: 700; letter-spacing: .42em; font-size: 22px; color: #2c1d12; margin: 12px 0 0; padding-left: .42em; }
-.cover-qr { margin-top: 30px; }
-.cover-qr img { width: 100px; height: 100px; display: block; margin: 0 auto; }
-.cover-qr-label { font-size: 8.5px; color: #6b5640; letter-spacing: .18em; text-transform: uppercase; margin-top: 7px; font-weight: 600; }
-.cover-mascot { width: 58px; height: auto; margin-top: 22px; }
-.cover-foot { position: absolute; bottom: 14mm; left: 0; right: 0; }
-.cover-loc { font-size: 10.5px; color: #6b5640; letter-spacing: .04em; }
-.cover-socials { font-size: 9px; color: #9a8362; letter-spacing: .06em; margin-top: 4px; }
+/* Cover — full-bleed render of the original Canva cover */
+.cover { width: 148mm; height: 210mm; margin: -12mm -11mm 0; overflow: hidden; }
+.cover img { width: 148mm; height: 210mm; object-fit: cover; display: block; }
 
 /* Section header */
 .sec-h { display: flex; align-items: center; justify-content: center; gap: 12px; position: relative; margin-bottom: 12px; break-after: avoid; break-inside: avoid; }
@@ -292,7 +267,6 @@ body { font-family: 'Plus Jakarta Sans'; color: #2c1d12; }
 </style></head>
 <body>
 <div class="bg"></div>
-<div class="grain"></div>
 ${cover}
 ${sections}
 ${legend}
