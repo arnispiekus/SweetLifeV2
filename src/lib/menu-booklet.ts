@@ -165,9 +165,9 @@ function itemRow(it: BookletItem): string {
 function sectionPage(sec: BookletSection): string {
   const artFiles = SECTION_ART[sec.slug] ?? [];
   const leftArt = artFiles[0]
-    ? `<img class="hero-art" src="${optimg(`/menu-art/${artFiles[0]}`, 128)}" alt="">` : "";
+    ? `<img class="hero-art" src="/menu-art/${artFiles[0]}" alt="">` : "";
   const rightArt = artFiles[1]
-    ? `<img class="hero-art" src="${optimg(`/menu-art/${artFiles[1]}`, 128)}" alt="">` : "";
+    ? `<img class="hero-art" src="/menu-art/${artFiles[1]}" alt="">` : "";
   const body = sec.subsections
     .map((sub) => {
       const showSubLabel = sec.subsections.length > 1;
@@ -189,11 +189,18 @@ function sectionPage(sec: BookletSection): string {
 export function renderBookletHtml(data: BookletData, baseUrl = ""): string {
   const cover = `
     <section class="page cover">
-      <img class="logo" src="${optimg("/menu-art/logo-cloud.png", 256)}" alt="Sweet Life">
-      <img class="wordmark" src="${optimg("/menu-art/wordmark.png", 640)}" alt="SWEET LIFE">
+      <img class="logo" src="/menu-art/logo-cloud.png" alt="Sweet Life">
+      <img class="wordmark" src="/menu-art/wordmark.png" alt="SWEET LIFE">
       <div class="cover-sub">M E N U</div>
-      <div class="cover-loc">12 Monaghan St · Newry BT35 6AA</div>
-      <div class="cover-foot">@sweet.life.ireland · sweetlife.cafe</div>
+      <div class="cover-qr">
+        <img src="/menu-art/qr-order.png" alt="Order online">
+        <div class="cover-qr-label">Scan to order online</div>
+      </div>
+      <img class="cover-mascot" src="/menu-art/mascot-cup.png" alt="">
+      <div class="cover-foot">
+        <div class="cover-loc">12 Monaghan St · Newry BT35 6AA</div>
+        <div class="cover-socials">@sweet.life.ireland &nbsp;·&nbsp; @sweetlifeireland &nbsp;·&nbsp; sweetlife.cafe</div>
+      </div>
     </section>`;
 
   const sections = data.sections.map(sectionPage).join("");
@@ -212,7 +219,7 @@ export function renderBookletHtml(data: BookletData, baseUrl = ""): string {
           .join("")}
       </div>
       <p class="legend-note">Please tell our team about any allergies before ordering. We handle nuts, gluten, dairy and other allergens in our kitchen.</p>
-      <img class="legend-mascot" src="${optimg("/menu-art/mascot-cup.png", 256)}" alt="">
+      <img class="legend-mascot" src="/menu-art/mascot-cup.png" alt="">
     </section>`;
 
   const base = baseUrl ? `<base href="${baseUrl}/">` : "";
@@ -226,9 +233,11 @@ body { font-family: 'Plus Jakarta Sans'; color: #2c1d12; }
 /* Full-bleed background painted on every printed page (covers @page margins too) */
 .bg { position: fixed; inset: 0; z-index: -2;
   background:
-    radial-gradient(circle at 12% 10%, #FCF2E1 0%, transparent 42%),
-    radial-gradient(circle at 88% 88%, #F4E2C8 0%, transparent 46%),
-    #FBF1E0; }
+    radial-gradient(circle at 15% 8%, #FBE7CE 0%, transparent 46%),
+    radial-gradient(circle at 85% 94%, #F1D4B2 0%, transparent 50%),
+    #FAE8D0; }
+.grain { position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .30; mix-blend-mode: multiply;
+  background-image: url('/menu-art/grain-tile.png'); background-size: 88px 88px; }
 .cover { break-after: page; }
 .section { margin-top: 9mm; }
 .section:first-of-type { margin-top: 0; }
@@ -238,9 +247,14 @@ body { font-family: 'Plus Jakarta Sans'; color: #2c1d12; }
 .cover { height: 186mm; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; position: relative; }
 .cover .logo { width: 70px; height: auto; margin-bottom: 6px; }
 .cover .wordmark { width: 230px; height: auto; }
-.cover-sub { font-family: 'Playfair Display'; font-weight: 700; letter-spacing: .42em; font-size: 22px; color: #2c1d12; margin: 14px 0 26px; padding-left: .42em; }
-.cover-loc { font-size: 11px; color: #6b5640; letter-spacing: .04em; }
-.cover-foot { position: absolute; bottom: 16mm; left: 0; right: 0; font-size: 9.5px; color: #9a8362; letter-spacing: .08em; }
+.cover-sub { font-family: 'Playfair Display'; font-weight: 700; letter-spacing: .42em; font-size: 22px; color: #2c1d12; margin: 12px 0 0; padding-left: .42em; }
+.cover-qr { margin-top: 30px; }
+.cover-qr img { width: 100px; height: 100px; display: block; margin: 0 auto; }
+.cover-qr-label { font-size: 8.5px; color: #6b5640; letter-spacing: .18em; text-transform: uppercase; margin-top: 7px; font-weight: 600; }
+.cover-mascot { width: 58px; height: auto; margin-top: 22px; }
+.cover-foot { position: absolute; bottom: 14mm; left: 0; right: 0; }
+.cover-loc { font-size: 10.5px; color: #6b5640; letter-spacing: .04em; }
+.cover-socials { font-size: 9px; color: #9a8362; letter-spacing: .06em; margin-top: 4px; }
 
 /* Section header */
 .sec-h { display: flex; align-items: center; justify-content: center; gap: 12px; position: relative; margin-bottom: 12px; break-after: avoid; break-inside: avoid; }
@@ -278,6 +292,7 @@ body { font-family: 'Plus Jakarta Sans'; color: #2c1d12; }
 </style></head>
 <body>
 <div class="bg"></div>
+<div class="grain"></div>
 ${cover}
 ${sections}
 ${legend}
