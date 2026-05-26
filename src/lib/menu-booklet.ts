@@ -114,6 +114,50 @@ const SECTION_ART: Record<string, string[]> = {
   "bingsu": ["mascot-matcha.png"],
 };
 
+// Subtle per-section accent colour — used for the hairline under the title and
+// the subsection labels. Keeps prices amber for brand consistency.
+const SECTION_ACCENT: Record<string, string> = {
+  "coffee-tea": "#8B5A2B",
+  "bakery-pastries": "#C9892F",
+  "breakfast-brunch": "#E07B3B",
+  "lunch": "#8E6B3E",
+  "salads": "#7A8C4A",
+  "keto-vegan-gluten-free": "#7E8C5E",
+  "cakes-cookies-bites": "#A65A57",
+  "bingsu": "#6B9B8E",
+  "golden-toast": "#D9A93D",
+  "pancakes-waffles": "#A06236",
+  "signature-drinks": "#8D6E97",
+  "gourmet-lattes": "#6B4423",
+  "sushi-pre-order-only": "#A23E3E",
+};
+
+const SECTION_KICKER: Record<string, string> = {
+  "coffee-tea": "Freshly brewed",
+  "bakery-pastries": "Baked fresh daily",
+  "breakfast-brunch": "Until noon",
+  "lunch": "Made to order",
+  "salads": "Fresh & light",
+  "keto-vegan-gluten-free": "For every diet",
+  "cakes-cookies-bites": "Sweet things",
+  "bingsu": "Korean shaved ice",
+  "golden-toast": "Sharing-size dessert",
+  "pancakes-waffles": "Hot desserts",
+  "signature-drinks": "Hot or iced · add boba",
+  "gourmet-lattes": "Speciality coffees",
+  "sushi-pre-order-only": "Order ahead",
+};
+
+// Sections rendered as photo-tile grids (like the original menu's drink pages)
+// instead of text-list rows.
+const DRINK_GRID = new Set([
+  "signature-drinks",
+  "gourmet-lattes",
+  "bingsu",
+  "golden-toast",
+  "pancakes-waffles",
+]);
+
 const esc = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
@@ -162,27 +206,50 @@ function itemRow(it: BookletItem): string {
     </div>`;
 }
 
+function gridTile(it: BookletItem): string {
+  const photo = it.image
+    ? `<img class="gt-img" src="${optimg(it.image, 128)}" alt="">`
+    : `<div class="gt-empty"></div>`;
+  return `<div class="gtile">
+    ${photo}
+    <div class="gt-nm">${esc(it.name)}</div>
+    <div class="gt-pr">${money(it.price)}</div>
+  </div>`;
+}
+
 function sectionPage(sec: BookletSection): string {
+  const accent = SECTION_ACCENT[sec.slug] ?? "#C9892F";
+  const kicker = SECTION_KICKER[sec.slug];
   const artFiles = SECTION_ART[sec.slug] ?? [];
   const leftArt = artFiles[0]
     ? `<img class="hero-art" src="/menu-art/${artFiles[0]}" alt="">` : "";
   const rightArt = artFiles[1]
     ? `<img class="hero-art" src="/menu-art/${artFiles[1]}" alt="">` : "";
+  const isGrid = DRINK_GRID.has(sec.slug);
+
   const body = sec.subsections
     .map((sub) => {
       const showSubLabel = sec.subsections.length > 1;
       const head = showSubLabel ? `<div class="scn">${esc(sub.name)}</div>` : "";
+      if (isGrid) {
+        const tiles = sub.items.map(gridTile).join("");
+        return head + `<div class="gtiles">${tiles}</div>`;
+      }
       return head + sub.items.map(itemRow).join("");
     })
     .join("");
+
   return `
-    <section class="section">
+    <section class="section" style="--accent:${accent}">
       <header class="sec-h">
         ${leftArt}
-        <h2>${esc(sec.name)}</h2>
+        <div class="sec-title">
+          <h2>${esc(sec.name)}</h2>
+          ${kicker ? `<div class="sec-kicker">${esc(kicker)}</div>` : ""}
+        </div>
         ${rightArt}
       </header>
-      <div class="cols">${body}</div>
+      <div class="cols ${isGrid ? "cols-grid" : ""}">${body}</div>
     </section>`;
 }
 
@@ -237,10 +304,12 @@ body { font-family: 'Plus Jakarta Sans'; color: #2c1d12; }
 .sec-h .art { display: flex; gap: 6px; }
 .hero-art { height: 42px; width: auto; }
 .sec-h::after { content: ""; position: absolute; left: 18%; right: 18%; bottom: -8px; height: 2px;
-  background: linear-gradient(90deg, transparent, #C9892F, transparent); }
+  background: linear-gradient(90deg, transparent, var(--accent, #C9892F), transparent); }
+.sec-title { display: flex; flex-direction: column; align-items: center; }
+.sec-kicker { font-size: 8.5px; letter-spacing: .18em; text-transform: uppercase; color: #a08762; font-weight: 600; margin-top: 3px; }
 
 .cols { margin-top: 12px; column-count: 2; column-gap: 8mm; }
-.scn { column-span: all; font-family: 'Playfair Display'; font-weight: 700; font-size: 12px; color: #B5651D; margin: 9px 0 5px; padding-bottom: 2px; border-bottom: 1px solid #ecd9bf; }
+.scn { column-span: all; font-family: 'Playfair Display'; font-weight: 700; font-size: 12px; color: var(--accent, #B5651D); margin: 9px 0 5px; padding-bottom: 2px; border-bottom: 1px solid color-mix(in srgb, var(--accent, #B5651D) 28%, transparent); }
 .scn:first-child { margin-top: 0; }
 
 .item { display: flex; gap: 7px; align-items: flex-start; break-inside: avoid; margin: 0 0 6px; }
@@ -255,6 +324,16 @@ body { font-family: 'Plus Jakarta Sans'; color: #2c1d12; }
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .vr { font-size: 7px; color: #7d6549; margin-top: 1px; }
 .vr b { color: #B5651D; }
+
+/* Photo-grid layout for drink / dessert sections — breaks the rhythm vs text lists */
+.cols.cols-grid { column-count: 1; column-gap: 0; }
+.gtiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8mm 3mm; margin-top: 4px; }
+.gtile { text-align: center; break-inside: avoid; }
+.gt-img { width: 46px; height: 46px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(120,80,30,.22); }
+.gt-empty { width: 46px; height: 46px; border-radius: 50%; margin: 0 auto;
+  background: linear-gradient(135deg, #f3e3c8, #e3c89c); box-shadow: inset 0 0 0 1px rgba(120,80,30,.18); }
+.gt-nm { font-family: 'Playfair Display'; font-weight: 600; font-size: 9px; color: #2c1d12; margin-top: 5px; line-height: 1.18; padding: 0 1mm; }
+.gt-pr { font-weight: 800; font-size: 9.5px; color: #C9892F; margin-top: 2px; font-variant-numeric: tabular-nums; }
 
 /* Legend */
 .legend-page { display: flex; flex-direction: column; }
