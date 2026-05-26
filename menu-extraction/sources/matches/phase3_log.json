@@ -1,0 +1,74 @@
+{
+  "results": [
+    {
+      "campaign": "campaign-drinks-summer",
+      "variant": 1,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-bingsu-summer",
+      "variant": 3,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-bingsu-summer",
+      "variant": 2,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-drinks-summer",
+      "variant": 3,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-brunch-weekend",
+      "variant": 2,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-bingsu-summer",
+      "variant": 1,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-brunch-weekend",
+      "variant": 1,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-brunch-weekend",
+      "variant": 3,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-new-bao-buns",
+      "variant": 1,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-emergency-workers",
+      "variant": 1,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-new-bao-buns",
+      "variant": 2,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-emergency-workers",
+      "variant": 2,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-drinks-summer",
+      "variant": 2,
+      "status": "ok"
+    },
+    {
+      "campaign": "campaign-new-bao-buns",
+      "variant": 3,
+      "status": "ok"
+    }
+  ]
+}
