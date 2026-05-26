@@ -1,0 +1,10 @@
+# Don't commit raw data dumps — they're regeneratable and could leak tokens
+drive/
+photos/
+canva/
+instagram/
+db_items.json
+
+# Keep the analysis outputs
+!matches/
+__pycache__/
