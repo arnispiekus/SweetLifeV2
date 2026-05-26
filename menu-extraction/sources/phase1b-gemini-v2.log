@@ -1,0 +1,5 @@
+A new release of infisical is available: 0.43.79 -> 0.43.86
+
+To update, run: brew update && brew upgrade infisical
+
+[90m2026-05-26T20:00:12-03:00[0m [32mINF[0m Injecting 98 Infisical secrets into your application process

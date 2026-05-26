@@ -1,4 +1,720 @@
 {
   "started": 1779835486.064717,
-  "results": []
+  "results": [
+    {
+      "item_id": 31,
+      "item_name": "Omelette (GF)",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224508_95d20864-7769-452b-9038-aaedf00341b0.png",
+      "local_path": "menu-photos/breakfast-brunch/omelette-gf-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/omelette-gf-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 33,
+      "item_name": "Egg Toast",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224513_ca3fa59d-a1bd-45f3-a2d2-b15f803ff559.png",
+      "local_path": "menu-photos/breakfast-brunch/egg-toast-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/egg-toast-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 42,
+      "item_name": "Poached Egg & Bacon Bagel",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224516_77365a2e-3f43-4aff-bbdf-5ef0f37df334.png",
+      "local_path": "menu-photos/breakfast-brunch/poached-egg-bacon-bagel-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/poached-egg-bacon-bagel-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 40,
+      "item_name": "French Toast Benedict",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224509_3689897c-1d1c-436f-93d5-07537c55224d.png",
+      "local_path": "menu-photos/breakfast-brunch/french-toast-benedict-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/french-toast-benedict-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 37,
+      "item_name": "Good Morning Breakfast",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224521_f0e49100-e17b-4afb-a3a2-601d86917a30.png",
+      "local_path": "menu-photos/breakfast-brunch/good-morning-breakfast-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/good-morning-breakfast-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 35,
+      "item_name": "Hello Sunrise",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224515_ab1fb0f7-696f-49da-ba23-fabf3bd1bca4.png",
+      "local_path": "menu-photos/breakfast-brunch/hello-sunrise-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/hello-sunrise-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 38,
+      "item_name": "Cranberry Brie Toast",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224512_fb76f40f-803a-45b1-83cc-d8836c38a271.png",
+      "local_path": "menu-photos/breakfast-brunch/cranberry-brie-toast-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/cranberry-brie-toast-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 39,
+      "item_name": "French Toast x2 with Bacon & Maple Syrup",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224530_bd64cd17-3de9-4668-b19d-93069c00814e.png",
+      "local_path": "menu-photos/breakfast-brunch/french-toast-x2-with-bacon-maple-syrup-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/french-toast-x2-with-bacon-maple-syrup-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 30,
+      "item_name": "Porridge",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224611_6e003342-bb0a-42a1-b88d-aa0869b2101f.png",
+      "local_path": "menu-photos/breakfast-brunch/porridge-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/porridge-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 36,
+      "item_name": "Salmon Sunrise",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224615_31012c15-8e28-4794-96db-ba6005ceebdf.png",
+      "local_path": "menu-photos/breakfast-brunch/salmon-sunrise-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/salmon-sunrise-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 249,
+      "item_name": "Smoothie Bowl",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224625_7b2e54b1-49e7-4275-b613-1fd2900d5a3e.png",
+      "local_path": "menu-photos/breakfast-brunch/smoothie-bowl-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/smoothie-bowl-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 34,
+      "item_name": "Simply Morning",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224625_fd893aea-39bc-4d4e-899e-9fa886e5e6ab.png",
+      "local_path": "menu-photos/breakfast-brunch/simply-morning-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/simply-morning-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 128,
+      "item_name": "Small Scoop",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224630_ee7e3eff-a5f5-47ff-b828-b50a76f1d5d1.png",
+      "local_path": "menu-photos/cakes-cookies-bites/small-scoop-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/small-scoop-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 41,
+      "item_name": "Scrambled Egg Ciabatta",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224623_2665074e-5a11-4524-a44c-d6ca1774818b.png",
+      "local_path": "menu-photos/breakfast-brunch/scrambled-egg-ciabatta-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/scrambled-egg-ciabatta-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 248,
+      "item_name": "Side of Bacon",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224625_1352ea65-03f1-4aa0-8a22-3a2394c0fcc1.png",
+      "local_path": "menu-photos/breakfast-brunch/side-of-bacon-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/side-of-bacon-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 43,
+      "item_name": "Tortilla Omelette",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224627_64deb992-ff0f-4397-b99e-7e32af656c2e.png",
+      "local_path": "menu-photos/breakfast-brunch/tortilla-omelette-newgen.png",
+      "image_url": "/menu-photos/breakfast-brunch/tortilla-omelette-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 121,
+      "item_name": "Belgium Caramel Square",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224722_dfeb9efe-9532-4227-84bb-f4e934f447d9.png",
+      "local_path": "menu-photos/cakes-cookies-bites/belgium-caramel-square-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/belgium-caramel-square-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 250,
+      "item_name": "Banana Bread",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224722_a22de2bb-4ce6-4641-9cc2-0021e91a007a.png",
+      "local_path": "menu-photos/cakes-cookies-bites/banana-bread-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/banana-bread-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 270,
+      "item_name": "Biscoff Rocky Road",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224732_49ea0ab9-5909-4d14-8e11-afcbd79fb349.png",
+      "local_path": "menu-photos/cakes-cookies-bites/biscoff-rocky-road-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/biscoff-rocky-road-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 114,
+      "item_name": "Cheesecake",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224740_bead046e-a147-4aab-8ffd-9ef59cfdb76d.png",
+      "local_path": "menu-photos/cakes-cookies-bites/cheesecake-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/cheesecake-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 107,
+      "item_name": "Black Forest Gateau",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224733_4f1e01c5-9bc2-41e3-9829-4b4cfe239985.png",
+      "local_path": "menu-photos/cakes-cookies-bites/black-forest-gateau-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/black-forest-gateau-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 116,
+      "item_name": "Lemon Meringue",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224753_6a851966-c7c6-4f8d-99b6-12b0baf42cb9.png",
+      "local_path": "menu-photos/cakes-cookies-bites/lemon-meringue-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/lemon-meringue-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 122,
+      "item_name": "Honey Cake",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224822_ffc86f41-3110-47ee-a3f7-e340149295b2.png",
+      "local_path": "menu-photos/cakes-cookies-bites/honey-cake-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/honey-cake-newgen.png",
+      "refs_used": [
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF).jpg",
+        "mini-cakes-v7.jpeg",
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF) .jpg"
+      ]
+    },
+    {
+      "item_id": 251,
+      "item_name": "Cookie Cake",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224821_b80ed558-81b6-42f3-a886-a77d03e598dd.png",
+      "local_path": "menu-photos/cakes-cookies-bites/cookie-cake-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/cookie-cake-newgen.png",
+      "refs_used": [
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF).jpg",
+        "mini-cakes-v7.jpeg",
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF) .jpg"
+      ]
+    },
+    {
+      "item_id": 117,
+      "item_name": "Red Velvet",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224844_870b0de1-d6c6-48cc-a4ea-794c4e64b84b.png",
+      "local_path": "menu-photos/cakes-cookies-bites/red-velvet-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/red-velvet-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 108,
+      "item_name": "Rocky Road",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224849_3c0e675e-3ad0-47bf-880f-0f5014b3f331.png",
+      "local_path": "menu-photos/cakes-cookies-bites/rocky-road-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/rocky-road-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 109,
+      "item_name": "Strawberry Apple Pie",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224853_dd61f5fa-0349-46c5-a806-b79b4207f685.png",
+      "local_path": "menu-photos/cakes-cookies-bites/strawberry-apple-pie-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/strawberry-apple-pie-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 118,
+      "item_name": "Tiramisu",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224922_7a5cc29c-83ae-450a-a992-47f3b71a2098.png",
+      "local_path": "menu-photos/cakes-cookies-bites/tiramisu-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/tiramisu-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 123,
+      "item_name": "Passionfruit Cake",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224903_ccf747b1-e603-4166-ad1c-2be140ba16e9.png",
+      "local_path": "menu-photos/cakes-cookies-bites/passionfruit-cake-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/passionfruit-cake-newgen.png",
+      "refs_used": [
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF).jpg",
+        "mini-cakes-v7.jpeg",
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF) .jpg"
+      ]
+    },
+    {
+      "item_id": 115,
+      "item_name": "Rainbow Cake",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224911_e6739cc0-cf37-4e6a-b232-d6f3c6b4e667.png",
+      "local_path": "menu-photos/cakes-cookies-bites/rainbow-cake-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/rainbow-cake-newgen.png",
+      "refs_used": [
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF).jpg",
+        "mini-cakes-v7.jpeg",
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF) .jpg"
+      ]
+    },
+    {
+      "item_id": 119,
+      "item_name": "Peanut Butter Snickers Cake",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224904_f9427e56-2419-4f99-9f8b-c589174168d5.png",
+      "local_path": "menu-photos/cakes-cookies-bites/peanut-butter-snickers-cake-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/peanut-butter-snickers-cake-newgen.png",
+      "refs_used": [
+        "chocolate-peanut-cake-slice-Snickers Cake (GF).jpeg",
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF).jpg",
+        "mini-cakes-v7.jpeg"
+      ]
+    },
+    {
+      "item_id": 126,
+      "item_name": "Brownie",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224948_d028dff2-8552-4898-9aaf-a99c75a8e21c.png",
+      "local_path": "menu-photos/cakes-cookies-bites/brownie-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/brownie-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 120,
+      "item_name": "Zesty Lemon Cake",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224959_6b944098-4c97-4bd7-a52e-f6df04fa0df8.png",
+      "local_path": "menu-photos/cakes-cookies-bites/zesty-lemon-cake-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/zesty-lemon-cake-newgen.png",
+      "refs_used": [
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF).jpg",
+        "mini-cakes-v7.jpeg",
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF) .jpg"
+      ]
+    },
+    {
+      "item_id": 125,
+      "item_name": "Crumble Cookie",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225006_170dd83e-68ed-41a7-a709-7e0680c5a363.png",
+      "local_path": "menu-photos/cakes-cookies-bites/crumble-cookie-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/crumble-cookie-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 130,
+      "item_name": "Baby Soft Serve",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225025_401c1c88-6f6b-4343-aad3-069b36640f6a.png",
+      "local_path": "menu-photos/cakes-cookies-bites/baby-soft-serve-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/baby-soft-serve-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 127,
+      "item_name": "Protein Balls",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225026_ba1301ba-258c-4d7d-ae54-1700cab31389.png",
+      "local_path": "menu-photos/cakes-cookies-bites/protein-balls-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/protein-balls-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 132,
+      "item_name": "Large Soft Serve",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225033_b9e313d8-3af4-4091-8125-0ef5fb689849.png",
+      "local_path": "menu-photos/cakes-cookies-bites/large-soft-serve-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/large-soft-serve-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 131,
+      "item_name": "Regular Soft Serve",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225035_905b74fc-0562-4292-aca2-ea65f342d0e1.png",
+      "local_path": "menu-photos/cakes-cookies-bites/regular-soft-serve-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/regular-soft-serve-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 1,
+      "item_name": "Americano",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225103_da2f0c97-ec42-4567-9120-69be14ee3e6b.png",
+      "local_path": "menu-photos/coffee-tea/americano-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/americano-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 124,
+      "item_name": "Dubai Chocolate",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225107_cad30b23-7ef2-4c9f-b5f6-848d1f550fe9.png",
+      "local_path": "menu-photos/cakes-cookies-bites/dubai-chocolate-newgen.png",
+      "image_url": "/menu-photos/cakes-cookies-bites/dubai-chocolate-newgen.png",
+      "refs_used": [
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF).jpg",
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF) .jpg",
+        "cake-slice-generic-Chocolate Orange Cake.jpg"
+      ]
+    },
+    {
+      "item_id": 2,
+      "item_name": "Babyccino",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225115_74fddd64-6979-4c26-a7bd-af5d5791d28f.png",
+      "local_path": "menu-photos/coffee-tea/babyccino-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/babyccino-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 3,
+      "item_name": "Cappuccino",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225124_efd970f8-c3ab-4831-93ba-0203468c70b1.png",
+      "local_path": "menu-photos/coffee-tea/cappuccino-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/cappuccino-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 6,
+      "item_name": "Espresso",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225131_e72720e9-c892-44e8-ac3b-a3e4794ba4db.png",
+      "local_path": "menu-photos/coffee-tea/espresso-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/espresso-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 5,
+      "item_name": "Einspanner",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225131_8005a6a1-8940-4e58-8fe3-e9b6588ed948.png",
+      "local_path": "menu-photos/coffee-tea/einspanner-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/einspanner-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 7,
+      "item_name": "Flat White",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225146_f5affdad-1f77-4ff3-bbe3-210a32f82efd.png",
+      "local_path": "menu-photos/coffee-tea/flat-white-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/flat-white-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 4,
+      "item_name": "Chai Latte",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225205_04804c3a-40d8-4262-bea4-ececc2512de8.png",
+      "local_path": "menu-photos/coffee-tea/chai-latte-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/chai-latte-newgen.png",
+      "refs_used": [
+        "caramel-latte-Sweet-Life-Menu-Drogheda-V2-p8-i10-dbdf9d03.png",
+        "iced-caramel-latte-Sweet-Life-Menu-Newry-V2-2-p13-i11-051b81bf.png",
+        "hot-matcha-latte-Sweet-Life-Menu-Newry-V2-2-p14-i19-4209f92d.png"
+      ]
+    },
+    {
+      "item_id": 10,
+      "item_name": "Mocaccino",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225218_83b582d6-af73-42f2-b3b2-345f1f27dfee.png",
+      "local_path": "menu-photos/coffee-tea/mocaccino-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/mocaccino-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 9,
+      "item_name": "Macchiato",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225226_b56b2fef-ad16-4d9c-80bf-09919d575659.png",
+      "local_path": "menu-photos/coffee-tea/macchiato-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/macchiato-newgen.png",
+      "refs_used": [
+        "latte-macchiato-Sweet-Life-Menu-Newry-V2-(Flye-p14-i7-152d84fc.png"
+      ]
+    },
+    {
+      "item_id": 252,
+      "item_name": "Creamy Matcha",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225252_032441ce-5fb7-48ff-8317-34d36a22c974.png",
+      "local_path": "menu-photos/coffee-tea/creamy-matcha-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/creamy-matcha-newgen.png",
+      "refs_used": [
+        "hot-matcha-latte-Sweet-Life-Menu-Newry-V2-2-p14-i19-4209f92d.png",
+        "iced-matcha-latte-Sweet-Life-Menu-Newry-V2-(Flye-p12-i7-289a280b.png",
+        "pistachio-matcha-latte-Sweet-Life-Menu-Newry-V2-(Flye-p14-i19-a6aa3509.png"
+      ]
+    },
+    {
+      "item_id": 8,
+      "item_name": "Latte",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225240_d930b6b1-c18b-4cfb-bb1a-cee0aa023997.png",
+      "local_path": "menu-photos/coffee-tea/latte-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/latte-newgen.png",
+      "refs_used": [
+        "caramel-latte-Sweet-Life-Menu-Drogheda-V2-p8-i10-dbdf9d03.png",
+        "iced-caramel-latte-Sweet-Life-Menu-Newry-V2-2-p13-i11-051b81bf.png",
+        "hot-matcha-latte-Sweet-Life-Menu-Newry-V2-2-p14-i19-4209f92d.png"
+      ]
+    },
+    {
+      "item_id": 11,
+      "item_name": "Mocha / White Mocha",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225256_881efbf7-9490-4c7e-ac52-e7e9acc4b17f.png",
+      "local_path": "menu-photos/coffee-tea/mocha-white-mocha-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/mocha-white-mocha-newgen.png",
+      "refs_used": [
+        "iced-mocha-latte-Sweet-Life-Menu-Drogheda-V2-p8-i20-11adbdd5.png",
+        "iced-mocha-latte-Sweet-Life-Menu-Newry-V2-p14-i10-289ed140.png",
+        "iced-mocha-latte-earlier-extract-img-268-42f495d8.png"
+      ]
+    },
+    {
+      "item_id": 260,
+      "item_name": "Mango Matcha",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225301_1138d9d2-b6fd-4ce8-b222-68e47f03fb41.png",
+      "local_path": "menu-photos/coffee-tea/mango-matcha-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/mango-matcha-newgen.png",
+      "refs_used": [
+        "hot-matcha-latte-Sweet-Life-Menu-Newry-V2-2-p14-i19-4209f92d.png",
+        "iced-matcha-latte-Sweet-Life-Menu-Newry-V2-(Flye-p12-i7-289a280b.png",
+        "pistachio-matcha-latte-Sweet-Life-Menu-Newry-V2-(Flye-p14-i19-a6aa3509.png"
+      ]
+    },
+    {
+      "item_id": 15,
+      "item_name": "Matcha Latte",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225320_128ab807-3676-4de9-bc57-7d24a8c28a55.png",
+      "local_path": "menu-photos/coffee-tea/matcha-latte-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/matcha-latte-newgen.png",
+      "refs_used": [
+        "hot-matcha-latte-Sweet-Life-Menu-Newry-V2-2-p14-i19-4209f92d.png",
+        "iced-matcha-latte-Sweet-Life-Menu-Newry-V2-(Flye-p12-i7-289a280b.png",
+        "pistachio-matcha-latte-Sweet-Life-Menu-Newry-V2-(Flye-p14-i19-a6aa3509.png"
+      ]
+    },
+    {
+      "item_id": 12,
+      "item_name": "Jasmine Brew Tea",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225324_052a322a-5efc-469a-a1d4-77ceb3b58b56.png",
+      "local_path": "menu-photos/coffee-tea/jasmine-brew-tea-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/jasmine-brew-tea-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 16,
+      "item_name": "Matcha Tea",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225336_6dd1edd4-3e43-4f02-9e3a-e7bc2fd7e9f3.png",
+      "local_path": "menu-photos/coffee-tea/matcha-tea-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/matcha-tea-newgen.png",
+      "refs_used": [
+        "hot-matcha-latte-Sweet-Life-Menu-Newry-V2-2-p14-i19-4209f92d.png",
+        "iced-matcha-latte-Sweet-Life-Menu-Newry-V2-(Flye-p12-i7-289a280b.png",
+        "pistachio-matcha-latte-Sweet-Life-Menu-Newry-V2-(Flye-p14-i19-a6aa3509.png"
+      ]
+    },
+    {
+      "item_id": 13,
+      "item_name": "Raspberry, Ginger & Lemon Tea",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225330_8e882e31-7edf-414b-8b59-abf4c294e284.png",
+      "local_path": "menu-photos/coffee-tea/raspberry-ginger-lemon-tea-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/raspberry-ginger-lemon-tea-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 14,
+      "item_name": "Tea",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225355_6f09d6de-0af5-44e3-90c8-31bcae3237cc.png",
+      "local_path": "menu-photos/coffee-tea/tea-newgen.png",
+      "image_url": "/menu-photos/coffee-tea/tea-newgen.png",
+      "refs_used": []
+    },
+    {
+      "item_id": 144,
+      "item_name": "Choco Banana Golden Toast",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225424_8aa1e172-253e-4481-9374-cdcc291c8477.png",
+      "local_path": "menu-photos/golden-toast/choco-banana-golden-toast-newgen.png",
+      "image_url": "/menu-photos/golden-toast/choco-banana-golden-toast-newgen.png",
+      "refs_used": [
+        "golden-toast-chocolate-banana-Sweet-Life-Menu-Newry-V2-(Flye-p11-i1-6aa849c5.png",
+        "golden-toast-banana-chocolate-Sweet-Life-Menu-Drogheda-V2-p10-i7-94a9cefe.png",
+        "golden-toast-banana-chocolate-Sweet-Life-Menu-Newry-V2-p11-i2-b02e140f.png"
+      ]
+    },
+    {
+      "item_id": 146,
+      "item_name": "Apple Pie Golden Toast",
+      "status": "ok",
+      "model": "nano_banana_2",
+      "credits": 2,
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_225432_075cd0e0-7eeb-4316-baf3-24c06c61cbea.png",
+      "local_path": "menu-photos/golden-toast/apple-pie-golden-toast-newgen.png",
+      "image_url": "/menu-photos/golden-toast/apple-pie-golden-toast-newgen.png",
+      "refs_used": [
+        "golden-toast-with-apples-and-ice-cream-Sweet-Life-Menu-Newry-V2-p11-i29-64a87633.png",
+        "golden-toast-apple-cinnamon-Sweet-Life-Menu-Drogheda-V2-p10-i3-3f236e3c.png",
+        "smores-toast-SweetLifeCafe_GoldenToastS_More.jpg"
+      ]
+    }
+  ]
 }
