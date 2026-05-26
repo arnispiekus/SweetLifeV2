@@ -19,16 +19,42 @@ LOG_PATH = REPO / "menu-extraction/sources/matches/batch_regen_log.json"
 
 # subsection_slug → (ref folder under products/, model, credits)
 ROUTING = {
-    "korean-shaved-ice":     ("bingsu",         "gpt_image_2",     7),
-    "milk-tea":              ("milk-teas",      "nano_banana_2",   2),
-    "fruit-tea":             ("fruit-teas",     "nano_banana_2",   2),
-    "frappes":               ("frappes",        "nano_banana_2",   2),
-    "milkshakes":            ("milkshakes",     "nano_banana_2",   2),
-    "protein-shakes":        ("protein-shakes", "nano_banana_2",   2),
-    "smoothies":             ("smoothies",      "nano_banana_2",   2),
-    "refreshing-drinks":     ("fruit-teas",     "nano_banana_2",   2),  # fallback to fruit-teas
-    "hot-chocolates":        ("lattes-coffee",  "nano_banana_2",   2),
-    "lattes-coffee-blends":  ("lattes-coffee",  "nano_banana_2",   2),
+    # Phase 1 part 1 (bingsu + drinks — already done)
+    "korean-shaved-ice":     ("bingsu",            "gpt_image_2",     7),
+    "milk-tea":              ("milk-teas",         "nano_banana_2",   2),
+    "fruit-tea":             ("fruit-teas",        "nano_banana_2",   2),
+    "frappes":               ("frappes",           "nano_banana_2",   2),
+    "milkshakes":            ("milkshakes",        "nano_banana_2",   2),
+    "protein-shakes":        ("protein-shakes",    "nano_banana_2",   2),
+    "smoothies":             ("smoothies",         "nano_banana_2",   2),
+    "refreshing-drinks":     ("fruit-teas",        "nano_banana_2",   2),
+    "hot-chocolates":        ("lattes-coffee",     "nano_banana_2",   2),
+    "lattes-coffee-blends":  ("lattes-coffee",     "nano_banana_2",   2),
+    # Phase 1 part 2 — everything else
+    "croissants":            ("croissants",        "nano_banana_2",   2),
+    "scones":                ("croissants",        "nano_banana_2",   2),   # fallback: croissants folder has bakery-ish
+    "other-pastries":        ("cakes",             "nano_banana_2",   2),
+    "acai-granola-bowl":     ("breakfast-bowls",   "nano_banana_2",   2),
+    "breakfast-brunch":      ("breakfast-bowls",   "nano_banana_2",   2),
+    "add-ice-cream":         ("ice-cream",         "nano_banana_2",   2),
+    "cakes-pies":            ("cakes",             "nano_banana_2",   2),
+    "cookies-small-bites":   ("cakes",             "nano_banana_2",   2),
+    "soft-serve-ice-cream":  ("ice-cream",         "nano_banana_2",   2),
+    "coffee":                ("lattes-coffee",     "nano_banana_2",   2),
+    "matcha":                ("lattes-coffee",     "nano_banana_2",   2),
+    "tea":                   ("teas",              "nano_banana_2",   2),
+    "golden-toast":          ("golden-toast",      "nano_banana_2",   2),
+    "gluten-free":           ("cakes",             "nano_banana_2",   2),
+    "keto":                  ("sandwiches",        "nano_banana_2",   2),
+    "vegan":                 ("sandwiches",        "nano_banana_2",   2),
+    "create-your-own":       ("sandwiches",        "nano_banana_2",   2),
+    "mains":                 ("bowls",             "nano_banana_2",   2),
+    "american-pancake":      ("souffle-pancakes",  "nano_banana_2",   2),
+    "crepe":                 ("souffle-pancakes",  "nano_banana_2",   2),
+    "souffle-pancake":       ("souffle-pancakes",  "nano_banana_2",   2),
+    "waffle":                ("waffles",           "nano_banana_2",   2),
+    "salads":                ("salads",            "nano_banana_2",   2),
+    "sushi-platters":        ("sushi",             "nano_banana_2",   2),  # may not exist, fallback handled in pick_refs
 }
 
 def pick_refs(item_name: str, ref_dir: Path, max_refs: int = 3) -> list[Path]:

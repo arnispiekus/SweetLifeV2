@@ -1,492 +1,1192 @@
 [
   {
-    "id": 143,
-    "name": "Matcha Bingsu",
-    "slug": "matcha-bingsu",
-    "section_slug": "bingsu",
-    "subsection_slug": "korean-shaved-ice"
+    "id": 22,
+    "name": "Butter & Jam Croissant",
+    "slug": "butter-jam-croissant",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "croissants"
   },
   {
-    "id": 134,
-    "name": "Oreo Choco Bingsu",
-    "slug": "oreo-choco-bingsu",
-    "section_slug": "bingsu",
-    "subsection_slug": "korean-shaved-ice"
+    "id": 25,
+    "name": "Ham & Cheese Croissant",
+    "slug": "ham-cheese-croissant",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "croissants"
   },
   {
-    "id": 136,
-    "name": "Taro Bingsu",
-    "slug": "taro-bingsu",
-    "section_slug": "bingsu",
-    "subsection_slug": "korean-shaved-ice"
+    "id": 246,
+    "name": "Lemon Croissant",
+    "slug": "lemon-croissant",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "croissants"
   },
   {
-    "id": 214,
-    "name": "Beetroot Latte",
-    "slug": "beetroot-latte",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 23,
+    "name": "Nutella Croissant",
+    "slug": "nutella-croissant",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "croissants"
   },
   {
-    "id": 218,
-    "name": "Blue Lagoon Latte",
-    "slug": "blue-lagoon-latte",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 24,
+    "name": "Pistachio Croissant",
+    "slug": "pistachio-croissant",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "croissants"
   },
   {
-    "id": 224,
-    "name": "Coconut Coffee Lychee Blend",
-    "slug": "coconut-coffee-lychee-blend",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 21,
+    "name": "Plain Croissant",
+    "slug": "plain-croissant",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "croissants"
   },
   {
-    "id": 212,
-    "name": "Coconut Kiss Latte",
-    "slug": "coconut-kiss-latte",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 245,
+    "name": "Beef & Mince Pie",
+    "slug": "beef-mince-pie",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "other-pastries"
   },
   {
-    "id": 223,
-    "name": "Cream Panner",
-    "slug": "cream-panner",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 28,
+    "name": "Cinnamon Bun",
+    "slug": "cinnamon-bun",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "other-pastries"
   },
   {
-    "id": 225,
-    "name": "Creamy Coconut Coffee Dream",
-    "slug": "creamy-coconut-coffee-dream",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 29,
+    "name": "Danish Pastry",
+    "slug": "danish-pastry",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "other-pastries"
   },
   {
-    "id": 217,
-    "name": "Creme Brulee Latte",
-    "slug": "creme-brulee-latte",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 26,
+    "name": "Muffins",
+    "slug": "muffins",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "other-pastries"
   },
   {
-    "id": 219,
-    "name": "Ice-Cream Espresso",
-    "slug": "ice-cream-espresso",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 247,
+    "name": "Pistachio Donut",
+    "slug": "pistachio-donut",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "other-pastries"
   },
   {
-    "id": 222,
-    "name": "Kinder Bueno Latte",
-    "slug": "kinder-bueno-latte",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 27,
+    "name": "Sausage Roll",
+    "slug": "sausage-roll",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "other-pastries"
   },
   {
-    "id": 220,
-    "name": "Lotus Biscoff Latte",
-    "slug": "lotus-biscoff-latte",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 19,
+    "name": "Fruit Scone",
+    "slug": "fruit-scone",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "scones"
   },
   {
-    "id": 227,
-    "name": "Panda",
-    "slug": "panda",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 20,
+    "name": "Gluten Free Scone",
+    "slug": "gluten-free-scone",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "scones"
   },
   {
-    "id": 221,
-    "name": "Peanut Butter Latte",
-    "slug": "peanut-butter-latte",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 17,
+    "name": "Plain Scone",
+    "slug": "plain-scone",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "scones"
   },
   {
-    "id": 226,
-    "name": "Pistachio Latte",
-    "slug": "pistachio-latte",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 18,
+    "name": "Raspberry & White Chocolate Scone",
+    "slug": "raspberry-white-chocolate-scone",
+    "section_slug": "bakery-pastries",
+    "subsection_slug": "scones"
   },
   {
-    "id": 215,
-    "name": "Strawberry Latte",
-    "slug": "strawberry-latte",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 45,
+    "name": "Acai Granola Bowl",
+    "slug": "acai-granola-bowl",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "acai-granola-bowl"
   },
   {
-    "id": 213,
-    "name": "Tiramisu Latte",
-    "slug": "tiramisu-latte",
-    "section_slug": "gourmet-lattes",
-    "subsection_slug": "lattes-coffee-blends"
+    "id": 32,
+    "name": "Breakfast Muffin",
+    "slug": "breakfast-muffin",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 195,
-    "name": "Bounty Frappe",
-    "slug": "bounty-frappe",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "frappes"
+    "id": 44,
+    "name": "Breakfast Taco",
+    "slug": "breakfast-taco",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 196,
-    "name": "Chocolate Chip Frappe",
-    "slug": "chocolate-chip-frappe",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "frappes"
+    "id": 38,
+    "name": "Cranberry Brie Toast",
+    "slug": "cranberry-brie-toast",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 193,
-    "name": "Kinder Bueno Frappe",
-    "slug": "kinder-bueno-frappe",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "frappes"
+    "id": 33,
+    "name": "Egg Toast",
+    "slug": "egg-toast",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 194,
-    "name": "Lotus Biscoff Frappe",
-    "slug": "lotus-biscoff-frappe",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "frappes"
+    "id": 40,
+    "name": "French Toast Benedict",
+    "slug": "french-toast-benedict",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 198,
-    "name": "Pistachio Frappe",
-    "slug": "pistachio-frappe",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "frappes"
+    "id": 39,
+    "name": "French Toast x2 with Bacon & Maple Syrup",
+    "slug": "french-toast-x2-with-bacon-maple-syrup",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 192,
-    "name": "Strawberry Cheesecake Frappe",
-    "slug": "strawberry-cheesecake-frappe",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "frappes"
+    "id": 37,
+    "name": "Good Morning Breakfast",
+    "slug": "good-morning-breakfast",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 197,
-    "name": "Summer Fruits Frappe",
-    "slug": "summer-fruits-frappe",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "frappes"
+    "id": 35,
+    "name": "Hello Sunrise",
+    "slug": "hello-sunrise",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 175,
-    "name": "Apple Jasmine Green Tea",
-    "slug": "apple-jasmine-green-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "fruit-tea"
+    "id": 31,
+    "name": "Omelette (GF)",
+    "slug": "omelette-gf",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 172,
-    "name": "Kumquat Jasmine Green Tea",
-    "slug": "kumquat-jasmine-green-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "fruit-tea"
+    "id": 42,
+    "name": "Poached Egg & Bacon Bagel",
+    "slug": "poached-egg-bacon-bagel",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 170,
-    "name": "Lemon Assam Black Tea",
-    "slug": "lemon-assam-black-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "fruit-tea"
+    "id": 30,
+    "name": "Porridge",
+    "slug": "porridge",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 176,
-    "name": "Lychee Jasmine Green Tea",
-    "slug": "lychee-jasmine-green-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "fruit-tea"
+    "id": 36,
+    "name": "Salmon Sunrise",
+    "slug": "salmon-sunrise",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 174,
-    "name": "Mango Jasmine Green Tea",
-    "slug": "mango-jasmine-green-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "fruit-tea"
+    "id": 41,
+    "name": "Scrambled Egg Ciabatta",
+    "slug": "scrambled-egg-ciabatta",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 173,
-    "name": "Passionfruit Assam Black Tea",
-    "slug": "passionfruit-assam-black-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "fruit-tea"
+    "id": 248,
+    "name": "Side of Bacon",
+    "slug": "side-of-bacon",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 171,
-    "name": "Raspberry Jasmine Green Tea",
-    "slug": "raspberry-jasmine-green-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "fruit-tea"
+    "id": 34,
+    "name": "Simply Morning",
+    "slug": "simply-morning",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 166,
-    "name": "Assam Black Milk Tea",
-    "slug": "assam-black-milk-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milk-tea"
+    "id": 249,
+    "name": "Smoothie Bowl",
+    "slug": "smoothie-bowl",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 160,
-    "name": "Blueberry Milk Tea",
-    "slug": "blueberry-milk-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milk-tea"
+    "id": 43,
+    "name": "Tortilla Omelette",
+    "slug": "tortilla-omelette",
+    "section_slug": "breakfast-brunch",
+    "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 169,
-    "name": "Brown Sugar Milk Tea",
-    "slug": "brown-sugar-milk-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milk-tea"
+    "id": 129,
+    "name": "Homemade Ice-cream",
+    "slug": "homemade-ice-cream",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "add-ice-cream"
   },
   {
-    "id": 165,
-    "name": "Caramel Milk Tea",
-    "slug": "caramel-milk-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milk-tea"
+    "id": 128,
+    "name": "Small Scoop",
+    "slug": "small-scoop",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "add-ice-cream"
   },
   {
-    "id": 168,
-    "name": "Chocolate Milk Tea",
-    "slug": "chocolate-milk-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milk-tea"
+    "id": 110,
+    "name": "Amaretto Cake",
+    "slug": "amaretto-cake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 167,
-    "name": "Dark Oolong Milk Tea",
-    "slug": "dark-oolong-milk-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milk-tea"
+    "id": 250,
+    "name": "Banana Bread",
+    "slug": "banana-bread",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 163,
-    "name": "Matcha Milk Tea",
-    "slug": "matcha-milk-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milk-tea"
+    "id": 121,
+    "name": "Belgium Caramel Square",
+    "slug": "belgium-caramel-square",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 164,
-    "name": "Strawberry Milk Tea",
-    "slug": "strawberry-milk-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milk-tea"
+    "id": 270,
+    "name": "Biscoff Rocky Road",
+    "slug": "biscoff-rocky-road",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 161,
-    "name": "Taro Milk Tea",
-    "slug": "taro-milk-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milk-tea"
+    "id": 107,
+    "name": "Black Forest Gateau",
+    "slug": "black-forest-gateau",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 162,
-    "name": "Thai Tea Milk Tea",
-    "slug": "thai-tea-milk-tea",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milk-tea"
+    "id": 113,
+    "name": "Carrot Cake",
+    "slug": "carrot-cake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 204,
-    "name": "Banana Milkshake",
-    "slug": "banana-milkshake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milkshakes"
+    "id": 114,
+    "name": "Cheesecake",
+    "slug": "cheesecake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 206,
-    "name": "Caramel Milkshake",
-    "slug": "caramel-milkshake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milkshakes"
+    "id": 111,
+    "name": "Chocolate Cake",
+    "slug": "chocolate-cake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 200,
-    "name": "Mango Yogurt Milkshake",
-    "slug": "mango-yogurt-milkshake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milkshakes"
+    "id": 112,
+    "name": "Coffee Cake",
+    "slug": "coffee-cake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 201,
-    "name": "Oreo Vanilla Milkshake",
-    "slug": "oreo-vanilla-milkshake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milkshakes"
+    "id": 251,
+    "name": "Cookie Cake",
+    "slug": "cookie-cake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 203,
-    "name": "Pure Matcha Milkshake",
-    "slug": "pure-matcha-milkshake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milkshakes"
+    "id": 122,
+    "name": "Honey Cake",
+    "slug": "honey-cake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 205,
-    "name": "Strawberry Yogurt Milkshake",
-    "slug": "strawberry-yogurt-milkshake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milkshakes"
+    "id": 116,
+    "name": "Lemon Meringue",
+    "slug": "lemon-meringue",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 199,
-    "name": "Taro Milkshake",
-    "slug": "taro-milkshake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milkshakes"
+    "id": 123,
+    "name": "Passionfruit Cake",
+    "slug": "passionfruit-cake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 202,
-    "name": "Vanilla Milkshake",
-    "slug": "vanilla-milkshake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "milkshakes"
+    "id": 119,
+    "name": "Peanut Butter Snickers Cake",
+    "slug": "peanut-butter-snickers-cake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 210,
-    "name": "Banana Protein Shake",
-    "slug": "banana-protein-shake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "protein-shakes"
+    "id": 115,
+    "name": "Rainbow Cake",
+    "slug": "rainbow-cake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 208,
-    "name": "Chocolate Protein Shake",
-    "slug": "chocolate-protein-shake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "protein-shakes"
+    "id": 117,
+    "name": "Red Velvet",
+    "slug": "red-velvet",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 211,
-    "name": "Salted Caramel Protein Shake",
-    "slug": "salted-caramel-protein-shake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "protein-shakes"
+    "id": 108,
+    "name": "Rocky Road",
+    "slug": "rocky-road",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 209,
-    "name": "Strawberry Protein Shake",
-    "slug": "strawberry-protein-shake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "protein-shakes"
+    "id": 109,
+    "name": "Strawberry Apple Pie",
+    "slug": "strawberry-apple-pie",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 207,
-    "name": "Vanilla Protein Shake",
-    "slug": "vanilla-protein-shake",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "protein-shakes"
+    "id": 118,
+    "name": "Tiramisu",
+    "slug": "tiramisu",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 178,
-    "name": "Cherry Velvet Sip",
-    "slug": "cherry-velvet-sip",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "refreshing-drinks"
+    "id": 120,
+    "name": "Zesty Lemon Cake",
+    "slug": "zesty-lemon-cake",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cakes-pies"
   },
   {
-    "id": 177,
-    "name": "Green Oasis",
-    "slug": "green-oasis",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "refreshing-drinks"
+    "id": 126,
+    "name": "Brownie",
+    "slug": "brownie",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cookies-small-bites"
   },
   {
-    "id": 179,
-    "name": "Lychee Mojito",
-    "slug": "lychee-mojito",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "refreshing-drinks"
+    "id": 125,
+    "name": "Crumble Cookie",
+    "slug": "crumble-cookie",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cookies-small-bites"
   },
   {
-    "id": 180,
-    "name": "Passionfruit Mojito",
-    "slug": "passionfruit-mojito",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "refreshing-drinks"
+    "id": 124,
+    "name": "Dubai Chocolate",
+    "slug": "dubai-chocolate",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cookies-small-bites"
   },
   {
-    "id": 187,
-    "name": "Acai Kick Smoothie",
-    "slug": "acai-kick-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 127,
+    "name": "Protein Balls",
+    "slug": "protein-balls",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "cookies-small-bites"
   },
   {
-    "id": 186,
-    "name": "Beet & Berry Smoothie",
-    "slug": "beet-berry-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 130,
+    "name": "Baby Soft Serve",
+    "slug": "baby-soft-serve",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "soft-serve-ice-cream"
   },
   {
-    "id": 189,
-    "name": "Berry Burst Smoothie",
-    "slug": "berry-burst-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 132,
+    "name": "Large Soft Serve",
+    "slug": "large-soft-serve",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "soft-serve-ice-cream"
   },
   {
-    "id": 184,
-    "name": "Coconut Crush Smoothie",
-    "slug": "coconut-crush-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 131,
+    "name": "Regular Soft Serve",
+    "slug": "regular-soft-serve",
+    "section_slug": "cakes-cookies-bites",
+    "subsection_slug": "soft-serve-ice-cream"
   },
   {
-    "id": 190,
-    "name": "Green Reviver Smoothie",
-    "slug": "green-reviver-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 1,
+    "name": "Americano",
+    "slug": "americano",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
   },
   {
-    "id": 191,
-    "name": "Mango Dream Smoothie",
-    "slug": "mango-dream-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 2,
+    "name": "Babyccino",
+    "slug": "babyccino",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
   },
   {
-    "id": 188,
-    "name": "Oaty Banana Smoothie",
-    "slug": "oaty-banana-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 3,
+    "name": "Cappuccino",
+    "slug": "cappuccino",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
   },
   {
-    "id": 185,
-    "name": "Passion Storm Smoothie",
-    "slug": "passion-storm-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 4,
+    "name": "Chai Latte",
+    "slug": "chai-latte",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
   },
   {
-    "id": 182,
-    "name": "Pineapple Sunset Smoothie",
-    "slug": "pineapple-sunset-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 5,
+    "name": "Einspanner",
+    "slug": "einspanner",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
   },
   {
-    "id": 183,
-    "name": "Raspberry Heaven Smoothie",
-    "slug": "raspberry-heaven-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 6,
+    "name": "Espresso",
+    "slug": "espresso",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
   },
   {
-    "id": 181,
-    "name": "Strawberry Fantasy Smoothie",
-    "slug": "strawberry-fantasy-smoothie",
-    "section_slug": "signature-drinks",
-    "subsection_slug": "smoothies"
+    "id": 7,
+    "name": "Flat White",
+    "slug": "flat-white",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
+  },
+  {
+    "id": 8,
+    "name": "Latte",
+    "slug": "latte",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
+  },
+  {
+    "id": 9,
+    "name": "Macchiato",
+    "slug": "macchiato",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
+  },
+  {
+    "id": 10,
+    "name": "Mocaccino",
+    "slug": "mocaccino",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
+  },
+  {
+    "id": 11,
+    "name": "Mocha / White Mocha",
+    "slug": "mocha-white-mocha",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "coffee"
+  },
+  {
+    "id": 252,
+    "name": "Creamy Matcha",
+    "slug": "creamy-matcha",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "matcha"
+  },
+  {
+    "id": 260,
+    "name": "Mango Matcha",
+    "slug": "mango-matcha",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "matcha"
+  },
+  {
+    "id": 15,
+    "name": "Matcha Latte",
+    "slug": "matcha-latte",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "matcha"
+  },
+  {
+    "id": 16,
+    "name": "Matcha Tea",
+    "slug": "matcha-tea",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "matcha"
+  },
+  {
+    "id": 12,
+    "name": "Jasmine Brew Tea",
+    "slug": "jasmine-brew-tea",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "tea"
+  },
+  {
+    "id": 13,
+    "name": "Raspberry, Ginger & Lemon Tea",
+    "slug": "raspberry-ginger-lemon-tea",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "tea"
+  },
+  {
+    "id": 14,
+    "name": "Tea",
+    "slug": "tea",
+    "section_slug": "coffee-tea",
+    "subsection_slug": "tea"
+  },
+  {
+    "id": 146,
+    "name": "Apple Pie Golden Toast",
+    "slug": "apple-pie-golden-toast",
+    "section_slug": "golden-toast",
+    "subsection_slug": "golden-toast"
+  },
+  {
+    "id": 144,
+    "name": "Choco Banana Golden Toast",
+    "slug": "choco-banana-golden-toast",
+    "section_slug": "golden-toast",
+    "subsection_slug": "golden-toast"
+  },
+  {
+    "id": 148,
+    "name": "Mango Golden Toast",
+    "slug": "mango-golden-toast",
+    "section_slug": "golden-toast",
+    "subsection_slug": "golden-toast"
+  },
+  {
+    "id": 145,
+    "name": "Mixed Berry Golden Toast",
+    "slug": "mixed-berry-golden-toast",
+    "section_slug": "golden-toast",
+    "subsection_slug": "golden-toast"
+  },
+  {
+    "id": 147,
+    "name": "S'more Golden Toast",
+    "slug": "s-more-golden-toast",
+    "section_slug": "golden-toast",
+    "subsection_slug": "golden-toast"
+  },
+  {
+    "id": 99,
+    "name": "Bagel (GF)",
+    "slug": "bagel-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "gluten-free"
+  },
+  {
+    "id": 101,
+    "name": "Bap (GF)",
+    "slug": "bap-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "gluten-free"
+  },
+  {
+    "id": 103,
+    "name": "Chocolate Fudge Cake (GF)",
+    "slug": "chocolate-fudge-cake-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "gluten-free"
+  },
+  {
+    "id": 105,
+    "name": "Macaroon (GF)",
+    "slug": "macaroon-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "gluten-free"
+  },
+  {
+    "id": 106,
+    "name": "Muffin (GF)",
+    "slug": "muffin-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "gluten-free"
+  },
+  {
+    "id": 98,
+    "name": "Scone (GF)",
+    "slug": "scone-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "gluten-free"
+  },
+  {
+    "id": 104,
+    "name": "Snickers Cake / Toblerone (GF)",
+    "slug": "snickers-cake-toblerone-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "gluten-free"
+  },
+  {
+    "id": 100,
+    "name": "Toastie/Sandwich (GF)",
+    "slug": "toastie-sandwich-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "gluten-free"
+  },
+  {
+    "id": 102,
+    "name": "Waffle (GF)",
+    "slug": "waffle-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "gluten-free"
+  },
+  {
+    "id": 90,
+    "name": "Almond Belgium Waffle (K)",
+    "slug": "almond-belgium-waffle-k",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "keto"
+  },
+  {
+    "id": 253,
+    "name": "Creamy Almond Coffee Dream (K)",
+    "slug": "creamy-almond-coffee-dream-k",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "keto"
+  },
+  {
+    "id": 92,
+    "name": "Mozzarella Omelette Sandwich (K)",
+    "slug": "mozzarella-omelette-sandwich-k",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "keto"
+  },
+  {
+    "id": 91,
+    "name": "Omelette (K)",
+    "slug": "omelette-k",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "keto"
+  },
+  {
+    "id": 93,
+    "name": "Sushi Bowl (K)",
+    "slug": "sushi-bowl-k",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "keto"
+  },
+  {
+    "id": 96,
+    "name": "Vegan Burger (V)(GF*)",
+    "slug": "vegan-burger-v-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "vegan"
+  },
+  {
+    "id": 97,
+    "name": "Vegan Kiev (V)(GF)",
+    "slug": "vegan-kiev-v-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "vegan"
+  },
+  {
+    "id": 94,
+    "name": "Vegan Sausages Bap (V)(GF*)",
+    "slug": "vegan-sausages-bap-v-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "vegan"
+  },
+  {
+    "id": 95,
+    "name": "Vegan Taco (V)(GF*)",
+    "slug": "vegan-taco-v-gf",
+    "section_slug": "keto-vegan-gluten-free",
+    "subsection_slug": "vegan"
+  },
+  {
+    "id": 71,
+    "name": "Baguette",
+    "slug": "baguette",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 66,
+    "name": "Bap",
+    "slug": "bap",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 78,
+    "name": "Chips",
+    "slug": "chips",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 255,
+    "name": "Ciabatta",
+    "slug": "ciabatta",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 76,
+    "name": "Crepe",
+    "slug": "crepe",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 79,
+    "name": "Jacket Potato",
+    "slug": "jacket-potato",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 74,
+    "name": "Omelette",
+    "slug": "omelette",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 68,
+    "name": "Panini",
+    "slug": "panini",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 82,
+    "name": "Pasta Tagliatelle",
+    "slug": "pasta-tagliatelle",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 72,
+    "name": "Quesadilla",
+    "slug": "quesadilla",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 77,
+    "name": "Rice",
+    "slug": "rice",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 80,
+    "name": "Salad",
+    "slug": "salad",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 64,
+    "name": "Sandwich",
+    "slug": "sandwich",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 69,
+    "name": "Sourdough Bagel",
+    "slug": "sourdough-bagel",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 73,
+    "name": "Sourdough Pizza",
+    "slug": "sourdough-pizza",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 70,
+    "name": "Sourdough Pizza Bagel",
+    "slug": "sourdough-pizza-bagel",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 81,
+    "name": "Taco",
+    "slug": "taco",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 65,
+    "name": "Toastie",
+    "slug": "toastie",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 75,
+    "name": "Tortilla Omelette",
+    "slug": "tortilla-omelette",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 67,
+    "name": "Wrap",
+    "slug": "wrap",
+    "section_slug": "lunch",
+    "subsection_slug": "create-your-own"
+  },
+  {
+    "id": 52,
+    "name": "Air Fried Sushi Hot Dog (GF*)(V*)",
+    "slug": "air-fried-sushi-hot-dog-gf-v",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 258,
+    "name": "Bao Buns",
+    "slug": "bao-buns",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 254,
+    "name": "Beetroot Belgium Waffle",
+    "slug": "beetroot-belgium-waffle",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 47,
+    "name": "Beetroot Feta Burger",
+    "slug": "beetroot-feta-burger",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 50,
+    "name": "Bibimbap (GF)(V*)",
+    "slug": "bibimbap-gf-v",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 49,
+    "name": "Black Jack Pulled Pork Burger",
+    "slug": "black-jack-pulled-pork-burger",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 54,
+    "name": "Chicken Curry (GF)",
+    "slug": "chicken-curry-gf",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 257,
+    "name": "Chicken Goujons x3",
+    "slug": "chicken-goujons-x3",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 48,
+    "name": "Chicken Wings",
+    "slug": "chicken-wings",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 59,
+    "name": "Crispy Chicken Naan Kebab",
+    "slug": "crispy-chicken-naan-kebab",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 268,
+    "name": "English Muffin",
+    "slug": "english-muffin",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 63,
+    "name": "Festive Toastie",
+    "slug": "festive-toastie",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 62,
+    "name": "Fishcake Burger",
+    "slug": "fishcake-burger",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 256,
+    "name": "Fried Rice",
+    "slug": "fried-rice",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 55,
+    "name": "Goujons & Chips",
+    "slug": "goujons-chips",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 58,
+    "name": "Homemade Soup of the Day",
+    "slug": "homemade-soup-of-the-day",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 53,
+    "name": "Jacket Potato",
+    "slug": "jacket-potato",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 60,
+    "name": "Meatball Tagliatelle Pasta",
+    "slug": "meatball-tagliatelle-pasta",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 56,
+    "name": "Mexican Panini",
+    "slug": "mexican-panini",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 267,
+    "name": "Mixed Grain Energy Bowl",
+    "slug": "mixed-grain-energy-bowl",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 271,
+    "name": "Pizza Quesadilla",
+    "slug": "pizza-quesadilla",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 51,
+    "name": "Poke Bowl (GF*)(V)",
+    "slug": "poke-bowl-gf-v",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 46,
+    "name": "Prosciutto Ham & Feta Cheese Baguette",
+    "slug": "prosciutto-ham-feta-cheese-baguette",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 61,
+    "name": "Ramen Soup (*V)",
+    "slug": "ramen-soup-v",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 259,
+    "name": "Sweet Life Power Bowl",
+    "slug": "sweet-life-power-bowl",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 57,
+    "name": "The Mohawk Burger & Fries",
+    "slug": "the-mohawk-burger-fries",
+    "section_slug": "lunch",
+    "subsection_slug": "mains"
+  },
+  {
+    "id": 152,
+    "name": "Matcha American Pancake",
+    "slug": "matcha-american-pancake",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "american-pancake"
+  },
+  {
+    "id": 151,
+    "name": "Original American Pancake",
+    "slug": "original-american-pancake",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "american-pancake"
+  },
+  {
+    "id": 159,
+    "name": "Crepe",
+    "slug": "crepe",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "crepe"
+  },
+  {
+    "id": 149,
+    "name": "Choco Banana Souffle Pancake",
+    "slug": "choco-banana-souffle-pancake",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "souffle-pancake"
+  },
+  {
+    "id": 150,
+    "name": "S'more Souffle Pancake",
+    "slug": "s-more-souffle-pancake",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "souffle-pancake"
+  },
+  {
+    "id": 156,
+    "name": "Banana-Lotus Waffle",
+    "slug": "banana-lotus-waffle",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "waffle"
+  },
+  {
+    "id": 266,
+    "name": "Bubble Waffle",
+    "slug": "bubble-waffle",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "waffle"
+  },
+  {
+    "id": 158,
+    "name": "Lemon Maple Syrup Icing Waffle",
+    "slug": "lemon-maple-syrup-icing-waffle",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "waffle"
+  },
+  {
+    "id": 154,
+    "name": "Oreo Waffle",
+    "slug": "oreo-waffle",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "waffle"
+  },
+  {
+    "id": 157,
+    "name": "Plain Waffle (with Nutella ice cream)",
+    "slug": "plain-waffle-with-nutella-ice-cream",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "waffle"
+  },
+  {
+    "id": 155,
+    "name": "Strawberry Choco Waffle",
+    "slug": "strawberry-choco-waffle",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "waffle"
+  },
+  {
+    "id": 153,
+    "name": "Strawberry Waffle",
+    "slug": "strawberry-waffle",
+    "section_slug": "pancakes-waffles",
+    "subsection_slug": "waffle"
+  },
+  {
+    "id": 87,
+    "name": "Balsamic Mozzarella Salad",
+    "slug": "balsamic-mozzarella-salad",
+    "section_slug": "salads",
+    "subsection_slug": "salads"
+  },
+  {
+    "id": 83,
+    "name": "Caesar Salad",
+    "slug": "caesar-salad",
+    "section_slug": "salads",
+    "subsection_slug": "salads"
+  },
+  {
+    "id": 86,
+    "name": "Caprese Salad",
+    "slug": "caprese-salad",
+    "section_slug": "salads",
+    "subsection_slug": "salads"
+  },
+  {
+    "id": 89,
+    "name": "Create Your Own Salad",
+    "slug": "create-your-own-salad",
+    "section_slug": "salads",
+    "subsection_slug": "salads"
+  },
+  {
+    "id": 88,
+    "name": "Crispy Chicken Salad",
+    "slug": "crispy-chicken-salad",
+    "section_slug": "salads",
+    "subsection_slug": "salads"
+  },
+  {
+    "id": 84,
+    "name": "Greek Salad",
+    "slug": "greek-salad",
+    "section_slug": "salads",
+    "subsection_slug": "salads"
+  },
+  {
+    "id": 85,
+    "name": "Mozzarella & Mango Salad",
+    "slug": "mozzarella-mango-salad",
+    "section_slug": "salads",
+    "subsection_slug": "salads"
+  },
+  {
+    "id": 232,
+    "name": "Sushi Platter",
+    "slug": "sushi-platter",
+    "section_slug": "sushi-pre-order-only",
+    "subsection_slug": "sushi-platters"
   }
 ]
