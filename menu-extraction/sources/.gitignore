@@ -9,3 +9,5 @@ db_items.json
 !matches/
 __pycache__/
 menu-extraction/sources/matches/apply_failures.json
+from-svg/newry-v2/
+from-svg/newry-v2-clean/
