@@ -1,19 +1,5 @@
 [
   {
-    "id": 23,
-    "name": "Nutella Croissant",
-    "slug": "nutella-croissant",
-    "section_slug": "bakery-pastries",
-    "subsection_slug": "croissants"
-  },
-  {
-    "id": 21,
-    "name": "Plain Croissant",
-    "slug": "plain-croissant",
-    "section_slug": "bakery-pastries",
-    "subsection_slug": "croissants"
-  },
-  {
     "id": 245,
     "name": "Beef & Mince Pie",
     "slug": "beef-mince-pie",
@@ -203,25 +189,11 @@
     "subsection_slug": "breakfast-brunch"
   },
   {
-    "id": 129,
-    "name": "Homemade Ice-cream",
-    "slug": "homemade-ice-cream",
-    "section_slug": "cakes-cookies-bites",
-    "subsection_slug": "add-ice-cream"
-  },
-  {
     "id": 128,
     "name": "Small Scoop",
     "slug": "small-scoop",
     "section_slug": "cakes-cookies-bites",
     "subsection_slug": "add-ice-cream"
-  },
-  {
-    "id": 110,
-    "name": "Amaretto Cake",
-    "slug": "amaretto-cake",
-    "section_slug": "cakes-cookies-bites",
-    "subsection_slug": "cakes-pies"
   },
   {
     "id": 250,
@@ -252,30 +224,9 @@
     "subsection_slug": "cakes-pies"
   },
   {
-    "id": 113,
-    "name": "Carrot Cake",
-    "slug": "carrot-cake",
-    "section_slug": "cakes-cookies-bites",
-    "subsection_slug": "cakes-pies"
-  },
-  {
     "id": 114,
     "name": "Cheesecake",
     "slug": "cheesecake",
-    "section_slug": "cakes-cookies-bites",
-    "subsection_slug": "cakes-pies"
-  },
-  {
-    "id": 111,
-    "name": "Chocolate Cake",
-    "slug": "chocolate-cake",
-    "section_slug": "cakes-cookies-bites",
-    "subsection_slug": "cakes-pies"
-  },
-  {
-    "id": 112,
-    "name": "Coffee Cake",
-    "slug": "coffee-cake",
     "section_slug": "cakes-cookies-bites",
     "subsection_slug": "cakes-pies"
   },

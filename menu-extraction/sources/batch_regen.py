@@ -166,8 +166,8 @@ def process(item: dict, log: dict, lock=None) -> dict:
     ref_subdir, model, credits = routing
     ref_dir = BRAND / "references/products" / ref_subdir
     refs = pick_refs(item["name"], ref_dir, max_refs=3)
-    if not refs:
-        return {"item_id": item["id"], "status": "skip", "reason": f"no refs in {ref_subdir}"}
+    # If no matching refs, proceed with empty list — the prompt enhancer
+    # alone drives the gen. Better than skipping or polluting with wrong refs.
 
     is_bingsu = model == "gpt_image_2"
     try:
