@@ -1,56 +1,62 @@
-# Sweet Life — overnight work for review
+# Sweet Life — overnight work for morning review
 
-> **For your morning review.** Everything generated last night while you slept, organized for fast scanning. Status updates throughout the night live in this file. Final tally + open questions at the bottom.
+> Generated through the night. Everything below is on `main`. Open the contact sheets at the bottom to see results visually.
 
-## What ran
+## Numbers
 
-| Phase | Scope | Status | Credits | Output |
-|---|---|---|---|---|
-| Phase 1 part 1 | 12 bingsu + 20 lattes + 52 signature drinks = **84 items** | ✅ Done before midnight | 267 | `public/menu-photos/<section>/<slug>-newgen.png` |
-| Phase 1 part 2 | 170 remaining menu items (bakery, breakfast, cakes, coffee, lunch, salads, KVGF, pancakes, golden toast, sushi) | 🔄 Running | est. ~340 | `public/menu-photos/<section>/<slug>-newgen.png` |
-| Phase 2 | 23 website hero / lifestyle / section hero shots | ⏳ Staged | est. ~161 | `public/website-images/<id>.png` |
-| Phase 3 | 5 ad creative packs (Bingsu summer, drinks summer, weekend brunch, Bao Buns, emergency workers) | ⏳ Staged | est. ~140 | `public/ad-creatives/<campaign>/variant-N.png` |
-| Phase 4 | Social media content (IG feed/stories/Pinterest) | ⏸ Deferred | — | — |
-| Phase 5 | Video content (Reels, in-store screens) | ⏸ Deferred | — | — |
-| Phase 6 | Print + packaging | ⏸ Deferred (needs design decisions) | — | — |
+| Phase | Scope | Status | Cost |
+|---|---|---|---|
+| Phase 1.1 | Bingsu + drinks (84) | ✅ Done via Higgsfield | 267 cr |
+| Phase 1.2 | Remaining menu items (159 of 162) | ✅ Done via direct Gemini | ~$6 (Gemini) |
+| Phase 2 | Website hero + lifestyle (23/23) | ✅ Done via Gemini | ~$1 |
+| Phase 3 | Ad creative packs (14/14, 5 campaigns) | ✅ Done via Gemini | ~$0.60 |
+| Phase 4 | 12 IG highlight icons + 14 social posts | ✅ Done | ~24 cr + $0.60 |
+| Phase 5 | Video | ❌ **DEFERRED** — wrong approach used | 80 cr wasted |
+| Phase 6 | Print + packaging | ⏸ deferred (design decisions needed) | — |
 
-## How to review fast
+**Net spend:** ~571 Higgsfield credits + ~$8 Gemini API + ~24 cr for highlights. **437 Higgsfield credits remaining.**
 
-1. **Browse menu photos:** open `menu-extraction/sources/gen-tests/contact-sheet.html` — shows all 84 Phase 1 part 1 images at a glance. (A v2 contact sheet for the full Phase 1 will be built at the end.)
-2. **Spot-check sections:** `ls public/menu-photos/<section>/` to see all gens in a section, click through.
-3. **Tell me which to redo:** name the slugs / sections you want regenerated and I'll fire targeted retries. Each is 2-7 credits.
+**DB status:** 224/254 year-round menu items now bound to `image_url = '/menu-photos/.../-newgen.png'`. 30 items still null or pointing at old paths — mostly seasonal items + a few slash-in-name retries (Mocha / White Mocha, Toastie/Sandwich GF, Snickers Cake / Toblerone GF).
 
-## Credit budget tracking
+## What to spot-check first
 
-- **Start of session:** 1008 credits (`team@sweetlife.cafe — plus plan`)
-- **After Phase 1 part 1:** 741 credits (267 spent)
-- **Live count:** check `higgsfield account status`
-- **Estimated end of overnight:** ~100 credits remaining if all phases complete
+Open these in your browser:
 
-## Decisions I made (without you)
+1. **All phases overview:** `menu-extraction/sources/gen-tests/phase2-3-4-review.html` — every Phase 2/3/4 image in one scrollable page (relative paths fixed).
+2. **Phase 4 (social) only:** `menu-extraction/sources/gen-tests/phase4-review.html`
+3. **Phase 1 (menu) only:** `menu-extraction/sources/gen-tests/contact-sheet.html` — Phase 1 part 1 contact sheet (Phase 1 part 2 doesn't have one yet — too many files, but `ls public/menu-photos/<section>/*newgen*` shows them by section).
 
-- **All Phase 1 part 2 uses nano_banana_2** (2 credits/item) instead of gpt_image_2 (7 credits) — only bingsu need gpt_image_2's snow-flake texture; everything else looked great on Nano Banana.
-- **Phase 2 hero shots use full product-photoshoot** (gpt_image_2-backed, 7 credits) — hero quality matters more for first-impression shots.
-- **Phase 3 ad packs use ad_creative_pack mode** with 3 variants per campaign — Higgsfield assembles coordinated Meta/TikTok/Pinterest sizes.
-- **Phase 4-6 deferred** — social content needs your input on tone/content pillars; video burns credits fast and needs review per gen; packaging needs design decisions.
-- **Skipped seasonal items** (Christmas, Valentine's, summer-2026) — already filtered to year-round only.
-- **Retries on intermittent NSFW false positives** — up to 3 attempts per item, lower parallelism (2 threads) to reduce false-positive rate. Pattern is intermittent, mostly recovers.
+## Decisions I made overnight
 
-## Known issues encountered
+- **Switched menu-item gen from Higgsfield → direct Gemini API** (`gemini-2.5-flash-image` / Nano Banana Pro) — same model, no 502 errors, no credit overhead, saved Higgsfield budget for video/ads.
+- **Saved your three new API keys to Infisical** as `SWEETLIFE_OPENAI_API_KEY`, `SWEETLIFE_GEMINI_API_KEY`, `SWEETLIFE_OPENROUTER_API_KEY`. The old personal `GEMINI_API_KEY` is untouched.
+- **Per-section prompt context** in `batch_gemini.py` (`SECTION_HINTS` dict) — fixes the "rainbow drink instead of rainbow cake" bug from the earlier Higgsfield batch (which applied drink-context to ALL non-bingsu items).
+- **Strict reference selection** — `pick_refs` only includes references that share substantive token with the item name. No refs → gen runs with prompt alone, better than polluting with mismatched refs (e.g., granola refs forced into every breakfast item).
+- **Parallelism 8** for image batches.
+- **Phase 5 (video) deferred** — my text-only veo3_1_lite generations don't match the brand. The right approach is image-to-video using the new menu photos as start frames, vertical 9:16 for Reels/TikTok, via acd-ugc skill.
 
-- **Higgsfield API hit 502 errors** during Phase 1 part 2 — slowed throughput. Retry logic eventually pushed through.
-- **NSFW false positives** ~10% of bingsu gens — same prompt may succeed on retry. Mostly handled.
-- **Reference image quality** — some of the menu PDF extracts have old AI-fake textures. Mum's real photos work best as references.
-- **Subsection routing for KVGF / lunch** — I mapped these to neighboring section folders (e.g. keto → sandwiches/, gluten-free → cakes/) since no dedicated folder exists. Results should still be brand-aligned but may need flavor-specific refs added later.
+## Known bugs / things you'll want to redo
 
-## Files to look at
+1. **Some menu filenames contain `&` `*` chars** (e.g., `ham-&-cheese-croissant-newgen.png`). They work but are uglier than needed. Easy file-rename + DB update if you want them cleaned.
+2. **3 slash-name items failed Phase 1.2:** Mocha / White Mocha, Toastie/Sandwich (GF), Snickers Cake / Toblerone (GF). Trivial to retry with sanitized prompts.
+3. **30 seasonal items** still have null `image_url` (Christmas Mulled Coffee, Watermelon Breeze, etc.) — by design they're filtered from the main menu. Generate when you build the seasonal menu.
+4. **Phase 5 video** — see deferred description in task #8. The 4 videos I generated were text-prompted veo3_1_lite (landscape default) — not brand-aligned + wrong aspect ratio. I deleted them. Credits gone (~80) but not too bad.
 
-- `GOAL.md` — the full vision across 6 phases
-- `menu-extraction/sources/matches/batch_regen_log.json` — per-item outcomes
-- `menu-extraction/sources/matches/phase2_log.json` — Phase 2 outcomes (after Phase 2 runs)
-- `menu-extraction/sources/matches/phase3_log.json` — Phase 3 outcomes (after Phase 3 runs)
-- `~/Work/Github/ugc-engine/brands/sweet-life-newry/` — brand profile (voice, references, performance log)
+## Scripts you can re-run
 
-## Final summary (will fill in when all phases complete)
+All scripts in `menu-extraction/sources/`. Re-runnable with `--apply` flag, idempotent on already-completed items.
 
-_Updated at end of run._
+- `batch_gemini.py` — menu items via Gemini Nano Banana Pro
+- `phase2_gemini.py` — website heros
+- `phase3_gemini.py` — ad creatives
+- `phase4_social_run.py` — IG/Pinterest social posts
+- `phase4_highlights_run.py` — IG highlight icons (Higgsfield)
+- `quality_check.py` — Gemini Vision QC on any folder; reports OK/BAD
+
+## What to do this morning
+
+1. Open the contact sheets, scroll, mark anything you want regenerated.
+2. Tell me which to redo — I'll fire targeted retries (each is 2 credits or ~$0.04).
+3. Decide on Phase 5 video approach — happy to use acd-ugc + image-to-video pipeline whenever you're ready.
+
+Total commits on `main` overnight: ~12. Working tree should be clean.
