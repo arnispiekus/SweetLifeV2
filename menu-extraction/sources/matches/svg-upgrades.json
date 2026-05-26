@@ -1,0 +1,47 @@
+[
+  {
+    "svg_path": "menu-extraction/sources/from-svg/newry-v2-clean/17-06-img6.jpeg",
+    "matched_bound_path": "public/menu-photos/lunch/Prosciutto-Ham-Feta-Cheese-Baguette.jpg",
+    "distance": 0,
+    "match_type": "duplicate",
+    "db_item": null,
+    "svg_size_kb": 288,
+    "bound_size_kb": 272
+  },
+  {
+    "svg_path": "menu-extraction/sources/from-svg/newry-v2-clean/11-09-img9.png",
+    "matched_bound_path": "public/menu-photos/bingsu/OreoCrunchBingsu.webp",
+    "distance": 10,
+    "match_type": "near",
+    "db_item": null,
+    "svg_size_kb": 964,
+    "bound_size_kb": 76
+  },
+  {
+    "svg_path": "menu-extraction/sources/from-svg/newry-v2-clean/17-05-img5.jpeg",
+    "matched_bound_path": "public/menu-photos/lunch/Sourdough-Pizza.jpg",
+    "distance": 0,
+    "match_type": "duplicate",
+    "db_item": null,
+    "svg_size_kb": 452,
+    "bound_size_kb": 331
+  },
+  {
+    "svg_path": "menu-extraction/sources/from-svg/newry-v2-clean/11-10-img10.png",
+    "matched_bound_path": "public/menu-photos/bingsu/OreoCrunchBingsu.webp",
+    "distance": 14,
+    "match_type": "near",
+    "db_item": null,
+    "svg_size_kb": 652,
+    "bound_size_kb": 76
+  },
+  {
+    "svg_path": "menu-extraction/sources/from-svg/newry-v2-clean/15-30-img30.png",
+    "matched_bound_path": "public/menu-photos/bingsu/MatchaBingsu.webp",
+    "distance": 14,
+    "match_type": "near",
+    "db_item": null,
+    "svg_size_kb": 241,
+    "bound_size_kb": 129
+  }
+]
