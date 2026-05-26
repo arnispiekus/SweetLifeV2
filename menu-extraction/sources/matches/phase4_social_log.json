@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "id": "ig-feed-coffee-pour",
+      "status": "ok"
+    },
+    {
+      "id": "ig-feed-drink-watermelon",
+      "status": "ok"
+    },
+    {
+      "id": "ig-feed-bingsu-hero",
+      "status": "ok"
+    },
+    {
+      "id": "ig-feed-cake-display",
+      "status": "ok"
+    },
+    {
+      "id": "ig-feed-poke-bowl",
+      "status": "ok"
+    },
+    {
+      "id": "ig-story-bao-launch",
+      "status": "ok"
+    },
+    {
+      "id": "ig-story-bingsu-flavors",
+      "status": "ok"
+    },
+    {
+      "id": "pinterest-pin-cafe",
+      "status": "ok"
+    },
+    {
+      "id": "ig-reel-cover-latte",
+      "status": "ok"
+    },
+    {
+      "id": "ig-reel-cover-bingsu",
+      "status": "ok"
+    },
+    {
+      "id": "pinterest-pin-drinks",
+      "status": "ok"
+    },
+    {
+      "id": "ig-story-brunch-cta",
+      "status": "ok"
+    },
+    {
+      "id": "pinterest-pin-bingsu",
+      "status": "ok"
+    },
+    {
+      "id": "ig-feed-brunch-spread",
+      "status": "ok"
+    }
+  ]
+}
