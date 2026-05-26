@@ -1,0 +1,142 @@
+{
+  "results": [
+    {
+      "id": "section-drinks",
+      "name": "Drinks section hero",
+      "status": "ok",
+      "path": "public/website-images/section-drinks.png"
+    },
+    {
+      "id": "home-feature",
+      "name": "Sweet Life featured signature spread",
+      "status": "ok",
+      "path": "public/website-images/home-feature.png"
+    },
+    {
+      "id": "home-hero",
+      "name": "Sweet Life cafe atmospheric hero",
+      "status": "ok",
+      "path": "public/website-images/home-hero.png"
+    },
+    {
+      "id": "contact-hero",
+      "name": "Contact page cafe exterior",
+      "status": "ok",
+      "path": "public/website-images/contact-hero.png"
+    },
+    {
+      "id": "about-detail",
+      "name": "Hands plating a bingsu",
+      "status": "ok",
+      "path": "public/website-images/about-detail.png"
+    },
+    {
+      "id": "section-bingsu",
+      "name": "Bingsu section hero",
+      "status": "ok",
+      "path": "public/website-images/section-bingsu.png"
+    },
+    {
+      "id": "about-hero",
+      "name": "About page cafe interior wide",
+      "status": "ok",
+      "path": "public/website-images/about-hero.png"
+    },
+    {
+      "id": "menu-hero",
+      "name": "Menu page hero",
+      "status": "ok",
+      "path": "public/website-images/menu-hero.png"
+    },
+    {
+      "id": "section-cakes",
+      "name": "Cakes section hero",
+      "status": "ok",
+      "path": "public/website-images/section-cakes.png"
+    },
+    {
+      "id": "section-coffee",
+      "name": "Coffee and tea section hero",
+      "status": "ok",
+      "path": "public/website-images/section-coffee.png"
+    },
+    {
+      "id": "section-breakfast",
+      "name": "Breakfast and brunch hero",
+      "status": "ok",
+      "path": "public/website-images/section-breakfast.png"
+    },
+    {
+      "id": "section-lunch",
+      "name": "Lunch mains section hero",
+      "status": "ok",
+      "path": "public/website-images/section-lunch.png"
+    },
+    {
+      "id": "section-pancakes",
+      "name": "Pancakes and waffles hero",
+      "status": "ok",
+      "path": "public/website-images/section-pancakes.png"
+    },
+    {
+      "id": "section-bakery",
+      "name": "Bakery hero",
+      "status": "ok",
+      "path": "public/website-images/section-bakery.png"
+    },
+    {
+      "id": "section-sushi",
+      "name": "Sushi platter hero",
+      "status": "ok",
+      "path": "public/website-images/section-sushi.png"
+    },
+    {
+      "id": "lifestyle-staff-pouring",
+      "name": "Staff pouring a latte",
+      "status": "ok",
+      "path": "public/website-images/lifestyle-staff-pouring.png"
+    },
+    {
+      "id": "section-kvgf",
+      "name": "Keto Vegan GF section hero",
+      "status": "ok",
+      "path": "public/website-images/section-kvgf.png"
+    },
+    {
+      "id": "lifestyle-customer-bingsu",
+      "name": "Customer enjoying bingsu",
+      "status": "ok",
+      "path": "public/website-images/lifestyle-customer-bingsu.png"
+    },
+    {
+      "id": "section-golden-toast",
+      "name": "Golden Toast hero",
+      "status": "ok",
+      "path": "public/website-images/section-golden-toast.png"
+    },
+    {
+      "id": "lifestyle-detail",
+      "name": "Detail shot coffee book light",
+      "status": "ok",
+      "path": "public/website-images/lifestyle-detail.png"
+    },
+    {
+      "id": "lifestyle-shared-table",
+      "name": "Friends sharing dessert",
+      "status": "ok",
+      "path": "public/website-images/lifestyle-shared-table.png"
+    },
+    {
+      "id": "section-salads",
+      "name": "Salads section hero",
+      "status": "ok",
+      "path": "public/website-images/section-salads.png"
+    },
+    {
+      "id": "lifestyle-exterior",
+      "name": "Newry storefront at dusk",
+      "status": "ok",
+      "path": "public/website-images/lifestyle-exterior.png"
+    }
+  ]
+}

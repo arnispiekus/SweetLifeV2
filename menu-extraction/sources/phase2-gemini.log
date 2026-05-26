@@ -1,0 +1,31 @@
+A new release of infisical is available: 0.43.79 -> 0.43.86
+
+To update, run: brew update && brew upgrade infisical
+
+[90m2026-05-26T20:10:20-03:00[0m [32mINF[0m Injecting 98 Infisical secrets into your application process
+Phase 2 Gemini — 23 website images
+  [1/23] ok    section-drinks
+  [2/23] ok    home-feature
+  [3/23] ok    home-hero
+  [4/23] ok    contact-hero
+  [5/23] ok    about-detail
+  [6/23] ok    section-bingsu
+  [7/23] ok    about-hero
+  [8/23] ok    menu-hero
+  [9/23] ok    section-cakes
+  [10/23] ok    section-coffee
+  [11/23] ok    section-breakfast
+  [12/23] ok    section-lunch
+  [13/23] ok    section-pancakes
+  [14/23] ok    section-bakery
+  [15/23] ok    section-sushi
+  [16/23] ok    lifestyle-staff-pouring
+  [17/23] ok    section-kvgf
+  [18/23] ok    lifestyle-customer-bingsu
+  [19/23] ok    section-golden-toast
+  [20/23] ok    lifestyle-detail
+  [21/23] ok    lifestyle-shared-table
+  [22/23] ok    section-salads
+  [23/23] ok    lifestyle-exterior
+
+Done. ok=23/23
