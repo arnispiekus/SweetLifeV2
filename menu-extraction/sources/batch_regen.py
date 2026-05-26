@@ -57,20 +57,37 @@ ROUTING = {
     "sushi-platters":        ("sushi",             "nano_banana_2",   2),  # may not exist, fallback handled in pick_refs
 }
 
+GENERIC_TOKENS = {"the","with","and","of","day","life","sweet","new","fresh","homemade","made","gf","v","k","decaf","mix","mixed"}
+
 def pick_refs(item_name: str, ref_dir: Path, max_refs: int = 3) -> list[Path]:
-    """Pick top references by token overlap with item name. Excludes HEIC."""
+    """Pick refs that ACTUALLY match the item.
+
+    Rules:
+    1. Item-name tokens (≥4 chars, non-generic) must appear in ref filename.
+    2. Only return refs that scored a substantive hit (>=1 distinctive match).
+    3. If no good match exists, return [] — let the prompt enhancer drive
+       generation alone rather than pollute with mismatched refs.
+    """
     if not ref_dir.exists():
         return []
-    tokens = [t for t in item_name.lower().replace("(", " ").replace(")", " ").replace("'", "").split() if len(t) > 2]
+    raw_tokens = item_name.lower().replace("(", " ").replace(")", " ").replace("'", "").replace("/", " ").replace("-", " ").split()
+    tokens = [t for t in raw_tokens if len(t) >= 4 and t not in GENERIC_TOKENS]
+    if not tokens:
+        return []
     candidates = [f for f in ref_dir.glob("*.*") if f.suffix.lower() not in {".heic"} and f.is_file()]
     scored = []
     for f in candidates:
-        fn = f.name.lower()
-        score = sum(2 for t in tokens if t in fn)
-        # Prefer real photos (UUID-named jpg) over PDF extracts
-        if "-uuid-" in fn or any(fn.startswith(p) for p in ["bingsu-assortment","bingsu-platter","fruit-bingsu"]):
-            score += 1
-        scored.append((score, f))
+        fn = f.name.lower().replace("-", " ").replace("_", " ")
+        # Count distinct token matches (no double-counting)
+        matches = sum(1 for t in tokens if t in fn)
+        if matches == 0:
+            continue   # don't include mismatched refs
+        # Bonus for real photos
+        if any(p in f.name for p in ["bingsu-assortment","bingsu-platter","fruit-bingsu","SweetLifeCafe_"]):
+            matches += 0.5
+        scored.append((matches, f))
+    if not scored:
+        return []
     scored.sort(key=lambda x: x[0], reverse=True)
     return [f for _, f in scored[:max_refs]]
 

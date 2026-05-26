@@ -1,36 +1,8 @@
 [
   {
-    "id": 22,
-    "name": "Butter & Jam Croissant",
-    "slug": "butter-jam-croissant",
-    "section_slug": "bakery-pastries",
-    "subsection_slug": "croissants"
-  },
-  {
-    "id": 25,
-    "name": "Ham & Cheese Croissant",
-    "slug": "ham-cheese-croissant",
-    "section_slug": "bakery-pastries",
-    "subsection_slug": "croissants"
-  },
-  {
-    "id": 246,
-    "name": "Lemon Croissant",
-    "slug": "lemon-croissant",
-    "section_slug": "bakery-pastries",
-    "subsection_slug": "croissants"
-  },
-  {
     "id": 23,
     "name": "Nutella Croissant",
     "slug": "nutella-croissant",
-    "section_slug": "bakery-pastries",
-    "subsection_slug": "croissants"
-  },
-  {
-    "id": 24,
-    "name": "Pistachio Croissant",
-    "slug": "pistachio-croissant",
     "section_slug": "bakery-pastries",
     "subsection_slug": "croissants"
   },
@@ -110,13 +82,6 @@
     "slug": "raspberry-white-chocolate-scone",
     "section_slug": "bakery-pastries",
     "subsection_slug": "scones"
-  },
-  {
-    "id": 45,
-    "name": "Acai Granola Bowl",
-    "slug": "acai-granola-bowl",
-    "section_slug": "breakfast-brunch",
-    "subsection_slug": "acai-granola-bowl"
   },
   {
     "id": 32,
