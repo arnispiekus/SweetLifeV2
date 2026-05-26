@@ -209,8 +209,8 @@ def main():
     log = {"started": time.time(), "results": []}
     LOG_PATH.write_text(json.dumps(log, indent=2))
 
-    # Lower parallelism to 2 to reduce intermittent NSFW false positives
-    with ThreadPoolExecutor(max_workers=2) as ex:
+    # Higgsfield supports ~8 concurrent gens per account
+    with ThreadPoolExecutor(max_workers=8) as ex:
         futures = {ex.submit(process, it, log): it for it in items}
         for i, fut in enumerate(as_completed(futures), 1):
             result = fut.result()
