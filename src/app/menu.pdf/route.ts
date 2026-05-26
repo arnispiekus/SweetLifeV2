@@ -15,11 +15,13 @@ export async function GET(request: Request) {
   });
   try {
     const page = await browser.newPage();
+    await page.setViewport({ width: 1240, height: 1754, deviceScaleFactor: 1 });
     // "load" fires after images + stylesheets; brief wait lets webfonts settle.
     await page.setContent(html, { waitUntil: "load", timeout: 60000 });
-    await new Promise((r) => setTimeout(r, 800));
+    await new Promise((r) => setTimeout(r, 1200));
     const pdf = await page.pdf({
-      format: "A5",
+      width: "1240px",
+      height: "1754px",
       printBackground: true,
       preferCSSPageSize: true,
     });
