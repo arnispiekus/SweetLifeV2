@@ -70,6 +70,8 @@ export async function getMenu(): Promise<MenuCategoryView[]> {
     `,
     )
     .eq("is_active", true)
+    .is("subsections.menu_items.seasonal", null)
+    .contains("subsections.menu_items.available_at", ["newry"])
     .order("display_order");
 
   if (error) throw new Error(`Failed to load menu: ${error.message}`);

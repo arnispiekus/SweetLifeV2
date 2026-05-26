@@ -8,3 +8,4 @@ db_items.json
 # Keep the analysis outputs
 !matches/
 __pycache__/
+menu-extraction/sources/matches/apply_failures.json

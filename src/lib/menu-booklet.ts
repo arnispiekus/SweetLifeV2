@@ -42,7 +42,10 @@ export async function getBookletData(): Promise<BookletData> {
          menu_items ( name, description, price, image_url, tags, display_order,
            item_variants ( name, price ),
            item_allergens ( allergen_code ) ) )`,
-    ).eq("is_active", true).order("display_order"),
+    ).eq("is_active", true)
+      .is("subsections.menu_items.seasonal", null)
+      .contains("subsections.menu_items.available_at", ["newry"])
+      .order("display_order"),
     supabase.from("allergens").select("code, name"),
   ]);
   if (error) throw new Error(`Booklet load failed: ${error.message}`);
