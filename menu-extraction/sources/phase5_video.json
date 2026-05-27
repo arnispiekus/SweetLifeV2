@@ -1,0 +1,6 @@
+[
+  {"id":"video-bingsu-spoon","prompt":"Slow cinematic close-up: a spoon lifting fluffy ribbons of taro bingsu shaved ice from a speckled ceramic bowl. Condensed milk drips slowly. Warm cream background, soft window light. Editorial food video.","model":"veo3_1_lite","duration":5},
+  {"id":"video-latte-pour","prompt":"Slow cinematic close-up: barista pouring milk into espresso, creating a rosetta art pattern. Mid-pour, milk fold visible, steam rising. Warm wood counter, soft morning light. Editorial cafe video.","model":"veo3_1_lite","duration":5},
+  {"id":"video-drink-condensation","prompt":"Slow cinematic shot of a Watermelon Breeze drink in a tall glass — condensation droplets running down the glass, watermelon wedge garnish, ice cubes settling slightly. Marble cafe table, soft natural light.","model":"veo3_1_lite","duration":5},
+  {"id":"video-bao-steam","prompt":"Slow cinematic close-up of bao buns on a bamboo steamer — gentle steam rising, soft and fluffy texture, crispy chicken filling glistening with sauce. Warm cafe background.","model":"veo3_1_lite","duration":5}
+]
