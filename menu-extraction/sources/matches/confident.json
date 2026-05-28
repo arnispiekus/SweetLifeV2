@@ -1,0 +1,4095 @@
+[
+  {
+    "photo_name": "Golden Toast.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/Golden Toast.jpg",
+    "photo_id": "1_-rjtcZxrFDNjKonYFTuO_kCevEZFTie",
+    "drive_folder": "Hot Desserts",
+    "expected_section_slugs": [
+      "golden-toast",
+      "pancakes-waffles"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 148,
+        "name": "Mango Golden Toast",
+        "image_url": "/HotDesserts/GoldenToast.webp",
+        "section_slug": "golden-toast",
+        "section_name": "Golden Toast"
+      },
+      "score": 0.8
+    },
+    "best_overall": {
+      "item": {
+        "id": 148,
+        "name": "Mango Golden Toast",
+        "image_url": "/HotDesserts/GoldenToast.webp",
+        "section_slug": "golden-toast",
+        "section_name": "Golden Toast"
+      },
+      "score": 0.8
+    }
+  },
+  {
+    "photo_name": "Souffle Pancakes.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/Souffle Pancakes.jpg",
+    "photo_id": "1VtdlvG1K6O3WOdHPioYvDlwew-takU41",
+    "drive_folder": "Hot Desserts",
+    "expected_section_slugs": [
+      "golden-toast",
+      "pancakes-waffles"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 150,
+        "name": "S'more Souffle Pancake",
+        "image_url": "/HotDesserts/SoufflePancakes.webp",
+        "section_slug": "pancakes-waffles",
+        "section_name": "Pancakes & Waffles"
+      },
+      "score": 0.789
+    },
+    "best_overall": {
+      "item": {
+        "id": 150,
+        "name": "S'more Souffle Pancake",
+        "image_url": "/HotDesserts/SoufflePancakes.webp",
+        "section_slug": "pancakes-waffles",
+        "section_name": "Pancakes & Waffles"
+      },
+      "score": 0.789
+    }
+  },
+  {
+    "photo_name": "Crepe.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/Crepe.jpeg",
+    "photo_id": "1w3aYJa3YKeolI9LwJFnV1o7UESa3BbVX",
+    "drive_folder": "Hot Desserts",
+    "expected_section_slugs": [
+      "golden-toast",
+      "pancakes-waffles"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 159,
+        "name": "Crepe",
+        "image_url": "/HotDesserts/Crepe.webp",
+        "section_slug": "pancakes-waffles",
+        "section_name": "Pancakes & Waffles"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 76,
+        "name": "Crepe",
+        "image_url": "/CreateYourOwn/Crepe(Savory).webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "American Pancakes.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/American Pancakes.jpeg",
+    "photo_id": "1MnXpw_xN5pVqgIJs5wzwcKbWcPHPGJSN",
+    "drive_folder": "Hot Desserts",
+    "expected_section_slugs": [
+      "golden-toast",
+      "pancakes-waffles"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 152,
+        "name": "Matcha American Pancake",
+        "image_url": "/HotDesserts/AmericanPancakes.webp",
+        "section_slug": "pancakes-waffles",
+        "section_name": "Pancakes & Waffles"
+      },
+      "score": 0.8
+    },
+    "best_overall": {
+      "item": {
+        "id": 152,
+        "name": "Matcha American Pancake",
+        "image_url": "/HotDesserts/AmericanPancakes.webp",
+        "section_slug": "pancakes-waffles",
+        "section_name": "Pancakes & Waffles"
+      },
+      "score": 0.8
+    }
+  },
+  {
+    "photo_name": "OreoChocolateBingsu.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Bingsu/OreoChocolateBingsu.webp",
+    "photo_id": "17zPHU0kvKLHfzYd31rvRMiWBywCv1IZe",
+    "drive_folder": "Bingsu",
+    "expected_section_slugs": [
+      "bingsu"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 134,
+        "name": "Oreo Choco Bingsu",
+        "image_url": "/Bingsu/OreoChocolateBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 0.895
+    },
+    "best_overall": {
+      "item": {
+        "id": 134,
+        "name": "Oreo Choco Bingsu",
+        "image_url": "/Bingsu/OreoChocolateBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 0.895
+    }
+  },
+  {
+    "photo_name": "MatchaBingsu.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Bingsu/MatchaBingsu.webp",
+    "photo_id": "1HU1FD1V3FlEx376JN2Jnda_Is2jhys29",
+    "drive_folder": "Bingsu",
+    "expected_section_slugs": [
+      "bingsu"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 143,
+        "name": "Matcha Bingsu",
+        "image_url": "/Bingsu/MatchaBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 143,
+        "name": "Matcha Bingsu",
+        "image_url": "/Bingsu/MatchaBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "OreoCrunchBingsu.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Bingsu/OreoCrunchBingsu.webp",
+    "photo_id": "1DJbCHqbUwlx69mnreD_85Iv_j8DxNKvh",
+    "drive_folder": "Bingsu",
+    "expected_section_slugs": [
+      "bingsu"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 138,
+        "name": "Oreo Crunch Bingsu",
+        "image_url": "/Bingsu/OreoCrunchBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 138,
+        "name": "Oreo Crunch Bingsu",
+        "image_url": "/Bingsu/OreoCrunchBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "BerryliciousBingsu.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Bingsu/BerryliciousBingsu.webp",
+    "photo_id": "1Dwy9gdeQrh0BXWR2oNdEa2VS6gxv0J3M",
+    "drive_folder": "Bingsu",
+    "expected_section_slugs": [
+      "bingsu"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 141,
+        "name": "Berrylicious Bingsu",
+        "image_url": "/Bingsu/BerryliciousBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 141,
+        "name": "Berrylicious Bingsu",
+        "image_url": "/Bingsu/BerryliciousBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "MangoCoconutBingsu.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Bingsu/MangoCoconutBingsu.webp",
+    "photo_id": "1eI_OpcFIu8RwK42ebO2XBf-23sXj1XlM",
+    "drive_folder": "Bingsu",
+    "expected_section_slugs": [
+      "bingsu"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 139,
+        "name": "Mango Coconut Bingsu",
+        "image_url": "/Bingsu/MangoCoconutBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 139,
+        "name": "Mango Coconut Bingsu",
+        "image_url": "/Bingsu/MangoCoconutBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "StrawberryCheesecakeBingsu.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Bingsu/StrawberryCheesecakeBingsu.webp",
+    "photo_id": "16kzA-oZvUnNFNTRAdgBmotVzfmMo8IXH",
+    "drive_folder": "Bingsu",
+    "expected_section_slugs": [
+      "bingsu"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 133,
+        "name": "Strawberry & Cheesecake Bingsu",
+        "image_url": "/Bingsu/StrawberryCheesecakeBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 133,
+        "name": "Strawberry & Cheesecake Bingsu",
+        "image_url": "/Bingsu/StrawberryCheesecakeBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "MangoCheesecakeBingsu.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Bingsu/MangoCheesecakeBingsu.webp",
+    "photo_id": "1skS4T6if2ZRflZFc_0yfcAQsNR0lDj20",
+    "drive_folder": "Bingsu",
+    "expected_section_slugs": [
+      "bingsu"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 142,
+        "name": "Mango & Cheesecake Bingsu",
+        "image_url": "/Bingsu/MangoCheesecakeBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 142,
+        "name": "Mango & Cheesecake Bingsu",
+        "image_url": "/Bingsu/MangoCheesecakeBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "TaroBingsu.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Bingsu/TaroBingsu.webp",
+    "photo_id": "1H-IP1cXqM7Y0tWLXz0Krz4qjpyHA07Qt",
+    "drive_folder": "Bingsu",
+    "expected_section_slugs": [
+      "bingsu"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 136,
+        "name": "Taro Bingsu",
+        "image_url": "/Bingsu/TaroBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 136,
+        "name": "Taro Bingsu",
+        "image_url": "/Bingsu/TaroBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "ThaiTeaBingsu.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Bingsu/ThaiTeaBingsu.webp",
+    "photo_id": "1h9rsCr0mHRh6dt4Wp-ZAOu17m9Ws4b2l",
+    "drive_folder": "Bingsu",
+    "expected_section_slugs": [
+      "bingsu"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 135,
+        "name": "Thai Tea Bingsu",
+        "image_url": "/Bingsu/ThaiTeaBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 135,
+        "name": "Thai Tea Bingsu",
+        "image_url": "/Bingsu/ThaiTeaBingsu.webp",
+        "section_slug": "bingsu",
+        "section_name": "Bingsu"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "BrownSugarMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Milk Tea/BrownSugarMilkTea.webp",
+    "photo_id": "1qOaTt_2qmQkvvFvhwua7YyfajHarzzvG",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 169,
+        "name": "Brown Sugar Milk Tea",
+        "image_url": "/MilkTea/BrownSugarMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 169,
+        "name": "Brown Sugar Milk Tea",
+        "image_url": "/MilkTea/BrownSugarMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "BlueberryMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Milk Tea/BlueberryMilkTea.webp",
+    "photo_id": "1ODGSH5M__kfG1cyQMVAhuGAa9HdC9neh",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 160,
+        "name": "Blueberry Milk Tea",
+        "image_url": "/MilkTea/BlueberryMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 160,
+        "name": "Blueberry Milk Tea",
+        "image_url": "/MilkTea/BlueberryMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "DarkOolongMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Milk Tea/DarkOolongMilkTea.webp",
+    "photo_id": "1-sYQSgcA1BJFp2bh9QFkE9nfq_XpM_pE",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 167,
+        "name": "Dark Oolong Milk Tea",
+        "image_url": "/MilkTea/DarkOolongMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 167,
+        "name": "Dark Oolong Milk Tea",
+        "image_url": "/MilkTea/DarkOolongMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "ThaiTeaMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Milk Tea/ThaiTeaMilkTea.webp",
+    "photo_id": "1waaAQVMh4s3E2g_YoKhDx9QTjAlj5lc4",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 162,
+        "name": "Thai Tea Milk Tea",
+        "image_url": "/MilkTea/ThaiTeaMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 162,
+        "name": "Thai Tea Milk Tea",
+        "image_url": "/MilkTea/ThaiTeaMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "AssamBlackMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Milk Tea/AssamBlackMilkTea.webp",
+    "photo_id": "1WmJA8XJQYldsWbNLFRe81pML-5D7t_fE",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 166,
+        "name": "Assam Black Milk Tea",
+        "image_url": "/MilkTea/AssamBlackMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 166,
+        "name": "Assam Black Milk Tea",
+        "image_url": "/MilkTea/AssamBlackMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "ChocolateMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Milk Tea/ChocolateMilkTea.webp",
+    "photo_id": "1a2KLZ-a-rjMNq2sJvBFtHSsL6CMfS1HK",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 168,
+        "name": "Chocolate Milk Tea",
+        "image_url": "/MilkTea/ChocolateMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 168,
+        "name": "Chocolate Milk Tea",
+        "image_url": "/MilkTea/ChocolateMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "TaroMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Milk Tea/TaroMilkTea.webp",
+    "photo_id": "1LqAXETWqBAmOoy3EblEVS-gj1wVBCqqD",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 161,
+        "name": "Taro Milk Tea",
+        "image_url": "/MilkTea/TaroMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 161,
+        "name": "Taro Milk Tea",
+        "image_url": "/MilkTea/TaroMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "CaramelMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Milk Tea/CaramelMilkTea.webp",
+    "photo_id": "17_JZ1kTWUKkBypXYpYIyU5pXKklTrFX7",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 165,
+        "name": "Caramel Milk Tea",
+        "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 165,
+        "name": "Caramel Milk Tea",
+        "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "MatchaMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Milk Tea/MatchaMilkTea.webp",
+    "photo_id": "1TDpufr5JWiA3bUZ2I2kczwB9xq-FaZD2",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 163,
+        "name": "Matcha Milk Tea",
+        "image_url": "/MilkTea/MatchaMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 163,
+        "name": "Matcha Milk Tea",
+        "image_url": "/MilkTea/MatchaMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "StrawberryMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Milk Tea/StrawberryMilkTea.webp",
+    "photo_id": "1zV8lCcWAlxP7MCjDJyo1bs2Kh6XvVY7o",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 164,
+        "name": "Strawberry Milk Tea",
+        "image_url": "/MilkTea/StrawberryMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 164,
+        "name": "Strawberry Milk Tea",
+        "image_url": "/MilkTea/StrawberryMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "CaramelMilkTea.webp",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/CaramelMilkTea.webp",
+    "photo_id": "164C7t8qH2pKFUGgaOjohpi1D0Udh0RE-",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 165,
+        "name": "Caramel Milk Tea",
+        "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 165,
+        "name": "Caramel Milk Tea",
+        "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Passion Fruit Mojito (Virgin).jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Passion Fruit Mojito (Virgin).jpg",
+    "photo_id": "1hRkNFUIWwDsBqlWtVwHkBZI3aKUtscGA",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 180,
+        "name": "Passionfruit Mojito",
+        "image_url": "/SignatureDrinks/PassionFruitMojito(Virgin).webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 0.826
+    },
+    "best_overall": {
+      "item": {
+        "id": 180,
+        "name": "Passionfruit Mojito",
+        "image_url": "/SignatureDrinks/PassionFruitMojito(Virgin).webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 0.826
+    }
+  },
+  {
+    "photo_name": "Lychee Mojito (Virgin).jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Lychee Mojito (Virgin).jpg",
+    "photo_id": "1BlpMAKkHlBat_hpk9UO_DjZLuj-zEOYY",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 179,
+        "name": "Lychee Mojito",
+        "image_url": "/SignatureDrinks/LycheeMojito(Virgin).webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 0.788
+    },
+    "best_overall": {
+      "item": {
+        "id": 179,
+        "name": "Lychee Mojito",
+        "image_url": "/SignatureDrinks/LycheeMojito(Virgin).webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 0.788
+    }
+  },
+  {
+    "photo_name": "Cherry Velvet Sip.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Cherry Velvet Sip.jpg",
+    "photo_id": "1SLntGDpRDiAckqjU1tEmyoag0kDQKZ6k",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 178,
+        "name": "Cherry Velvet Sip",
+        "image_url": "/SignatureDrinks/CherryVelvetSip.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 178,
+        "name": "Cherry Velvet Sip",
+        "image_url": "/SignatureDrinks/CherryVelvetSip.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Green Oasis.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Green Oasis.jpg",
+    "photo_id": "1fgFwffgHjgEavCBhx1wuOrLcR4Nj4BIY",
+    "drive_folder": "Signature Drinks",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 177,
+        "name": "Green Oasis",
+        "image_url": "/SignatureDrinks/GreenOasis.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 177,
+        "name": "Green Oasis",
+        "image_url": "/SignatureDrinks/GreenOasis.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "KinderBeunoLatte copy 2.tiff",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/KinderBeunoLatte copy 2.tiff",
+    "photo_id": "1XH4sbu-P_mFOzzRQquB7p3dM51loX9en",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 222,
+        "name": "Kinder Bueno Latte",
+        "image_url": "/GourmetLatte/KinderBeunoLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 0.791
+    },
+    "best_overall": {
+      "item": {
+        "id": 222,
+        "name": "Kinder Bueno Latte",
+        "image_url": "/GourmetLatte/KinderBeunoLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 0.791
+    }
+  },
+  {
+    "photo_name": "Hot Chocolate.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Hot Chocolate.jpg",
+    "photo_id": "1CUYFPwSYuvrHo5S1CdO0ayi5nKgZTk-6",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 228,
+        "name": "Hot Chocolate",
+        "image_url": "/GourmetLatte/HotChocolate.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 228,
+        "name": "Hot Chocolate",
+        "image_url": "/GourmetLatte/HotChocolate.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Panda.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Panda.jpg",
+    "photo_id": "1enr_JkcP8moQ1-VctpsF5Sp23LCnircA",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 227,
+        "name": "Panda",
+        "image_url": "/GourmetLatte/Panda.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 227,
+        "name": "Panda",
+        "image_url": "/GourmetLatte/Panda.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Pistachio Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Pistachio Latte.jpg",
+    "photo_id": "1DGQ8033sYxJmF8ne7qrdLQUl2X8fG8Lt",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 226,
+        "name": "Pistachio Latte",
+        "image_url": "/GourmetLatte/PistachioLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 226,
+        "name": "Pistachio Latte",
+        "image_url": "/GourmetLatte/PistachioLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Creamy Coconut Coffee Dream.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Creamy Coconut Coffee Dream.jpg",
+    "photo_id": "1_Dpe8WDsV8wfWzBE2omGGsqojOeV0xMX",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 225,
+        "name": "Creamy Coconut Coffee Dream",
+        "image_url": "/GourmetLatte/CreamyCoconutCoffeeDream.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 225,
+        "name": "Creamy Coconut Coffee Dream",
+        "image_url": "/GourmetLatte/CreamyCoconutCoffeeDream.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Coconut Coffee Lychee Blend.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Coconut Coffee Lychee Blend.jpg",
+    "photo_id": "1otPcsYTZg8CeR_MAfmSIyUCI-3WpQOuH",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 224,
+        "name": "Coconut Coffee Lychee Blend",
+        "image_url": "/GourmetLatte/CoconutCoffeeLycheeBlend.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 224,
+        "name": "Coconut Coffee Lychee Blend",
+        "image_url": "/GourmetLatte/CoconutCoffeeLycheeBlend.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Peanut Butter Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Peanut Butter Latte.jpg",
+    "photo_id": "1U5k-9AhXTp2EF9ote7E-Gcplvwq4bJCS",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 221,
+        "name": "Peanut Butter Latte",
+        "image_url": "/GourmetLatte/PeanutButterLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 221,
+        "name": "Peanut Butter Latte",
+        "image_url": "/GourmetLatte/PeanutButterLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Lotus Biscoff Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Lotus Biscoff Latte.jpg",
+    "photo_id": "1S8aeObzC3i099fQ9RvuF7ZxLLC6ldywR",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 220,
+        "name": "Lotus Biscoff Latte",
+        "image_url": "/GourmetLatte/LotusBiscoffLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 220,
+        "name": "Lotus Biscoff Latte",
+        "image_url": "/GourmetLatte/LotusBiscoffLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Ice-Cream Espresso.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Ice-Cream Espresso.jpg",
+    "photo_id": "1IMin49AVJ8SCmYdzDXJrKn204BLpOCU6",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 219,
+        "name": "Ice-Cream Espresso",
+        "image_url": "/GourmetLatte/Ice-CreamEspresso.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 219,
+        "name": "Ice-Cream Espresso",
+        "image_url": "/GourmetLatte/Ice-CreamEspresso.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Cream Panner.png",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Cream Panner.png",
+    "photo_id": "1rYtOrkoQwkENx_2pPd6e2MY4-DGWAR77",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 223,
+        "name": "Cream Panner",
+        "image_url": "/GourmetLatte/CreamPanner.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 223,
+        "name": "Cream Panner",
+        "image_url": "/GourmetLatte/CreamPanner.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Blue Lagoon Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Blue Lagoon Latte.jpg",
+    "photo_id": "1sUBTATXBlMf-LbqPktDo43Q4gWkalbNy",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 218,
+        "name": "Blue Lagoon Latte",
+        "image_url": "/GourmetLatte/BlueLagoonLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 218,
+        "name": "Blue Lagoon Latte",
+        "image_url": "/GourmetLatte/BlueLagoonLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Creme Brulee Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Creme Brulee Latte.jpg",
+    "photo_id": "1UC_dIHdCfBiSg1Ges28l3o4yHhodYZet",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 217,
+        "name": "Creme Brulee Latte",
+        "image_url": "/GourmetLatte/CremeBruleeLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 217,
+        "name": "Creme Brulee Latte",
+        "image_url": "/GourmetLatte/CremeBruleeLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Banana Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Banana Latte.jpg",
+    "photo_id": "16dT9VNTAdv9jJF7DQxVN4msLyMO2eEu9",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 216,
+        "name": "Banana Latte",
+        "image_url": "/GourmetLatte/BananaLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 216,
+        "name": "Banana Latte",
+        "image_url": "/GourmetLatte/BananaLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Strawberry Latte (Decaf).jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Strawberry Latte (Decaf).jpg",
+    "photo_id": "191kb_AHJ4AEELIRAIye90iKbDGdk_EJd",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 215,
+        "name": "Strawberry Latte",
+        "image_url": "/GourmetLatte/StrawberryLatte(Decaf).webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 215,
+        "name": "Strawberry Latte",
+        "image_url": "/GourmetLatte/StrawberryLatte(Decaf).webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Beetroot Latte (Decaf).jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Beetroot Latte (Decaf).jpg",
+    "photo_id": "1QKukFAUI1XVZbhZsGspcOVVh48F0tes5",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 214,
+        "name": "Beetroot Latte",
+        "image_url": "/GourmetLatte/BeetrootLatte(Decaf).webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 214,
+        "name": "Beetroot Latte",
+        "image_url": "/GourmetLatte/BeetrootLatte(Decaf).webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Tiramisu Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Tiramisu Latte.jpg",
+    "photo_id": "1t41vcwDRz3ro3Zf30vgQ53oc_6WlNygY",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 213,
+        "name": "Tiramisu Latte",
+        "image_url": "/GourmetLatte/TiramisuLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 213,
+        "name": "Tiramisu Latte",
+        "image_url": "/GourmetLatte/TiramisuLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Coconut Kiss Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Gourmet Lattes/Coconut Kiss Latte.jpg",
+    "photo_id": "1B27Cm_lJ4MNlo4ocVbbOfSvFjOwPv5Qo",
+    "drive_folder": "Gourmet Lattes",
+    "expected_section_slugs": [
+      "gourmet-lattes"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 212,
+        "name": "Coconut Kiss Latte",
+        "image_url": "/GourmetLatte/CoconutKissLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 212,
+        "name": "Coconut Kiss Latte",
+        "image_url": "/GourmetLatte/CoconutKissLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Milkshake.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Shakes, Smoothies & Frappes/Milkshake.jpg",
+    "photo_id": "1q2M1dHpsHyd2b1dAHgA67r0hMTe6QXQk",
+    "drive_folder": "Shakes, Smoothies & Frappes",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 199,
+        "name": "Taro Milkshake",
+        "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 0.783
+    },
+    "best_overall": {
+      "item": {
+        "id": 199,
+        "name": "Taro Milkshake",
+        "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 0.783
+    }
+  },
+  {
+    "photo_name": "Protein Shake.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Shakes, Smoothies & Frappes/Protein Shake.jpg",
+    "photo_id": "1fknXBIBL8mUJE2J491jfJd_Mln5eRphM",
+    "drive_folder": "Shakes, Smoothies & Frappes",
+    "expected_section_slugs": [
+      "signature-drinks"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 210,
+        "name": "Banana Protein Shake",
+        "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 0.788
+    },
+    "best_overall": {
+      "item": {
+        "id": 210,
+        "name": "Banana Protein Shake",
+        "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 0.788
+    }
+  },
+  {
+    "photo_name": "Strawberry Apple Pie.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Strawberry Apple Pie.jpg",
+    "photo_id": "19khlrSBMA1CPoAPGpw5JkLqR9hXXVmKR",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 109,
+        "name": "Strawberry Apple Pie",
+        "image_url": "/Cakes/StrawberryApplePie.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 109,
+        "name": "Strawberry Apple Pie",
+        "image_url": "/Cakes/StrawberryApplePie.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Chocolate Orange Cake.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Chocolate Orange Cake.jpg",
+    "photo_id": "1QoOPu2WBq9i1ZSxLi_9T5j2R9cthOz0C",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 111,
+        "name": "Chocolate Cake",
+        "image_url": "/Cakes/ChocolateCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 0.8
+    },
+    "best_overall": {
+      "item": {
+        "id": 103,
+        "name": "Chocolate Fudge Cake (GF)",
+        "image_url": "/Keto/ChocolateFudgeCake(GF).webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 0.829
+    }
+  },
+  {
+    "photo_name": "Rocky Road.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Rocky Road.jpg",
+    "photo_id": "1CcJfEMp2HHqSEWkSbTB4hPPid7v97GOw",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 108,
+        "name": "Rocky Road",
+        "image_url": "/Cakes/RockyRoad.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 108,
+        "name": "Rocky Road",
+        "image_url": "/Cakes/RockyRoad.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Chocolate Fudge Cake (GF).jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Chocolate Fudge Cake (GF).jpg",
+    "photo_id": "1oZoA09hAX5AXH9rdhkEVk2g_66OILJSB",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 111,
+        "name": "Chocolate Cake",
+        "image_url": "/Cakes/ChocolateCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 0.824
+    },
+    "best_overall": {
+      "item": {
+        "id": 103,
+        "name": "Chocolate Fudge Cake (GF)",
+        "image_url": "/Keto/ChocolateFudgeCake(GF).webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Zesty Lemon Cake.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Zesty Lemon Cake.jpg",
+    "photo_id": "1sEWPnXGkXVA142RPHUBsAeIg2YYlKSoU",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 120,
+        "name": "Zesty Lemon Cake",
+        "image_url": "/Cakes/ZestyLemonCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 120,
+        "name": "Zesty Lemon Cake",
+        "image_url": "/Cakes/ZestyLemonCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Coffee Cake.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Coffee Cake.jpg",
+    "photo_id": "1l7OnjZOQ9P4qMx-0z8hgNbSW0oU2x8i8",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 112,
+        "name": "Coffee Cake",
+        "image_url": "/Cakes/CoffeeCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 112,
+        "name": "Coffee Cake",
+        "image_url": "/Cakes/CoffeeCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Red Velvet.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Red Velvet.jpg",
+    "photo_id": "17o67z0m3eo_6022fa0aDRio88BcU5CKh",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 117,
+        "name": "Red Velvet",
+        "image_url": "/Cakes/RedVelvet.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 117,
+        "name": "Red Velvet",
+        "image_url": "/Cakes/RedVelvet.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Lemon Meringue.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Lemon Meringue.jpg",
+    "photo_id": "1yzNOYOce8Z8ewltKcke2UYCb5O82sm-w",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 116,
+        "name": "Lemon Meringue",
+        "image_url": "/Cakes/LemonMeringue.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 116,
+        "name": "Lemon Meringue",
+        "image_url": "/Cakes/LemonMeringue.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Amaretto Cheesecake.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Amaretto Cheesecake.jpg",
+    "photo_id": "1v4G-h01imblH5oD55VCAATfd_PHVJOKY",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 110,
+        "name": "Amaretto Cake",
+        "image_url": null,
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 0.812
+    },
+    "best_overall": {
+      "item": {
+        "id": 110,
+        "name": "Amaretto Cake",
+        "image_url": null,
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 0.812
+    }
+  },
+  {
+    "photo_name": "Black Forest Gateaux.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Black Forest Gateaux.jpg",
+    "photo_id": "1aID_F7_kJuJsiHXvkXQWGWHNrMDf_at-",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 107,
+        "name": "Black Forest Gateau",
+        "image_url": "/Cakes/BlackForestGateaux.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 0.974
+    },
+    "best_overall": {
+      "item": {
+        "id": 107,
+        "name": "Black Forest Gateau",
+        "image_url": "/Cakes/BlackForestGateaux.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 0.974
+    }
+  },
+  {
+    "photo_name": "Chocolate Cake.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Chocolate Cake.jpg",
+    "photo_id": "18Qy1nsGLhxBdm77AqCO2UDWO8e2LPDab",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 111,
+        "name": "Chocolate Cake",
+        "image_url": "/Cakes/ChocolateCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 111,
+        "name": "Chocolate Cake",
+        "image_url": "/Cakes/ChocolateCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Tiramisu.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Tiramisu.jpeg",
+    "photo_id": "1IGsdpviTC2bVyrwMLj0RpyFlFE5bkcQO",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 118,
+        "name": "Tiramisu",
+        "image_url": "/Cakes/Tiramisu.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 118,
+        "name": "Tiramisu",
+        "image_url": "/Cakes/Tiramisu.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Protein Balls.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Protein Balls.jpg",
+    "photo_id": "1F0Jt7vTIUqhHS1GtWfM0Ds7SciJ9ivSU",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 127,
+        "name": "Protein Balls",
+        "image_url": "/Cakes/ProteinBalls.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 127,
+        "name": "Protein Balls",
+        "image_url": "/Cakes/ProteinBalls.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Brownie.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Brownie.jpeg",
+    "photo_id": "11n4KD_Ig6vRng-dIh9XZ6LRE3eqw0A2o",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 126,
+        "name": "Brownie",
+        "image_url": "/Cakes/Brownie.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 126,
+        "name": "Brownie",
+        "image_url": "/Cakes/Brownie.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Peanut Butter Snickers Cake.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Peanut Butter Snickers Cake.jpeg",
+    "photo_id": "19v97q9Gqe0sU5-4mt7DHk5dPgqkWZhIj",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 119,
+        "name": "Peanut Butter Snickers Cake",
+        "image_url": "/Cakes/SnickersCake(GF).webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 119,
+        "name": "Peanut Butter Snickers Cake",
+        "image_url": "/Cakes/SnickersCake(GF).webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Dubai Chocolate.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Dubai Chocolate.jpeg",
+    "photo_id": "1kVNbh70SVWtiRdBJWXVlWXnoD9UndE9V",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 124,
+        "name": "Dubai Chocolate",
+        "image_url": "/Cakes/DubaiChocolate.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 124,
+        "name": "Dubai Chocolate",
+        "image_url": "/Cakes/DubaiChocolate.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Rainbow Cake.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Rainbow Cake.jpeg",
+    "photo_id": "1cDygjgbbTxCc0ONJ7038BSiuV6ItRbwX",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 115,
+        "name": "Rainbow Cake",
+        "image_url": "/Cakes/RainbowCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 115,
+        "name": "Rainbow Cake",
+        "image_url": "/Cakes/RainbowCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Carrot Cake.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Carrot Cake.jpg",
+    "photo_id": "1i1mzQoYbkHprj3MWCV3JbHAR1rAY6GAi",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 113,
+        "name": "Carrot Cake",
+        "image_url": "/Cakes/CarrotCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 113,
+        "name": "Carrot Cake",
+        "image_url": "/Cakes/CarrotCake.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Crumble Cookie.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Crumble Cookie.jpg",
+    "photo_id": "1Ml2u7QdivOkDM5BmhJemDoIBqoXJ4y3q",
+    "drive_folder": "Cakes, Cookies & Bites",
+    "expected_section_slugs": [
+      "cakes-cookies-bites"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 125,
+        "name": "Crumble Cookie",
+        "image_url": "/Cakes/CrumbleCookie.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 125,
+        "name": "Crumble Cookie",
+        "image_url": "/Cakes/CrumbleCookie.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Sushi Platter.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Sushi (Pre-Order)/Sushi Platter.jpg",
+    "photo_id": "1CGhVrs-kdAXf2PBTFIAM9JUSqHk7fne-",
+    "drive_folder": "Sushi (Pre-Order)",
+    "expected_section_slugs": [
+      "sushi-pre-order-only"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 232,
+        "name": "Sushi Platter",
+        "image_url": "/SushiPlatter.webp",
+        "section_slug": "sushi-pre-order-only",
+        "section_name": "Sushi (Pre-order Only)"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 232,
+        "name": "Sushi Platter",
+        "image_url": "/SushiPlatter.webp",
+        "section_slug": "sushi-pre-order-only",
+        "section_name": "Sushi (Pre-order Only)"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Sushi Bow.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Sushi Bow.jpeg",
+    "photo_id": "1ASYrC1YV8EfVbZEFNJSAKkYt_v1Iebyg",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 93,
+        "name": "Sushi Bowl (K)",
+        "image_url": "/Keto/SushiBowl.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 0.947
+    },
+    "best_overall": {
+      "item": {
+        "id": 93,
+        "name": "Sushi Bowl (K)",
+        "image_url": "/Keto/SushiBowl.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 0.947
+    }
+  },
+  {
+    "photo_name": "Vegan Kiev.png",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Vegan Kiev.png",
+    "photo_id": "1-pR383Jn1mDRD1npTwuPLX4fVavcDZ05",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 97,
+        "name": "Vegan Kiev (V)(GF)",
+        "image_url": "/Keto/VeganKiev.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 97,
+        "name": "Vegan Kiev (V)(GF)",
+        "image_url": "/Keto/VeganKiev.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Omelette.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Omelette.jpg",
+    "photo_id": "1lh4lL5dUvS5ociUL75Q5eNHwlABgPnA1",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 91,
+        "name": "Omelette (K)",
+        "image_url": "/Keto/Omelette.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 31,
+        "name": "Omelette (GF)",
+        "image_url": "/Breakfast/Omelette.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Chocolate Fudge Cake (GF) .jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Chocolate Fudge Cake (GF) .jpg",
+    "photo_id": "1__4w6U56_j5PeGMfr_-yIWstUwvr1KBr",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 103,
+        "name": "Chocolate Fudge Cake (GF)",
+        "image_url": "/Keto/ChocolateFudgeCake(GF).webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 103,
+        "name": "Chocolate Fudge Cake (GF)",
+        "image_url": "/Keto/ChocolateFudgeCake(GF).webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Muffin.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Muffin.jpg",
+    "photo_id": "10PCY06jFKUgWlxDHBsQNFUoIkSF9iI9m",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 106,
+        "name": "Muffin (GF)",
+        "image_url": "/Keto/Muffin.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 106,
+        "name": "Muffin (GF)",
+        "image_url": "/Keto/Muffin.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Scone.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Scone.jpg",
+    "photo_id": "16PCKrT60vYVAQzxYVlxwhzl_96bOYJ0S",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 98,
+        "name": "Scone (GF)",
+        "image_url": "/Keto/Scone.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 98,
+        "name": "Scone (GF)",
+        "image_url": "/Keto/Scone.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Bagel.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Bagel.jpg",
+    "photo_id": "1V8a-eesHnO9a7nIItFlarn2ZNxp93Svr",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 99,
+        "name": "Bagel (GF)",
+        "image_url": "/Keto/Bagel.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 99,
+        "name": "Bagel (GF)",
+        "image_url": "/Keto/Bagel.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Vegan Burger.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Vegan Burger.jpg",
+    "photo_id": "1QHvDi1Y2aQM0lOaksnk120j2jgTm8ys-",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 96,
+        "name": "Vegan Burger (V)(GF*)",
+        "image_url": "/Keto/VeganBurger.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 96,
+        "name": "Vegan Burger (V)(GF*)",
+        "image_url": "/Keto/VeganBurger.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Macroons.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Macroons.jpg",
+    "photo_id": "1YPlQaHlsgXJIcm3R3RARNyu5pteGSqYj",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 105,
+        "name": "Macaroon (GF)",
+        "image_url": "/Keto/Macroons.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 0.875
+    },
+    "best_overall": {
+      "item": {
+        "id": 105,
+        "name": "Macaroon (GF)",
+        "image_url": "/Keto/Macroons.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 0.875
+    }
+  },
+  {
+    "photo_name": "Almond Belgian Waffle.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Almond Belgian Waffle.jpeg",
+    "photo_id": "1GApERfImUVdPYtaP_Eq3q8IGh6f-hzhc",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 90,
+        "name": "Almond Belgium Waffle (K)",
+        "image_url": "/Keto/AlmondBelgianWaffle.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 0.905
+    },
+    "best_overall": {
+      "item": {
+        "id": 90,
+        "name": "Almond Belgium Waffle (K)",
+        "image_url": "/Keto/AlmondBelgianWaffle.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 0.905
+    }
+  },
+  {
+    "photo_name": "Mozzarella Omelette Sandwich.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Mozzarella Omelette Sandwich.jpeg",
+    "photo_id": "11JiVJFoNsbK4NKaNcc7_2XasnsfyD_GL",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 92,
+        "name": "Mozzarella Omelette Sandwich (K)",
+        "image_url": "/Keto/MozzarellaOmeletteSandwich.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 92,
+        "name": "Mozzarella Omelette Sandwich (K)",
+        "image_url": "/Keto/MozzarellaOmeletteSandwich.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Vegan Taco.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Vegan Taco.jpeg",
+    "photo_id": "1tpisk0NrVoZmI25yX3AWugLrf7rD6J8e",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 95,
+        "name": "Vegan Taco (V)(GF*)",
+        "image_url": "/Keto/VeganTaco.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 95,
+        "name": "Vegan Taco (V)(GF*)",
+        "image_url": "/Keto/VeganTaco.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Vegan Sausage Bap.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Vegan Sausage Bap.jpeg",
+    "photo_id": "1AbMnZAuzZx48ElA4zxmDuZ3neYXJRWHb",
+    "drive_folder": "Keto, Vegan & Gluten Free",
+    "expected_section_slugs": [
+      "keto-vegan-gluten-free"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 94,
+        "name": "Vegan Sausages Bap (V)(GF*)",
+        "image_url": "/Keto/VeganSausageBap.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 0.971
+    },
+    "best_overall": {
+      "item": {
+        "id": 94,
+        "name": "Vegan Sausages Bap (V)(GF*)",
+        "image_url": "/Keto/VeganSausageBap.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 0.971
+    }
+  },
+  {
+    "photo_name": "Create your own Salad.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Salads/Create your own Salad.jpg",
+    "photo_id": "1FRCOFOfa88o9FxpSoE5YeCTXY25kECsb",
+    "drive_folder": "Salads",
+    "expected_section_slugs": [
+      "salads"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 89,
+        "name": "Create Your Own Salad",
+        "image_url": "/Salads/CreateyourownSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 89,
+        "name": "Create Your Own Salad",
+        "image_url": "/Salads/CreateyourownSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Crispy Chicken Salad.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Salads/Crispy Chicken Salad.jpg",
+    "photo_id": "1o5IfgpkoC8v3BBTl7_lGBovyIK7EfBFo",
+    "drive_folder": "Salads",
+    "expected_section_slugs": [
+      "salads"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 88,
+        "name": "Crispy Chicken Salad",
+        "image_url": "/Salads/CrispyChickenSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 88,
+        "name": "Crispy Chicken Salad",
+        "image_url": "/Salads/CrispyChickenSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Greek Salad.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Salads/Greek Salad.jpg",
+    "photo_id": "1nQL6YGrRa09qhxirbhjy3YZzYjPVtHUq",
+    "drive_folder": "Salads",
+    "expected_section_slugs": [
+      "salads"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 84,
+        "name": "Greek Salad",
+        "image_url": "/Salads/GreekSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 84,
+        "name": "Greek Salad",
+        "image_url": "/Salads/GreekSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Balsamic Mozzarella Salad.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Salads/Balsamic Mozzarella Salad.jpg",
+    "photo_id": "1fUZYNTNMJWBFwelGs2sVMorS44LPEf_5",
+    "drive_folder": "Salads",
+    "expected_section_slugs": [
+      "salads"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 87,
+        "name": "Balsamic Mozzarella Salad",
+        "image_url": "/Salads/BalsamicMozzarellaSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 87,
+        "name": "Balsamic Mozzarella Salad",
+        "image_url": "/Salads/BalsamicMozzarellaSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Caesar Salad.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Salads/Caesar Salad.jpg",
+    "photo_id": "1S_DGMreBZlA5zHq5iARai3z82mN66xgN",
+    "drive_folder": "Salads",
+    "expected_section_slugs": [
+      "salads"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 83,
+        "name": "Caesar Salad",
+        "image_url": "/Salads/CaesarSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 83,
+        "name": "Caesar Salad",
+        "image_url": "/Salads/CaesarSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Mozzarella Mango Salad.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Salads/Mozzarella Mango Salad.jpeg",
+    "photo_id": "1JaJr9UxFM5UOPSjbwon49caRB8xYlTxn",
+    "drive_folder": "Salads",
+    "expected_section_slugs": [
+      "salads"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 85,
+        "name": "Mozzarella & Mango Salad",
+        "image_url": "/Salads/MozzarellaMangoSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 85,
+        "name": "Mozzarella & Mango Salad",
+        "image_url": "/Salads/MozzarellaMangoSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Caprese Salad.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Salads/Caprese Salad.jpg",
+    "photo_id": "1z26jip-MXLDDr7dDUHBRHqFONSLElSlR",
+    "drive_folder": "Salads",
+    "expected_section_slugs": [
+      "salads"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 86,
+        "name": "Caprese Salad",
+        "image_url": "/Salads/CapreseSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 86,
+        "name": "Caprese Salad",
+        "image_url": "/Salads/CapreseSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Rice.png",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Rice.png",
+    "photo_id": "1ios_fc20es9kJYGLxTHdzwuZdlPDMxtZ",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 77,
+        "name": "Rice",
+        "image_url": "/CreateYourOwn/Rice.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 77,
+        "name": "Rice",
+        "image_url": "/CreateYourOwn/Rice.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Sandwich.png",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Sandwich.png",
+    "photo_id": "1Ox_vtfXFjHhyp4-Wjj-sTIYgAzaxXZ-9",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 64,
+        "name": "Sandwich",
+        "image_url": "/CreateYourOwn/Sandwich.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 64,
+        "name": "Sandwich",
+        "image_url": "/CreateYourOwn/Sandwich.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Chips.png",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Chips.png",
+    "photo_id": "1rgEwM7V_tZEtF1jY88BbNOYiCrwbmDtC",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 78,
+        "name": "Chips",
+        "image_url": "/CreateYourOwn/Chips.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 78,
+        "name": "Chips",
+        "image_url": "/CreateYourOwn/Chips.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Omelette.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Omelette.jpg",
+    "photo_id": "1uLvEDWJ2fzVXtHflBpxU-kwc5mKOGZuT",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 74,
+        "name": "Omelette",
+        "image_url": "/CreateYourOwn/Omelette.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 31,
+        "name": "Omelette (GF)",
+        "image_url": "/Breakfast/Omelette.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Quesadilla.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Quesadilla.jpg",
+    "photo_id": "1PvB0fDCIg2fzAKHdDyKrS8DjUjoPUHJC",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 72,
+        "name": "Quesadilla",
+        "image_url": "/CreateYourOwn/Quesadilla.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 72,
+        "name": "Quesadilla",
+        "image_url": "/CreateYourOwn/Quesadilla.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Panini.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Panini.jpg",
+    "photo_id": "1X6X-87ZVv7vdfMIeQjgRwbc-YHDIpRFA",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 68,
+        "name": "Panini",
+        "image_url": "/CreateYourOwn/Panini.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 68,
+        "name": "Panini",
+        "image_url": "/CreateYourOwn/Panini.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Salad.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Salad.jpg",
+    "photo_id": "1lnVW2YpL5VuynjN4LMOpMuLLnDakm5uK",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 80,
+        "name": "Salad",
+        "image_url": "/CreateYourOwn/Salad.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 80,
+        "name": "Salad",
+        "image_url": "/CreateYourOwn/Salad.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Ciabatta.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Ciabatta.jpg",
+    "photo_id": "1EujKksb0kvJ7pgwtK3YMXrlA4wjH3K3-",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 255,
+        "name": "Ciabatta",
+        "image_url": "/CreateYourOwn/Ciabatta.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 255,
+        "name": "Ciabatta",
+        "image_url": "/CreateYourOwn/Ciabatta.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Jacket Potato.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Jacket Potato.jpg",
+    "photo_id": "1fo1uLgxguW8CmM5aVri1jyULTDznFAKi",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 79,
+        "name": "Jacket Potato",
+        "image_url": "/Lunch/JacketPotato.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 79,
+        "name": "Jacket Potato",
+        "image_url": "/Lunch/JacketPotato.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Taco.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Taco.jpeg",
+    "photo_id": "1RVB_gNa62YXMMHADfph7xCvh7FIkcBlU",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 81,
+        "name": "Taco",
+        "image_url": "/CreateYourOwn/Taco.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 81,
+        "name": "Taco",
+        "image_url": "/CreateYourOwn/Taco.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Toastie.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Toastie.jpeg",
+    "photo_id": "1CZ7X-kI7CJwvPGpUoegjeCbq5jwC7UZ0",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 65,
+        "name": "Toastie",
+        "image_url": "/CreateYourOwn/Toastie.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 65,
+        "name": "Toastie",
+        "image_url": "/CreateYourOwn/Toastie.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Wrap.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Wrap.jpeg",
+    "photo_id": "1VnipA887Oe8nBhv8-Ef-3aGebozUDyQi",
+    "drive_folder": "Create Your Own",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 67,
+        "name": "Wrap",
+        "image_url": "/CreateYourOwn/Wrap.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 67,
+        "name": "Wrap",
+        "image_url": "/CreateYourOwn/Wrap.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Mexican Panini.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Mexican Panini.jpeg",
+    "photo_id": "1sr8i5_5YVKIjDU81YlEKeKQerF9G90nV",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 56,
+        "name": "Mexican Panini",
+        "image_url": "/Lunch/MexicanPanini.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 56,
+        "name": "Mexican Panini",
+        "image_url": "/Lunch/MexicanPanini.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Festive Toastie.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Festive Toastie.jpeg",
+    "photo_id": "1eANLYceVTrUl7EqK_-TYogsY0mwVp3WM",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 63,
+        "name": "Festive Toastie",
+        "image_url": "/Lunch/FestiveToastie.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 63,
+        "name": "Festive Toastie",
+        "image_url": "/Lunch/FestiveToastie.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Air Fried Sushi Hot Dog.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Air Fried Sushi Hot Dog.jpeg",
+    "photo_id": "1ZjSOcfFsnvqOfRJ9iT_YkMxX1Re3j2Sl",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 52,
+        "name": "Air Fried Sushi Hot Dog (GF*)(V*)",
+        "image_url": "/Lunch/AirFriedSushiHotDog.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 52,
+        "name": "Air Fried Sushi Hot Dog (GF*)(V*)",
+        "image_url": "/Lunch/AirFriedSushiHotDog.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Fish Cake Mini Burger.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Fish Cake Mini Burger.jpeg",
+    "photo_id": "1uqvgsueftpYj8eQ8oCCNkzX7quP2KP4P",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 62,
+        "name": "Fishcake Burger",
+        "image_url": "/Lunch/FishCakeMiniBurger.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 0.833
+    },
+    "best_overall": {
+      "item": {
+        "id": 62,
+        "name": "Fishcake Burger",
+        "image_url": "/Lunch/FishCakeMiniBurger.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 0.833
+    }
+  },
+  {
+    "photo_name": "Bibimbap.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Bibimbap.jpeg",
+    "photo_id": "1mMZAnq86CEdkNPzJhzGZGzCWZlCDwJbv",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 50,
+        "name": "Bibimbap (GF)(V*)",
+        "image_url": "/Lunch/Bibimbap.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 50,
+        "name": "Bibimbap (GF)(V*)",
+        "image_url": "/Lunch/Bibimbap.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Poke Bowl.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Poke Bowl.jpeg",
+    "photo_id": "1_GA-xEeIp45B887lCQxywL3rbIgxNeF_",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 51,
+        "name": "Poke Bowl (GF*)(V)",
+        "image_url": "/Lunch/PokeBowl.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 51,
+        "name": "Poke Bowl (GF*)(V)",
+        "image_url": "/Lunch/PokeBowl.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Crispy Chicken Naan Kebab.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Crispy Chicken Naan Kebab.jpeg",
+    "photo_id": "1SF4F1s1zahVJlxNfsOSq9cs19zK9E_uy",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 59,
+        "name": "Crispy Chicken Naan Kebab",
+        "image_url": "/Lunch/CrispyChickenNaanKebab.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 59,
+        "name": "Crispy Chicken Naan Kebab",
+        "image_url": "/Lunch/CrispyChickenNaanKebab.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Beetroot Feta Burger.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Beetroot Feta Burger.jpg",
+    "photo_id": "12KPdR_3JOwPeu-ik42PjgrCFfLQCYWuH",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 47,
+        "name": "Beetroot Feta Burger",
+        "image_url": "/Lunch/BeetrootFetaBurger.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 47,
+        "name": "Beetroot Feta Burger",
+        "image_url": "/Lunch/BeetrootFetaBurger.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Beetroot Belgian Waffle.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Beetroot Belgian Waffle.jpg",
+    "photo_id": "1t3yd_XX3xUTACJt3u3raVZM45Z8k3Gqk",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 254,
+        "name": "Beetroot Belgium Waffle",
+        "image_url": "/Lunch/BeetrootBelgianWaffle.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 0.913
+    },
+    "best_overall": {
+      "item": {
+        "id": 254,
+        "name": "Beetroot Belgium Waffle",
+        "image_url": "/Lunch/BeetrootBelgianWaffle.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 0.913
+    }
+  },
+  {
+    "photo_name": "Prosciutto Ham & Feta Cheese Baguette.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Prosciutto Ham & Feta Cheese Baguette.jpg",
+    "photo_id": "1tYYI76JQWgKBgbDTy4gRRQzspOQurXbO",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 46,
+        "name": "Prosciutto Ham & Feta Cheese Baguette",
+        "image_url": "/Lunch/ProsciuttoHamFetaCheeseBaguette.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 46,
+        "name": "Prosciutto Ham & Feta Cheese Baguette",
+        "image_url": "/Lunch/ProsciuttoHamFetaCheeseBaguette.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Sourdough Pizza.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Sourdough Pizza.jpg",
+    "photo_id": "1gpscYCitn7kB7PdhOR1-IEBZTjUDj0qx",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 73,
+        "name": "Sourdough Pizza",
+        "image_url": "/Lunch/SourdoughPizza.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 73,
+        "name": "Sourdough Pizza",
+        "image_url": "/Lunch/SourdoughPizza.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Jacket Potato.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Lunch/Jacket Potato.jpg",
+    "photo_id": "1NYzZuSRvqPFy6b1oK040hdRaLdXXTpzD",
+    "drive_folder": "Lunch",
+    "expected_section_slugs": [
+      "lunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 79,
+        "name": "Jacket Potato",
+        "image_url": "/Lunch/JacketPotato.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 79,
+        "name": "Jacket Potato",
+        "image_url": "/Lunch/JacketPotato.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Omelette.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Omelette.jpg",
+    "photo_id": "14f5FMu86IOwyIu96or7EFScnSFV3J_0j",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 31,
+        "name": "Omelette (GF)",
+        "image_url": "/Breakfast/Omelette.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 31,
+        "name": "Omelette (GF)",
+        "image_url": "/Breakfast/Omelette.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Porridge.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Porridge.jpg",
+    "photo_id": "1mPC-gyikqdthhyzYyVCDSidO-wBYyteI",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 30,
+        "name": "Porridge",
+        "image_url": "/Breakfast/Porridge.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 30,
+        "name": "Porridge",
+        "image_url": "/Breakfast/Porridge.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Salmon Sunrise.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Salmon Sunrise.jpeg",
+    "photo_id": "1VzJ0z2CLkxuesiE7suhIyDjno_ur-SqT",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 36,
+        "name": "Salmon Sunrise",
+        "image_url": "/Breakfast/SalmonSunrise.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 36,
+        "name": "Salmon Sunrise",
+        "image_url": "/Breakfast/SalmonSunrise.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "French Toast Benedict.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/French Toast Benedict.jpeg",
+    "photo_id": "1l-DEo2QVRKjxR5fzQpFgczidlMsOFwOw",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 40,
+        "name": "French Toast Benedict",
+        "image_url": "/Breakfast/FrenchToastBenedict.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 40,
+        "name": "French Toast Benedict",
+        "image_url": "/Breakfast/FrenchToastBenedict.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Hello Sunrise.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Hello Sunrise.jpeg",
+    "photo_id": "1wLev9Bngdi6b_r9Qn5UoSJfqLl7-xwAY",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 35,
+        "name": "Hello Sunrise",
+        "image_url": null,
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 35,
+        "name": "Hello Sunrise",
+        "image_url": null,
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Poached Egg Bacon Bagel.jpeg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Poached Egg Bacon Bagel.jpeg",
+    "photo_id": "1li5v8bRhK4QP8E42pziOvP0doEFOLF1A",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 42,
+        "name": "Poached Egg & Bacon Bagel",
+        "image_url": "/Breakfast/PoachedEggBaconBagel.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 42,
+        "name": "Poached Egg & Bacon Bagel",
+        "image_url": "/Breakfast/PoachedEggBaconBagel.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Smoothie Bowl.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Smoothie Bowl.jpg",
+    "photo_id": "1nD2GMKQeUPDxBOgi4VkT9LkCx6VcE9SJ",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 249,
+        "name": "Smoothie Bowl",
+        "image_url": "/Breakfast/SmoothieBowl.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 249,
+        "name": "Smoothie Bowl",
+        "image_url": "/Breakfast/SmoothieBowl.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Cranberry Brie Toast.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Cranberry Brie Toast.jpg",
+    "photo_id": "1hgooaIiYau8RY5eUjdzQq4kzTYBzvyBT",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 38,
+        "name": "Cranberry Brie Toast",
+        "image_url": "/Breakfast/CranberryBrieToast.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 38,
+        "name": "Cranberry Brie Toast",
+        "image_url": "/Breakfast/CranberryBrieToast.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Good Morning Breakfast.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Good Morning Breakfast.jpg",
+    "photo_id": "1U6jmud2ieHvLjQK_Cl4vmPwzdClO1fdb",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 37,
+        "name": "Good Morning Breakfast",
+        "image_url": "/Breakfast/GoodMorningBreakfast.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 37,
+        "name": "Good Morning Breakfast",
+        "image_url": "/Breakfast/GoodMorningBreakfast.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Acai Granola Bowl.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Acai Granola Bowl.jpg",
+    "photo_id": "1pP-mwiBx1hAgFTBSfVM_mAzcekp5kDX0",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 45,
+        "name": "Acai Granola Bowl",
+        "image_url": "/Breakfast/AcaiGranolaBowl.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 45,
+        "name": "Acai Granola Bowl",
+        "image_url": "/Breakfast/AcaiGranolaBowl.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Simply Morning.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Simply Morning.jpg",
+    "photo_id": "1DVvDlWz2ANFSidug8aLfTPPodm2yPbaO",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 34,
+        "name": "Simply Morning",
+        "image_url": "/Breakfast/SimplyMorning.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 34,
+        "name": "Simply Morning",
+        "image_url": "/Breakfast/SimplyMorning.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Egg Toast.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Egg Toast.jpg",
+    "photo_id": "1byBYEpi7KhVPRFNcjeNvpiW5P3snJpz9",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 33,
+        "name": "Egg Toast",
+        "image_url": "/Breakfast/EggToast.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 33,
+        "name": "Egg Toast",
+        "image_url": "/Breakfast/EggToast.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Scrambled Egg Ciabatta.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Scrambled Egg Ciabatta.jpg",
+    "photo_id": "12P4nfD6pgEIn-0Ir-hEf1XN6lR03uALu",
+    "drive_folder": "Breakfast & Brunch",
+    "expected_section_slugs": [
+      "breakfast-brunch"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 41,
+        "name": "Scrambled Egg Ciabatta",
+        "image_url": "/Breakfast/ScrambledEggCiabatta.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 41,
+        "name": "Scrambled Egg Ciabatta",
+        "image_url": "/Breakfast/ScrambledEggCiabatta.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Sausage Roll.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Bakery & Pastries/Sausage Roll.jpg",
+    "photo_id": "1xUYA1FawjcaQ0ufahwI-fvlwMR_ImLca",
+    "drive_folder": "Bakery & Pastries",
+    "expected_section_slugs": [
+      "bakery-pastries"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 27,
+        "name": "Sausage Roll",
+        "image_url": "/Bakery/SausageRoll.webp",
+        "section_slug": "bakery-pastries",
+        "section_name": "Bakery & Pastries"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 27,
+        "name": "Sausage Roll",
+        "image_url": "/Bakery/SausageRoll.webp",
+        "section_slug": "bakery-pastries",
+        "section_name": "Bakery & Pastries"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Cinnamon Bun.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Bakery & Pastries/Cinnamon Bun.jpg",
+    "photo_id": "1wbYeooKZjglbX8hJ9SqrV82Pym-xMpTv",
+    "drive_folder": "Bakery & Pastries",
+    "expected_section_slugs": [
+      "bakery-pastries"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 28,
+        "name": "Cinnamon Bun",
+        "image_url": "/Bakery/CinnamonBun.webp",
+        "section_slug": "bakery-pastries",
+        "section_name": "Bakery & Pastries"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 28,
+        "name": "Cinnamon Bun",
+        "image_url": "/Bakery/CinnamonBun.webp",
+        "section_slug": "bakery-pastries",
+        "section_name": "Bakery & Pastries"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Muffin.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Bakery & Pastries/Muffin.jpg",
+    "photo_id": "1q-8ZA_8GeA_Awa3HDkVGrKwNp6G9PI52",
+    "drive_folder": "Bakery & Pastries",
+    "expected_section_slugs": [
+      "bakery-pastries"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 26,
+        "name": "Muffins",
+        "image_url": "/Bakery/Muffin.webp",
+        "section_slug": "bakery-pastries",
+        "section_name": "Bakery & Pastries"
+      },
+      "score": 0.923
+    },
+    "best_overall": {
+      "item": {
+        "id": 106,
+        "name": "Muffin (GF)",
+        "image_url": "/Keto/Muffin.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Einspanner.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Einspanner.jpg",
+    "photo_id": "16RTnFTb1nz2j4h8ANCTHzXByC30Slm_1",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 5,
+        "name": "Einspanner",
+        "image_url": "/CoffeeTea/Einspanner.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 5,
+        "name": "Einspanner",
+        "image_url": "/CoffeeTea/Einspanner.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Tea.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Tea.jpg",
+    "photo_id": "18Gyl__EJ9IaujHjZ53aDTQlu0LLYsB-X",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 14,
+        "name": "Tea",
+        "image_url": "/CoffeeTea/Tea.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 14,
+        "name": "Tea",
+        "image_url": "/CoffeeTea/Tea.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Matcha Tea.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Matcha Tea.jpg",
+    "photo_id": "1SUchGDSdRRRUCttkPtSCKw3Xz1tFbcpF",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 16,
+        "name": "Matcha Tea",
+        "image_url": "/CoffeeTea/MatchaTea.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 16,
+        "name": "Matcha Tea",
+        "image_url": "/CoffeeTea/MatchaTea.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Matcha Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Matcha Latte.jpg",
+    "photo_id": "1n_3H738kqMWwB5uFWAlduDSAZhuM6wWT",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 15,
+        "name": "Matcha Latte",
+        "image_url": "/CoffeeTea/MatchaLatte.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 15,
+        "name": "Matcha Latte",
+        "image_url": "/CoffeeTea/MatchaLatte.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Mocaccino.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Mocaccino.jpg",
+    "photo_id": "1OEWCqo6SGn10YerMt1iGZui051pNv2n-",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 10,
+        "name": "Mocaccino",
+        "image_url": "/CoffeeTea/Mocaccino.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 10,
+        "name": "Mocaccino",
+        "image_url": "/CoffeeTea/Mocaccino.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Macchiato.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Macchiato.jpg",
+    "photo_id": "1Y15rjNAx256CN76qWVVSM9OtwLJRoyCS",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 9,
+        "name": "Macchiato",
+        "image_url": "/CoffeeTea/Macchiato.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 9,
+        "name": "Macchiato",
+        "image_url": "/CoffeeTea/Macchiato.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Latte.jpg",
+    "photo_id": "1RHMhg_bt5YOcQY3xDvD1-wAlazVs1hdb",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 8,
+        "name": "Latte",
+        "image_url": "/CoffeeTea/Latte.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 8,
+        "name": "Latte",
+        "image_url": "/CoffeeTea/Latte.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Jasmine Brew Tea.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Jasmine Brew Tea.jpg",
+    "photo_id": "18L3gz2mK3tznH_9YnS1DM5he4Phsyuxm",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 12,
+        "name": "Jasmine Brew Tea",
+        "image_url": "/CoffeeTea/JasmineBrewTea.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 12,
+        "name": "Jasmine Brew Tea",
+        "image_url": "/CoffeeTea/JasmineBrewTea.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Flat White.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Flat White.jpg",
+    "photo_id": "1pT1OHiRqh8vx_A5yRMKdjt3PJHLYz9Hr",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 7,
+        "name": "Flat White",
+        "image_url": "/CoffeeTea/FlatWhite.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 7,
+        "name": "Flat White",
+        "image_url": "/CoffeeTea/FlatWhite.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Espresso.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Espresso.jpg",
+    "photo_id": "1Ov96ZEoSENyHvq6rTTjp7ob7hopCbzg0",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 6,
+        "name": "Espresso",
+        "image_url": "/CoffeeTea/Espresso.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 6,
+        "name": "Espresso",
+        "image_url": "/CoffeeTea/Espresso.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Chai Latte.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Chai Latte.jpg",
+    "photo_id": "1dCcj4VTaOM14OHIuqvazHCc1dMGUYRpZ",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 4,
+        "name": "Chai Latte",
+        "image_url": "/CoffeeTea/ChaiLatte.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 4,
+        "name": "Chai Latte",
+        "image_url": "/CoffeeTea/ChaiLatte.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Capuccino.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Capuccino.jpg",
+    "photo_id": "1rIpGVGDAeor3hxbcoz3XdMnO9n00MSEo",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 3,
+        "name": "Cappuccino",
+        "image_url": "/CoffeeTea/Capuccino.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 0.947
+    },
+    "best_overall": {
+      "item": {
+        "id": 3,
+        "name": "Cappuccino",
+        "image_url": "/CoffeeTea/Capuccino.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 0.947
+    }
+  },
+  {
+    "photo_name": "Babyccino.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Babyccino.jpg",
+    "photo_id": "1v_cSOOD7RWjzvDqGcBq5_3AuiseYo4HY",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 2,
+        "name": "Babyccino",
+        "image_url": "/CoffeeTea/Babyccino.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 2,
+        "name": "Babyccino",
+        "image_url": "/CoffeeTea/Babyccino.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  },
+  {
+    "photo_name": "Americano.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Americano.jpg",
+    "photo_id": "1rP7hTOz86pNAYkGgsOhaMg0X4oK-ObhA",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 1,
+        "name": "Americano",
+        "image_url": "/CoffeeTea/Americano.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    },
+    "best_overall": {
+      "item": {
+        "id": 1,
+        "name": "Americano",
+        "image_url": "/CoffeeTea/Americano.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 1.0
+    }
+  }
+]

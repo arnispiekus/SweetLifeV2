@@ -2,9 +2,8 @@
 
 ## Current Position
 
-**Milestone:** 1 - Website Rebuild
-**Phase:** 7 - Polish & Launch
-**Status:** Plan 02 (SEO/Performance) complete, ready for deployment
+**Milestone:** 1 - Website Rebuild — **COMPLETE** (2026-05-21)
+**Status:** Deployed to Vercel under arnispiekus account, live on https://sweetlife.cafe via Cloudflare DNS, Resend domain verified for transactional email. Ready for M2 (Sinra integration).
 
 ## Phase Status
 
@@ -20,6 +19,7 @@
 
 ## Recent Activity
 
+- 2026-05-21: **Out-of-band migration (not via GSD)** — Repo transferred Roseyco-management/SweetLifeV2 → arnispiekus/SweetLifeV2. Re-imported on personal Vercel team. Domain `sweetlife.cafe` now lives on Arnis's Cloudflare account, nameservers switched, apex CNAME-flattens to Vercel and www proxies through CF → Vercel (both serving 200). Resend `sweetlife.cafe` verified in eu-west-1 (DKIM + SPF + MX records added to Cloudflare). Fixed 10 files of stale `sweetlifecafe.co.uk` references (URLs in metadata, sitemap, robots, structured data, and email addresses in contact form, sushi orders, footer, WhatsApp CTA). Old Vercel project on rosey-co-team left in place by choice (user said skip cleanup).
 - 2025-01-18: Project initialized
 - 2025-01-18: Roadmap created with 7 phases
 - 2025-01-18: Phase 1 executed — dependencies, theme, fonts, structure, images
@@ -90,7 +90,18 @@ None
 - FoodServe ordering link integrated in menu pages
 - Reference codebase available at `/Users/arnispiekus/Work/Github/SweetLifeNewry` for component migration
 - Blog system dropped from scope (stale SEO posts)
-- **Ready for Vercel deployment** — connect repo and add RESEND_API_KEY env var
+- **Deployed live at https://sweetlife.cafe** — Vercel + Cloudflare + Resend all green
+- **Senders verified:** `noreply@sweetlife.cafe` (contact form), `orders@sweetlife.cafe` (sushi orders) — both via Resend (`RESEND_API_KEY` is in Infisical `claude-dev/dev` under name `RESEND_API_KEY`)
+
+## What's NOT done (carried forward to M2 / new project sinra-os)
+
+- Admin dashboard for mum to manage menu / orders / bookings (was explicitly Out of Scope in M1; reversed for M2 via Sinra)
+- Integration with Sinra (Hermes agent on sinra-vps) for AI-assisted ops
+- WhatsApp Business app → Cloud API migration (required for Sinra to handle messages)
+- Meta + Google Ads management surface
+- Email inbox routing (info@sweetlife.cafe → Sinra for drafting replies)
+- Old domain `sweetlifecafe.co.uk` retirement plan (still pending Cloudflare, Netlify A records, Zoho MX)
+- DNS housekeeping: dedupe wildcard A records, remove `_domainconnect` CNAME from Cloudflare
 
 ---
-*Last updated: 2025-01-18*
+*Last updated: 2026-05-22 — M1 marked complete, M2 (Sinra integration) about to be scoped*

@@ -1,0 +1,7 @@
+A new release of infisical is available: 0.43.79 -> 0.43.86
+
+To update, run: brew update && brew upgrade infisical
+
+[90m2026-05-26T19:57:41-03:00[0m [32mINF[0m Injecting 95 Infisical secrets into your application process
+/opt/homebrew/Cellar/python@3.13/3.13.11_1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/arnispiekus/Work/Github/sweet-life-v2/menu-extraction/sources/batch_gemini.py': [Errno 2] No such file or directory
+failed to wait for command termination: exit status 2

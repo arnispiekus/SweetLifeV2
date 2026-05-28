@@ -1,0 +1,62 @@
+[
+  {
+    "id": "campaign-bingsu-summer",
+    "name": "Bingsu Summer push",
+    "hook": "Korean snow-ice — Newry's summer obsession",
+    "cta": "Order in store or pre-order — see menu",
+    "prompt": "Sweet Life Bingsu campaign — taro and matcha bingsu, fresh-shaved ribbons, side-by-side with condensed milk drizzle, against warm cream background. Bold space for copy overlay on the right side.",
+    "product_context": "Korean shaved-ice dessert, generous mound of finely shaved milk ice, drizzled with condensed milk, topped with crushed taro or matcha powder, mochi pieces. Real bingsu texture.",
+    "brand_context": "Sweet Life café — Korean dessert café in Newry, NI. Warm cream paper, terracotta accents, ceramic bowl. Editorial. Forbidden: stock-photo cringe, plastic AI sheen.",
+    "channel": "meta-instagram",
+    "format": "feed",
+    "count": 3
+  },
+  {
+    "id": "campaign-drinks-summer",
+    "name": "Summer drinks lineup",
+    "hook": "Iced everything — your summer drink is at Sweet Life",
+    "cta": "Try the new Watermelon Breeze",
+    "prompt": "Five Sweet Life iced drinks in a row — Watermelon Breeze, iced matcha latte, raspberry jasmine tea, mango smoothie, brown sugar milk tea — all in tall slender glasses with condensation, marble café table, soft natural light.",
+    "product_context": "Tall slender glasses with condensation, vibrant fruit colors, garnish of fresh fruit slices, ice cubes, layered drink colors.",
+    "brand_context": "Sweet Life Newry — Korean café. Warm marble café table, soft window light, real photograph not synthetic.",
+    "channel": "meta-instagram",
+    "format": "carousel",
+    "count": 3
+  },
+  {
+    "id": "campaign-brunch-weekend",
+    "name": "Weekend brunch push",
+    "hook": "Brunch at Sweet Life — weekends just got better",
+    "cta": "Open 9am — book your table",
+    "prompt": "Sweet Life weekend brunch spread — French toast with bacon, acai granola bowl, salmon sunrise bagel, latte with rosetta, on a warm wood table with golden morning light through the window.",
+    "product_context": "Full brunch spread: French toast with maple syrup and bacon, acai granola bowl with fresh berries, salmon and avocado bagel, latte with art. Plates and bowls in speckled ceramic.",
+    "brand_context": "Sweet Life café — warm cream and wood interior, soft morning light, editorial brunch styling.",
+    "channel": "meta-instagram",
+    "format": "feed",
+    "count": 3
+  },
+  {
+    "id": "campaign-new-bao-buns",
+    "name": "Bao Buns launch",
+    "hook": "New: Bao Buns at Sweet Life",
+    "cta": "Try them this week",
+    "prompt": "Three Sweet Life bao buns on a bamboo steamer — soft fluffy white steamed buns, generously filled with crispy chicken, beef and tofu variations, with sauce drizzles and garnishes. Atmospheric steam rising.",
+    "product_context": "Soft fluffy Korean-Chinese bao buns, generously filled, on a bamboo steamer. Filings visible: crispy chicken, beef, tofu. Sauce drizzle on top.",
+    "brand_context": "Sweet Life Newry — Korean café. Warm cream paper background, soft window light. New menu item announcement style.",
+    "channel": "instagram-story",
+    "format": "story",
+    "count": 3
+  },
+  {
+    "id": "campaign-emergency-workers",
+    "name": "10% off — emergency workers",
+    "hook": "Thank you for your service — 10% off for all emergency workers",
+    "cta": "Show your ID at the counter",
+    "prompt": "Sweet Life café atmosphere — a barista handing a takeaway coffee and pastry to a customer in soft focus, warm interior, ceramic mug, golden afternoon light. Generous, warm, no fakery.",
+    "product_context": "Takeaway coffee in a Sweet Life cup, a pastry in a paper bag, exchanged hand-to-hand at the counter. Café interior in soft focus.",
+    "brand_context": "Sweet Life café — warm and generous, café interior with hanging lights. Editorial lifestyle, soft warm tones.",
+    "channel": "meta-instagram",
+    "format": "feed",
+    "count": 2
+  }
+]

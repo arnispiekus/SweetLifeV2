@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "id": "video-bingsu-spoon",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_231455_f1e27a2b-0cab-43ca-b6f5-f7c8d7bdf7cd.mp4",
+      "path": "public/videos/video-bingsu-spoon.mp4"
+    },
+    {
+      "id": "video-latte-pour",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_231455_57fae9e1-186a-442a-9721-c78b2c808040.mp4",
+      "path": "public/videos/video-latte-pour.mp4"
+    },
+    {
+      "id": "video-drink-condensation",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_231607_a3957085-3580-427b-9798-45d7213feb41.mp4",
+      "path": "public/videos/video-drink-condensation.mp4"
+    },
+    {
+      "id": "video-bao-steam",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_231626_624e9ceb-275e-4ae7-8f88-320a790c9c08.mp4",
+      "path": "public/videos/video-bao-steam.mp4"
+    }
+  ]
+}
