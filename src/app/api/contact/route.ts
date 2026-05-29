@@ -112,6 +112,26 @@ export async function POST(request: NextRequest) {
       // In production, you might want to handle this differently
     }
 
+    // Fire-and-forget: POST form data to sinra-os intake for ops inbox.
+    // Non-blocking — if sinra-os is down, the Resend email still went through.
+    const intakeUrl = process.env.SINRA_OS_INTAKE_URL;
+    const intakeSecret = process.env.SINRA_INTAKE_SECRET;
+    if (intakeUrl && intakeSecret) {
+      fetch(`${intakeUrl}/api/intake/sweet-life-cafe/contact`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${intakeSecret}`,
+        },
+        body: JSON.stringify({
+          full_name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        }),
+      }).catch(err => console.error('[contact] intake POST failed (non-fatal):', err));
+    }
+
     return NextResponse.json({
       success: true,
       message: 'Message sent successfully',
