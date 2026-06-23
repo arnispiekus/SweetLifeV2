@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { ScrollReveal, FadeIn, StaggerContainer, StaggerItem } from '@/components/motion';
-import { ArrowRight, Sparkles, Coffee, IceCream, GlassWater, Utensils, Leaf, Heart } from 'lucide-react';
+import { ArrowRight, Sparkles, IceCream, GlassWater, Utensils, Leaf, Heart } from 'lucide-react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import {

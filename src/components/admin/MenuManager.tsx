@@ -43,7 +43,8 @@ export default function MenuManager({ initialSections }: { initialSections: Admi
   const toggleSection = (id: number) => {
     setOpenSections((prev) => {
       const next = new Set(prev);
-      next.has(id) ? next.delete(id) : next.add(id);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
       return next;
     });
   };
