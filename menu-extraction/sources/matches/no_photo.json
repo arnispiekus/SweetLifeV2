@@ -1,0 +1,758 @@
+[
+  {
+    "id": 22,
+    "name": "Butter & Jam Croissant",
+    "image_url": "/Bakery/Croissant.webp",
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 25,
+    "name": "Ham & Cheese Croissant",
+    "image_url": "/Bakery/Croissant.webp",
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 246,
+    "name": "Lemon Croissant",
+    "image_url": "/Bakery/Croissant.webp",
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 23,
+    "name": "Nutella Croissant",
+    "image_url": "/Bakery/Croissant.webp",
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 24,
+    "name": "Pistachio Croissant",
+    "image_url": "/Bakery/Croissant.webp",
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 21,
+    "name": "Plain Croissant",
+    "image_url": "/Bakery/Croissant.webp",
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 245,
+    "name": "Beef & Mince Pie",
+    "image_url": null,
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 29,
+    "name": "Danish Pastry",
+    "image_url": null,
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 247,
+    "name": "Pistachio Donut",
+    "image_url": null,
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 19,
+    "name": "Fruit Scone",
+    "image_url": "/Bakery/Scone.webp",
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 20,
+    "name": "Gluten Free Scone",
+    "image_url": "/Bakery/Scone.webp",
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 17,
+    "name": "Plain Scone",
+    "image_url": "/Bakery/Scone.webp",
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 18,
+    "name": "Raspberry & White Chocolate Scone",
+    "image_url": "/Bakery/Scone.webp",
+    "section_slug": "bakery-pastries",
+    "section_name": "Bakery & Pastries"
+  },
+  {
+    "id": 140,
+    "name": "Caramel Apple Bingsu",
+    "image_url": "/Bingsu/CaramelAppleBingsu.webp",
+    "section_slug": "bingsu",
+    "section_name": "Bingsu"
+  },
+  {
+    "id": 137,
+    "name": "Lotus Banana Bingsu",
+    "image_url": null,
+    "section_slug": "bingsu",
+    "section_name": "Bingsu"
+  },
+  {
+    "id": 32,
+    "name": "Breakfast Muffin",
+    "image_url": null,
+    "section_slug": "breakfast-brunch",
+    "section_name": "Breakfast & Brunch"
+  },
+  {
+    "id": 44,
+    "name": "Breakfast Taco",
+    "image_url": null,
+    "section_slug": "breakfast-brunch",
+    "section_name": "Breakfast & Brunch"
+  },
+  {
+    "id": 39,
+    "name": "French Toast x2 with Bacon & Maple Syrup",
+    "image_url": "/Breakfast/FrenchToast.webp",
+    "section_slug": "breakfast-brunch",
+    "section_name": "Breakfast & Brunch"
+  },
+  {
+    "id": 248,
+    "name": "Side of Bacon",
+    "image_url": null,
+    "section_slug": "breakfast-brunch",
+    "section_name": "Breakfast & Brunch"
+  },
+  {
+    "id": 43,
+    "name": "Tortilla Omelette",
+    "image_url": "/Breakfast/Omelette.webp",
+    "section_slug": "breakfast-brunch",
+    "section_name": "Breakfast & Brunch"
+  },
+  {
+    "id": 129,
+    "name": "Homemade Ice-cream",
+    "image_url": null,
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 128,
+    "name": "Small Scoop",
+    "image_url": null,
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 250,
+    "name": "Banana Bread",
+    "image_url": null,
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 121,
+    "name": "Belgium Caramel Square",
+    "image_url": "/Cakes/CaramelSquare.webp",
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 114,
+    "name": "Cheesecake",
+    "image_url": "/Cakes/AmarettoCheesecake.webp",
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 251,
+    "name": "Cookie Cake",
+    "image_url": null,
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 122,
+    "name": "Honey Cake",
+    "image_url": null,
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 123,
+    "name": "Passionfruit Cake",
+    "image_url": null,
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 130,
+    "name": "Baby Soft Serve",
+    "image_url": null,
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 132,
+    "name": "Large Soft Serve",
+    "image_url": null,
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 131,
+    "name": "Regular Soft Serve",
+    "image_url": null,
+    "section_slug": "cakes-cookies-bites",
+    "section_name": "Cakes, Cookies & Bites"
+  },
+  {
+    "id": 11,
+    "name": "Mocha / White Mocha",
+    "image_url": "/CoffeeTea/Mocha.webp",
+    "section_slug": "coffee-tea",
+    "section_name": "Coffee & Tea"
+  },
+  {
+    "id": 252,
+    "name": "Creamy Matcha",
+    "image_url": null,
+    "section_slug": "coffee-tea",
+    "section_name": "Coffee & Tea"
+  },
+  {
+    "id": 13,
+    "name": "Raspberry, Ginger & Lemon Tea",
+    "image_url": "/CoffeeTea/Tea.webp",
+    "section_slug": "coffee-tea",
+    "section_name": "Coffee & Tea"
+  },
+  {
+    "id": 146,
+    "name": "Apple Pie Golden Toast",
+    "image_url": "/HotDesserts/GoldenToast.webp",
+    "section_slug": "golden-toast",
+    "section_name": "Golden Toast"
+  },
+  {
+    "id": 144,
+    "name": "Choco Banana Golden Toast",
+    "image_url": "/HotDesserts/GoldenToast.webp",
+    "section_slug": "golden-toast",
+    "section_name": "Golden Toast"
+  },
+  {
+    "id": 145,
+    "name": "Mixed Berry Golden Toast",
+    "image_url": "/HotDesserts/GoldenToast.webp",
+    "section_slug": "golden-toast",
+    "section_name": "Golden Toast"
+  },
+  {
+    "id": 147,
+    "name": "S'more Golden Toast",
+    "image_url": "/HotDesserts/GoldenToast.webp",
+    "section_slug": "golden-toast",
+    "section_name": "Golden Toast"
+  },
+  {
+    "id": 231,
+    "name": "Baby Hot Chocolate",
+    "image_url": "/GourmetLatte/HotChocolate.webp",
+    "section_slug": "gourmet-lattes",
+    "section_name": "Gourmet Lattes"
+  },
+  {
+    "id": 230,
+    "name": "Strawberry Hot Chocolate",
+    "image_url": "/GourmetLatte/HotChocolate.webp",
+    "section_slug": "gourmet-lattes",
+    "section_name": "Gourmet Lattes"
+  },
+  {
+    "id": 229,
+    "name": "White Hot Chocolate",
+    "image_url": "/GourmetLatte/HotChocolate.webp",
+    "section_slug": "gourmet-lattes",
+    "section_name": "Gourmet Lattes"
+  },
+  {
+    "id": 101,
+    "name": "Bap (GF)",
+    "image_url": null,
+    "section_slug": "keto-vegan-gluten-free",
+    "section_name": "Keto, Vegan & Gluten-Free"
+  },
+  {
+    "id": 104,
+    "name": "Snickers Cake / Toblerone (GF)",
+    "image_url": "/Keto/SnickersCake.webp",
+    "section_slug": "keto-vegan-gluten-free",
+    "section_name": "Keto, Vegan & Gluten-Free"
+  },
+  {
+    "id": 100,
+    "name": "Toastie/Sandwich (GF)",
+    "image_url": null,
+    "section_slug": "keto-vegan-gluten-free",
+    "section_name": "Keto, Vegan & Gluten-Free"
+  },
+  {
+    "id": 102,
+    "name": "Waffle (GF)",
+    "image_url": "/Keto/AlmondBelgianWaffle.webp",
+    "section_slug": "keto-vegan-gluten-free",
+    "section_name": "Keto, Vegan & Gluten-Free"
+  },
+  {
+    "id": 253,
+    "name": "Creamy Almond Coffee Dream (K)",
+    "image_url": null,
+    "section_slug": "keto-vegan-gluten-free",
+    "section_name": "Keto, Vegan & Gluten-Free"
+  },
+  {
+    "id": 71,
+    "name": "Baguette",
+    "image_url": "/Lunch/ProsciuttoHamFetaCheeseBaguette.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 66,
+    "name": "Bap",
+    "image_url": null,
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 76,
+    "name": "Crepe",
+    "image_url": "/CreateYourOwn/Crepe(Savory).webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 82,
+    "name": "Pasta Tagliatelle",
+    "image_url": "/CreateYourOwn/Pasta.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 69,
+    "name": "Sourdough Bagel",
+    "image_url": "/CreateYourOwn/Bagel.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 70,
+    "name": "Sourdough Pizza Bagel",
+    "image_url": "/Lunch/SourdoughPizza.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 75,
+    "name": "Tortilla Omelette",
+    "image_url": "/CreateYourOwn/Omelette.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 49,
+    "name": "Black Jack Pulled Pork Burger",
+    "image_url": null,
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 54,
+    "name": "Chicken Curry (GF)",
+    "image_url": null,
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 257,
+    "name": "Chicken Goujons x3",
+    "image_url": "/Lunch/Goujons.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 48,
+    "name": "Chicken Wings",
+    "image_url": null,
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 256,
+    "name": "Fried Rice",
+    "image_url": "/CreateYourOwn/Rice.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 55,
+    "name": "Goujons & Chips",
+    "image_url": "/Lunch/Goujons.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 58,
+    "name": "Homemade Soup of the Day",
+    "image_url": "/Lunch/Soup.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 53,
+    "name": "Jacket Potato",
+    "image_url": "/Lunch/JacketPotato.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 60,
+    "name": "Meatball Tagliatelle Pasta",
+    "image_url": "/CreateYourOwn/Pasta.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 61,
+    "name": "Ramen Soup (*V)",
+    "image_url": "/Lunch/Ramen.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 57,
+    "name": "The Mohawk Burger & Fries",
+    "image_url": "/Lunch/Fries.webp",
+    "section_slug": "lunch",
+    "section_name": "Lunch"
+  },
+  {
+    "id": 151,
+    "name": "Original American Pancake",
+    "image_url": "/HotDesserts/AmericanPancakes.webp",
+    "section_slug": "pancakes-waffles",
+    "section_name": "Pancakes & Waffles"
+  },
+  {
+    "id": 149,
+    "name": "Choco Banana Souffle Pancake",
+    "image_url": "/HotDesserts/SoufflePancakes.webp",
+    "section_slug": "pancakes-waffles",
+    "section_name": "Pancakes & Waffles"
+  },
+  {
+    "id": 156,
+    "name": "Banana-Lotus Waffle",
+    "image_url": "/HotDesserts/BelgianWaffle.webp",
+    "section_slug": "pancakes-waffles",
+    "section_name": "Pancakes & Waffles"
+  },
+  {
+    "id": 158,
+    "name": "Lemon Maple Syrup Icing Waffle",
+    "image_url": "/HotDesserts/BelgianWaffle.webp",
+    "section_slug": "pancakes-waffles",
+    "section_name": "Pancakes & Waffles"
+  },
+  {
+    "id": 154,
+    "name": "Oreo Waffle",
+    "image_url": "/HotDesserts/BelgianWaffle.webp",
+    "section_slug": "pancakes-waffles",
+    "section_name": "Pancakes & Waffles"
+  },
+  {
+    "id": 157,
+    "name": "Plain Waffle (with Nutella ice cream)",
+    "image_url": "/HotDesserts/BelgianWaffle.webp",
+    "section_slug": "pancakes-waffles",
+    "section_name": "Pancakes & Waffles"
+  },
+  {
+    "id": 155,
+    "name": "Strawberry Choco Waffle",
+    "image_url": "/HotDesserts/BelgianWaffle.webp",
+    "section_slug": "pancakes-waffles",
+    "section_name": "Pancakes & Waffles"
+  },
+  {
+    "id": 153,
+    "name": "Strawberry Waffle",
+    "image_url": "/HotDesserts/BelgianWaffle.webp",
+    "section_slug": "pancakes-waffles",
+    "section_name": "Pancakes & Waffles"
+  },
+  {
+    "id": 195,
+    "name": "Bounty Frappe",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 196,
+    "name": "Chocolate Chip Frappe",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 193,
+    "name": "Kinder Bueno Frappe",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 194,
+    "name": "Lotus Biscoff Frappe",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 198,
+    "name": "Pistachio Frappe",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 192,
+    "name": "Strawberry Cheesecake Frappe",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 197,
+    "name": "Summer Fruits Frappe",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 175,
+    "name": "Apple Jasmine Green Tea",
+    "image_url": "/FruitTea/AppleFruitTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 172,
+    "name": "Kumquat Jasmine Green Tea",
+    "image_url": "/FruitTea/AppleFruitTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 170,
+    "name": "Lemon Assam Black Tea",
+    "image_url": "/FruitTea/AppleFruitTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 176,
+    "name": "Lychee Jasmine Green Tea",
+    "image_url": "/FruitTea/AppleFruitTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 174,
+    "name": "Mango Jasmine Green Tea",
+    "image_url": "/FruitTea/AppleFruitTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 173,
+    "name": "Passionfruit Assam Black Tea",
+    "image_url": "/FruitTea/AppleFruitTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 171,
+    "name": "Raspberry Jasmine Green Tea",
+    "image_url": "/FruitTea/AppleFruitTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 204,
+    "name": "Banana Milkshake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 206,
+    "name": "Caramel Milkshake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 200,
+    "name": "Mango Yogurt Milkshake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 201,
+    "name": "Oreo Vanilla Milkshake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 203,
+    "name": "Pure Matcha Milkshake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 205,
+    "name": "Strawberry Yogurt Milkshake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 202,
+    "name": "Vanilla Milkshake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 208,
+    "name": "Chocolate Protein Shake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 211,
+    "name": "Salted Caramel Protein Shake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 209,
+    "name": "Strawberry Protein Shake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 207,
+    "name": "Vanilla Protein Shake",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 187,
+    "name": "Acai Kick Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 186,
+    "name": "Beet & Berry Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 189,
+    "name": "Berry Burst Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 184,
+    "name": "Coconut Crush Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 190,
+    "name": "Green Reviver Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 191,
+    "name": "Mango Dream Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 188,
+    "name": "Oaty Banana Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 185,
+    "name": "Passion Storm Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 182,
+    "name": "Pineapple Sunset Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 183,
+    "name": "Raspberry Heaven Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  },
+  {
+    "id": 181,
+    "name": "Strawberry Fantasy Smoothie",
+    "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+    "section_slug": "signature-drinks",
+    "section_name": "Signature Drinks"
+  }
+]

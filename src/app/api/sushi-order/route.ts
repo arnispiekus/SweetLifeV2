@@ -152,6 +152,28 @@ export async function POST(request: NextRequest) {
       // Log for debugging but continue with success response
     }
 
+    // Fire-and-forget: POST order data to sinra-os intake for ops inbox.
+    // Non-blocking — if sinra-os is down, the Resend email still went through.
+    const intakeUrl = process.env.SINRA_OS_INTAKE_URL;
+    const intakeSecret = process.env.SINRA_INTAKE_SECRET;
+    if (intakeUrl && intakeSecret) {
+      fetch(`${intakeUrl}/api/intake/sweet-life-cafe/sushi-order`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${intakeSecret}`,
+        },
+        body: JSON.stringify({
+          full_name: orderData.fullName,
+          email: orderData.email,
+          phone: orderData.phone,
+          items: [{ pieces: orderData.pieces, variation: orderData.variation, price: orderData.price }],
+          total: orderData.price,
+          special_requests: orderData.specialRequests,
+        }),
+      }).catch(err => console.error('[sushi-order] intake POST failed (non-fatal):', err));
+    }
+
     return NextResponse.json({
       success: true,
       message: 'Order submitted successfully',

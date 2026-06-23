@@ -1,0 +1,2701 @@
+{
+  "restaurant": "Sweet Life",
+  "location": "Newry",
+  "sections": [
+    {
+      "name": "Coffee & Tea",
+      "display_order": 1,
+      "subsections": [
+        {
+          "name": "Coffee",
+          "display_order": 1,
+          "notes": "Iced Coffee +£0.20",
+          "items": [
+            {
+              "name": "Americano",
+              "description": "Smooth and bold black coffee, made with espresso and hot water.",
+              "price": 3.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Babyccino",
+              "description": "Steamed milk with a light frothy top, perfect for kids.",
+              "price": 2.00,
+              "allergens": [],
+              "variants": [
+                {"name": "Strawberry Babyccino", "price": 3.00}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Cappuccino",
+              "description": "A rich espresso topped with a thick layer of velvety foam.",
+              "price": 3.80,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Chai Latte",
+              "description": null,
+              "price": 4.00,
+              "allergens": [],
+              "variants": [
+                {"name": "Dirty Chai Latte", "price": 4.60, "notes": "contains Espresso"}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Einspanner",
+              "description": "A Viennese-style americano topped with a generous layer of salted sweet cream cheese.",
+              "price": 4.20,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Espresso",
+              "description": null,
+              "price": 3.20,
+              "allergens": [],
+              "variants": [
+                {"name": "Double Espresso", "price": 3.40},
+                {"name": "Triple Espresso", "price": 3.60},
+                {"name": "Ice-cream Espresso", "price": 4.00}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Flat White",
+              "description": "A velvety smooth blend of espresso and steamed milk.",
+              "price": 3.70,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Latte",
+              "description": "Creamy steamed milk poured over a shot of espresso, finished with light foam.",
+              "price": 3.80,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Macchiato",
+              "description": "A bold espresso \"stained\" with a touch of steamed milk.",
+              "price": 3.70,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mocaccino",
+              "description": "A delightful mix of espresso, a touch of steamed milk, and rich chocolate.",
+              "price": 3.70,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mocha / White Mocha",
+              "description": "A luxurious blend of espresso, hot chocolate, and steamed milk.",
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Tea",
+          "display_order": 2,
+          "items": [
+            {
+              "name": "Jasmine Brew Tea",
+              "description": "Fragrant green tea infused with delicate jasmine blossoms, offering a smooth, floral aroma and a refreshing taste.",
+              "price": 3.80,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Raspberry, Ginger & Lemon Tea",
+              "description": "A zesty and invigorating blend of raspberry, ginger, and lemon, perfect for a refreshing tea.",
+              "price": 4.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Tea",
+              "description": "A classic blend, perfect with or without milk, plus a selection of herbal options.",
+              "price": 3.00,
+              "allergens": [],
+              "variants": [
+                {"name": "Tea Pot", "price": 4.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Matcha",
+          "display_order": 3,
+          "items": [
+            {
+              "name": "Matcha Latte",
+              "description": null,
+              "price": 4.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [
+                {
+                  "name": "Flavoured",
+                  "price_delta": 0.50,
+                  "options": ["Strawberry Matcha", "Blueberry Matcha", "Cherry Matcha", "Coconut Matcha"]
+                }
+              ],
+              "notes": null
+            },
+            {
+              "name": "Matcha Tea",
+              "description": "A vibrant, finely ground green tea packed with natural energy.",
+              "price": 3.80,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Extras",
+          "display_order": 4,
+          "items": []
+        }
+      ]
+    },
+    {
+      "name": "Bakery & Pastries",
+      "display_order": 2,
+      "subsections": [
+        {
+          "name": "Scones",
+          "display_order": 1,
+          "notes": "A buttery, crumbly baked treat, perfect on its own or with spreads.",
+          "items": [
+            {
+              "name": "Plain Scone",
+              "description": null,
+              "price": 3.60,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Raspberry & White Chocolate Scone",
+              "description": null,
+              "price": 3.80,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Fruit Scone",
+              "description": null,
+              "price": 3.60,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Gluten Free Scone",
+              "description": null,
+              "price": 4.20,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Croissants",
+          "display_order": 2,
+          "notes": "A light, flaky pastry with a crisp exterior and soft, buttery layers.",
+          "items": [
+            {
+              "name": "Plain Croissant",
+              "description": null,
+              "price": 2.60,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Butter & Jam Croissant",
+              "description": null,
+              "price": 3.00,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Nutella Croissant",
+              "description": null,
+              "price": 3.00,
+              "allergens": ["G", "M", "Eg", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Pistachio Croissant",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["G", "M", "Eg", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Ham & Cheese Croissant",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Other Pastries",
+          "display_order": 3,
+          "items": [
+            {
+              "name": "Muffins",
+              "description": "Soft and fluffy, available in a variety of flavours (Ask for flavours).",
+              "price": 3.60,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Sausage Roll",
+              "description": "A flaky, golden pastry filled with seasoned sausage meat.",
+              "price": 3.80,
+              "allergens": ["G", "M", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Cinnamon Bun",
+              "description": "A soft, swirled bun with warm causage and sweet glaze.",
+              "price": 3.80,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Danish Pastry",
+              "description": "A delicious buttery, flaky, light-as-air pastry.",
+              "price": 3.60,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Breakfast & Brunch",
+      "display_order": 3,
+      "subsections": [
+        {
+          "name": "Breakfast & Brunch",
+          "display_order": 1,
+          "items": [
+            {
+              "name": "Porridge",
+              "description": "Choose: Apple Syrup & Cinnamon / Mango Jam & Banana / Strawberry Jam & Berries / Butter & Milk.",
+              "price": 6.00,
+              "allergens": ["G", "M"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Omelette (GF)",
+              "description": "Fluffy, made-to-order omelette with your choice of proteins, cheeses, fresh veggies and sauces.",
+              "price": 10.00,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Breakfast Muffin",
+              "description": "Toasted Muffin, Sausage, Bacon, Egg, Cheese.",
+              "price": 9.00,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Egg Toast",
+              "description": "Toasted Wholemeal Bread, Tomatoes Slices, Salad, Poached Egg.",
+              "price": 6.50,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [
+                {"name": "Extra Egg", "price_delta": 0.60},
+                {"name": "Double Serving", "price": 8.00}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Simply Morning",
+              "description": "2 Slices of French Toast, Decorated with Mixed Berries, Banana, Strawberry Mango Jam & Cream.",
+              "price": 9.00,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Hello Sunrise",
+              "description": "Toasted Wholemeal Bread, Avocado, Salad, Poached Egg.",
+              "price": 7.00,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [
+                {"name": "Extra Egg", "price_delta": 0.60},
+                {"name": "Double Serving", "price": 9.00}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Salmon Sunrise",
+              "description": "Bagel, Avocado, Salmon, Salads, Poached Egg, Topped with Garlic Yogurt & Balsamic Dressing.",
+              "price": 12.00,
+              "allergens": ["G", "M", "Eg", "F", "Se"],
+              "variants": [
+                {"name": "Half Portion", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Good Morning Breakfast",
+              "description": "Poached Egg, Sausages, Bacon, Beans, Black Pudding, Tomato, Mushrooms, Toasted Bread.",
+              "price": 12.00,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Cranberry Brie Toast",
+              "description": "Toasted Sourdough Bread, Brie Cheese, Mozzarella, Cranberry Sauce.",
+              "price": 6.50,
+              "allergens": ["G", "M", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "French Toast x2 with Bacon & Maple Syrup",
+              "description": "Classic golden-brown French toast, lightly crisp on the outside and soft on the inside.",
+              "price": 9.00,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "French Toast Benedict",
+              "description": "Sourdough French Toast, Bacon, Tomatoes, 2 Poached Eggs, Hollandaise Sauce, Crispy Onions.",
+              "price": 10.00,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Scrambled Egg Ciabatta",
+              "description": "Ciabatta, Scrambled Eggs, Bacon, Fried Tomatoes, Peri-Peri Sauce.",
+              "price": 9.00,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Poached Egg & Bacon Bagel",
+              "description": "Sourdough Bagel, Poached Egg, Bacon, Avocado, Salad, Tomato, Onion, Balsamic Dressing.",
+              "price": 9.00,
+              "allergens": ["G", "M", "Eg", "Se"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Tortilla Omelette",
+              "description": "Tortilla, Scrambled Egg, Choose your toppings.",
+              "price": 11.00,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Breakfast Taco",
+              "description": "Choose between Omelette, Sausage, Bacon & Tomato, Vegetarian with Salmon & Mushrooms or Ham & Cheese Tacos.",
+              "price": 9.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Acai Granola Bowl",
+          "display_order": 2,
+          "items": [
+            {
+              "name": "Acai Granola Bowl",
+              "description": "Pick one from each list. Base options: Chia Pudding, Maple Syrup & Yogurt, Mango Yogurt, Peanut Butter, Nutella, Biscoff. Toppings: Almonds, Coconut Flakes, Rice Krispies, Kit Kat Crumbs, Lotus Crumbs, Oreo Crumbs. Topped with Banana, Berries & Whipped Cream.",
+              "price": 8.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lunch",
+      "display_order": 4,
+      "subsections": [
+        {
+          "name": "Mains",
+          "display_order": 1,
+          "items": [
+            {
+              "name": "Prosciutto Ham & Feta Cheese Baguette",
+              "description": "Fresh cherry tomatoes, crisp lettuce, balsamic drizzle, and garlic dressing on wholemeal baguette.",
+              "price": 12.00,
+              "allergens": ["Mu", "G", "M", "Eg", "F"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Beetroot Feta Burger",
+              "description": "Pickled Beetroot, Feta Cheese, Apple slices, Balsamic Dressing, Salad, Tomatoes, Onion.",
+              "price": 9.00,
+              "allergens": ["G", "M", "Eg", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Chicken Wings",
+              "description": "Crispy and BBQ Chicken wings. Served with chips.",
+              "price": 12.00,
+              "allergens": ["G", "Eg", "M", "Mu", "S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Black Jack Pulled Pork Burger",
+              "description": "Black Bun, Pulled Pork, Bacon, Mayo, Pickle, Cheese, Red Onion, Salad, Tomatoes, Burger Sauce.",
+              "price": 10.00,
+              "allergens": ["G", "M", "Eg", "S02", "Mu", "Se"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Bibimbap (GF)(V*)",
+              "description": "Choose: Chicken / Canned Tuna / Mushrooms / Smoked Salmon. Rice, Carrots, Spinach, Cucumber, Wakame, Sesame Oil, Nori, Fried Egg, Sesame Seeds.",
+              "price": 12.00,
+              "allergens": ["Eg", "F", "Sy", "Se", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Poke Bowl (GF*)(V)",
+              "description": "Choose: Chicken / Canned Tuna / Mushrooms / Smoked Salmon. Rice, Carrots, Avocado, Cucumber, Wakame, Sesame Oil, Nori, Ginger, Wasabi, Sesame Seeds.",
+              "price": 12.00,
+              "allergens": ["F", "Sy", "Se", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Air Fried Sushi Hot Dog (GF*)(V*)",
+              "description": "Choose: Chicken / Canned Tuna / Mushrooms / Smoked Salmon. Rice, Carrots, Avocado, Cucumber, Wakame, Sesame Oil, Ginger, Nori, Mayo, Sesame Seeds.",
+              "price": 14.00,
+              "allergens": ["M", "F", "Sy", "Se", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Jacket Potato",
+              "description": "Baked Potato, Bacon, Cheese, Crispy Onions, Peri-Peri Sauce, Salad.",
+              "price": 10.00,
+              "allergens": ["M", "Mu", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Chicken Curry (GF)",
+              "description": "Rich curry with tender chicken, leek, peas, and rice.",
+              "price": 11.00,
+              "allergens": ["G", "Eg", "M", "Mu", "S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Goujons & Chips",
+              "description": "3x Air Fried Crispy Breaded Goujons served with Chips and tomato sauce.",
+              "price": 8.00,
+              "allergens": ["G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mexican Panini",
+              "description": "Panini, Chicken, Mayo, Fried Peppers, Pickles, Cheese, Teriyaki Sauce, Tabasco.",
+              "price": 9.00,
+              "allergens": ["G", "Eg", "M", "Mu", "S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "The Mohawk Burger & Fries",
+              "description": "Beef Burger, Jalapeños, Salads, Onions, Tomatoes, Cheese, Pepper and Sweet Chilli Sauce, Crispy Onions.",
+              "price": 15.00,
+              "allergens": ["G", "Eg", "M", "Mu", "S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Homemade Soup of the Day",
+              "description": "Ask Staff for Soup of the Day.",
+              "price": 6.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Crispy Chicken Naan Kebab",
+              "description": "Goujons, Chips, Coleslaw, Lettuce, Tomatoes, Onions, Garlic Yogurt Dressing & Balsamic Glaze.",
+              "price": 12.00,
+              "allergens": ["G", "Eg", "M", "Mu", "S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Meatball Tagliatelle Pasta",
+              "description": "Pasta, Meatballs and Tomato Sauce.",
+              "price": 11.00,
+              "allergens": ["G", "M", "S02"],
+              "variants": [
+                {"name": "Half Portion", "price": 7.00}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Ramen Soup (*V)",
+              "description": "Sesame Paste, Noodles, Chicken, Slow Cooked Beef, Carrots, Egg, Crispy Onions Topped with Dills and Chives.",
+              "price": 10.00,
+              "allergens": ["G", "Eg", "Se", "S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Fishcake Burger",
+              "description": "Fishcake, Cheese, Tomato, Salads, Peri-Peri and Mayo Sauce.",
+              "price": 10.00,
+              "allergens": ["G", "M", "Eg", "F", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Festive Toastie",
+              "description": "Slow cooked Beef, Bacon, Brie Cheese, Stuffing, Cranberry Sauce, Sandwiched between 2 slices of wholemeal Bloomer, Topped with BBQ Sauce, Mozzarella and Crispy Onions.",
+              "price": 9.00,
+              "allergens": ["G", "M", "Eg", "Mu", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Create Your Own",
+          "display_order": 2,
+          "notes": "Items containing bread, bagels, baps or waffles can be swapped for gluten-free (+£0.70) or Sourdough (+£0.50) alternatives upon request.",
+          "items": [
+            {
+              "name": "Sandwich",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 7.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Toastie",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 8.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Bap",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 9.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Wrap",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 9.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Panini",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 9.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Sourdough Bagel",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 9.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Sourdough Pizza Bagel",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 9.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Baguette",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 9.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Quesadilla",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 10.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Sourdough Pizza",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 12.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Omelette",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 10.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Tortilla Omelette",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 11.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Crepe",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 10.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Rice",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 10.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Chips",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 10.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Jacket Potato",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 10.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Salad",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 10.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Taco",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 11.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Pasta Tagliatelle",
+              "description": "Choose your toppings: Protein (max 2), Cheese, Salad, Sauce.",
+              "price": 11.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "display_order": 5,
+      "subsections": [
+        {
+          "name": "Salads",
+          "display_order": 1,
+          "items": [
+            {
+              "name": "Caesar Salad",
+              "description": "Crisp iceberg lettuce and salad mix tossed, onions, homemade caesar dressing, chicken, bacon, grated mozzarella, tomatoes, roasted almonds, parmesan.",
+              "price": 10.00,
+              "allergens": ["M", "F", "Eg", "Mu", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Greek Salad",
+              "description": "A refreshing mix of tomatoes, cucumbers, red onions, olives, feta cheese, parmesan, walnuts, balsamic dressing.",
+              "price": 10.00,
+              "allergens": ["M", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mozzarella & Mango Salad",
+              "description": "Mozzarella with fresh greens, nuts, mixed seeds, mango and sweet mango sauce & a drizzle of balsamic glaze.",
+              "price": 10.00,
+              "allergens": ["M", "S02", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Caprese Salad",
+              "description": "Sliced fresh mozzarella, tomatoes, basil, prosciutto ham finished with extra virgin olive oil and balsamic dressing.",
+              "price": 10.00,
+              "allergens": ["M", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Balsamic Mozzarella Salad",
+              "description": "A light and flavourful combination of mixed greens, cherry tomatoes, mozzarella, balsamic sauce and mix seeds.",
+              "price": 10.00,
+              "allergens": ["M", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Crispy Chicken Salad",
+              "description": "A hearty salad with crispy chicken goujons, fresh vegetables, and a choice of dressing.",
+              "price": 10.00,
+              "allergens": ["M", "S02", "G", "Eg", "Mu"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Create Your Own Salad",
+              "description": "Build your perfect salad by choosing from a variety of fresh toppings and dressings.",
+              "price": 10.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Keto, Vegan & Gluten-Free",
+      "display_order": 6,
+      "subsections": [
+        {
+          "name": "Keto",
+          "display_order": 1,
+          "items": [
+            {
+              "name": "Almond Belgium Waffle (K)",
+              "description": "Almond Flour Waffle, Served with Chicken OR Smoked Salmon, Poached Egg, Lettuce and Cottage cheese. Topped with Firecracker and Baconnaise Sauce.",
+              "price": 14.00,
+              "allergens": ["M", "Eg", "Mu", "N", "F"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Omelette (K)",
+              "description": "Fluffy, made-to-order omelette with your choice of proteins, cheeses, fresh veggies and sauces.",
+              "price": 10.00,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mozzarella Omelette Sandwich (K)",
+              "description": "Cream cheese, Mozzarella, Egg, Avocado, Lettuce, Chicken or Smoked Salmon, Bacon, Mayo.",
+              "price": 12.00,
+              "allergens": ["M", "Eg", "Mu", "F"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Sushi Bowl (K)",
+              "description": "Smoked Salmon OR Chicken OR Tuna. Egg, Cream Cheese, Mayo, Mozzarella, Cucumber, Avocado, Goma Wakame Salads, Topped with Crispy Onions, Sesame seeds.",
+              "price": 12.00,
+              "allergens": ["M", "Eg", "Se", "S02", "F"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Vegan",
+          "display_order": 2,
+          "notes": "Ask for Gluten Free options. +£0.70",
+          "items": [
+            {
+              "name": "Vegan Sausages Bap (V)(GF*)",
+              "description": "Deliciously seasoned plant-based sausages served on a Bap with fresh greens and vegetables.",
+              "price": 9.00,
+              "allergens": ["M", "S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Vegan Taco (V)(GF*)",
+              "description": "A soft taco shell filled with vibrant plant-based mince, sweetcorn, tomato, salsa and flavourful seasonings.",
+              "price": 13.00,
+              "allergens": ["G", "S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Vegan Burger (V)(GF*)",
+              "description": "1/4 Pounder Burger served in a bun with fresh toppings and a choice of sauce.",
+              "price": 10.00,
+              "allergens": ["G", "S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Vegan Kiev (V)(GF)",
+              "description": "A crispy, golden plant-based kiev filled with a creamy garlic and herb centre served with chips.",
+              "price": 12.00,
+              "allergens": ["S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Gluten-Free",
+          "display_order": 3,
+          "items": [
+            {
+              "name": "Scone (GF)",
+              "description": "A crumbly and buttery gluten-free scone, perfect with jam and cream or enjoyed on its own.",
+              "price": 4.20,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Bagel (GF)",
+              "description": "A chewy and satisfying gluten-free bagel, ready to be topped with your favourite ingredients.",
+              "price": 10.00,
+              "allergens": ["M", "Eg", "Se"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Toastie/Sandwich (GF)",
+              "description": "A delicious gluten-free sandwich or toastie, choose your toppings.",
+              "price": 8.50,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Bap (GF)",
+              "description": "A gluten-free Bap that can be topped with your favourite ingredients.",
+              "price": 9.00,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Waffle (GF)",
+              "description": "A gluten-free waffle made with almond flour topped with maple syrup, banana, mixed berries, cream & ice-cream.",
+              "price": 12.00,
+              "allergens": ["M", "Eg", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Chocolate Fudge Cake (GF)",
+              "description": "A rich and indulgent gluten-free chocolate cake with layers of smooth, fudgy goodness.",
+              "price": 5.30,
+              "allergens": ["M", "Eg", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Snickers Cake / Toblerone (GF)",
+              "description": "A decadent gluten-free dessert featuring the signature honey and almond nougat flavours of Toblerone chocolate.",
+              "price": 4.60,
+              "allergens": ["M", "Eg", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Macaroon (GF)",
+              "description": "Light and delicate almond-based treats with a crisp shell and a soft, flavourful filling.",
+              "price": 2.60,
+              "allergens": ["M", "Eg", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Muffin (GF)",
+              "description": "A fluffy and moist gluten-free muffin, baked to perfection with a deliciously sweet flavour. Ask staff for flavours.",
+              "price": 4.50,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cakes, Cookies & Bites",
+      "display_order": 7,
+      "subsections": [
+        {
+          "name": "Cakes & Pies",
+          "display_order": 1,
+          "items": [
+            {
+              "name": "Black Forest Gateau",
+              "description": "Layers of rich chocolate sponge, fresh cream, and juicy cherries, topped with chocolate shavings.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Rocky Road",
+              "description": "A crunchy, chewy mix of Biscoff biscuits, marshmallows, and chocolate, finished with a drizzle of caramel.",
+              "price": 4.00,
+              "allergens": ["G", "M", "Eg", "S02", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Apple Pie",
+              "description": "A buttery, flaky crust filled with spiced apples, baked to golden perfection.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Amaretto Cake",
+              "description": "A moist, nutty almond cake infused with a touch of amaretto for a delicate, aromatic flavour.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg", "S02", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Chocolate Cake",
+              "description": "A decadent, moist chocolate sponge layered with silky chocolate frosting.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Coffee Cake",
+              "description": "A lightly spiced cake with a subtle coffee flavour, topped with a crunchy streusel.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Carrot Cake",
+              "description": "A moist spiced cake with grated carrots and walnuts, layered with smooth cream cheese frosting.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg", "S02", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Cheesecake",
+              "description": "A creamy, velvety cheesecake on a buttery biscuit base, available in various flavours.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Rainbow Cake",
+              "description": "Vibrant layers of vanilla sponge with a light and fluffy buttercream, creating a colourful treat.",
+              "price": 5.20,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Lemon Meringue",
+              "description": "A crisp pastry shell filled with tangy lemon curd, topped with fluffy toasted meringue.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Red Velvet",
+              "description": "A soft and velvety cocoa sponge with layers of smooth cream cheese frosting.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Tiramisu",
+              "description": "Layers of espresso-soaked sponge and mascarpone cream, finished with a dusting of cocoa.",
+              "price": 5.50,
+              "allergens": ["G", "M", "Eg", "Sy", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Peanut Butter Snickers Cake",
+              "description": "A rich peanut butter cake loaded with caramel, chocolate, and crunchy peanuts.",
+              "price": 6.00,
+              "allergens": ["M", "Eg", "Sy", "Pe"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Zesty Lemon Cake",
+              "description": "A light, citrus-infused sponge cake topped with a tangy lemon glaze.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Belgium Caramel Square",
+              "description": "A thick caramel layer sandwiched between a buttery biscuit base and rich chocolate topping.",
+              "price": 3.60,
+              "allergens": ["G", "M", "Eg", "Sy", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Honey Cake",
+              "description": "A moist chocolate sponge infused with zesty orange and topped with a smooth chocolate ganache.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg", "Sy", "S02"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Passionfruit Cake",
+              "description": "Light, fluffy cake with a tropical passionfruit flavor, topped with a tangy-sweet glaze.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Cookies & Small Bites",
+          "display_order": 2,
+          "items": [
+            {
+              "name": "Dubai Chocolate",
+              "description": "Crunchy toasted kataifi pastry filled with pistachio cream and tahini, coated in rich chocolate.",
+              "price": 4.00,
+              "allergens": ["G", "M", "N", "Sy"],
+              "variants": [
+                {"name": "Large", "price": 6.00}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Crumble Cookie",
+              "description": "A soft and chewy cookie with a crisp, crumbly topping. Available in: Kinder Bueno, Pistachio, Biscoff, Oreo, KitKat.",
+              "price": 4.00,
+              "allergens": ["G", "M", "Eg", "N", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Brownie",
+              "description": "A dense and fudgy chocolate brownie with a rich, gooey centre, served with ice-cream.",
+              "price": 5.00,
+              "allergens": ["G", "M", "Eg", "N", "Sy"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Protein Balls",
+              "description": "A nutritious, energy-packed snack made with coconut, oats, honey, peanut butter, cinnamon, protein powder.",
+              "price": 3.00,
+              "allergens": ["G", "M", "Eg", "S02", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Add Ice-Cream",
+          "display_order": 3,
+          "items": [
+            {
+              "name": "Small Scoop",
+              "description": "A single scoop of ice cream to complement your dessert.",
+              "price": 0.60,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Homemade Ice-cream",
+              "description": "Rich and creamy handcrafted ice cream, with toppings of your choice. Ask for flavours.",
+              "price": 4.50,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Soft-Serve Ice-cream",
+          "display_order": 4,
+          "notes": "Fresh Homemade Soft Serve Ice-cream. Ask for Flavours.",
+          "items": [
+            {
+              "name": "Baby Soft Serve",
+              "description": "A mini portion of our creamy homemade soft serve, perfect for a little treat.",
+              "price": 3.00,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Regular Soft Serve",
+              "description": "A generous serving of our rich and velvety homemade soft serve in a tub or cone.",
+              "price": 3.80,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Large Soft Serve",
+              "description": "A bigger, more indulgent serving of our homemade soft serve for true ice cream lovers.",
+              "price": 4.50,
+              "allergens": ["M", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bingsu",
+      "display_order": 8,
+      "subsections": [
+        {
+          "name": "Korean Shaved Ice",
+          "display_order": 1,
+          "notes": "Korean Shaved Ice Dessert. Dairy Free Available. Small - £6.50, Medium - £7.50, Large - £8.50.",
+          "items": [
+            {
+              "name": "Strawberry & Cheesecake Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Oreo Choco Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Thai Tea Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Taro Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M", "N"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Lotus Banana Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Oreo Crunch Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mango Coconut Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M", "N", "G"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Caramel Apple Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Berrylicious Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mango & Cheesecake Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Matcha Bingsu",
+              "description": "Korean shaved ice dessert.",
+              "price": 6.50,
+              "allergens": ["M", "N", "S02", "G"],
+              "variants": [
+                {"name": "Medium", "price": 7.50},
+                {"name": "Large", "price": 8.50}
+              ],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Golden Toast",
+      "display_order": 9,
+      "subsections": [
+        {
+          "name": "Golden Toast",
+          "display_order": 1,
+          "notes": "Crispy Outside, Soft Inside.",
+          "items": [
+            {
+              "name": "Choco Banana Golden Toast",
+              "description": null,
+              "price": 15.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mixed Berry Golden Toast",
+              "description": null,
+              "price": 15.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Apple Pie Golden Toast",
+              "description": null,
+              "price": 15.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "S'more Golden Toast",
+              "description": null,
+              "price": 15.00,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mango Golden Toast",
+              "description": null,
+              "price": 15.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pancakes & Waffles",
+      "display_order": 10,
+      "subsections": [
+        {
+          "name": "Souffle Pancake",
+          "display_order": 1,
+          "items": [
+            {
+              "name": "Choco Banana Souffle Pancake",
+              "description": null,
+              "price": 12.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "S'more Souffle Pancake",
+              "description": null,
+              "price": 12.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "American Pancake",
+          "display_order": 2,
+          "items": [
+            {
+              "name": "Original American Pancake",
+              "description": null,
+              "price": 10.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Matcha American Pancake",
+              "description": null,
+              "price": 10.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Waffle",
+          "display_order": 3,
+          "notes": "Bubble or Belgian.",
+          "items": [
+            {
+              "name": "Strawberry Waffle",
+              "description": null,
+              "price": 10.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Oreo Waffle",
+              "description": null,
+              "price": 10.00,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Strawberry Choco Waffle",
+              "description": null,
+              "price": 10.00,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Banana-Lotus Waffle",
+              "description": null,
+              "price": 10.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Plain Waffle (with Nutella ice cream)",
+              "description": null,
+              "price": 10.00,
+              "allergens": ["M", "G", "Eg", "N"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Lemon Maple Syrup Icing Waffle",
+              "description": null,
+              "price": 10.00,
+              "allergens": ["M", "G", "Eg"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Crepe",
+          "display_order": 4,
+          "items": [
+            {
+              "name": "Crepe",
+              "description": null,
+              "price": 10.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": "Allergens not listed separately for Crepe in source"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Signature Drinks",
+      "display_order": 11,
+      "subsections": [
+        {
+          "name": "Milk Tea",
+          "display_order": 1,
+          "notes": "Cold or Hot. Hot +£0.20. Add Boba +£1.00: Tapioca, Popping Boba, Rainbow Jelly.",
+          "items": [
+            {
+              "name": "Blueberry Milk Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [
+                {"name": "Hot", "price_delta": 0.20},
+                {"name": "Add Boba", "price_delta": 1.00, "options": ["Tapioca", "Popping Boba", "Rainbow Jelly"]}
+              ],
+              "notes": null
+            },
+            {
+              "name": "Taro Milk Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [
+                {"name": "Hot", "price_delta": 0.20},
+                {"name": "Add Boba", "price_delta": 1.00, "options": ["Tapioca", "Popping Boba", "Rainbow Jelly"]}
+              ],
+              "notes": null
+            },
+            {
+              "name": "Thai Tea Milk Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [
+                {"name": "Hot", "price_delta": 0.20},
+                {"name": "Add Boba", "price_delta": 1.00, "options": ["Tapioca", "Popping Boba", "Rainbow Jelly"]}
+              ],
+              "notes": null
+            },
+            {
+              "name": "Matcha Milk Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [
+                {"name": "Hot", "price_delta": 0.20},
+                {"name": "Add Boba", "price_delta": 1.00, "options": ["Tapioca", "Popping Boba", "Rainbow Jelly"]}
+              ],
+              "notes": null
+            },
+            {
+              "name": "Strawberry Milk Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [
+                {"name": "Hot", "price_delta": 0.20},
+                {"name": "Add Boba", "price_delta": 1.00, "options": ["Tapioca", "Popping Boba", "Rainbow Jelly"]}
+              ],
+              "notes": null
+            },
+            {
+              "name": "Caramel Milk Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [
+                {"name": "Hot", "price_delta": 0.20},
+                {"name": "Add Boba", "price_delta": 1.00, "options": ["Tapioca", "Popping Boba", "Rainbow Jelly"]}
+              ],
+              "notes": null
+            },
+            {
+              "name": "Assam Black Milk Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [
+                {"name": "Hot", "price_delta": 0.20},
+                {"name": "Add Boba", "price_delta": 1.00, "options": ["Tapioca", "Popping Boba", "Rainbow Jelly"]}
+              ],
+              "notes": null
+            },
+            {
+              "name": "Dark Oolong Milk Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [
+                {"name": "Hot", "price_delta": 0.20},
+                {"name": "Add Boba", "price_delta": 1.00, "options": ["Tapioca", "Popping Boba", "Rainbow Jelly"]}
+              ],
+              "notes": null
+            },
+            {
+              "name": "Chocolate Milk Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [
+                {"name": "Hot", "price_delta": 0.20},
+                {"name": "Add Boba", "price_delta": 1.00, "options": ["Tapioca", "Popping Boba", "Rainbow Jelly"]}
+              ],
+              "notes": null
+            },
+            {
+              "name": "Brown Sugar Milk Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [
+                {"name": "Hot", "price_delta": 0.20},
+                {"name": "Add Boba", "price_delta": 1.00, "options": ["Tapioca", "Popping Boba", "Rainbow Jelly"]}
+              ],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Fruit Tea",
+          "display_order": 2,
+          "notes": "Still or Sparkling. Cold or Hot. Freshly Brewed.",
+          "items": [
+            {
+              "name": "Lemon Assam Black Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Raspberry Jasmine Green Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Kumquat Jasmine Green Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Passionfruit Assam Black Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mango Jasmine Green Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Apple Jasmine Green Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Lychee Jasmine Green Tea",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Refreshing Drinks",
+          "display_order": 3,
+          "items": [
+            {
+              "name": "Green Oasis",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Cherry Velvet Sip",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Lychee Mojito",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Passionfruit Mojito",
+              "description": null,
+              "price": 4.50,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Smoothies",
+          "display_order": 4,
+          "notes": "Cold 16oz. Made with apple juice. Add Toppings +£0.50: Granola, Coconut Flakes, Nuts, Peanut Butter, Chia Seeds.",
+          "items": [
+            {
+              "name": "Strawberry Fantasy Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Pineapple Sunset Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Raspberry Heaven Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Coconut Crush Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Passion Storm Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Beet & Berry Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Acai Kick Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Oaty Banana Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Berry Burst Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Green Reviver Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mango Dream Smoothie",
+              "description": null,
+              "price": 5.00,
+              "allergens": [],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Frappes",
+          "display_order": 5,
+          "notes": "Cold 16oz. Add Coffee +£0.50.",
+          "items": [
+            {
+              "name": "Strawberry Cheesecake Frappe",
+              "description": null,
+              "price": 6.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Kinder Bueno Frappe",
+              "description": null,
+              "price": 6.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Lotus Biscoff Frappe",
+              "description": null,
+              "price": 6.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Bounty Frappe",
+              "description": null,
+              "price": 6.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Chocolate Chip Frappe",
+              "description": null,
+              "price": 6.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Summer Fruits Frappe",
+              "description": null,
+              "price": 6.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Pistachio Frappe",
+              "description": null,
+              "price": 6.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Milkshakes",
+          "display_order": 6,
+          "notes": "Cold 16oz.",
+          "items": [
+            {
+              "name": "Taro Milkshake",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Mango Yogurt Milkshake",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Oreo Vanilla Milkshake",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Vanilla Milkshake",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Pure Matcha Milkshake",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Banana Milkshake",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Strawberry Yogurt Milkshake",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Caramel Milkshake",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Protein Shakes",
+          "display_order": 7,
+          "notes": "Cold 16oz.",
+          "items": [
+            {
+              "name": "Vanilla Protein Shake",
+              "description": null,
+              "price": 7.00,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Chocolate Protein Shake",
+              "description": null,
+              "price": 7.00,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Strawberry Protein Shake",
+              "description": null,
+              "price": 7.00,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Banana Protein Shake",
+              "description": null,
+              "price": 7.00,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Salted Caramel Protein Shake",
+              "description": null,
+              "price": 7.00,
+              "allergens": ["M"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gourmet Lattes",
+      "display_order": 12,
+      "subsections": [
+        {
+          "name": "Lattes & Coffee Blends",
+          "display_order": 1,
+          "notes": "Iced Coffee +£0.20.",
+          "items": [
+            {
+              "name": "Coconut Kiss Latte",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Tiramisu Latte",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Beetroot Latte",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Strawberry Latte",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Banana Latte",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Creme Brulee Latte",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Blue Lagoon Latte",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Ice-Cream Espresso",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": "Also listed as Espresso variant at £4.00 in Coffee section"
+            },
+            {
+              "name": "Lotus Biscoff Latte",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Peanut Butter Latte",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Kinder Bueno Latte",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Cream Panner",
+              "description": null,
+              "price": 5.00,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Coconut Coffee Lychee Blend",
+              "description": null,
+              "price": 5.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Creamy Coconut Coffee Dream",
+              "description": null,
+              "price": 5.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Pistachio Latte",
+              "description": null,
+              "price": 5.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Panda",
+              "description": null,
+              "price": 5.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        },
+        {
+          "name": "Hot Chocolates",
+          "display_order": 2,
+          "items": [
+            {
+              "name": "Hot Chocolate",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "White Hot Chocolate",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Strawberry Hot Chocolate",
+              "description": null,
+              "price": 4.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            },
+            {
+              "name": "Baby Hot Chocolate",
+              "description": null,
+              "price": 3.50,
+              "allergens": ["M", "G"],
+              "variants": [],
+              "modifiers": [],
+              "notes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sushi (Pre-order Only)",
+      "display_order": 13,
+      "subsections": [
+        {
+          "name": "Sushi Platters",
+          "display_order": 1,
+          "notes": "Freshly Made, Premium Quality, Crafted to Order. Choose from Meat, Fish, or Vegan selections. Available in 8, 16, 20, 30, or 50-piece platters. Pre-order required.",
+          "items": [
+            {
+              "name": "Sushi Platter",
+              "description": "Handcrafted sushi available in Meat, Fish, or Vegan selections.",
+              "price": null,
+              "allergens": [],
+              "variants": [
+                {"name": "8-piece", "price": null},
+                {"name": "16-piece", "price": null},
+                {"name": "20-piece", "price": null},
+                {"name": "30-piece", "price": null},
+                {"name": "50-piece", "price": null}
+              ],
+              "modifiers": [],
+              "notes": "Price not listed in menu. Pre-order only."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Events & Catering",
+      "display_order": 14,
+      "subsections": [
+        {
+          "name": "Events & Catering",
+          "display_order": 1,
+          "notes": "Ideal for parties, meetings, and social gatherings. Tasty platters featuring mini sandwiches, sushi, snacks, and finger foods. Menus fully customizable.",
+          "items": []
+        }
+      ]
+    }
+  ],
+  "global_modifiers": [
+    {
+      "section": "Extras",
+      "name": "Decaf",
+      "price_delta": 0.30,
+      "notes": "Decaf Coffee / Tea"
+    },
+    {
+      "section": "Extras",
+      "name": "Change Milk",
+      "price_delta": 0.50,
+      "notes": "Choose from Soya, Oat, Coconut, Almond, Semi-Skimmed (Free)"
+    },
+    {
+      "section": "Extras",
+      "name": "Add Syrup",
+      "price_delta": 0.50,
+      "notes": "Hazelnut, Vanilla, Caramel, Salted Caramel, Chocolate, Caramelized Peanut, Blueberry, Strawberry, Cherry, Cinnamon, Pumpkin Spiced, Irish Cream, Pistachio. Sugar Free: Caramel, Hazelnut, Vanilla."
+    },
+    {
+      "section": "Coffee",
+      "name": "Iced Coffee",
+      "price_delta": 0.20,
+      "notes": "Available on any coffee or gourmet latte"
+    },
+    {
+      "section": "Create Your Own - Base Upgrades",
+      "name": "Gluten-Free Bread/Base Swap",
+      "price_delta": 0.70,
+      "notes": "Items containing bread, bagels, baps or waffles"
+    },
+    {
+      "section": "Create Your Own - Base Upgrades",
+      "name": "Sourdough Base Swap",
+      "price_delta": 0.50,
+      "notes": "Items containing bread, bagels, baps or waffles"
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Pistachio Powder",
+      "price_delta": 0.50,
+      "notes": null
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Roasted Almonds",
+      "price_delta": 0.40,
+      "notes": null
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Oreo Crumbs",
+      "price_delta": 0.30,
+      "notes": null
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Kit Kat Crumbs",
+      "price_delta": 0.30,
+      "notes": "Price listed as '0.30' without £ symbol in source"
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Biscoff Lotus",
+      "price_delta": 0.30,
+      "notes": null
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Coconut Flakes",
+      "price_delta": 0.30,
+      "notes": null
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Granola",
+      "price_delta": 0.30,
+      "notes": null
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Marshmallows",
+      "price_delta": 0.30,
+      "notes": null
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Rainbow Sprinkles",
+      "price_delta": 0.20,
+      "notes": null
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Chocolate Sprinkles",
+      "price_delta": 0.20,
+      "notes": null
+    },
+    {
+      "section": "Soft-Serve Toppings",
+      "name": "Flake",
+      "price_delta": 0.20,
+      "notes": null
+    },
+    {
+      "section": "Soft-Serve Sauces",
+      "name": "Strawberry Sauce",
+      "price_delta": 0.00,
+      "notes": "Free"
+    },
+    {
+      "section": "Soft-Serve Sauces",
+      "name": "Pistachio Sauce",
+      "price_delta": 0.00,
+      "notes": "Free"
+    },
+    {
+      "section": "Soft-Serve Sauces",
+      "name": "Mango Sauce",
+      "price_delta": 0.00,
+      "notes": "Free"
+    },
+    {
+      "section": "Soft-Serve Sauces",
+      "name": "Bueno Sauce",
+      "price_delta": 0.00,
+      "notes": "Free"
+    },
+    {
+      "section": "Soft-Serve Sauces",
+      "name": "Passionfruit Sauce",
+      "price_delta": 0.00,
+      "notes": "Free"
+    },
+    {
+      "section": "Soft-Serve Sauces",
+      "name": "Bubblegum Sauce",
+      "price_delta": 0.00,
+      "notes": "Free"
+    },
+    {
+      "section": "Soft-Serve Sauces",
+      "name": "Chocolate Sauce",
+      "price_delta": 0.00,
+      "notes": "Free"
+    },
+    {
+      "section": "Soft-Serve Sauces",
+      "name": "White Chocolate Sauce",
+      "price_delta": 0.00,
+      "notes": "Free"
+    },
+    {
+      "section": "Soft-Serve Sauces",
+      "name": "Oreo Sauce",
+      "price_delta": 0.00,
+      "notes": "Free"
+    },
+    {
+      "section": "Soft-Serve Sauces",
+      "name": "Caramel Sauce",
+      "price_delta": 0.00,
+      "notes": "Free"
+    }
+  ],
+  "allergen_legend": {
+    "G": "Gluten",
+    "Cr": "Crustaceans",
+    "Eg": "Egg",
+    "F": "Fish",
+    "Ce": "Celery",
+    "Mu": "Mustard",
+    "Se": "Sesame Seeds",
+    "Pe": "Peanut",
+    "Sy": "Soybeans",
+    "M": "Milk",
+    "N": "Nuts",
+    "Lu": "Lupin",
+    "Ms": "Molluscs",
+    "S02": "Sulphur dioxide and sulphites"
+  },
+  "ambiguities": [
+    "Line 503/505: Milk Tea boba add-on price listed as '+1,00' and hot modifier as '+0,20' using comma as decimal separator instead of period — interpreted as £1.00 and £0.20 respectively.",
+    "Line 547/562: Smoothie/Frappe topping add-on listed as '+0,50' with comma decimal — interpreted as £0.50.",
+    "Line 422: Kit Kat Crumbs soft-serve topping listed as '0.30' without a £ symbol, unlike all other toppings. Assumed £0.30.",
+    "Lines 459-498: Golden Toast section has a single price of £15.00 shown for the whole section but no individual prices per flavour — assumed all Golden Toast variants are £15.00.",
+    "Lines 473-498: Souffle Pancake at £12.00 lists 'Choco Banana' and 'S'more' but the layout is dense and may have more flavours not captured cleanly. American Pancake at £10.00 shows 'Original' and 'Matcha'. Crepe at £10.00 has no flavour breakdown.",
+    "Lines 599-628: Gourmet Lattes price tiers (4.50 / 5.00 / 5.50) are visually positioned near groups of items but the PDF-to-text extraction makes exact assignment ambiguous for items near tier boundaries. 'Ice-cream Espresso' appears both as an Espresso variant (£4.00) in the Coffee section and as a standalone Gourmet Latte (£4.50) — may be intentional or a duplicate.",
+    "Lines 459-498: Waffle crepe section layout is fragmented. 'Crepe' at £10.00 has no allergen codes listed separately in the raw text — allergens omitted from that item.",
+    "Line 147-162: Acai Granola Bowl layout is multi-column and garbled by PDF extraction. Items captured as a single composite description. Individual column items (bases, toppings) may be incomplete.",
+    "Lines 332-338: Sushi section has no prices listed at all — pre-order only, price presumably quoted separately.",
+    "Line 85: Sausage Roll allergen code 'S02' — this appears to be 'SO2' (sulphur dioxide) but is written as 'S02' with zero, consistent with allergen legend. Kept as 'S02' to match the legend.",
+    "Line 303: Vegan Sausages Bap has allergen 'M' (Milk) appearing visually offset at the end of the line, potentially a layout artifact — kept as listed.",
+    "Lines 600-628: 'Cream Panner' — unclear if this is a drink name or a typo (possibly 'Cream Paneer' or another item). Captured verbatim."
+  ]
+}

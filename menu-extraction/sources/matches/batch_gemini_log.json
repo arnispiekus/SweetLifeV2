@@ -1,0 +1,1245 @@
+{
+  "started": 1779836413.617245,
+  "results": [
+    {
+      "item_id": 21,
+      "item_name": "Plain Croissant",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/plain-croissant-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 23,
+      "item_name": "Nutella Croissant",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/nutella-croissant-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 25,
+      "item_name": "Ham & Cheese Croissant",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/ham-&-cheese-croissant-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 245,
+      "item_name": "Beef & Mince Pie",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/beef-&-mince-pie-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 22,
+      "item_name": "Butter & Jam Croissant",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/butter-&-jam-croissant-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 246,
+      "item_name": "Lemon Croissant",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/lemon-croissant-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 28,
+      "item_name": "Cinnamon Bun",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/cinnamon-bun-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 24,
+      "item_name": "Pistachio Croissant",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/pistachio-croissant-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 29,
+      "item_name": "Danish Pastry",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/danish-pastry-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 26,
+      "item_name": "Muffins",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/muffins-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 20,
+      "item_name": "Gluten Free Scone",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/gluten-free-scone-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 27,
+      "item_name": "Sausage Roll",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/sausage-roll-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 17,
+      "item_name": "Plain Scone",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/plain-scone-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 45,
+      "item_name": "Acai Granola Bowl",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/acai-granola-bowl-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 18,
+      "item_name": "Raspberry & White Chocolate Scone",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/raspberry-&-white-chocolate-scone-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 19,
+      "item_name": "Fruit Scone",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/fruit-scone-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 33,
+      "item_name": "Egg Toast",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/egg-toast-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 247,
+      "item_name": "Pistachio Donut",
+      "status": "ok",
+      "path": "public/menu-photos/bakery-pastries/pistachio-donut-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 32,
+      "item_name": "Breakfast Muffin",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/breakfast-muffin-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 44,
+      "item_name": "Breakfast Taco",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/breakfast-taco-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 38,
+      "item_name": "Cranberry Brie Toast",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/cranberry-brie-toast-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 39,
+      "item_name": "French Toast x2 with Bacon & Maple Syrup",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/french-toast-x2-with-bacon-&-maple-syrup-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 37,
+      "item_name": "Good Morning Breakfast",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/good-morning-breakfast-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 40,
+      "item_name": "French Toast Benedict",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/french-toast-benedict-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 35,
+      "item_name": "Hello Sunrise",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/hello-sunrise-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 31,
+      "item_name": "Omelette (GF)",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/omelette-gf-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 42,
+      "item_name": "Poached Egg & Bacon Bagel",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/poached-egg-&-bacon-bagel-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 30,
+      "item_name": "Porridge",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/porridge-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 249,
+      "item_name": "Smoothie Bowl",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/smoothie-bowl-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 36,
+      "item_name": "Salmon Sunrise",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/salmon-sunrise-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 34,
+      "item_name": "Simply Morning",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/simply-morning-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 43,
+      "item_name": "Tortilla Omelette",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/tortilla-omelette-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 129,
+      "item_name": "Homemade Ice-cream",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/homemade-ice-cream-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 248,
+      "item_name": "Side of Bacon",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/side-of-bacon-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 128,
+      "item_name": "Small Scoop",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/small-scoop-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 41,
+      "item_name": "Scrambled Egg Ciabatta",
+      "status": "ok",
+      "path": "public/menu-photos/breakfast-brunch/scrambled-egg-ciabatta-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 110,
+      "item_name": "Amaretto Cake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/amaretto-cake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 107,
+      "item_name": "Black Forest Gateau",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/black-forest-gateau-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 121,
+      "item_name": "Belgium Caramel Square",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/belgium-caramel-square-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 250,
+      "item_name": "Banana Bread",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/banana-bread-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 113,
+      "item_name": "Carrot Cake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/carrot-cake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 114,
+      "item_name": "Cheesecake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/cheesecake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 111,
+      "item_name": "Chocolate Cake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/chocolate-cake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 112,
+      "item_name": "Coffee Cake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/coffee-cake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 251,
+      "item_name": "Cookie Cake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/cookie-cake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 122,
+      "item_name": "Honey Cake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/honey-cake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 116,
+      "item_name": "Lemon Meringue",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/lemon-meringue-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 119,
+      "item_name": "Peanut Butter Snickers Cake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/peanut-butter-snickers-cake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 123,
+      "item_name": "Passionfruit Cake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/passionfruit-cake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 117,
+      "item_name": "Red Velvet",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/red-velvet-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 109,
+      "item_name": "Strawberry Apple Pie",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/strawberry-apple-pie-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 115,
+      "item_name": "Rainbow Cake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/rainbow-cake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 108,
+      "item_name": "Rocky Road",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/rocky-road-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 118,
+      "item_name": "Tiramisu",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/tiramisu-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 126,
+      "item_name": "Brownie",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/brownie-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 125,
+      "item_name": "Crumble Cookie",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/crumble-cookie-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 120,
+      "item_name": "Zesty Lemon Cake",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/zesty-lemon-cake-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 127,
+      "item_name": "Protein Balls",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/protein-balls-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 132,
+      "item_name": "Large Soft Serve",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/large-soft-serve-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 1,
+      "item_name": "Americano",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/americano-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 130,
+      "item_name": "Baby Soft Serve",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/baby-soft-serve-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 3,
+      "item_name": "Cappuccino",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/cappuccino-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 2,
+      "item_name": "Babyccino",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/babyccino-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 4,
+      "item_name": "Chai Latte",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/chai-latte-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 5,
+      "item_name": "Einspanner",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/einspanner-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 131,
+      "item_name": "Regular Soft Serve",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/regular-soft-serve-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 9,
+      "item_name": "Macchiato",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/macchiato-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 8,
+      "item_name": "Latte",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/latte-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 124,
+      "item_name": "Dubai Chocolate",
+      "status": "ok",
+      "path": "public/menu-photos/cakes-cookies-bites/dubai-chocolate-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 10,
+      "item_name": "Mocaccino",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/mocaccino-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 252,
+      "item_name": "Creamy Matcha",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/creamy-matcha-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 7,
+      "item_name": "Flat White",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/flat-white-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 15,
+      "item_name": "Matcha Latte",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/matcha-latte-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 16,
+      "item_name": "Matcha Tea",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/matcha-tea-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 13,
+      "item_name": "Raspberry, Ginger & Lemon Tea",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/raspberry,-ginger-&-lemon-tea-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 14,
+      "item_name": "Tea",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/tea-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 12,
+      "item_name": "Jasmine Brew Tea",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/jasmine-brew-tea-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 146,
+      "item_name": "Apple Pie Golden Toast",
+      "status": "ok",
+      "path": "public/menu-photos/golden-toast/apple-pie-golden-toast-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 148,
+      "item_name": "Mango Golden Toast",
+      "status": "ok",
+      "path": "public/menu-photos/golden-toast/mango-golden-toast-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 144,
+      "item_name": "Choco Banana Golden Toast",
+      "status": "ok",
+      "path": "public/menu-photos/golden-toast/choco-banana-golden-toast-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 6,
+      "item_name": "Espresso",
+      "status": "ok",
+      "path": "public/menu-photos/coffee-tea/espresso-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 99,
+      "item_name": "Bagel (GF)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/bagel-gf-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 147,
+      "item_name": "S'more Golden Toast",
+      "status": "ok",
+      "path": "public/menu-photos/golden-toast/smore-golden-toast-newgen.png",
+      "refs": [
+        "golden-toast-smores-Sweet-Life-Menu-Newry-V2-(Flye-p11-i3-d6abeb80.png",
+        "golden-toast-SmoreGT.webp",
+        "smores-toast-SweetLifeCafe_GoldenToastS_More.jpg"
+      ]
+    },
+    {
+      "item_id": 101,
+      "item_name": "Bap (GF)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/bap-gf-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 145,
+      "item_name": "Mixed Berry Golden Toast",
+      "status": "ok",
+      "path": "public/menu-photos/golden-toast/mixed-berry-golden-toast-newgen.png",
+      "refs": [
+        "golden-toast-with-apples-and-ice-cream-Sweet-Life-Menu-Newry-V2-p11-i29-64a87633.png",
+        "golden-toast-8..jpeg",
+        "golden-toast-with-marshmallows-and-ice-cream-Sweet-Life-Menu-Newry-V2-p11-i4-cd4ede0b.png"
+      ]
+    },
+    {
+      "item_id": 105,
+      "item_name": "Macaroon (GF)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/macaroon-gf-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 103,
+      "item_name": "Chocolate Fudge Cake (GF)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/chocolate-fudge-cake-gf-newgen.png",
+      "refs": [
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF).jpg",
+        "chocolate-cake-slice-Chocolate Fudge Cake (GF) .jpg",
+        "cake-slice-generic-Chocolate Orange Cake.jpg"
+      ]
+    },
+    {
+      "item_id": 11,
+      "item_name": "Mocha / White Mocha",
+      "status": "fail"
+    },
+    {
+      "item_id": 98,
+      "item_name": "Scone (GF)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/scone-gf-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 90,
+      "item_name": "Almond Belgium Waffle (K)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/almond-belgium-waffle-k-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 102,
+      "item_name": "Waffle (GF)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/waffle-gf-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 253,
+      "item_name": "Creamy Almond Coffee Dream (K)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/creamy-almond-coffee-dream-k-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 91,
+      "item_name": "Omelette (K)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/omelette-k-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 106,
+      "item_name": "Muffin (GF)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/muffin-gf-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 93,
+      "item_name": "Sushi Bowl (K)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/sushi-bowl-k-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 96,
+      "item_name": "Vegan Burger (V)(GF*)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/vegan-burger-vgf*-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 92,
+      "item_name": "Mozzarella Omelette Sandwich (K)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/mozzarella-omelette-sandwich-k-newgen.png",
+      "refs": [
+        "baguette-sandwich-Prosciutto Ham & Feta Cheese Baguette.jpg",
+        "baguette-sandwich-Sweet-Life-Menu-Newry-V2-(Flye-p16-i4-406d5bb5.png",
+        "sandwich-generic-Sweet-Life-Menu-Newry-V2-2-p4-i2-24af7ff4.png"
+      ]
+    },
+    {
+      "item_id": 97,
+      "item_name": "Vegan Kiev (V)(GF)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/vegan-kiev-vgf-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 94,
+      "item_name": "Vegan Sausages Bap (V)(GF*)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/vegan-sausages-bap-vgf*-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 95,
+      "item_name": "Vegan Taco (V)(GF*)",
+      "status": "ok",
+      "path": "public/menu-photos/keto-vegan-gluten-free/vegan-taco-vgf*-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 66,
+      "item_name": "Bap",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/bap-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 71,
+      "item_name": "Baguette",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/baguette-newgen.png",
+      "refs": [
+        "baguette-sandwich-Prosciutto Ham & Feta Cheese Baguette.jpg",
+        "baguette-sandwich-Sweet-Life-Menu-Newry-V2-(Flye-p16-i4-406d5bb5.png"
+      ]
+    },
+    {
+      "item_id": 255,
+      "item_name": "Ciabatta",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/ciabatta-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 78,
+      "item_name": "Chips",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/chips-newgen.png",
+      "refs": [
+        "panini-with-chips-SweetLifeCafe_BasilPestoHamAndCheese copy.jpg",
+        "panini-with-chips-16.jpg"
+      ]
+    },
+    {
+      "item_id": 76,
+      "item_name": "Crepe",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/crepe-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 79,
+      "item_name": "Jacket Potato",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/jacket-potato-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 74,
+      "item_name": "Omelette",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/omelette-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 100,
+      "item_name": "Toastie/Sandwich (GF)",
+      "status": "fail"
+    },
+    {
+      "item_id": 82,
+      "item_name": "Pasta Tagliatelle",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/pasta-tagliatelle-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 68,
+      "item_name": "Panini",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/panini-newgen.png",
+      "refs": [
+        "panini-14..jpg",
+        "panini-SweetLifeCafe_Bagels.jpg",
+        "panini-with-chips-SweetLifeCafe_BasilPestoHamAndCheese copy.jpg"
+      ]
+    },
+    {
+      "item_id": 72,
+      "item_name": "Quesadilla",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/quesadilla-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 77,
+      "item_name": "Rice",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/rice-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 80,
+      "item_name": "Salad",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/salad-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 64,
+      "item_name": "Sandwich",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/sandwich-newgen.png",
+      "refs": [
+        "baguette-sandwich-Prosciutto Ham & Feta Cheese Baguette.jpg",
+        "baguette-sandwich-Sweet-Life-Menu-Newry-V2-(Flye-p16-i4-406d5bb5.png",
+        "sandwich-generic-Sweet-Life-Menu-Newry-V2-2-p4-i2-24af7ff4.png"
+      ]
+    },
+    {
+      "item_id": 73,
+      "item_name": "Sourdough Pizza",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/sourdough-pizza-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 81,
+      "item_name": "Taco",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/taco-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 69,
+      "item_name": "Sourdough Bagel",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/sourdough-bagel-newgen.png",
+      "refs": [
+        "panini-SweetLifeCafe_Bagels.jpg"
+      ]
+    },
+    {
+      "item_id": 70,
+      "item_name": "Sourdough Pizza Bagel",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/sourdough-pizza-bagel-newgen.png",
+      "refs": [
+        "panini-SweetLifeCafe_Bagels.jpg"
+      ]
+    },
+    {
+      "item_id": 104,
+      "item_name": "Snickers Cake / Toblerone (GF)",
+      "status": "fail"
+    },
+    {
+      "item_id": 65,
+      "item_name": "Toastie",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/toastie-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 67,
+      "item_name": "Wrap",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/wrap-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 75,
+      "item_name": "Tortilla Omelette",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/tortilla-omelette-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 52,
+      "item_name": "Air Fried Sushi Hot Dog (GF*)(V*)",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/air-fried-sushi-hot-dog-gf*v*-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 49,
+      "item_name": "Black Jack Pulled Pork Burger",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/black-jack-pulled-pork-burger-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 50,
+      "item_name": "Bibimbap (GF)(V*)",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/bibimbap-gfv*-newgen.png",
+      "refs": [
+        "bibimbap-Screenshot 2023-08-16 at 21.09.24.png"
+      ]
+    },
+    {
+      "item_id": 257,
+      "item_name": "Chicken Goujons x3",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/chicken-goujons-x3-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 47,
+      "item_name": "Beetroot Feta Burger",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/beetroot-feta-burger-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 48,
+      "item_name": "Chicken Wings",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/chicken-wings-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 254,
+      "item_name": "Beetroot Belgium Waffle",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/beetroot-belgium-waffle-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 54,
+      "item_name": "Chicken Curry (GF)",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/chicken-curry-gf-newgen.png",
+      "refs": [
+        "curry-rice-Sweet-Life-Menu-Newry-V2-(Flye-p16-i5-9089ffe6.png"
+      ]
+    },
+    {
+      "item_id": 59,
+      "item_name": "Crispy Chicken Naan Kebab",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/crispy-chicken-naan-kebab-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 63,
+      "item_name": "Festive Toastie",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/festive-toastie-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 62,
+      "item_name": "Fishcake Burger",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/fishcake-burger-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 55,
+      "item_name": "Goujons & Chips",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/goujons-&-chips-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 60,
+      "item_name": "Meatball Tagliatelle Pasta",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/meatball-tagliatelle-pasta-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 256,
+      "item_name": "Fried Rice",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/fried-rice-newgen.png",
+      "refs": [
+        "curry-rice-Sweet-Life-Menu-Newry-V2-(Flye-p16-i5-9089ffe6.png"
+      ]
+    },
+    {
+      "item_id": 58,
+      "item_name": "Homemade Soup of the Day",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/homemade-soup-of-the-day-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 56,
+      "item_name": "Mexican Panini",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/mexican-panini-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 53,
+      "item_name": "Jacket Potato",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/jacket-potato-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 46,
+      "item_name": "Prosciutto Ham & Feta Cheese Baguette",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/prosciutto-ham-&-feta-cheese-baguette-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 51,
+      "item_name": "Poke Bowl (GF*)(V)",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/poke-bowl-gf*v-newgen.png",
+      "refs": [
+        "acai-bowl-Sweet-Life-Menu-Newry-V2-p3-i0-b18f9495.png",
+        "yogurt-granola-fruit-bowl-17..png",
+        "granola-yogurt-fruit-bowl-Screenshot 2023-01-27 at 09.24.25.png"
+      ]
+    },
+    {
+      "item_id": 152,
+      "item_name": "Matcha American Pancake",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/matcha-american-pancake-newgen.png",
+      "refs": [
+        "souffle-pancakes-9..jpg",
+        "souffle-pancakes-Sweet-Life-Menu-Newry-V2-p11-i9-ae2a8649.png",
+        "souffle-pancakes-35.jpeg"
+      ]
+    },
+    {
+      "item_id": 57,
+      "item_name": "The Mohawk Burger & Fries",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/the-mohawk-burger-&-fries-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 158,
+      "item_name": "Lemon Maple Syrup Icing Waffle",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/lemon-maple-syrup-icing-waffle-newgen.png",
+      "refs": [
+        "waffle-with-ice-cream-and-oreos-Sweet-Life-Menu-Newry-V2-(Flye-p11-i28-043ca992.png",
+        "bubble-waffle-Sweet-Life-Menu-Newry-V2-p11-i26-2837206e.png",
+        "waffles-with-ice-cream-and-banana-SweetLifeCafe_BananaLotusWaffle.jpg"
+      ]
+    },
+    {
+      "item_id": 156,
+      "item_name": "Banana-Lotus Waffle",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/banana-lotus-waffle-newgen.png",
+      "refs": [
+        "waffles-with-ice-cream-and-banana-SweetLifeCafe_BananaLotusWaffle.jpg",
+        "waffle-banana-rosemary-Sweet-Life-Menu-Drogheda-V2-p10-i47-b9e552f6.png",
+        "waffle-banana-Sweet-Life-Menu-Newry-V2-p11-i23-98cc0791.png"
+      ]
+    },
+    {
+      "item_id": 154,
+      "item_name": "Oreo Waffle",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/oreo-waffle-newgen.png",
+      "refs": [
+        "waffle-with-ice-cream-and-oreos-Sweet-Life-Menu-Newry-V2-(Flye-p11-i28-043ca992.png",
+        "waffle-with-ice-cream-and-oreos-SW5 .jpeg",
+        "bubble-waffle-with-marshmallows-and-oreo-WhatsApp Image 2023-08-28 at 21.45.54.jpeg"
+      ]
+    },
+    {
+      "item_id": 159,
+      "item_name": "Crepe",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/crepe-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 61,
+      "item_name": "Ramen Soup (*V)",
+      "status": "ok",
+      "path": "public/menu-photos/lunch/ramen-soup-*v-newgen.png",
+      "refs": []
+    },
+    {
+      "item_id": 155,
+      "item_name": "Strawberry Choco Waffle",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/strawberry-choco-waffle-newgen.png",
+      "refs": [
+        "strawberry-waffle-val 3.jpeg",
+        "bubble-waffle-with-ice-cream-and-chocolate-sauce-Sweet-Life-Menu-Drogheda-V2-p10-i51-d451f122.png",
+        "waffle-with-ice-cream-and-oreos-Sweet-Life-Menu-Newry-V2-(Flye-p11-i28-043ca992.png"
+      ]
+    },
+    {
+      "item_id": 157,
+      "item_name": "Plain Waffle (with Nutella ice cream)",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/plain-waffle-with-nutella-ice-cream-newgen.png",
+      "refs": [
+        "waffle-with-ice-cream-and-oreos-Sweet-Life-Menu-Newry-V2-(Flye-p11-i28-043ca992.png",
+        "waffles-with-ice-cream-and-banana-SweetLifeCafe_BananaLotusWaffle.jpg",
+        "waffle-with-berries-and-whipped-cream-v5.jpeg"
+      ]
+    },
+    {
+      "item_id": 153,
+      "item_name": "Strawberry Waffle",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/strawberry-waffle-newgen.png",
+      "refs": [
+        "strawberry-waffle-val 3.jpeg",
+        "waffle-with-ice-cream-and-oreos-Sweet-Life-Menu-Newry-V2-(Flye-p11-i28-043ca992.png",
+        "bubble-waffle-Sweet-Life-Menu-Newry-V2-p11-i26-2837206e.png"
+      ]
+    },
+    {
+      "item_id": 83,
+      "item_name": "Caesar Salad",
+      "status": "ok",
+      "path": "public/menu-photos/salads/caesar-salad-newgen.png",
+      "refs": [
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-(2-p6-i0-8151beb5.png",
+        "salad-with-poached-egg-3.9162e09a-bc26-40a2-93bc-8293f021a3c2.jpg",
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-p6-i0-78a64b21.png"
+      ]
+    },
+    {
+      "item_id": 87,
+      "item_name": "Balsamic Mozzarella Salad",
+      "status": "ok",
+      "path": "public/menu-photos/salads/balsamic-mozzarella-salad-newgen.png",
+      "refs": [
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-(2-p6-i0-8151beb5.png",
+        "salad-with-poached-egg-3.9162e09a-bc26-40a2-93bc-8293f021a3c2.jpg",
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-p6-i0-78a64b21.png"
+      ]
+    },
+    {
+      "item_id": 151,
+      "item_name": "Original American Pancake",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/original-american-pancake-newgen.png",
+      "refs": [
+        "souffle-pancakes-SweetLifeCafe_SoufflePancakeOriginal.jpg",
+        "souffle-pancakes-9..jpg",
+        "souffle-pancakes-Sweet-Life-Menu-Newry-V2-p11-i9-ae2a8649.png"
+      ]
+    },
+    {
+      "item_id": 86,
+      "item_name": "Caprese Salad",
+      "status": "ok",
+      "path": "public/menu-photos/salads/caprese-salad-newgen.png",
+      "refs": [
+        "caprese-salad-15..jpg",
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-(2-p6-i0-8151beb5.png",
+        "salad-with-poached-egg-3.9162e09a-bc26-40a2-93bc-8293f021a3c2.jpg"
+      ]
+    },
+    {
+      "item_id": 150,
+      "item_name": "S'more Souffle Pancake",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/smore-souffle-pancake-newgen.png",
+      "refs": [
+        "souffle-pancakes-9..jpg",
+        "souffle-pancakes-Sweet-Life-Menu-Newry-V2-p11-i9-ae2a8649.png",
+        "souffle-pancakes-35.jpeg"
+      ]
+    },
+    {
+      "item_id": 88,
+      "item_name": "Crispy Chicken Salad",
+      "status": "ok",
+      "path": "public/menu-photos/salads/crispy-chicken-salad-newgen.png",
+      "refs": [
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-(2-p6-i0-8151beb5.png",
+        "salad-with-poached-egg-3.9162e09a-bc26-40a2-93bc-8293f021a3c2.jpg",
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-p6-i0-78a64b21.png"
+      ]
+    },
+    {
+      "item_id": 149,
+      "item_name": "Choco Banana Souffle Pancake",
+      "status": "ok",
+      "path": "public/menu-photos/pancakes-waffles/choco-banana-souffle-pancake-newgen.png",
+      "refs": [
+        "souffle-pancakes-with-marshmallow-and-chocolate-Sweet-Life-Menu-Drogheda-V2-p10-i13-c40666f1.png",
+        "souffle-pancakes-with-chocolate-and-marshmallow-Sweet-Life-Menu-Newry-V2-(Flye-p11-i4-9786c847.png",
+        "souffle-pancakes-with-banana-and-ice-cream-Sweet-Life-Menu-Newry-V2-(Flye-p11-i5-606de231.png"
+      ]
+    },
+    {
+      "item_id": 89,
+      "item_name": "Create Your Own Salad",
+      "status": "ok",
+      "path": "public/menu-photos/salads/create-your-own-salad-newgen.png",
+      "refs": [
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-(2-p6-i0-8151beb5.png",
+        "salad-with-poached-egg-3.9162e09a-bc26-40a2-93bc-8293f021a3c2.jpg",
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-p6-i0-78a64b21.png"
+      ]
+    },
+    {
+      "item_id": 85,
+      "item_name": "Mozzarella & Mango Salad",
+      "status": "ok",
+      "path": "public/menu-photos/salads/mozzarella-&-mango-salad-newgen.png",
+      "refs": [
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-(2-p6-i0-8151beb5.png",
+        "salad-with-poached-egg-3.9162e09a-bc26-40a2-93bc-8293f021a3c2.jpg",
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-p6-i0-78a64b21.png"
+      ]
+    },
+    {
+      "item_id": 84,
+      "item_name": "Greek Salad",
+      "status": "ok",
+      "path": "public/menu-photos/salads/greek-salad-newgen.png",
+      "refs": [
+        "greek-salad-banner (4).png",
+        "salad-generic-Sweet-Life-Menu-Drogheda-V2-(2-p6-i0-8151beb5.png",
+        "salad-with-poached-egg-3.9162e09a-bc26-40a2-93bc-8293f021a3c2.jpg"
+      ]
+    },
+    {
+      "item_id": 232,
+      "item_name": "Sushi Platter",
+      "status": "ok",
+      "path": "public/menu-photos/sushi-pre-order-only/sushi-platter-newgen.png",
+      "refs": []
+    }
+  ]
+}

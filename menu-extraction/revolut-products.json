@@ -1,0 +1,4634 @@
+{
+  "generated": "2026-05-24",
+  "total_unique_products": 318,
+  "products": [
+    {
+      "name": "Beef&mince pie",
+      "category_raw": "Bakery & Pastries",
+      "category": "Bakery & Pastries",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Cinnamon bun",
+      "category_raw": "Bakery & Pastries",
+      "category": "Bakery & Pastries",
+      "base_price": 3.8,
+      "takeaway_price": null,
+      "variation_price_min": 3.8,
+      "variation_price_max": 3.8,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Croissant",
+      "category_raw": "Bakery & Pastries",
+      "category": "Bakery & Pastries",
+      "base_price": 2.6,
+      "takeaway_price": null,
+      "variation_price_min": 2.6,
+      "variation_price_max": 5.5,
+      "row_count": 7,
+      "active_modifiers": [],
+      "variation_count": 5
+    },
+    {
+      "name": "croissant (butter/nutella)",
+      "category_raw": "bakery & pastry",
+      "category": "Bakery & Pastries",
+      "base_price": 3.6,
+      "takeaway_price": 3.0,
+      "variation_price_min": 3.6,
+      "variation_price_max": 3.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "croissant ham & cheese",
+      "category_raw": "bakery & pastry",
+      "category": "Bakery & Pastries",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "croissant pistachio",
+      "category_raw": "bakery & pastry",
+      "category": "Bakery & Pastries",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Danish pastries",
+      "category_raw": "Bakery & Pastries",
+      "category": "Bakery & Pastries",
+      "base_price": 3.6,
+      "takeaway_price": 3.2,
+      "variation_price_min": 3.6,
+      "variation_price_max": 3.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Lemon Croissant",
+      "category_raw": "bakery & pastry",
+      "category": "Bakery & Pastries",
+      "base_price": 3.6,
+      "takeaway_price": null,
+      "variation_price_min": 3.6,
+      "variation_price_max": 3.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Muffin",
+      "category_raw": "Bakery & Pastries",
+      "category": "Bakery & Pastries",
+      "base_price": 3.6,
+      "takeaway_price": null,
+      "variation_price_min": 3.6,
+      "variation_price_max": 4.0,
+      "row_count": 6,
+      "active_modifiers": [],
+      "variation_count": 4
+    },
+    {
+      "name": "Pistachio donut",
+      "category_raw": "bakery & pastry",
+      "category": "Bakery & Pastries",
+      "base_price": 3.0,
+      "takeaway_price": 2.5,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Sausage Roll",
+      "category_raw": "Bakery & Pastries",
+      "category": "Bakery & Pastries",
+      "base_price": 3.8,
+      "takeaway_price": null,
+      "variation_price_min": 3.8,
+      "variation_price_max": 3.8,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Scone",
+      "category_raw": "Bakery & Pastries",
+      "category": "Bakery & Pastries",
+      "base_price": 3.6,
+      "takeaway_price": null,
+      "variation_price_min": 3.6,
+      "variation_price_max": 4.0,
+      "row_count": 5,
+      "active_modifiers": [],
+      "variation_count": 3
+    },
+    {
+      "name": "scone (GF)",
+      "category_raw": "bakery & pastry",
+      "category": "Bakery & Pastries",
+      "base_price": 4.2,
+      "takeaway_price": null,
+      "variation_price_min": 4.2,
+      "variation_price_max": 4.2,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Baby",
+      "category_raw": "Soft Serve Ice-Cream",
+      "category": "Bingsu / Soft Serve",
+      "base_price": 3.5,
+      "takeaway_price": null,
+      "variation_price_min": 3.5,
+      "variation_price_max": 3.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Bingsu",
+      "category_raw": "Bingsu",
+      "category": "Bingsu / Soft Serve",
+      "base_price": 7.0,
+      "takeaway_price": 6.5,
+      "variation_price_min": 6.5,
+      "variation_price_max": 8.5,
+      "row_count": 33,
+      "active_modifiers": [],
+      "variation_count": 32
+    },
+    {
+      "name": "bingsu large",
+      "category_raw": "soft serve / bingsu",
+      "category": "Bingsu / Soft Serve",
+      "base_price": 10.0,
+      "takeaway_price": 8.5,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "bingsu medium",
+      "category_raw": "soft serve / bingsu",
+      "category": "Bingsu / Soft Serve",
+      "base_price": 8.5,
+      "takeaway_price": 7.5,
+      "variation_price_min": 8.5,
+      "variation_price_max": 8.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "bingsu small",
+      "category_raw": "soft serve / bingsu",
+      "category": "Bingsu / Soft Serve",
+      "base_price": 7.0,
+      "takeaway_price": 6.5,
+      "variation_price_min": 7.0,
+      "variation_price_max": 7.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Regular",
+      "category_raw": "Soft Serve Ice-Cream",
+      "category": "Bingsu / Soft Serve",
+      "base_price": 3.8,
+      "takeaway_price": null,
+      "variation_price_min": 3.8,
+      "variation_price_max": 3.8,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Soft serve sit in",
+      "category_raw": "Soft Serve Ice-Cream",
+      "category": "Bingsu / Soft Serve",
+      "base_price": 4.5,
+      "takeaway_price": 4.0,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "toppings - almonds",
+      "category_raw": "soft serve / bingsu",
+      "category": "Bingsu / Soft Serve",
+      "base_price": 0.4,
+      "takeaway_price": null,
+      "variation_price_min": 0.4,
+      "variation_price_max": 0.4,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "toppings - pistachio powder",
+      "category_raw": "soft serve / bingsu",
+      "category": "Bingsu / Soft Serve",
+      "base_price": 0.5,
+      "takeaway_price": null,
+      "variation_price_min": 0.5,
+      "variation_price_max": 0.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "toppings - sprinkles/flake",
+      "category_raw": "soft serve / bingsu",
+      "category": "Bingsu / Soft Serve",
+      "base_price": 0.2,
+      "takeaway_price": null,
+      "variation_price_min": 0.2,
+      "variation_price_max": 0.2,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "1x slice toast with 1x egg",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "1x sliced toast with Scramble eggs",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 6.5,
+      "takeaway_price": null,
+      "variation_price_min": 6.5,
+      "variation_price_max": 6.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Acai coconut \ud83e\udd65",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 8.5,
+      "takeaway_price": null,
+      "variation_price_min": 8.5,
+      "variation_price_max": 8.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "acai granola",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 8.0,
+      "takeaway_price": null,
+      "variation_price_min": 8.0,
+      "variation_price_max": 8.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Acai Granola Bowl",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 8.0,
+      "takeaway_price": null,
+      "variation_price_min": 8.0,
+      "variation_price_max": 8.0,
+      "row_count": 42,
+      "active_modifiers": [
+        "Acai Extra Toppings"
+      ],
+      "variation_count": 41
+    },
+    {
+      "name": "add egg",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 0.6,
+      "takeaway_price": null,
+      "variation_price_min": 0.6,
+      "variation_price_max": 0.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "almond belgium waffle",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 14.0,
+      "takeaway_price": null,
+      "variation_price_min": 14.0,
+      "variation_price_max": 14.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Almond Belgium Waffle (K)(GF)",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 14.0,
+      "takeaway_price": null,
+      "variation_price_min": 14.0,
+      "variation_price_max": 14.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Remove Toppings Almond Waffle",
+        "Egg Type"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "bagel poached egg & bacon",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Bagel W/ Poached Egg & Bacon",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Egg & Bacon Bagel",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Breakfast Mffin",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Breakfast Muffin:",
+        "Egg Type"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "breakfast muffin",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Breakfast Omelette Taco",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Cranberry Brie Toast",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 6.5,
+      "takeaway_price": null,
+      "variation_price_min": 6.5,
+      "variation_price_max": 6.5,
+      "row_count": 2,
+      "active_modifiers": [
+        "Remove Toppings Cranberry Brie",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Egg Toast",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 6.5,
+      "takeaway_price": null,
+      "variation_price_min": 6.5,
+      "variation_price_max": 8.0,
+      "row_count": 4,
+      "active_modifiers": [
+        "Remove Toppings Egg Toast:",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 2
+    },
+    {
+      "name": "French Toast Benedict",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Remove Toppings French Toast Benedict",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "french toast w/bacon & maple syrup",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "French Toast w/bacon and maple syrup",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "French Toast x2",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 7.0,
+      "takeaway_price": null,
+      "variation_price_min": 7.0,
+      "variation_price_max": 7.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Good Morning Breakfast",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Remove Toppings Good Morning:",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Ham&cheese Taco",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Hello Sunrise",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 7.0,
+      "takeaway_price": null,
+      "variation_price_min": 7.0,
+      "variation_price_max": 9.5,
+      "row_count": 4,
+      "active_modifiers": [
+        "Remove Toppings Hello Sunrise:",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 2
+    },
+    {
+      "name": "mozzarella omelette sandwich",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Mozzarella Omelette Sandwich (K)(GF)",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Remove Toppings Mozzarella Omelette Sandwich"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "omelette",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 3,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Omelette (K)(GF)",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 3,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "omelette tortilla",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 11.0,
+      "takeaway_price": null,
+      "variation_price_min": 11.0,
+      "variation_price_max": 11.0,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Omelette Tortilla Bake",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 11.0,
+      "takeaway_price": null,
+      "variation_price_min": 11.0,
+      "variation_price_max": 11.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Outs pot",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Porridge",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 5,
+      "active_modifiers": [],
+      "variation_count": 3
+    },
+    {
+      "name": "Salmon Sunrise",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 8.0,
+      "variation_price_max": 12.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Remove Toppings Salmon Sunrise",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 1
+    },
+    {
+      "name": "salmon sunrise 1/2",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 8.5,
+      "takeaway_price": null,
+      "variation_price_min": 8.5,
+      "variation_price_max": 8.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "salmon sunrise full",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "scrambled egg ciabata",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Scrambled Egg Ciabatta",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Egg Ciabatta"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Side of bacon",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 1.5,
+      "takeaway_price": null,
+      "variation_price_min": 1.5,
+      "variation_price_max": 1.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Simply Morning",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Remove Toppings Simply Morning:",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Smoothie Bowl",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 8.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.5,
+      "variation_price_max": 8.0,
+      "row_count": 5,
+      "active_modifiers": [],
+      "variation_count": 3
+    },
+    {
+      "name": "Vegetarian Breakfast Taco",
+      "category_raw": "Breakfast & Brunch",
+      "category": "Breakfast & Brunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "x2 toast x2 egg",
+      "category_raw": "breakfast",
+      "category": "Breakfast & Brunch",
+      "base_price": 7.0,
+      "takeaway_price": 2.5,
+      "variation_price_min": 7.0,
+      "variation_price_max": 7.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "add ice-cream large",
+      "category_raw": "cakes, cookies & bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 3.5,
+      "takeaway_price": null,
+      "variation_price_min": 3.5,
+      "variation_price_max": 3.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "add ice-cream small",
+      "category_raw": "cakes, cookies & bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 0.6,
+      "takeaway_price": null,
+      "variation_price_min": 0.6,
+      "variation_price_max": 0.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Amaretto cake",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Banana Bread",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Belgium Caramel squares",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 3.6,
+      "takeaway_price": null,
+      "variation_price_min": 3.6,
+      "variation_price_max": 3.6,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Biscoff Rocky Road",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 4.0,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 4.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Black Forest Gateaux",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Brownie",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "cake",
+      "category_raw": "cakes, cookies & bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Carrot Cake",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Chocolate cake",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Chocolate Fudge Cake (GF)",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.5,
+      "takeaway_price": 4.8,
+      "variation_price_min": 5.5,
+      "variation_price_max": 5.5,
+      "row_count": 2,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Coconut protein ball",
+      "category_raw": "cakes, cookies & bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 3.0,
+      "takeaway_price": 3.0,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Coffee Cake",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Cookie Cake",
+      "category_raw": "cakes, cookies & bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Crumble Cookie",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 4.3,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 4.3,
+      "row_count": 6,
+      "active_modifiers": [],
+      "variation_count": 4
+    },
+    {
+      "name": "Dubai Chocolate",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 4.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 6.0,
+      "row_count": 4,
+      "active_modifiers": [],
+      "variation_count": 2
+    },
+    {
+      "name": "dubai chocolate large",
+      "category_raw": "cakes, cookies & bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Honey Cake",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Lemon Meringue",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.5,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.5,
+      "variation_price_max": 5.5,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Macaroons (GF)",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 3.0,
+      "takeaway_price": 2.5,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Oreo cake",
+      "category_raw": "cakes, cookies & bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.5,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Passionfruit Cake",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Peanut Butter Snickers Cake",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 6.0,
+      "takeaway_price": 4.8,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Protein balls",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 3.0,
+      "takeaway_price": 2.5,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Rainbow Cake",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.2,
+      "takeaway_price": 4.5,
+      "variation_price_min": 5.2,
+      "variation_price_max": 5.2,
+      "row_count": 2,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Red Velvet",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Rocky Road",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 4.0,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 4.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "rocky road / belgium square",
+      "category_raw": "cakes, cookies & bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 4.0,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 4.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "snickers cake",
+      "category_raw": "cakes, cookies & bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 6.0,
+      "takeaway_price": 4.8,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Strawberry Apple Pie",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Tiramisu",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.5,
+      "takeaway_price": 4.6,
+      "variation_price_min": 5.5,
+      "variation_price_max": 5.5,
+      "row_count": 2,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Vegan Jaffa cake",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.5,
+      "takeaway_price": 4.8,
+      "variation_price_min": 5.5,
+      "variation_price_max": 5.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Zesty Lemon Cake",
+      "category_raw": "Cakes, Cookies & Bites",
+      "category": "Cakes, Cookies & Bites",
+      "base_price": 5.0,
+      "takeaway_price": 4.3,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Add Syrup",
+      "category_raw": "coffee & tea",
+      "category": "Coffee & Tea",
+      "base_price": 0.5,
+      "takeaway_price": null,
+      "variation_price_min": 0.5,
+      "variation_price_max": 0.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Add Toppings",
+      "category_raw": "coffee & tea",
+      "category": "Coffee & Tea",
+      "base_price": 0.5,
+      "takeaway_price": null,
+      "variation_price_min": 0.3,
+      "variation_price_max": 0.5,
+      "row_count": 3,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Americano",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.4,
+      "takeaway_price": null,
+      "variation_price_min": 3.4,
+      "variation_price_max": 3.4,
+      "row_count": 2,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Babyccino",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 4.0,
+      "row_count": 41,
+      "active_modifiers": [
+        "Add Marshmallows & Cream",
+        "Add Powder"
+      ],
+      "variation_count": 39
+    },
+    {
+      "name": "Cappuccino",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.8,
+      "takeaway_price": null,
+      "variation_price_min": 3.8,
+      "variation_price_max": 4.8,
+      "row_count": 86,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Add Powder",
+        "Hot or Iced"
+      ],
+      "variation_count": 84
+    },
+    {
+      "name": "Chai latte",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 4.0,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 5.1,
+      "row_count": 11,
+      "active_modifiers": [
+        "Add Powder"
+      ],
+      "variation_count": 9
+    },
+    {
+      "name": "Change Milk",
+      "category_raw": "coffee & tea",
+      "category": "Coffee & Tea",
+      "base_price": 0.5,
+      "takeaway_price": null,
+      "variation_price_min": 0.5,
+      "variation_price_max": 0.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Coffee Beans",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 18.0,
+      "takeaway_price": null,
+      "variation_price_min": 18.0,
+      "variation_price_max": 18.0,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Creamy Matcha",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.5,
+      "row_count": 5,
+      "active_modifiers": [
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Decaf",
+      "category_raw": "coffee & tea",
+      "category": "Coffee & Tea",
+      "base_price": 0.3,
+      "takeaway_price": null,
+      "variation_price_min": 0.3,
+      "variation_price_max": 0.3,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Einspanner",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 4.2,
+      "takeaway_price": null,
+      "variation_price_min": 4.2,
+      "variation_price_max": 5.2,
+      "row_count": 86,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 84
+    },
+    {
+      "name": "Espresso",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.2,
+      "takeaway_price": null,
+      "variation_price_min": 3.2,
+      "variation_price_max": 4.0,
+      "row_count": 4,
+      "active_modifiers": [
+        "Coffee Extras"
+      ],
+      "variation_count": 2
+    },
+    {
+      "name": "Extra Shot",
+      "category_raw": "coffee & tea",
+      "category": "Coffee & Tea",
+      "base_price": 0.6,
+      "takeaway_price": null,
+      "variation_price_min": 0.6,
+      "variation_price_max": 0.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Flat White",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.7,
+      "takeaway_price": null,
+      "variation_price_min": 3.7,
+      "variation_price_max": 4.7,
+      "row_count": 86,
+      "active_modifiers": [
+        "Coffee Extras"
+      ],
+      "variation_count": 84
+    },
+    {
+      "name": "Glass of Milk",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 1.5,
+      "takeaway_price": null,
+      "variation_price_min": 1.5,
+      "variation_price_max": 1.5,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "iced",
+      "category_raw": "coffee & tea",
+      "category": "Coffee & Tea",
+      "base_price": 0.2,
+      "takeaway_price": null,
+      "variation_price_min": 0.2,
+      "variation_price_max": 0.2,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "jasmine brew",
+      "category_raw": "coffee & tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.8,
+      "takeaway_price": null,
+      "variation_price_min": 3.8,
+      "variation_price_max": 3.8,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Jasmine Brew Tea",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.8,
+      "takeaway_price": null,
+      "variation_price_min": 3.8,
+      "variation_price_max": 3.8,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Latte",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.8,
+      "takeaway_price": null,
+      "variation_price_min": 3.8,
+      "variation_price_max": 4.8,
+      "row_count": 86,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 84
+    },
+    {
+      "name": "Macchiato",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.7,
+      "takeaway_price": null,
+      "variation_price_min": 3.7,
+      "variation_price_max": 4.2,
+      "row_count": 6,
+      "active_modifiers": [
+        "Coffee Extras"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Matcha Latte",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 4.0,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 5.0,
+      "row_count": 26,
+      "active_modifiers": [
+        "Add Powder",
+        "Hot or Iced"
+      ],
+      "variation_count": 24
+    },
+    {
+      "name": "Matcha tea",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 4.0,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 4.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Hot or Iced"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Mocaccino",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.8,
+      "takeaway_price": null,
+      "variation_price_min": 3.8,
+      "variation_price_max": 4.3,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Mocha",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 5.0,
+      "row_count": 11,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 9
+    },
+    {
+      "name": "mochaccino",
+      "category_raw": "coffee & tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.8,
+      "takeaway_price": null,
+      "variation_price_min": 3.8,
+      "variation_price_max": 3.8,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Raspberry, Ginger & Lemon Tea",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "strawberry babycino",
+      "category_raw": "coffee & tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.0,
+      "takeaway_price": null,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Tea",
+      "category_raw": "Coffee & Tea",
+      "category": "Coffee & Tea",
+      "base_price": 3.0,
+      "takeaway_price": null,
+      "variation_price_min": 3.0,
+      "variation_price_max": 5.0,
+      "row_count": 11,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Tea Flavour"
+      ],
+      "variation_count": 9
+    },
+    {
+      "name": "tea pot",
+      "category_raw": "coffee & tea",
+      "category": "Coffee & Tea",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "baby hot chocolate",
+      "category_raw": "gourmet lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 3.5,
+      "takeaway_price": null,
+      "variation_price_min": 3.5,
+      "variation_price_max": 3.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "banana / creme brulee / blue lagoon / ice cream espresso",
+      "category_raw": "gourmet lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Banana Latte",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 5.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Beetroot Latte (Decaf)",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 5.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Blue Lagoon Latte",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 5.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Coconut Coffee Lychee Blend",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 5.5,
+      "takeaway_price": null,
+      "variation_price_min": 5.5,
+      "variation_price_max": 6.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "coconut kiss / tiramisu / beetroot / strawberry",
+      "category_raw": "gourmet lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Coconut Kiss Latte",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 5.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "coconut lychee / creamy coconut / pistachio / panda",
+      "category_raw": "gourmet lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 5.5,
+      "takeaway_price": null,
+      "variation_price_min": 5.5,
+      "variation_price_max": 5.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Cream Panner",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.5,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Creamy Coconut Coffee Dream",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 5.5,
+      "takeaway_price": null,
+      "variation_price_min": 5.5,
+      "variation_price_max": 6.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Creme Br\u00fbl\u00e9e Latte",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 5.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Hot Chocolate",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 3.5,
+      "variation_price_max": 5.0,
+      "row_count": 21,
+      "active_modifiers": [
+        "Hot Chocolate Toppings"
+      ],
+      "variation_count": 19
+    },
+    {
+      "name": "Ice-Cream Espresso",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [
+        "Coffee Extras"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Kinder Bueno Latte",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.5,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "lotus / peanut / kinder / cream panner",
+      "category_raw": "gourmet lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Lotus Biscoff Latte",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.5,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Panda",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 5.5,
+      "takeaway_price": null,
+      "variation_price_min": 5.5,
+      "variation_price_max": 6.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Peanut Butter Latte",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.5,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Pistachio Latte",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 5.5,
+      "takeaway_price": null,
+      "variation_price_min": 5.5,
+      "variation_price_max": 6.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Strawberry Latte (Decaf)",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 5.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "Tiramisu Latte",
+      "category_raw": "Gourmet Lattes",
+      "category": "Gourmet Lattes",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 5.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Coffee Extras",
+        "Hot or Iced"
+      ],
+      "variation_count": 4
+    },
+    {
+      "name": "american pancake",
+      "category_raw": "hot desserets",
+      "category": "Hot Desserts",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "American Pancakes",
+      "category_raw": "Hot Desserts",
+      "category": "Hot Desserts",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 10.0,
+      "row_count": 10,
+      "active_modifiers": [],
+      "variation_count": 9
+    },
+    {
+      "name": "Belgian Waffle",
+      "category_raw": "Hot Desserts",
+      "category": "Hot Desserts",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 10.0,
+      "row_count": 10,
+      "active_modifiers": [],
+      "variation_count": 9
+    },
+    {
+      "name": "Bubble Waffle",
+      "category_raw": "Hot Desserts",
+      "category": "Hot Desserts",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 10.0,
+      "row_count": 10,
+      "active_modifiers": [],
+      "variation_count": 9
+    },
+    {
+      "name": "Crepe (Sweet)",
+      "category_raw": "Hot Desserts",
+      "category": "Hot Desserts",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 8.0,
+      "variation_price_max": 10.0,
+      "row_count": 10,
+      "active_modifiers": [],
+      "variation_count": 9
+    },
+    {
+      "name": "Golden Toast",
+      "category_raw": "Hot Desserts",
+      "category": "Hot Desserts",
+      "base_price": 15.0,
+      "takeaway_price": null,
+      "variation_price_min": 15.0,
+      "variation_price_max": 15.0,
+      "row_count": 6,
+      "active_modifiers": [],
+      "variation_count": 4
+    },
+    {
+      "name": "souffle pancake",
+      "category_raw": "hot desserets",
+      "category": "Hot Desserts",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Souffl\u00e9 Pancake",
+      "category_raw": "Hot Desserts",
+      "category": "Hot Desserts",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 11.0,
+      "variation_price_max": 12.0,
+      "row_count": 10,
+      "active_modifiers": [],
+      "variation_count": 9
+    },
+    {
+      "name": "waffle / bubble waffle",
+      "category_raw": "hot desserets",
+      "category": "Hot Desserts",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Crisps",
+      "category_raw": "Bars",
+      "category": "JUNK:Bars",
+      "base_price": 2.0,
+      "takeaway_price": 2.0,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Kinder Bueno",
+      "category_raw": "Bars",
+      "category": "JUNK:Bars",
+      "base_price": 2.0,
+      "takeaway_price": 2.0,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Twix",
+      "category_raw": "Bars",
+      "category": "JUNK:Bars",
+      "base_price": 2.0,
+      "takeaway_price": 2.0,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Apple / Orange Juice",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Capri Sun Small",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Coke",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 3,
+      "active_modifiers": [],
+      "variation_count": 2
+    },
+    {
+      "name": "Fanta",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.0,
+      "takeaway_price": 2.0,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Fruit Shoots",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 1
+    },
+    {
+      "name": "Irish power water",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.5,
+      "takeaway_price": 2.5,
+      "variation_price_min": 2.5,
+      "variation_price_max": 2.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Jug of Dilute",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 3.0,
+      "takeaway_price": null,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Kombucha",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 3.0,
+      "takeaway_price": null,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Matcha ice tea",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.6,
+      "takeaway_price": null,
+      "variation_price_min": 2.6,
+      "variation_price_max": 2.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Merry Meerkat",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.3,
+      "takeaway_price": null,
+      "variation_price_min": 2.3,
+      "variation_price_max": 2.3,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Red Bull",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.6,
+      "takeaway_price": null,
+      "variation_price_min": 2.6,
+      "variation_price_max": 2.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Sparkling Water",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Sprite",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Still Water",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.0,
+      "takeaway_price": 2.0,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Vit-Hit",
+      "category_raw": "Beverages",
+      "category": "JUNK:Beverages",
+      "base_price": 2.6,
+      "takeaway_price": null,
+      "variation_price_min": 2.6,
+      "variation_price_max": 2.6,
+      "row_count": 4,
+      "active_modifiers": [],
+      "variation_count": 3
+    },
+    {
+      "name": "Bag",
+      "category_raw": "Extra",
+      "category": "JUNK:Extra",
+      "base_price": 0.25,
+      "takeaway_price": null,
+      "variation_price_min": 0.25,
+      "variation_price_max": 0.25,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Extra 0.50",
+      "category_raw": "Extra",
+      "category": "JUNK:Extra",
+      "base_price": 0.5,
+      "takeaway_price": null,
+      "variation_price_min": 0.5,
+      "variation_price_max": 0.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Extra 0.60",
+      "category_raw": "Extra",
+      "category": "JUNK:Extra",
+      "base_price": 0.6,
+      "takeaway_price": null,
+      "variation_price_min": 0.6,
+      "variation_price_max": 0.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Extra 1.00",
+      "category_raw": "Extra",
+      "category": "JUNK:Extra",
+      "base_price": 1.0,
+      "takeaway_price": null,
+      "variation_price_min": 1.0,
+      "variation_price_max": 1.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Extra 2.00",
+      "category_raw": "Extra",
+      "category": "JUNK:Extra",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Vegan sausage ex",
+      "category_raw": "Extra",
+      "category": "JUNK:Extra",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "1x Egg & 2x Toasted bread With Butter",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 6.5,
+      "takeaway_price": null,
+      "variation_price_min": 6.5,
+      "variation_price_max": 7.5,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 1
+    },
+    {
+      "name": "2 sausages n toast",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Brie Mine Croissant",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Burning Love Burger",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 14.0,
+      "takeaway_price": null,
+      "variation_price_min": 14.0,
+      "variation_price_max": 14.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Caramel Apple Muffin",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 3.6,
+      "takeaway_price": 3.5,
+      "variation_price_min": 3.6,
+      "variation_price_max": 3.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Christmas toastie \ud83c\udf85",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Cookie",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 3.0,
+      "takeaway_price": 1.5,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Crisy&BBQ Wings",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Cupcake",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 3.0,
+      "takeaway_price": 3.0,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Cupid\u2019s Cocoa",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Doughnut",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 2.2,
+      "takeaway_price": 2.2,
+      "variation_price_min": 2.2,
+      "variation_price_max": 2.2,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Festive Fries \ud83c\udf85",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 15.0,
+      "takeaway_price": null,
+      "variation_price_min": 15.0,
+      "variation_price_max": 15.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Gluten Free Blueberry Muffin",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 4.5,
+      "takeaway_price": 4.0,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Irish power energy drink",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 2.6,
+      "takeaway_price": null,
+      "variation_price_min": 2.6,
+      "variation_price_max": 2.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Lemon Muffin",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 4.0,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 4.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Loose jasmine tea / whole pack",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Love Toast",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 8.0,
+      "takeaway_price": null,
+      "variation_price_min": 8.0,
+      "variation_price_max": 8.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Mince pie",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Mohawk Burger",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 15.0,
+      "takeaway_price": null,
+      "variation_price_min": 15.0,
+      "variation_price_max": 15.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Mulled Orange coffee \ud83c\udf85",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Pink Matcha Latte",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Portuguese Custard Tart",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 2.2,
+      "takeaway_price": 2.2,
+      "variation_price_min": 2.2,
+      "variation_price_max": 2.2,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Raisin pastry",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 3.6,
+      "takeaway_price": 2.6,
+      "variation_price_min": 3.6,
+      "variation_price_max": 3.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Rice Crispy",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 3.6,
+      "takeaway_price": 3.0,
+      "variation_price_min": 3.6,
+      "variation_price_max": 3.6,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Salmon Bruschetta for Two",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 14.0,
+      "takeaway_price": null,
+      "variation_price_min": 14.0,
+      "variation_price_max": 14.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Side of salmon",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 1.0,
+      "takeaway_price": null,
+      "variation_price_min": 1.0,
+      "variation_price_max": 1.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Small breakfast",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Strawberry Choco Brownie",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Strawberry Mocha",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Tablerone Gluten Free",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 5.0,
+      "takeaway_price": 4.2,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Tiramisu glass cake",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 5.5,
+      "takeaway_price": 5.0,
+      "variation_price_min": 5.5,
+      "variation_price_max": 5.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Toasted bread x1 slice",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 2.5,
+      "takeaway_price": null,
+      "variation_price_min": 2.5,
+      "variation_price_max": 2.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Toasted bread x2 slices",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 3.0,
+      "takeaway_price": null,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Vegan choco orange pudding",
+      "category_raw": "Uncategorised",
+      "category": "JUNK:Uncategorised",
+      "base_price": 5.0,
+      "takeaway_price": 4.6,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "almond Belgian waffle",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 14.0,
+      "takeaway_price": null,
+      "variation_price_min": 14.0,
+      "variation_price_max": 14.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "bagel (GF)",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Bagel (GF) (V)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Bap (GF)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "chocolate fudge cake",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 5.5,
+      "takeaway_price": null,
+      "variation_price_min": 5.5,
+      "variation_price_max": 5.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Creamy Almond Coffee Dream (K)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Coffee Extras"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Fruit Scone (GF)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 4.5,
+      "takeaway_price": 4.2,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Macaroon (GF)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 3.0,
+      "takeaway_price": null,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "macaroons",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 3.0,
+      "takeaway_price": null,
+      "variation_price_min": 3.0,
+      "variation_price_max": 3.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Muffin (GF)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 4.5,
+      "row_count": 3,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Sandwich (GF) (V)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 8.5,
+      "takeaway_price": null,
+      "variation_price_min": 8.5,
+      "variation_price_max": 8.5,
+      "row_count": 1,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "sandwich / toastie (GF)",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 8.5,
+      "takeaway_price": null,
+      "variation_price_min": 8.5,
+      "variation_price_max": 8.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Snickers / Toblerone Cake (GF)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Ice-cream"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "snickers cake (GF)",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "sushi bowl",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Sushi Bowl (GF) (K)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Sushi Bowl",
+        "Egg Type"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Toastie (GF) (V)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 8.5,
+      "takeaway_price": null,
+      "variation_price_min": 8.5,
+      "variation_price_max": 8.5,
+      "row_count": 1,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "vegan burger",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Vegan Burger (GF) (V)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Chips",
+        "Vegan Sauce"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "vegan kiev",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Vegan Kiev (GF) (V)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "vegan sausage Bap",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Vegan Sausages (GF) (V)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "vegan taco",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 14.0,
+      "takeaway_price": null,
+      "variation_price_min": 14.0,
+      "variation_price_max": 14.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Vegan Taco (GF) (V)",
+      "category_raw": "Keto, Vegan & Gluten Free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 13.0,
+      "takeaway_price": null,
+      "variation_price_min": 13.0,
+      "variation_price_max": 13.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Waffle (GF)",
+      "category_raw": "keto, vegan, gluten free",
+      "category": "Keto, Vegan & Gluten-Free",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Air Fried Sushi Hot Dog",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 14.0,
+      "takeaway_price": null,
+      "variation_price_min": 14.0,
+      "variation_price_max": 14.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Remove Toppings Sushi Hot Dog"
+      ],
+      "variation_count": 3
+    },
+    {
+      "name": "Bagel",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Bap",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Crisps or Coleslaw",
+        "Vegan",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Beetroot Belgium Waffle",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Beetroot Waffle",
+        "Egg Type"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "beetroot feta burger",
+      "category_raw": "lunch",
+      "category": "Lunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Beetroot-Feta Burger",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Chips",
+        "Remove Toppings Beetroot Feta Burger",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Bibimbap",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Remove Toppings Bibimbap:",
+        "Egg Type"
+      ],
+      "variation_count": 3
+    },
+    {
+      "name": "black jack burger",
+      "category_raw": "lunch",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Black Jack Pulled Pork Burger Bun",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Chips",
+        "Remove Toppings Black Jack Burger"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Chicken Curry",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 11.0,
+      "takeaway_price": null,
+      "variation_price_min": 11.0,
+      "variation_price_max": 11.0,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Chicken Goujons x3",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Sauces"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Chips",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 10.0,
+      "row_count": 3,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Ciabatta",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Crisps or Coleslaw",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "crepe",
+      "category_raw": "create your own",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Crepe (Savoury)",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Crispy Chicken Naan Kebab",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Remove Toppings Naan Kebab"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Festive Toastie",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Remove Toppings Festive Toastie"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Fishcake  Burger",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Chips",
+        "Remove Toppings Fishcake"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "fishcake burger",
+      "category_raw": "lunch",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "fried rice",
+      "category_raw": "create your own",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "goujons",
+      "category_raw": "lunch",
+      "category": "Lunch",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Goujons & Fries",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 8.0,
+      "takeaway_price": null,
+      "variation_price_min": 8.0,
+      "variation_price_max": 8.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Sauces"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Homemade Soup of the Day",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Jacket Potato",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 4,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Meatball Pasta",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 7.0,
+      "takeaway_price": null,
+      "variation_price_min": 7.0,
+      "variation_price_max": 11.0,
+      "row_count": 2,
+      "active_modifiers": [],
+      "variation_count": 1
+    },
+    {
+      "name": "meatball pasta full",
+      "category_raw": "lunch",
+      "category": "Lunch",
+      "base_price": 11.0,
+      "takeaway_price": null,
+      "variation_price_min": 11.0,
+      "variation_price_max": 11.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "meatball pasta half",
+      "category_raw": "lunch",
+      "category": "Lunch",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Mexican Panini",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Crisps or Coleslaw",
+        "Remove Toppings Mexican Panini"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Panini",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Crisps or Coleslaw",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Pasta",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 11.0,
+      "takeaway_price": null,
+      "variation_price_min": 11.0,
+      "variation_price_max": 11.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Pizza Bagel",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Poke bowl",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 5,
+      "active_modifiers": [
+        "Remove Toppings Poke Bowl:"
+      ],
+      "variation_count": 3
+    },
+    {
+      "name": "Prosciutto Ham & Feta Cheese Baguette",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 12.0,
+      "takeaway_price": 11.0,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Ham & Feta Baguette"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "quesadilla",
+      "category_raw": "create your own",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Quesadillas",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "ramen",
+      "category_raw": "lunch",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Ramen soup",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Ramen"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Rice",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Salad",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Sandwich",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 7.0,
+      "takeaway_price": null,
+      "variation_price_min": 7.0,
+      "variation_price_max": 7.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Crisps or Coleslaw",
+        "Vegan",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "soup",
+      "category_raw": "lunch",
+      "category": "Lunch",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Sourdough Pizza",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 3,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Taco",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 11.0,
+      "takeaway_price": null,
+      "variation_price_min": 11.0,
+      "variation_price_max": 11.0,
+      "row_count": 3,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 1
+    },
+    {
+      "name": "Take away sandwich",
+      "category_raw": "lunch",
+      "category": "Lunch",
+      "base_price": 7.0,
+      "takeaway_price": null,
+      "variation_price_min": 7.0,
+      "variation_price_max": 7.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Toastie",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 8.0,
+      "takeaway_price": null,
+      "variation_price_min": 8.0,
+      "variation_price_max": 8.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Crisps or Coleslaw",
+        "Vegan",
+        "Egg Type",
+        "Gluten Free Option"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Tortilla Omelette",
+      "category_raw": "Lunch",
+      "category": "Lunch",
+      "base_price": 11.0,
+      "takeaway_price": null,
+      "variation_price_min": 11.0,
+      "variation_price_max": 11.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "vegan meat",
+      "category_raw": "create your own",
+      "category": "Lunch",
+      "base_price": 2.0,
+      "takeaway_price": null,
+      "variation_price_min": 2.0,
+      "variation_price_max": 2.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Wrap",
+      "category_raw": "Create Your Own",
+      "category": "Lunch",
+      "base_price": 9.0,
+      "takeaway_price": null,
+      "variation_price_min": 9.0,
+      "variation_price_max": 9.0,
+      "row_count": 2,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces",
+        "Crisps or Coleslaw",
+        "Vegan"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Balsamic Mozzarella Salad",
+      "category_raw": "Salads",
+      "category": "Salads",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Balsamic Mozzarella Salad"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Burrata/Mozzarella & Mango Salad",
+      "category_raw": "Salads",
+      "category": "Salads",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Burrata Mango Salad"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Caesar Salad",
+      "category_raw": "Salads",
+      "category": "Salads",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Caesar Salads"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Caprese Salad",
+      "category_raw": "Salads",
+      "category": "Salads",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Caprese Salad"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Create Your Own Salad",
+      "category_raw": "Salads",
+      "category": "Salads",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Protein: (2 Max)",
+        "Cheese",
+        "Salad",
+        "Sauces"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Crispy Chicken Salad",
+      "category_raw": "Salads",
+      "category": "Salads",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Greek Salad",
+      "category_raw": "Salads",
+      "category": "Salads",
+      "base_price": 10.0,
+      "takeaway_price": null,
+      "variation_price_min": 10.0,
+      "variation_price_max": 10.0,
+      "row_count": 1,
+      "active_modifiers": [
+        "Remove Toppings Greek Salad"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "add boba",
+      "category_raw": "signature drinks",
+      "category": "Signature Drinks",
+      "base_price": 1.0,
+      "takeaway_price": null,
+      "variation_price_min": 1.0,
+      "variation_price_max": 1.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "add coffee",
+      "category_raw": "shakes smoothies & frappes",
+      "category": "Signature Drinks",
+      "base_price": 0.5,
+      "takeaway_price": null,
+      "variation_price_min": 0.5,
+      "variation_price_max": 0.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Cherry Velvet Sip",
+      "category_raw": "Signature Drinks",
+      "category": "Signature Drinks",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [
+        "Still or Sparkling"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "frappe",
+      "category_raw": "shakes smoothies & frappes",
+      "category": "Signature Drinks",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Frapp\u00e9",
+      "category_raw": "Shakes, Smoothies & Frappes",
+      "category": "Signature Drinks",
+      "base_price": 6.0,
+      "takeaway_price": null,
+      "variation_price_min": 6.0,
+      "variation_price_max": 6.5,
+      "row_count": 35,
+      "active_modifiers": [
+        "Frappe Add Coffee"
+      ],
+      "variation_count": 34
+    },
+    {
+      "name": "Fruit Tea",
+      "category_raw": "Signature Drinks",
+      "category": "Signature Drinks",
+      "base_price": 4.0,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 4.0,
+      "row_count": 8,
+      "active_modifiers": [
+        "Add Boba",
+        "Hot or Cold",
+        "Still or Sparkling"
+      ],
+      "variation_count": 6
+    },
+    {
+      "name": "Green Oasis",
+      "category_raw": "Signature Drinks",
+      "category": "Signature Drinks",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [
+        "Add Boba"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "green oasis / cherry sip / mojito",
+      "category_raw": "signature drinks",
+      "category": "Signature Drinks",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "hot milk tea",
+      "category_raw": "signature drinks",
+      "category": "Signature Drinks",
+      "base_price": 0.2,
+      "takeaway_price": null,
+      "variation_price_min": 0.2,
+      "variation_price_max": 0.2,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Lychee Mojito (Virgin)",
+      "category_raw": "Signature Drinks",
+      "category": "Signature Drinks",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [
+        "Still or Sparkling"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Milk Tea",
+      "category_raw": "Signature Drinks",
+      "category": "Signature Drinks",
+      "base_price": 4.0,
+      "takeaway_price": null,
+      "variation_price_min": 4.0,
+      "variation_price_max": 4.5,
+      "row_count": 56,
+      "active_modifiers": [
+        "Add Boba",
+        "Hot or Cold"
+      ],
+      "variation_count": 54
+    },
+    {
+      "name": "Milkshake",
+      "category_raw": "Shakes, Smoothies & Frappes",
+      "category": "Signature Drinks",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.5,
+      "row_count": 41,
+      "active_modifiers": [],
+      "variation_count": 39
+    },
+    {
+      "name": "Passion Fruit Mojito (Virgin)",
+      "category_raw": "Signature Drinks",
+      "category": "Signature Drinks",
+      "base_price": 4.5,
+      "takeaway_price": null,
+      "variation_price_min": 4.5,
+      "variation_price_max": 4.5,
+      "row_count": 1,
+      "active_modifiers": [
+        "Still or Sparkling"
+      ],
+      "variation_count": 0
+    },
+    {
+      "name": "Protein Shake",
+      "category_raw": "Shakes, Smoothies & Frappes",
+      "category": "Signature Drinks",
+      "base_price": 7.0,
+      "takeaway_price": null,
+      "variation_price_min": 7.0,
+      "variation_price_max": 7.5,
+      "row_count": 26,
+      "active_modifiers": [],
+      "variation_count": 24
+    },
+    {
+      "name": "Smoothie",
+      "category_raw": "Shakes, Smoothies & Frappes",
+      "category": "Signature Drinks",
+      "base_price": 5.0,
+      "takeaway_price": null,
+      "variation_price_min": 5.0,
+      "variation_price_max": 5.0,
+      "row_count": 12,
+      "active_modifiers": [
+        "Smoothie Toppings"
+      ],
+      "variation_count": 10
+    },
+    {
+      "name": "smoothie toppings",
+      "category_raw": "shakes smoothies & frappes",
+      "category": "Signature Drinks",
+      "base_price": 0.5,
+      "takeaway_price": null,
+      "variation_price_min": 0.5,
+      "variation_price_max": 0.5,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "16 pcs",
+      "category_raw": "sushi",
+      "category": "Sushi (Pre-order Only)",
+      "base_price": 24.0,
+      "takeaway_price": null,
+      "variation_price_min": 24.0,
+      "variation_price_max": 24.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "20 pcs",
+      "category_raw": "sushi",
+      "category": "Sushi (Pre-order Only)",
+      "base_price": 30.0,
+      "takeaway_price": null,
+      "variation_price_min": 30.0,
+      "variation_price_max": 30.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "30 pcs",
+      "category_raw": "sushi",
+      "category": "Sushi (Pre-order Only)",
+      "base_price": 40.0,
+      "takeaway_price": null,
+      "variation_price_min": 40.0,
+      "variation_price_max": 40.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "50 pcs",
+      "category_raw": "sushi",
+      "category": "Sushi (Pre-order Only)",
+      "base_price": 70.0,
+      "takeaway_price": null,
+      "variation_price_min": 70.0,
+      "variation_price_max": 70.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "8pc",
+      "category_raw": "sushi",
+      "category": "Sushi (Pre-order Only)",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 12.0,
+      "row_count": 1,
+      "active_modifiers": [],
+      "variation_count": 0
+    },
+    {
+      "name": "Sushi",
+      "category_raw": "Sushi (Pre-Order Only)",
+      "category": "Sushi (Pre-order Only)",
+      "base_price": 12.0,
+      "takeaway_price": null,
+      "variation_price_min": 12.0,
+      "variation_price_max": 70.0,
+      "row_count": 15,
+      "active_modifiers": [],
+      "variation_count": 14
+    }
+  ],
+  "sanity_flags": [
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Add Toppings",
+      "count": 3
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Air Fried Sushi Hot Dog",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Almond Belgium Waffle (K)(GF)",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Americano",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Babyccino",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Bagel",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Bap",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Bap (GF)",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Bibimbap",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Cappuccino",
+      "count": 2
+    },
+    {
+      "flag": "HIGH_ROW_COUNT",
+      "product": "Cappuccino",
+      "row_count": 86
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Chai latte",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Chicken Curry",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Chips",
+      "count": 3
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Chocolate Fudge Cake (GF)",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Ciabatta",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Cinnamon bun",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Coffee Beans",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Cranberry Brie Toast",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Crispy Chicken Naan Kebab",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Croissant",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Crumble Cookie",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Dubai Chocolate",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Egg Toast",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Einspanner",
+      "count": 2
+    },
+    {
+      "flag": "HIGH_ROW_COUNT",
+      "product": "Einspanner",
+      "row_count": 86
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Espresso",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Festive Toastie",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Flat White",
+      "count": 2
+    },
+    {
+      "flag": "HIGH_ROW_COUNT",
+      "product": "Flat White",
+      "row_count": 86
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "French Toast Benedict",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Fruit Tea",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Glass of Milk",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Golden Toast",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Good Morning Breakfast",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Goujons & Fries",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Hello Sunrise",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Hot Chocolate",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Jacket Potato",
+      "count": 4
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Latte",
+      "count": 2
+    },
+    {
+      "flag": "HIGH_ROW_COUNT",
+      "product": "Latte",
+      "row_count": 86
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Macchiato",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Matcha Latte",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Matcha tea",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Mexican Panini",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Milk Tea",
+      "count": 2
+    },
+    {
+      "flag": "HIGH_ROW_COUNT",
+      "product": "Milk Tea",
+      "row_count": 56
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Milkshake",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Mocha",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Mozzarella Omelette Sandwich (K)(GF)",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Muffin",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Muffin (GF)",
+      "count": 3
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Omelette (K)(GF)",
+      "count": 3
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Omelette Tortilla Bake",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Panini",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Pasta",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Poke bowl",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Porridge",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Protein Shake",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Protein balls",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Rainbow Cake",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Salad",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Sandwich",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Sausage Roll",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Scone",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Simply Morning",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Smoothie",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Smoothie Bowl",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Sourdough Pizza",
+      "count": 3
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Taco",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Tea",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Tiramisu",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Toastie",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Tortilla Omelette",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Waffle (GF)",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "Wrap",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "crepe",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "mozzarella omelette sandwich",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "omelette",
+      "count": 3
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "omelette tortilla",
+      "count": 2
+    },
+    {
+      "flag": "MULTIPLE_DEFAULT_ROWS",
+      "product": "scone (GF)",
+      "count": 2
+    }
+  ]
+}

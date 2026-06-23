@@ -1,0 +1,22 @@
+A new release of infisical is available: 0.43.79 -> 0.43.86
+
+To update, run: brew update && brew upgrade infisical
+
+[90m2026-05-26T20:13:10-03:00[0m [32mINF[0m Injecting 98 Infisical secrets into your application process
+Phase 4 social — 14 items
+  [1/14] ok    ig-feed-coffee-pour
+  [2/14] ok    ig-feed-drink-watermelon
+  [3/14] ok    ig-feed-bingsu-hero
+  [4/14] ok    ig-feed-cake-display
+  [5/14] ok    ig-feed-poke-bowl
+  [6/14] ok    ig-story-bao-launch
+  [7/14] ok    ig-story-bingsu-flavors
+  [8/14] ok    pinterest-pin-cafe
+  [9/14] ok    ig-reel-cover-latte
+  [10/14] ok    ig-reel-cover-bingsu
+  [11/14] ok    pinterest-pin-drinks
+  [12/14] ok    ig-story-brunch-cta
+  [13/14] ok    pinterest-pin-bingsu
+  [14/14] ok    ig-feed-brunch-spread
+
+Done. ok=14/14

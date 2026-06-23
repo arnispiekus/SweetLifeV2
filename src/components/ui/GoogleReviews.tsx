@@ -154,7 +154,7 @@ const GoogleReviews: React.FC = () => {
                   >
                     {/* Large decorative quote mark - more prominent */}
                     <div className="absolute -top-2 left-6 text-primary/20 font-display text-[120px] leading-none select-none pointer-events-none">
-                      "
+                      &ldquo;
                     </div>
 
                     <div className="flex flex-col w-full h-full relative z-10">

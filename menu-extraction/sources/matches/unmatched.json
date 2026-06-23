@@ -1,0 +1,85 @@
+[
+  {
+    "photo_name": "CapriSun.png",
+    "photo_path": "/Sweet Life Menu Item Photos/Beverages/CapriSun.png",
+    "photo_id": "1L6TWkB1r39G1DmZWkLb0z9AbjiRHrmIX",
+    "drive_folder": "Beverages",
+    "expected_section_slugs": [],
+    "best_in_section": null,
+    "best_overall": {
+      "item": {
+        "id": 86,
+        "name": "Caprese Salad",
+        "image_url": "/Salads/CapreseSalad.webp",
+        "section_slug": "salads",
+        "section_name": "Salads"
+      },
+      "score": 0.545
+    }
+  },
+  {
+    "photo_name": "SparklingWater.png",
+    "photo_path": "/Sweet Life Menu Item Photos/Beverages/SparklingWater.png",
+    "photo_id": "1hIHltbqUaTA22rO0_ee_Z9a4j1m2rMZe",
+    "drive_folder": "Beverages",
+    "expected_section_slugs": [],
+    "best_in_section": null,
+    "best_overall": {
+      "item": {
+        "id": 167,
+        "name": "Dark Oolong Milk Tea",
+        "image_url": "/MilkTea/DarkOolongMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 0.514
+    }
+  },
+  {
+    "photo_name": "StillWater.png",
+    "photo_path": "/Sweet Life Menu Item Photos/Beverages/StillWater.png",
+    "photo_id": "1zW7roAmm73GJn8sPnFoIh-VbWJTU4t9a",
+    "drive_folder": "Beverages",
+    "expected_section_slugs": [],
+    "best_in_section": null,
+    "best_overall": {
+      "item": {
+        "id": 226,
+        "name": "Pistachio Latte",
+        "image_url": "/GourmetLatte/PistachioLatte.webp",
+        "section_slug": "gourmet-lattes",
+        "section_name": "Gourmet Lattes"
+      },
+      "score": 0.538
+    }
+  },
+  {
+    "photo_name": "Glass of Milk.jpg",
+    "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Glass of Milk.jpg",
+    "photo_id": "1APX_iL19xD2VWG46alVtja5wdJpBC8pI",
+    "drive_folder": "Coffee & Tea",
+    "expected_section_slugs": [
+      "coffee-tea"
+    ],
+    "best_in_section": {
+      "item": {
+        "id": 7,
+        "name": "Flat White",
+        "image_url": "/CoffeeTea/FlatWhite.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      },
+      "score": 0.348
+    },
+    "best_overall": {
+      "item": {
+        "id": 166,
+        "name": "Assam Black Milk Tea",
+        "image_url": "/MilkTea/AssamBlackMilkTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      },
+      "score": 0.545
+    }
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "id": "bingsu",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_223941_3a59de46-13ba-43d2-b98c-a849677be484.png",
+      "path": "public/social/highlights/bingsu.png"
+    },
+    {
+      "id": "menu",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_223941_668d7386-076a-49ba-a682-126078fb4758.png",
+      "path": "public/social/highlights/menu.png"
+    },
+    {
+      "id": "drinks",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224018_ac171751-9024-4bbe-8c36-ea36bf4baa5c.png",
+      "path": "public/social/highlights/drinks.png"
+    },
+    {
+      "id": "coffee",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224019_27815913-dfac-4d46-9ce2-9de58ffaecba.png",
+      "path": "public/social/highlights/coffee.png"
+    },
+    {
+      "id": "brunch",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224113_34c539f3-2142-4e04-bb83-361bd1275913.png",
+      "path": "public/social/highlights/brunch.png"
+    },
+    {
+      "id": "specials",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224107_e8ac228d-b4f9-4e31-bb83-ce4bcaefcb81.png",
+      "path": "public/social/highlights/specials.png"
+    },
+    {
+      "id": "bts",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224152_3b1a41dc-9412-4101-afff-2b50df4bcd23.png",
+      "path": "public/social/highlights/bts.png"
+    },
+    {
+      "id": "catering",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224208_c382d7a5-2921-4b48-a9f7-9852aa760be3.png",
+      "path": "public/social/highlights/catering.png"
+    },
+    {
+      "id": "reviews",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224228_2ce93e82-cfc5-4ab3-a359-22ee59b55741.jpeg",
+      "path": "public/social/highlights/reviews.png"
+    },
+    {
+      "id": "location",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224243_aedbbbf0-a1d8-4d57-9b7b-f0ddcc40709b.png",
+      "path": "public/social/highlights/location.png"
+    },
+    {
+      "id": "order",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224308_7e92e04e-c50a-4e5a-b332-6d4c7e1b87ca.png",
+      "path": "public/social/highlights/order.png"
+    },
+    {
+      "id": "story",
+      "status": "ok",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DyMkAuKtWcgrtD82ET4XlTSgtk/hf_20260526_224320_314fb154-e3c6-4c20-b089-ec7d88493222.png",
+      "path": "public/social/highlights/story.png"
+    }
+  ]
+}

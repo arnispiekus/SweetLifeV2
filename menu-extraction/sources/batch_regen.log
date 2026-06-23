@@ -1,0 +1,91 @@
+To regenerate: 84 items
+  [1/84] ok    Caramel Apple Bingsu
+  [2/84] ok    Berrylicious Bingsu
+  [3/84] ok    Dubai Chocolate Bingsu
+  [4/84] ok    Lotus Banana Bingsu
+  [5/84] ok    Mango & Cheesecake Bingsu
+  [6/84] ok    Mango Coconut Bingsu
+  [7/84] fail  id=143
+  [8/84] fail  id=134
+  [9/84] fail  id=133
+  [10/84] fail  id=136
+  [11/84] ok    Baby Hot Chocolate
+  [12/84] ok    Oreo Crunch Bingsu
+  [13/84] ok    Hot Chocolate
+  [14/84] ok    Strawberry Hot Chocolate
+  [15/84] ok    White Hot Chocolate
+  [16/84] ok    Thai Tea Bingsu
+To regenerate: 70 items
+  [1/70] ok    Matcha Bingsu
+  [2/70] ok    Oreo Choco Bingsu
+  [3/70] ok    Beetroot Latte
+  [4/70] ok    Blue Lagoon Latte
+  [5/70] ok    Taro Bingsu
+  [6/70] ok    Coconut Coffee Lychee Blend
+  [7/70] ok    Coconut Kiss Latte
+  [8/70] ok    Cream Panner
+  [9/70] ok    Creamy Coconut Coffee Dream
+  [10/70] ok    Creme Brulee Latte
+  [11/70] ok    Kinder Bueno Latte
+  [12/70] ok    Ice-Cream Espresso
+  [13/70] ok    Lotus Biscoff Latte
+  [14/70] ok    Panda
+  [15/70] ok    Peanut Butter Latte
+  [16/70] ok    Pistachio Latte
+  [17/70] ok    Strawberry Latte
+  [18/70] ok    Tiramisu Latte
+  [19/70] ok    Bounty Frappe
+  [20/70] ok    Chocolate Chip Frappe
+  [21/70] ok    Kinder Bueno Frappe
+  [22/70] ok    Lotus Biscoff Frappe
+  [23/70] ok    Pistachio Frappe
+  [24/70] ok    Strawberry Cheesecake Frappe
+  [25/70] ok    Summer Fruits Frappe
+  [26/70] ok    Kumquat Jasmine Green Tea
+  [27/70] ok    Apple Jasmine Green Tea
+  [28/70] ok    Lemon Assam Black Tea
+  [29/70] ok    Lychee Jasmine Green Tea
+  [30/70] ok    Mango Jasmine Green Tea
+  [31/70] ok    Passionfruit Assam Black Tea
+  [32/70] ok    Raspberry Jasmine Green Tea
+  [33/70] ok    Assam Black Milk Tea
+  [34/70] ok    Blueberry Milk Tea
+  [35/70] ok    Brown Sugar Milk Tea
+  [36/70] ok    Caramel Milk Tea
+  [37/70] ok    Chocolate Milk Tea
+  [38/70] ok    Matcha Milk Tea
+  [39/70] ok    Dark Oolong Milk Tea
+  [40/70] ok    Strawberry Milk Tea
+  [41/70] ok    Taro Milk Tea
+  [42/70] ok    Thai Tea Milk Tea
+  [43/70] ok    Banana Milkshake
+  [44/70] ok    Mango Yogurt Milkshake
+  [45/70] ok    Caramel Milkshake
+  [46/70] ok    Oreo Vanilla Milkshake
+  [47/70] fail  id=205
+  [48/70] ok    Taro Milkshake
+  [49/70] ok    Pure Matcha Milkshake
+  [50/70] ok    Banana Protein Shake
+  [51/70] ok    Vanilla Milkshake
+  [52/70] ok    Chocolate Protein Shake
+  [53/70] ok    Salted Caramel Protein Shake
+  [54/70] ok    Strawberry Protein Shake
+  [55/70] ok    Cherry Velvet Sip
+  [56/70] ok    Vanilla Protein Shake
+  [57/70] ok    Green Oasis
+  [58/70] ok    Lychee Mojito
+  [59/70] ok    Passionfruit Mojito
+  [60/70] ok    Acai Kick Smoothie
+  [61/70] ok    Beet & Berry Smoothie
+  [62/70] ok    Berry Burst Smoothie
+  [63/70] ok    Coconut Crush Smoothie
+  [64/70] fail  id=190
+  [65/70] ok    Mango Dream Smoothie
+  [66/70] ok    Oaty Banana Smoothie
+  [67/70] ok    Passion Storm Smoothie
+  [68/70] ok    Raspberry Heaven Smoothie
+  [69/70] ok    Strawberry Fantasy Smoothie
+  [70/70] ok    Pineapple Sunset Smoothie
+
+Done. ok=68 fail=2 error=0 skip=0
+Log: /Users/arnispiekus/Work/Github/sweet-life-v2/menu-extraction/sources/matches/batch_regen_log.json

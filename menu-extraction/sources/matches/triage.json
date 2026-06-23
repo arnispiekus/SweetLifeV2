@@ -1,0 +1,2095 @@
+{
+  "confident": [
+    {
+      "photo_name": "MangoGT.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/MangoGT.webp",
+      "photo_id": "1yhzmmrmyFz9Zmocwkf6VvFhMXJec-GJ_",
+      "drive_folder": "Hot Desserts",
+      "expected_section_slugs": [
+        "golden-toast",
+        "pancakes-waffles"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 148,
+          "name": "Mango Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        "score": 0.615
+      },
+      "best_overall": {
+        "item": {
+          "id": 148,
+          "name": "Mango Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        "score": 0.615
+      },
+      "chosen": {
+        "id": 148,
+        "name": "Mango Golden Toast",
+        "image_url": "/HotDesserts/GoldenToast.webp",
+        "section_slug": "golden-toast",
+        "section_name": "Golden Toast"
+      }
+    },
+    {
+      "photo_name": "MixedBerryGT.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/MixedBerryGT.webp",
+      "photo_id": "1mazwy2KHTr5tLuwQizs8MJWVM8UuDMIq",
+      "drive_folder": "Hot Desserts",
+      "expected_section_slugs": [
+        "golden-toast",
+        "pancakes-waffles"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 145,
+          "name": "Mixed Berry Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        "score": 0.737
+      },
+      "best_overall": {
+        "item": {
+          "id": 145,
+          "name": "Mixed Berry Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        "score": 0.737
+      },
+      "chosen": {
+        "id": 145,
+        "name": "Mixed Berry Golden Toast",
+        "image_url": "/HotDesserts/GoldenToast.webp",
+        "section_slug": "golden-toast",
+        "section_name": "Golden Toast"
+      }
+    },
+    {
+      "photo_name": "ApplePieGT.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/ApplePieGT.webp",
+      "photo_id": "1vCIoyXPAtO_CRDvTZgO9q2EwWZOhRoo0",
+      "drive_folder": "Hot Desserts",
+      "expected_section_slugs": [
+        "golden-toast",
+        "pancakes-waffles"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 146,
+          "name": "Apple Pie Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        "score": 0.706
+      },
+      "best_overall": {
+        "item": {
+          "id": 146,
+          "name": "Apple Pie Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        "score": 0.706
+      },
+      "chosen": {
+        "id": 146,
+        "name": "Apple Pie Golden Toast",
+        "image_url": "/HotDesserts/GoldenToast.webp",
+        "section_slug": "golden-toast",
+        "section_name": "Golden Toast"
+      }
+    },
+    {
+      "photo_name": "DubaiChocolateBingsu.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Bingsu/DubaiChocolateBingsu.webp",
+      "photo_id": "1irbvg8ZjihdP-ghlsYWF3SROGjd5ARsM",
+      "drive_folder": "Bingsu",
+      "expected_section_slugs": [
+        "bingsu"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 139,
+          "name": "Mango Coconut Bingsu",
+          "image_url": "/Bingsu/MangoCoconutBingsu.webp",
+          "section_slug": "bingsu",
+          "section_name": "Bingsu"
+        },
+        "score": 0.667
+      },
+      "best_overall": {
+        "item": {
+          "id": 124,
+          "name": "Dubai Chocolate",
+          "image_url": "/Cakes/DubaiChocolate.webp",
+          "section_slug": "cakes-cookies-bites",
+          "section_name": "Cakes, Cookies & Bites"
+        },
+        "score": 0.811
+      },
+      "chosen": {
+        "id": 124,
+        "name": "Dubai Chocolate",
+        "image_url": "/Cakes/DubaiChocolate.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      }
+    },
+    {
+      "photo_name": "KumquatFruitTea.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Fruit Tea/KumquatFruitTea.webp",
+      "photo_id": "1Il0rpV0yvqNHVox5FVs7tAcqWspnHI9J",
+      "drive_folder": "Signature Drinks",
+      "expected_section_slugs": [
+        "signature-drinks"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 172,
+          "name": "Kumquat Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.619
+      },
+      "best_overall": {
+        "item": {
+          "id": 172,
+          "name": "Kumquat Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.619
+      },
+      "chosen": {
+        "id": 172,
+        "name": "Kumquat Jasmine Green Tea",
+        "image_url": "/FruitTea/AppleFruitTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      }
+    },
+    {
+      "photo_name": "LemonFruitTea.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Fruit Tea/LemonFruitTea.webp",
+      "photo_id": "1vdbkUBK1k6Selygd8XAq5Cg6I60AU4JF",
+      "drive_folder": "Signature Drinks",
+      "expected_section_slugs": [
+        "signature-drinks"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 170,
+          "name": "Lemon Assam Black Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.556
+      },
+      "best_overall": {
+        "item": {
+          "id": 116,
+          "name": "Lemon Meringue",
+          "image_url": "/Cakes/LemonMeringue.webp",
+          "section_slug": "cakes-cookies-bites",
+          "section_name": "Cakes, Cookies & Bites"
+        },
+        "score": 0.621
+      },
+      "chosen": {
+        "id": 170,
+        "name": "Lemon Assam Black Tea",
+        "image_url": "/FruitTea/AppleFruitTea.webp",
+        "section_slug": "signature-drinks",
+        "section_name": "Signature Drinks"
+      }
+    },
+    {
+      "photo_name": "Caramel Square.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Caramel Square.jpeg",
+      "photo_id": "1wl5MItldSsuHdgXhAjpL4qOQ4d2ThoYl",
+      "drive_folder": "Cakes, Cookies & Bites",
+      "expected_section_slugs": [
+        "cakes-cookies-bites"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 121,
+          "name": "Belgium Caramel Square",
+          "image_url": "/Cakes/CaramelSquare.webp",
+          "section_slug": "cakes-cookies-bites",
+          "section_name": "Cakes, Cookies & Bites"
+        },
+        "score": 0.778
+      },
+      "best_overall": {
+        "item": {
+          "id": 121,
+          "name": "Belgium Caramel Square",
+          "image_url": "/Cakes/CaramelSquare.webp",
+          "section_slug": "cakes-cookies-bites",
+          "section_name": "Cakes, Cookies & Bites"
+        },
+        "score": 0.778
+      },
+      "chosen": {
+        "id": 121,
+        "name": "Belgium Caramel Square",
+        "image_url": "/Cakes/CaramelSquare.webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      }
+    },
+    {
+      "photo_name": "Snickers Cake (GF).jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Snickers Cake (GF).jpeg",
+      "photo_id": "1x0ntP7qtrQSUmstHLqMIgSjrn01T2Sse",
+      "drive_folder": "Cakes, Cookies & Bites",
+      "expected_section_slugs": [
+        "cakes-cookies-bites"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 119,
+          "name": "Peanut Butter Snickers Cake",
+          "image_url": "/Cakes/SnickersCake(GF).webp",
+          "section_slug": "cakes-cookies-bites",
+          "section_name": "Cakes, Cookies & Bites"
+        },
+        "score": 0.65
+      },
+      "best_overall": {
+        "item": {
+          "id": 104,
+          "name": "Snickers Cake / Toblerone (GF)",
+          "image_url": "/Keto/SnickersCake.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 0.722
+      },
+      "chosen": {
+        "id": 119,
+        "name": "Peanut Butter Snickers Cake",
+        "image_url": "/Cakes/SnickersCake(GF).webp",
+        "section_slug": "cakes-cookies-bites",
+        "section_name": "Cakes, Cookies & Bites"
+      }
+    },
+    {
+      "photo_name": "Vegan Toastie.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Vegan Toastie.png",
+      "photo_id": "1ozTSViOPKbisCJoOZaGhIxEgJumpcdgs",
+      "drive_folder": "Keto, Vegan & Gluten Free",
+      "expected_section_slugs": [
+        "keto-vegan-gluten-free"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 97,
+          "name": "Vegan Kiev (V)(GF)",
+          "image_url": "/Keto/VeganKiev.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 0.696
+      },
+      "best_overall": {
+        "item": {
+          "id": 33,
+          "name": "Egg Toast",
+          "image_url": "/Breakfast/EggToast.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.727
+      },
+      "chosen": {
+        "id": 100,
+        "name": "Toastie/Sandwich (GF)",
+        "image_url": null,
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      }
+    },
+    {
+      "photo_name": "Snickers Cake.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Snickers Cake.jpeg",
+      "photo_id": "1Le-nJfFQhaPhBbX1Xbm7aihfSAowkvxy",
+      "drive_folder": "Keto, Vegan & Gluten Free",
+      "expected_section_slugs": [
+        "keto-vegan-gluten-free"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 104,
+          "name": "Snickers Cake / Toblerone (GF)",
+          "image_url": "/Keto/SnickersCake.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 0.722
+      },
+      "best_overall": {
+        "item": {
+          "id": 104,
+          "name": "Snickers Cake / Toblerone (GF)",
+          "image_url": "/Keto/SnickersCake.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 0.722
+      },
+      "chosen": {
+        "id": 104,
+        "name": "Snickers Cake / Toblerone (GF)",
+        "image_url": "/Keto/SnickersCake.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      }
+    },
+    {
+      "photo_name": "Omelette Tortilla.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Omelette Tortilla.jpeg",
+      "photo_id": "1c7HMDzUWuuMv5u4trsgrsIQWHf75KhDg",
+      "drive_folder": "Create Your Own",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 74,
+          "name": "Omelette",
+          "image_url": "/CreateYourOwn/Omelette.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.64
+      },
+      "best_overall": {
+        "item": {
+          "id": 31,
+          "name": "Omelette (GF)",
+          "image_url": "/Breakfast/Omelette.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.64
+      },
+      "chosen": {
+        "id": 75,
+        "name": "Tortilla Omelette",
+        "image_url": "/CreateYourOwn/Omelette.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      }
+    },
+    {
+      "photo_name": "Fries.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Lunch/Fries.png",
+      "photo_id": "1Rmg5amMuUwnZpLai-D7aDw6QZvc0JKem",
+      "drive_folder": "Lunch",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 77,
+          "name": "Rice",
+          "image_url": "/CreateYourOwn/Rice.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.667
+      },
+      "best_overall": {
+        "item": {
+          "id": 77,
+          "name": "Rice",
+          "image_url": "/CreateYourOwn/Rice.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.667
+      },
+      "chosen": {
+        "id": 57,
+        "name": "The Mohawk Burger & Fries",
+        "image_url": "/Lunch/Fries.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      }
+    },
+    {
+      "photo_name": "Black Jack Burger.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Lunch/Black Jack Burger.jpeg",
+      "photo_id": "1YYGmsmDVpc7mTdoPtGGFPLGq75NVX-sr",
+      "drive_folder": "Lunch",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 49,
+          "name": "Black Jack Pulled Pork Burger",
+          "image_url": null,
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.739
+      },
+      "best_overall": {
+        "item": {
+          "id": 49,
+          "name": "Black Jack Pulled Pork Burger",
+          "image_url": null,
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.739
+      },
+      "chosen": {
+        "id": 49,
+        "name": "Black Jack Pulled Pork Burger",
+        "image_url": null,
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      }
+    },
+    {
+      "photo_name": "Ramen.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Lunch/Ramen.jpeg",
+      "photo_id": "1fa29TqLZZSxdXUA8PHxGONTUO_N1f4l1",
+      "drive_folder": "Lunch",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 61,
+          "name": "Ramen Soup (*V)",
+          "image_url": "/Lunch/Ramen.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.667
+      },
+      "best_overall": {
+        "item": {
+          "id": 61,
+          "name": "Ramen Soup (*V)",
+          "image_url": "/Lunch/Ramen.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.667
+      },
+      "chosen": {
+        "id": 61,
+        "name": "Ramen Soup (*V)",
+        "image_url": "/Lunch/Ramen.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      }
+    },
+    {
+      "photo_name": "Meatball Pasta.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Lunch/Meatball Pasta.jpg",
+      "photo_id": "1DRT4XyfZUVbIIdE171rb0_tdAoDhMFuF",
+      "drive_folder": "Lunch",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 60,
+          "name": "Meatball Tagliatelle Pasta",
+          "image_url": "/CreateYourOwn/Pasta.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.7
+      },
+      "best_overall": {
+        "item": {
+          "id": 60,
+          "name": "Meatball Tagliatelle Pasta",
+          "image_url": "/CreateYourOwn/Pasta.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.7
+      },
+      "chosen": {
+        "id": 60,
+        "name": "Meatball Tagliatelle Pasta",
+        "image_url": "/CreateYourOwn/Pasta.webp",
+        "section_slug": "lunch",
+        "section_name": "Lunch"
+      }
+    },
+    {
+      "photo_name": "Mozzarella Omelette Sandwich.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Mozzarella Omelette Sandwich.jpeg",
+      "photo_id": "1wDaCFpLUggMQmAtOFieE5Tou0ARYgm2R",
+      "drive_folder": "Breakfast & Brunch",
+      "expected_section_slugs": [
+        "breakfast-brunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 43,
+          "name": "Tortilla Omelette",
+          "image_url": "/Breakfast/Omelette.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.622
+      },
+      "best_overall": {
+        "item": {
+          "id": 92,
+          "name": "Mozzarella Omelette Sandwich (K)",
+          "image_url": "/Keto/MozzarellaOmeletteSandwich.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 1.0
+      },
+      "chosen": {
+        "id": 92,
+        "name": "Mozzarella Omelette Sandwich (K)",
+        "image_url": "/Keto/MozzarellaOmeletteSandwich.webp",
+        "section_slug": "keto-vegan-gluten-free",
+        "section_name": "Keto, Vegan & Gluten-Free"
+      }
+    },
+    {
+      "photo_name": "Omelette Tortilla.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Omelette Tortilla.jpeg",
+      "photo_id": "19tjmZ-ufGiXxHYGwLzLxa-U65ZMVHNAV",
+      "drive_folder": "Breakfast & Brunch",
+      "expected_section_slugs": [
+        "breakfast-brunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 31,
+          "name": "Omelette (GF)",
+          "image_url": "/Breakfast/Omelette.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.64
+      },
+      "best_overall": {
+        "item": {
+          "id": 31,
+          "name": "Omelette (GF)",
+          "image_url": "/Breakfast/Omelette.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.64
+      },
+      "chosen": {
+        "id": 43,
+        "name": "Tortilla Omelette",
+        "image_url": "/Breakfast/Omelette.webp",
+        "section_slug": "breakfast-brunch",
+        "section_name": "Breakfast & Brunch"
+      }
+    },
+    {
+      "photo_name": "Mocha.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Mocha.jpg",
+      "photo_id": "1XQXTwCl2tm1OzbIKHNdjleMcbYJH6kbq",
+      "drive_folder": "Coffee & Tea",
+      "expected_section_slugs": [
+        "coffee-tea"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 9,
+          "name": "Macchiato",
+          "image_url": "/CoffeeTea/Macchiato.webp",
+          "section_slug": "coffee-tea",
+          "section_name": "Coffee & Tea"
+        },
+        "score": 0.571
+      },
+      "best_overall": {
+        "item": {
+          "id": 9,
+          "name": "Macchiato",
+          "image_url": "/CoffeeTea/Macchiato.webp",
+          "section_slug": "coffee-tea",
+          "section_name": "Coffee & Tea"
+        },
+        "score": 0.571
+      },
+      "chosen": {
+        "id": 11,
+        "name": "Mocha / White Mocha",
+        "image_url": "/CoffeeTea/Mocha.webp",
+        "section_slug": "coffee-tea",
+        "section_name": "Coffee & Tea"
+      }
+    }
+  ],
+  "ambiguous": [
+    {
+      "photo_name": "ChocoBananaGT.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/ChocoBananaGT.webp",
+      "photo_id": "1Ho5_ZsvDk1t4R1VomcWD2-LiovFR5Q_b",
+      "drive_folder": "Hot Desserts",
+      "expected_section_slugs": [
+        "golden-toast",
+        "pancakes-waffles"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 144,
+          "name": "Choco Banana Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        "score": 0.75
+      },
+      "best_overall": {
+        "item": {
+          "id": 144,
+          "name": "Choco Banana Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        "score": 0.75
+      },
+      "candidates": [
+        {
+          "id": 144,
+          "name": "Choco Banana Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        {
+          "id": 149,
+          "name": "Choco Banana Souffle Pancake",
+          "image_url": "/HotDesserts/SoufflePancakes.webp",
+          "section_slug": "pancakes-waffles",
+          "section_name": "Pancakes & Waffles"
+        }
+      ]
+    },
+    {
+      "photo_name": "SmoreGT.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/SmoreGT.webp",
+      "photo_id": "1DkAOlQFVezVkfm1bGzh0powCOW-vvDFH",
+      "drive_folder": "Hot Desserts",
+      "expected_section_slugs": [
+        "golden-toast",
+        "pancakes-waffles"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 147,
+          "name": "S'more Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        "score": 0.593
+      },
+      "best_overall": {
+        "item": {
+          "id": 147,
+          "name": "S'more Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        "score": 0.593
+      },
+      "candidates": [
+        {
+          "id": 147,
+          "name": "S'more Golden Toast",
+          "image_url": "/HotDesserts/GoldenToast.webp",
+          "section_slug": "golden-toast",
+          "section_name": "Golden Toast"
+        },
+        {
+          "id": 150,
+          "name": "S'more Souffle Pancake",
+          "image_url": "/HotDesserts/SoufflePancakes.webp",
+          "section_slug": "pancakes-waffles",
+          "section_name": "Pancakes & Waffles"
+        }
+      ]
+    },
+    {
+      "photo_name": "AppleFruitTea.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Fruit Tea/AppleFruitTea.webp",
+      "photo_id": "1x3DloCX6xQSoNX3XHAy6VZxH0yOquFS9",
+      "drive_folder": "Signature Drinks",
+      "expected_section_slugs": [
+        "signature-drinks"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 175,
+          "name": "Apple Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.579
+      },
+      "best_overall": {
+        "item": {
+          "id": 175,
+          "name": "Apple Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.579
+      },
+      "candidates": [
+        {
+          "id": 175,
+          "name": "Apple Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 182,
+          "name": "Pineapple Sunset Smoothie",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        }
+      ]
+    },
+    {
+      "photo_name": "RaspberryFruitTea.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Fruit Tea/RaspberryFruitTea.webp",
+      "photo_id": "1ypv4z2SZvPwy_jn19V9wgLSvkUBy-HvC",
+      "drive_folder": "Signature Drinks",
+      "expected_section_slugs": [
+        "signature-drinks"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 164,
+          "name": "Strawberry Milk Tea",
+          "image_url": "/MilkTea/StrawberryMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.684
+      },
+      "best_overall": {
+        "item": {
+          "id": 164,
+          "name": "Strawberry Milk Tea",
+          "image_url": "/MilkTea/StrawberryMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.684
+      },
+      "candidates": [
+        {
+          "id": 171,
+          "name": "Raspberry Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 186,
+          "name": "Beet & Berry Smoothie",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 189,
+          "name": "Berry Burst Smoothie",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 183,
+          "name": "Raspberry Heaven Smoothie",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        }
+      ]
+    },
+    {
+      "photo_name": "PassionfruitFruitTea.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Fruit Tea/PassionfruitFruitTea.webp",
+      "photo_id": "1hJFymk4J5JWWylMggd0SjgSg1U5vm6Sk",
+      "drive_folder": "Signature Drinks",
+      "expected_section_slugs": [
+        "signature-drinks"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 180,
+          "name": "Passionfruit Mojito",
+          "image_url": "/SignatureDrinks/PassionFruitMojito(Virgin).webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.732
+      },
+      "best_overall": {
+        "item": {
+          "id": 180,
+          "name": "Passionfruit Mojito",
+          "image_url": "/SignatureDrinks/PassionFruitMojito(Virgin).webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.732
+      },
+      "candidates": [
+        {
+          "id": 173,
+          "name": "Passionfruit Assam Black Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 180,
+          "name": "Passionfruit Mojito",
+          "image_url": "/SignatureDrinks/PassionFruitMojito(Virgin).webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 185,
+          "name": "Passion Storm Smoothie",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        }
+      ]
+    },
+    {
+      "photo_name": "MangoFruitTea.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Fruit Tea/MangoFruitTea.webp",
+      "photo_id": "1F9GXqnSg9NiwjkEXnQIKJMT3Qm3nx8ms",
+      "drive_folder": "Signature Drinks",
+      "expected_section_slugs": [
+        "signature-drinks"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 174,
+          "name": "Mango Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.579
+      },
+      "best_overall": {
+        "item": {
+          "id": 174,
+          "name": "Mango Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.579
+      },
+      "candidates": [
+        {
+          "id": 174,
+          "name": "Mango Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 200,
+          "name": "Mango Yogurt Milkshake",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 191,
+          "name": "Mango Dream Smoothie",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        }
+      ]
+    },
+    {
+      "photo_name": "LycheeFruitTea.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/Fruit Tea/LycheeFruitTea.webp",
+      "photo_id": "1-fNHKnBFtYXOmt3QQ6Gkv-JFQz64rCWz",
+      "drive_folder": "Signature Drinks",
+      "expected_section_slugs": [
+        "signature-drinks"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 179,
+          "name": "Lychee Mojito",
+          "image_url": "/SignatureDrinks/LycheeMojito(Virgin).webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.621
+      },
+      "best_overall": {
+        "item": {
+          "id": 179,
+          "name": "Lychee Mojito",
+          "image_url": "/SignatureDrinks/LycheeMojito(Virgin).webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.621
+      },
+      "candidates": [
+        {
+          "id": 176,
+          "name": "Lychee Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 179,
+          "name": "Lychee Mojito",
+          "image_url": "/SignatureDrinks/LycheeMojito(Virgin).webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        }
+      ]
+    },
+    {
+      "photo_name": "RaspberryFruitTea.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Signature Drinks/RaspberryFruitTea.webp",
+      "photo_id": "1i38H9xWTzknc2UGZCeQQT3Pwwu7b2B2E",
+      "drive_folder": "Signature Drinks",
+      "expected_section_slugs": [
+        "signature-drinks"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 164,
+          "name": "Strawberry Milk Tea",
+          "image_url": "/MilkTea/StrawberryMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.684
+      },
+      "best_overall": {
+        "item": {
+          "id": 164,
+          "name": "Strawberry Milk Tea",
+          "image_url": "/MilkTea/StrawberryMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.684
+      },
+      "candidates": [
+        {
+          "id": 171,
+          "name": "Raspberry Jasmine Green Tea",
+          "image_url": "/FruitTea/AppleFruitTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 186,
+          "name": "Beet & Berry Smoothie",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 189,
+          "name": "Berry Burst Smoothie",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        {
+          "id": 183,
+          "name": "Raspberry Heaven Smoothie",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        }
+      ]
+    },
+    {
+      "photo_name": "Vegan Sandwich.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Keto, Vegan & Gluten Free/Vegan Sandwich.png",
+      "photo_id": "1vCTcnzeumcozRFJcdv4IMIl74chNwRYH",
+      "drive_folder": "Keto, Vegan & Gluten Free",
+      "expected_section_slugs": [
+        "keto-vegan-gluten-free"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 100,
+          "name": "Toastie/Sandwich (GF)",
+          "image_url": null,
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 0.667
+      },
+      "best_overall": {
+        "item": {
+          "id": 64,
+          "name": "Sandwich",
+          "image_url": "/CreateYourOwn/Sandwich.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.727
+      },
+      "candidates": [
+        {
+          "id": 100,
+          "name": "Toastie/Sandwich (GF)",
+          "image_url": null,
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        {
+          "id": 92,
+          "name": "Mozzarella Omelette Sandwich (K)",
+          "image_url": "/Keto/MozzarellaOmeletteSandwich.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        }
+      ]
+    },
+    {
+      "photo_name": "Pizza Bagel.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Pizza Bagel.jpg",
+      "photo_id": "1iUI9XkK8PRvsgY0V8MC-AAVgc2PJ8Fcn",
+      "drive_folder": "Create Your Own",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 70,
+          "name": "Sourdough Pizza Bagel",
+          "image_url": "/Lunch/SourdoughPizza.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.688
+      },
+      "best_overall": {
+        "item": {
+          "id": 70,
+          "name": "Sourdough Pizza Bagel",
+          "image_url": "/Lunch/SourdoughPizza.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.688
+      },
+      "candidates": [
+        {
+          "id": 69,
+          "name": "Sourdough Bagel",
+          "image_url": "/CreateYourOwn/Bagel.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        {
+          "id": 70,
+          "name": "Sourdough Pizza Bagel",
+          "image_url": "/Lunch/SourdoughPizza.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        }
+      ]
+    },
+    {
+      "photo_name": "Bagel.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Bagel.jpg",
+      "photo_id": "108S0FMnE6qcAwVZ-C5HYVpxG8ty4gly8",
+      "drive_folder": "Create Your Own",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 71,
+          "name": "Baguette",
+          "image_url": "/Lunch/ProsciuttoHamFetaCheeseBaguette.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.615
+      },
+      "best_overall": {
+        "item": {
+          "id": 99,
+          "name": "Bagel (GF)",
+          "image_url": "/Keto/Bagel.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 1.0
+      },
+      "candidates": [
+        {
+          "id": 69,
+          "name": "Sourdough Bagel",
+          "image_url": "/CreateYourOwn/Bagel.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        {
+          "id": 70,
+          "name": "Sourdough Pizza Bagel",
+          "image_url": "/Lunch/SourdoughPizza.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        }
+      ]
+    },
+    {
+      "photo_name": "Pasta.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Pasta.jpg",
+      "photo_id": "12OCPLiS86zdjXH9vImvdHGBNOIy5Hxwi",
+      "drive_folder": "Create Your Own",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 65,
+          "name": "Toastie",
+          "image_url": "/CreateYourOwn/Toastie.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.5
+      },
+      "best_overall": {
+        "item": {
+          "id": 227,
+          "name": "Panda",
+          "image_url": "/GourmetLatte/Panda.webp",
+          "section_slug": "gourmet-lattes",
+          "section_name": "Gourmet Lattes"
+        },
+        "score": 0.6
+      },
+      "candidates": [
+        {
+          "id": 82,
+          "name": "Pasta Tagliatelle",
+          "image_url": "/CreateYourOwn/Pasta.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        {
+          "id": 60,
+          "name": "Meatball Tagliatelle Pasta",
+          "image_url": "/CreateYourOwn/Pasta.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        }
+      ]
+    },
+    {
+      "photo_name": "Goujons.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Lunch/Goujons.png",
+      "photo_id": "1APnFjYcnk-stHELBzDTOi0nKXVbUhVMf",
+      "drive_folder": "Lunch",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 55,
+          "name": "Goujons & Chips",
+          "image_url": "/Lunch/Goujons.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.7
+      },
+      "best_overall": {
+        "item": {
+          "id": 55,
+          "name": "Goujons & Chips",
+          "image_url": "/Lunch/Goujons.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.7
+      },
+      "candidates": [
+        {
+          "id": 257,
+          "name": "Chicken Goujons x3",
+          "image_url": "/Lunch/Goujons.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        {
+          "id": 55,
+          "name": "Goujons & Chips",
+          "image_url": "/Lunch/Goujons.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        }
+      ]
+    },
+    {
+      "photo_name": "Soup.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Lunch/Soup.jpeg",
+      "photo_id": "1izjhs5D2ksA9KiJS_zA3bKiupfAWdtfG",
+      "drive_folder": "Lunch",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 61,
+          "name": "Ramen Soup (*V)",
+          "image_url": "/Lunch/Ramen.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.571
+      },
+      "best_overall": {
+        "item": {
+          "id": 61,
+          "name": "Ramen Soup (*V)",
+          "image_url": "/Lunch/Ramen.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.571
+      },
+      "candidates": [
+        {
+          "id": 58,
+          "name": "Homemade Soup of the Day",
+          "image_url": "/Lunch/Soup.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        {
+          "id": 61,
+          "name": "Ramen Soup (*V)",
+          "image_url": "/Lunch/Ramen.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        }
+      ]
+    },
+    {
+      "photo_name": "French Toast.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/French Toast.png",
+      "photo_id": "17THymB2ivvCnNeZfwbopirn_c1hhQxek",
+      "drive_folder": "Breakfast & Brunch",
+      "expected_section_slugs": [
+        "breakfast-brunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 40,
+          "name": "French Toast Benedict",
+          "image_url": "/Breakfast/FrenchToastBenedict.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.727
+      },
+      "best_overall": {
+        "item": {
+          "id": 40,
+          "name": "French Toast Benedict",
+          "image_url": "/Breakfast/FrenchToastBenedict.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.727
+      },
+      "candidates": [
+        {
+          "id": 40,
+          "name": "French Toast Benedict",
+          "image_url": "/Breakfast/FrenchToastBenedict.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        {
+          "id": 39,
+          "name": "French Toast x2 with Bacon & Maple Syrup",
+          "image_url": "/Breakfast/FrenchToast.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        }
+      ]
+    },
+    {
+      "photo_name": "Croissant.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Bakery & Pastries/Croissant.jpg",
+      "photo_id": "1MyB198kCvwnd7I5UFQ7OksAeLUz1T6V4",
+      "drive_folder": "Bakery & Pastries",
+      "expected_section_slugs": [
+        "bakery-pastries"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 246,
+          "name": "Lemon Croissant",
+          "image_url": "/Bakery/Croissant.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        "score": 0.75
+      },
+      "best_overall": {
+        "item": {
+          "id": 246,
+          "name": "Lemon Croissant",
+          "image_url": "/Bakery/Croissant.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        "score": 0.75
+      },
+      "candidates": [
+        {
+          "id": 22,
+          "name": "Butter & Jam Croissant",
+          "image_url": "/Bakery/Croissant.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        {
+          "id": 25,
+          "name": "Ham & Cheese Croissant",
+          "image_url": "/Bakery/Croissant.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        {
+          "id": 246,
+          "name": "Lemon Croissant",
+          "image_url": "/Bakery/Croissant.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        {
+          "id": 23,
+          "name": "Nutella Croissant",
+          "image_url": "/Bakery/Croissant.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        {
+          "id": 24,
+          "name": "Pistachio Croissant",
+          "image_url": "/Bakery/Croissant.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        {
+          "id": 21,
+          "name": "Plain Croissant",
+          "image_url": "/Bakery/Croissant.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        }
+      ]
+    },
+    {
+      "photo_name": "Scone.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Bakery & Pastries/Scone.jpg",
+      "photo_id": "1Qy932DvKhYWalrZMMQTbN3FUTlDDynYy",
+      "drive_folder": "Bakery & Pastries",
+      "expected_section_slugs": [
+        "bakery-pastries"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 19,
+          "name": "Fruit Scone",
+          "image_url": "/Bakery/Scone.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        "score": 0.625
+      },
+      "best_overall": {
+        "item": {
+          "id": 98,
+          "name": "Scone (GF)",
+          "image_url": "/Keto/Scone.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 1.0
+      },
+      "candidates": [
+        {
+          "id": 19,
+          "name": "Fruit Scone",
+          "image_url": "/Bakery/Scone.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        {
+          "id": 20,
+          "name": "Gluten Free Scone",
+          "image_url": "/Bakery/Scone.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        {
+          "id": 17,
+          "name": "Plain Scone",
+          "image_url": "/Bakery/Scone.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        {
+          "id": 18,
+          "name": "Raspberry & White Chocolate Scone",
+          "image_url": "/Bakery/Scone.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        }
+      ]
+    }
+  ],
+  "no_match": [
+    {
+      "photo_name": "Fanta.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Beverages/Fanta.png",
+      "photo_id": "1TFJoZSwAglzJVtYfvLSg8dOF2QX5A5dm",
+      "drive_folder": "Beverages",
+      "expected_section_slugs": [],
+      "best_in_section": null,
+      "best_overall": {
+        "item": {
+          "id": 227,
+          "name": "Panda",
+          "image_url": "/GourmetLatte/Panda.webp",
+          "section_slug": "gourmet-lattes",
+          "section_name": "Gourmet Lattes"
+        },
+        "score": 0.6
+      },
+      "reason": "Soft drinks not in menu (Beverages excluded by user decision)"
+    },
+    {
+      "photo_name": "DietCoke.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Beverages/DietCoke.png",
+      "photo_id": "1ANmZ8Wab9_hCB64twtofRD7dwlVVKlK3",
+      "drive_folder": "Beverages",
+      "expected_section_slugs": [],
+      "best_in_section": null,
+      "best_overall": {
+        "item": {
+          "id": 19,
+          "name": "Fruit Scone",
+          "image_url": "/Bakery/Scone.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        "score": 0.6
+      },
+      "reason": "Soft drinks not in menu (Beverages excluded by user decision)"
+    },
+    {
+      "photo_name": "Coke.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Beverages/Coke.png",
+      "photo_id": "1hst3Mmgw5MglsY3txtzJGFTxdhDB9vhw",
+      "drive_folder": "Beverages",
+      "expected_section_slugs": [],
+      "best_in_section": null,
+      "best_overall": {
+        "item": {
+          "id": 98,
+          "name": "Scone (GF)",
+          "image_url": "/Keto/Scone.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 0.667
+      },
+      "reason": "Soft drinks not in menu (Beverages excluded by user decision)"
+    },
+    {
+      "photo_name": "CokeZero.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Beverages/CokeZero.png",
+      "photo_id": "1feR9JGedD5_TPswEPRcQwcgmbwaoI6Of",
+      "drive_folder": "Beverages",
+      "expected_section_slugs": [],
+      "best_in_section": null,
+      "best_overall": {
+        "item": {
+          "id": 51,
+          "name": "Poke Bowl (GF*)(V)",
+          "image_url": "/Lunch/PokeBowl.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.556
+      },
+      "reason": "Soft drinks not in menu (Beverages excluded by user decision)"
+    },
+    {
+      "photo_name": "Fruit Shoot.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Beverages/Fruit Shoot.png",
+      "photo_id": "1M8-Vef49nBuE_VKN9t3MoT1hjPIJHvpZ",
+      "drive_folder": "Beverages",
+      "expected_section_slugs": [],
+      "best_in_section": null,
+      "best_overall": {
+        "item": {
+          "id": 19,
+          "name": "Fruit Scone",
+          "image_url": "/Bakery/Scone.webp",
+          "section_slug": "bakery-pastries",
+          "section_name": "Bakery & Pastries"
+        },
+        "score": 0.727
+      },
+      "reason": "Soft drinks not in menu (Beverages excluded by user decision)"
+    },
+    {
+      "photo_name": "Vit Hit.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Beverages/Vit Hit.jpg",
+      "photo_id": "1YcGlwrgqjFbwtybQ9W8VkzSmr16pJSTS",
+      "drive_folder": "Beverages",
+      "expected_section_slugs": [],
+      "best_in_section": null,
+      "best_overall": {
+        "item": {
+          "id": 7,
+          "name": "Flat White",
+          "image_url": "/CoffeeTea/FlatWhite.webp",
+          "section_slug": "coffee-tea",
+          "section_name": "Coffee & Tea"
+        },
+        "score": 0.588
+      },
+      "reason": "Soft drinks not in menu (Beverages excluded by user decision)"
+    },
+    {
+      "photo_name": "Sprite.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Beverages/Sprite.png",
+      "photo_id": "1jqcKfFwOI1DUgCeiNy3ZsIZkXKCXOeW_",
+      "drive_folder": "Beverages",
+      "expected_section_slugs": [],
+      "best_in_section": null,
+      "best_overall": {
+        "item": {
+          "id": 77,
+          "name": "Rice",
+          "image_url": "/CreateYourOwn/Rice.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.6
+      },
+      "reason": "Soft drinks not in menu (Beverages excluded by user decision)"
+    },
+    {
+      "photo_name": "Belgian Waffle.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/Belgian Waffle.jpg",
+      "photo_id": "1dB49zYNVrZqAjd9AEDMhLL62BF72ZlOB",
+      "drive_folder": "Hot Desserts",
+      "expected_section_slugs": [
+        "golden-toast",
+        "pancakes-waffles"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 154,
+          "name": "Oreo Waffle",
+          "image_url": "/HotDesserts/BelgianWaffle.webp",
+          "section_slug": "pancakes-waffles",
+          "section_name": "Pancakes & Waffles"
+        },
+        "score": 0.64
+      },
+      "best_overall": {
+        "item": {
+          "id": 90,
+          "name": "Almond Belgium Waffle (K)",
+          "image_url": "/Keto/AlmondBelgianWaffle.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 0.686
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Bubble Waffle.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Hot Desserts/Bubble Waffle.jpg",
+      "photo_id": "16CS7mrzJZbvQHNkFN4aOhauyP2cJCCG5",
+      "drive_folder": "Hot Desserts",
+      "expected_section_slugs": [
+        "golden-toast",
+        "pancakes-waffles"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 154,
+          "name": "Oreo Waffle",
+          "image_url": "/HotDesserts/BelgianWaffle.webp",
+          "section_slug": "pancakes-waffles",
+          "section_name": "Pancakes & Waffles"
+        },
+        "score": 0.667
+      },
+      "best_overall": {
+        "item": {
+          "id": 154,
+          "name": "Oreo Waffle",
+          "image_url": "/HotDesserts/BelgianWaffle.webp",
+          "section_slug": "pancakes-waffles",
+          "section_name": "Pancakes & Waffles"
+        },
+        "score": 0.667
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "CarmelApplePie.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Bingsu/CarmelApplePie.webp",
+      "photo_id": "1A8LbkT_88aKr0TQo8Lt4Ci_ijtliCPBv",
+      "drive_folder": "Bingsu",
+      "expected_section_slugs": [
+        "bingsu"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 140,
+          "name": "Caramel Apple Bingsu",
+          "image_url": "/Bingsu/CaramelAppleBingsu.webp",
+          "section_slug": "bingsu",
+          "section_name": "Bingsu"
+        },
+        "score": 0.778
+      },
+      "best_overall": {
+        "item": {
+          "id": 140,
+          "name": "Caramel Apple Bingsu",
+          "image_url": "/Bingsu/CaramelAppleBingsu.webp",
+          "section_slug": "bingsu",
+          "section_name": "Bingsu"
+        },
+        "score": 0.778
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "BiscoffBananaBingsu.webp",
+      "photo_path": "/Sweet Life Menu Item Photos/Bingsu/BiscoffBananaBingsu.webp",
+      "photo_id": "1RtLc9po6f9ID3Rx9i3UCRhcJcqaWsFka",
+      "drive_folder": "Bingsu",
+      "expected_section_slugs": [
+        "bingsu"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 137,
+          "name": "Lotus Banana Bingsu",
+          "image_url": null,
+          "section_slug": "bingsu",
+          "section_name": "Bingsu"
+        },
+        "score": 0.75
+      },
+      "best_overall": {
+        "item": {
+          "id": 137,
+          "name": "Lotus Banana Bingsu",
+          "image_url": null,
+          "section_slug": "bingsu",
+          "section_name": "Bingsu"
+        },
+        "score": 0.75
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Frappe.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Shakes, Smoothies & Frappes/Frappe.jpg",
+      "photo_id": "1vLFJX2hQKQUKmE71uq_axDLQ7HVXMrgv",
+      "drive_folder": "Shakes, Smoothies & Frappes",
+      "expected_section_slugs": [
+        "signature-drinks"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 195,
+          "name": "Bounty Frappe",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.632
+      },
+      "best_overall": {
+        "item": {
+          "id": 195,
+          "name": "Bounty Frappe",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.632
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Smoothie.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Shakes, Smoothies & Frappes/Smoothie.jpg",
+      "photo_id": "1kaLNsF4IRMzIXdARP0fh5hIRMaP_Awqs",
+      "drive_folder": "Shakes, Smoothies & Frappes",
+      "expected_section_slugs": [
+        "signature-drinks"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 187,
+          "name": "Acai Kick Smoothie",
+          "image_url": "/SignatureDrinks/CaramelMilkTea.webp",
+          "section_slug": "signature-drinks",
+          "section_name": "Signature Drinks"
+        },
+        "score": 0.615
+      },
+      "best_overall": {
+        "item": {
+          "id": 249,
+          "name": "Smoothie Bowl",
+          "image_url": "/Breakfast/SmoothieBowl.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.762
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Biscoff Rocky Road.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Cakes, Cookies & Bites/Biscoff Rocky Road.jpg",
+      "photo_id": "1DUZjtXTAWROUs-Kp-tWD6lyiIwKUlkdp",
+      "drive_folder": "Cakes, Cookies & Bites",
+      "expected_section_slugs": [
+        "cakes-cookies-bites"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 108,
+          "name": "Rocky Road",
+          "image_url": "/Cakes/RockyRoad.webp",
+          "section_slug": "cakes-cookies-bites",
+          "section_name": "Cakes, Cookies & Bites"
+        },
+        "score": 0.714
+      },
+      "best_overall": {
+        "item": {
+          "id": 108,
+          "name": "Rocky Road",
+          "image_url": "/Cakes/RockyRoad.webp",
+          "section_slug": "cakes-cookies-bites",
+          "section_name": "Cakes, Cookies & Bites"
+        },
+        "score": 0.714
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Crepe (Savory).jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Crepe (Savory).jpg",
+      "photo_id": "17hrWitAGjTOhW4uE6hEwtd4hz68hcGAA",
+      "drive_folder": "Create Your Own",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 76,
+          "name": "Crepe",
+          "image_url": "/CreateYourOwn/Crepe(Savory).webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.588
+      },
+      "best_overall": {
+        "item": {
+          "id": 76,
+          "name": "Crepe",
+          "image_url": "/CreateYourOwn/Crepe(Savory).webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.588
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Pizza Quesedilla.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Create Your Own/Pizza Quesedilla.jpeg",
+      "photo_id": "1SpQrGQr5vgvYL7ZBxWBCZo-tdciUgN0a",
+      "drive_folder": "Create Your Own",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 72,
+          "name": "Quesadilla",
+          "image_url": "/CreateYourOwn/Quesadilla.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.692
+      },
+      "best_overall": {
+        "item": {
+          "id": 72,
+          "name": "Quesadilla",
+          "image_url": "/CreateYourOwn/Quesadilla.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.692
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Goujons & Fries.png",
+      "photo_path": "/Sweet Life Menu Item Photos/Lunch/Goujons & Fries.png",
+      "photo_id": "1WSmS3Hmpdw9cdMpQyE-GgOaXXBF8hVuu",
+      "drive_folder": "Lunch",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 55,
+          "name": "Goujons & Chips",
+          "image_url": "/Lunch/Goujons.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.769
+      },
+      "best_overall": {
+        "item": {
+          "id": 55,
+          "name": "Goujons & Chips",
+          "image_url": "/Lunch/Goujons.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.769
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Pizza Quesedilla.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Lunch/Pizza Quesedilla.jpeg",
+      "photo_id": "1AV_RWhlKL91Ut12h_mGNUYgLwVwTMVzy",
+      "drive_folder": "Lunch",
+      "expected_section_slugs": [
+        "lunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 72,
+          "name": "Quesadilla",
+          "image_url": "/CreateYourOwn/Quesadilla.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.692
+      },
+      "best_overall": {
+        "item": {
+          "id": 72,
+          "name": "Quesadilla",
+          "image_url": "/CreateYourOwn/Quesadilla.webp",
+          "section_slug": "lunch",
+          "section_name": "Lunch"
+        },
+        "score": 0.692
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Almond Belgian Waffle.jpeg",
+      "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Almond Belgian Waffle.jpeg",
+      "photo_id": "1Nn3ZUDXCi5PpvHkIOPlBDiYpfEQeuO1A",
+      "drive_folder": "Breakfast & Brunch",
+      "expected_section_slugs": [
+        "breakfast-brunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 41,
+          "name": "Scrambled Egg Ciabatta",
+          "image_url": "/Breakfast/ScrambledEggCiabatta.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.419
+      },
+      "best_overall": {
+        "item": {
+          "id": 90,
+          "name": "Almond Belgium Waffle (K)",
+          "image_url": "/Keto/AlmondBelgianWaffle.webp",
+          "section_slug": "keto-vegan-gluten-free",
+          "section_name": "Keto, Vegan & Gluten-Free"
+        },
+        "score": 0.905
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Mixed Grain Energy Bowl.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/Mixed Grain Energy Bowl.jpg",
+      "photo_id": "12b8Xcy-ZQdHMeiHpHq_GJX_j6tqRZTEX",
+      "drive_folder": "Breakfast & Brunch",
+      "expected_section_slugs": [
+        "breakfast-brunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 45,
+          "name": "Acai Granola Bowl",
+          "image_url": "/Breakfast/AcaiGranolaBowl.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.55
+      },
+      "best_overall": {
+        "item": {
+          "id": 45,
+          "name": "Acai Granola Bowl",
+          "image_url": "/Breakfast/AcaiGranolaBowl.webp",
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.55
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "English Muffin.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Breakfast & Brunch/English Muffin.jpg",
+      "photo_id": "1qIEillIYKJ6_av0zwsWm3guWcmJtUT85",
+      "drive_folder": "Breakfast & Brunch",
+      "expected_section_slugs": [
+        "breakfast-brunch"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 32,
+          "name": "Breakfast Muffin",
+          "image_url": null,
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.6
+      },
+      "best_overall": {
+        "item": {
+          "id": 32,
+          "name": "Breakfast Muffin",
+          "image_url": null,
+          "section_slug": "breakfast-brunch",
+          "section_name": "Breakfast & Brunch"
+        },
+        "score": 0.6
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    },
+    {
+      "photo_name": "Coffee Beans.jpg",
+      "photo_path": "/Sweet Life Menu Item Photos/Coffee & Tea/Coffee Beans.jpg",
+      "photo_id": "1eMD3z4bMMpx08W8Djp_jFCN7br6zaG_N",
+      "drive_folder": "Coffee & Tea",
+      "expected_section_slugs": [
+        "coffee-tea"
+      ],
+      "best_in_section": {
+        "item": {
+          "id": 16,
+          "name": "Matcha Tea",
+          "image_url": "/CoffeeTea/MatchaTea.webp",
+          "section_slug": "coffee-tea",
+          "section_name": "Coffee & Tea"
+        },
+        "score": 0.364
+      },
+      "best_overall": {
+        "item": {
+          "id": 112,
+          "name": "Coffee Cake",
+          "image_url": "/Cakes/CoffeeCake.webp",
+          "section_slug": "cakes-cookies-bites",
+          "section_name": "Cakes, Cookies & Bites"
+        },
+        "score": 0.696
+      },
+      "reason": "No DB item shares the distinctive tokens"
+    }
+  ]
+}

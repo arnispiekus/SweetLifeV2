@@ -1,0 +1,22 @@
+A new release of infisical is available: 0.43.79 -> 0.43.86
+
+To update, run: brew update && brew upgrade infisical
+
+[90m2026-05-26T20:11:43-03:00[0m [32mINF[0m Injecting 98 Infisical secrets into your application process
+Phase 3 — 14 ad creatives across 5 campaigns
+  [1/14] ok    campaign-drinks-summer-v1
+  [2/14] ok    campaign-bingsu-summer-v3
+  [3/14] ok    campaign-bingsu-summer-v2
+  [4/14] ok    campaign-drinks-summer-v3
+  [5/14] ok    campaign-brunch-weekend-v2
+  [6/14] ok    campaign-bingsu-summer-v1
+  [7/14] ok    campaign-brunch-weekend-v1
+  [8/14] ok    campaign-brunch-weekend-v3
+  [9/14] ok    campaign-new-bao-buns-v1
+  [10/14] ok    campaign-emergency-workers-v1
+  [11/14] ok    campaign-new-bao-buns-v2
+  [12/14] ok    campaign-emergency-workers-v2
+  [13/14] ok    campaign-drinks-summer-v2
+  [14/14] ok    campaign-new-bao-buns-v3
+
+Done. ok=14/14

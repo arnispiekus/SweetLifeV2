@@ -1,0 +1,14 @@
+[
+  {"id":"menu","label":"MENU","subject":"a stylised open booklet menu with two small Korean dessert sketches on the pages","desc":"signifies the cafe menu / full food selection"},
+  {"id":"bingsu","label":"BINGSU","subject":"a tall mounded bingsu shaved-ice dessert in a small bowl with a tiny spoon","desc":"the Korean shaved-ice signature dessert highlight"},
+  {"id":"drinks","label":"DRINKS","subject":"a tall slender drinks glass with ice cubes and a straw, lemon slice garnish","desc":"signature drinks - milk teas, fruit teas, smoothies"},
+  {"id":"coffee","label":"COFFEE","subject":"a steaming espresso cup on a small saucer with a tiny rosetta swirl visible","desc":"coffee + lattes highlight"},
+  {"id":"specials","label":"SPECIALS","subject":"a small sparkle starburst above a plate, with a ribbon or banner","desc":"new menu items and seasonal specials"},
+  {"id":"brunch","label":"BRUNCH","subject":"a fried egg on toast with a small avocado fan beside it","desc":"breakfast and brunch highlight"},
+  {"id":"bts","label":"BTS","subject":"a barista's hand holding a milk pitcher above an espresso cup, mid-pour","desc":"behind the scenes at the cafe"},
+  {"id":"catering","label":"CATERING","subject":"three small plates and a tray with assorted desserts, gift-wrap ribbon","desc":"catering and event platters"},
+  {"id":"reviews","label":"LOVE","subject":"a five-pointed star with a small heart, in a delicate hand-drawn style","desc":"customer reviews and testimonials"},
+  {"id":"location","label":"NEWRY","subject":"a stylised pin marker dropped on a sketched street corner with a small awning","desc":"location, hours, how to find us"},
+  {"id":"order","label":"ORDER","subject":"a small takeaway cup and pastry bag with a tiny phone icon","desc":"online ordering, Deliveroo, takeaway"},
+  {"id":"story","label":"OUR STORY","subject":"a stylised hand-drawn signature pen-mark with a small heart, like a personal note","desc":"about, founder story, our history"}
+]

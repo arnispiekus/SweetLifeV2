@@ -1,0 +1,170 @@
+A new release of infisical is available: 0.43.79 -> 0.43.86
+
+To update, run: brew update && brew upgrade infisical
+
+[90m2026-05-26T20:00:12-03:00[0m [32mINF[0m Injecting 98 Infisical secrets into your application process
+Gemini batch: 162 items
+  [1/162] ok    Plain Croissant
+  [2/162] ok    Nutella Croissant
+  [3/162] ok    Ham & Cheese Croissant
+  [4/162] ok    Beef & Mince Pie
+  [5/162] ok    Butter & Jam Croissant
+  [6/162] ok    Lemon Croissant
+  [7/162] ok    Cinnamon Bun
+  [8/162] ok    Pistachio Croissant
+  [9/162] ok    Danish Pastry
+  [10/162] ok    Muffins
+  [11/162] ok    Gluten Free Scone
+  [12/162] ok    Sausage Roll
+  [13/162] ok    Plain Scone
+  [14/162] ok    Acai Granola Bowl
+  [15/162] ok    Raspberry & White Chocolate Scone
+  [16/162] ok    Fruit Scone
+  [17/162] ok    Egg Toast
+  [18/162] ok    Pistachio Donut
+  [19/162] ok    Breakfast Muffin
+  [20/162] ok    Breakfast Taco
+  [21/162] ok    Cranberry Brie Toast
+  [22/162] ok    French Toast x2 with Bacon & Maple Syrup
+  [23/162] ok    Good Morning Breakfast
+  [24/162] ok    French Toast Benedict
+  [25/162] ok    Hello Sunrise
+  [26/162] ok    Omelette (GF)
+  [27/162] ok    Poached Egg & Bacon Bagel
+  [28/162] ok    Porridge
+  [29/162] ok    Smoothie Bowl
+  [30/162] ok    Salmon Sunrise
+  [31/162] ok    Simply Morning
+  [32/162] ok    Tortilla Omelette
+  [33/162] ok    Homemade Ice-cream
+  [34/162] ok    Side of Bacon
+  [35/162] ok    Small Scoop
+  [36/162] ok    Scrambled Egg Ciabatta
+  [37/162] ok    Amaretto Cake
+  [38/162] ok    Black Forest Gateau
+  [39/162] ok    Belgium Caramel Square
+  [40/162] ok    Banana Bread
+  [41/162] ok    Carrot Cake
+  [42/162] ok    Cheesecake
+  [43/162] ok    Chocolate Cake
+  [44/162] ok    Coffee Cake
+  [45/162] ok    Cookie Cake
+  [46/162] ok    Honey Cake
+  [47/162] ok    Lemon Meringue
+  [48/162] ok    Peanut Butter Snickers Cake
+  [49/162] ok    Passionfruit Cake
+  [50/162] ok    Red Velvet
+  [51/162] ok    Strawberry Apple Pie
+  [52/162] ok    Rainbow Cake
+  [53/162] ok    Rocky Road
+  [54/162] ok    Tiramisu
+  [55/162] ok    Brownie
+  [56/162] ok    Crumble Cookie
+  [57/162] ok    Zesty Lemon Cake
+  [58/162] ok    Protein Balls
+  [59/162] ok    Large Soft Serve
+  [60/162] ok    Americano
+  [61/162] ok    Baby Soft Serve
+  [62/162] ok    Cappuccino
+  [63/162] ok    Babyccino
+  [64/162] ok    Chai Latte
+  [65/162] ok    Einspanner
+  [66/162] ok    Regular Soft Serve
+  [67/162] ok    Macchiato
+  [68/162] ok    Latte
+  [69/162] ok    Dubai Chocolate
+  [70/162] ok    Mocaccino
+  [71/162] ok    Creamy Matcha
+  [72/162] ok    Flat White
+  [73/162] ok    Matcha Latte
+  [74/162] ok    Matcha Tea
+  [75/162] ok    Raspberry, Ginger & Lemon Tea
+  [76/162] ok    Tea
+  [77/162] ok    Jasmine Brew Tea
+  [78/162] ok    Apple Pie Golden Toast
+  [79/162] ok    Mango Golden Toast
+  [80/162] ok    Choco Banana Golden Toast
+  [81/162] ok    Espresso
+  [82/162] ok    Bagel (GF)
+  [83/162] ok    S'more Golden Toast
+  [84/162] ok    Bap (GF)
+  [85/162] ok    Mixed Berry Golden Toast
+  [86/162] ok    Macaroon (GF)
+  [87/162] ok    Chocolate Fudge Cake (GF)
+  [88/162] fail  Mocha / White Mocha
+  [89/162] ok    Scone (GF)
+  [90/162] ok    Almond Belgium Waffle (K)
+  [91/162] ok    Waffle (GF)
+  [92/162] ok    Creamy Almond Coffee Dream (K)
+  [93/162] ok    Omelette (K)
+  [94/162] ok    Muffin (GF)
+  [95/162] ok    Sushi Bowl (K)
+  [96/162] ok    Vegan Burger (V)(GF*)
+  [97/162] ok    Mozzarella Omelette Sandwich (K)
+  [98/162] ok    Vegan Kiev (V)(GF)
+  [99/162] ok    Vegan Sausages Bap (V)(GF*)
+  [100/162] ok    Vegan Taco (V)(GF*)
+  [101/162] ok    Bap
+  [102/162] ok    Baguette
+  [103/162] ok    Ciabatta
+  [104/162] ok    Chips
+  [105/162] ok    Crepe
+  [106/162] ok    Jacket Potato
+  [107/162] ok    Omelette
+  [108/162] fail  Toastie/Sandwich (GF)
+  [109/162] ok    Pasta Tagliatelle
+  [110/162] ok    Panini
+  [111/162] ok    Quesadilla
+  [112/162] ok    Rice
+  [113/162] ok    Salad
+  [114/162] ok    Sandwich
+  [115/162] ok    Sourdough Pizza
+  [116/162] ok    Taco
+  [117/162] ok    Sourdough Bagel
+  [118/162] ok    Sourdough Pizza Bagel
+  [119/162] fail  Snickers Cake / Toblerone (GF)
+  [120/162] ok    Toastie
+  [121/162] ok    Wrap
+  [122/162] ok    Tortilla Omelette
+  [123/162] ok    Air Fried Sushi Hot Dog (GF*)(V*)
+  [124/162] ok    Black Jack Pulled Pork Burger
+  [125/162] ok    Bibimbap (GF)(V*)
+  [126/162] ok    Chicken Goujons x3
+  [127/162] ok    Beetroot Feta Burger
+  [128/162] ok    Chicken Wings
+  [129/162] ok    Beetroot Belgium Waffle
+  [130/162] ok    Chicken Curry (GF)
+  [131/162] ok    Crispy Chicken Naan Kebab
+  [132/162] ok    Festive Toastie
+  [133/162] ok    Fishcake Burger
+  [134/162] ok    Goujons & Chips
+  [135/162] ok    Meatball Tagliatelle Pasta
+  [136/162] ok    Fried Rice
+  [137/162] ok    Homemade Soup of the Day
+  [138/162] ok    Mexican Panini
+  [139/162] ok    Jacket Potato
+  [140/162] ok    Prosciutto Ham & Feta Cheese Baguette
+  [141/162] ok    Poke Bowl (GF*)(V)
+  [142/162] ok    Matcha American Pancake
+  [143/162] ok    The Mohawk Burger & Fries
+  [144/162] ok    Lemon Maple Syrup Icing Waffle
+  [145/162] ok    Banana-Lotus Waffle
+  [146/162] ok    Oreo Waffle
+  [147/162] ok    Crepe
+  [148/162] ok    Ramen Soup (*V)
+  [149/162] ok    Strawberry Choco Waffle
+  [150/162] ok    Plain Waffle (with Nutella ice cream)
+  [151/162] ok    Strawberry Waffle
+  [152/162] ok    Caesar Salad
+  [153/162] ok    Balsamic Mozzarella Salad
+  [154/162] ok    Original American Pancake
+  [155/162] ok    Caprese Salad
+  [156/162] ok    S'more Souffle Pancake
+  [157/162] ok    Crispy Chicken Salad
+  [158/162] ok    Choco Banana Souffle Pancake
+  [159/162] ok    Create Your Own Salad
+  [160/162] ok    Mozzarella & Mango Salad
+  [161/162] ok    Greek Salad
+  [162/162] ok    Sushi Platter
+
+Done. ok=159/162
