@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { validateContactForm, type ContactFormData } from '@/lib/contactValidation';
+import { escapeHtml } from '@/lib/escapeHtml';
 
 // Initialize Resend lazily to avoid build-time errors when API key is not set
 function getResendClient(): Resend | null {
@@ -74,28 +75,28 @@ export async function POST(request: NextRequest) {
                 <div class="info-section">
                   <div class="detail-row">
                     <span class="label">Name:</span>
-                    <span>${formData.name}</span>
+                    <span>${escapeHtml(formData.name)}</span>
                   </div>
                   <div class="detail-row">
                     <span class="label">Email:</span>
-                    <span><a href="mailto:${formData.email}">${formData.email}</a></span>
+                    <span><a href="mailto:${escapeHtml(formData.email)}">${escapeHtml(formData.email)}</a></span>
                   </div>
                   ${formData.subject ? `
                   <div class="detail-row">
                     <span class="label">Subject:</span>
-                    <span>${formData.subject}</span>
+                    <span>${escapeHtml(formData.subject)}</span>
                   </div>
                   ` : ''}
                 </div>
 
                 <h2 style="color: #F79D28;">Message</h2>
                 <div class="message-box">
-                  <p style="margin: 0; white-space: pre-wrap;">${formData.message}</p>
+                  <p style="margin: 0; white-space: pre-wrap;">${escapeHtml(formData.message)}</p>
                 </div>
 
                 <div class="footer">
                   <p>This message was sent via the Sweet Life website contact form.</p>
-                  <p>You can reply directly to this email to respond to ${formData.name}.</p>
+                  <p>You can reply directly to this email to respond to ${escapeHtml(formData.name)}.</p>
                 </div>
               </div>
             </div>

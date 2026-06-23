@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { validateSushiOrder, type SushiOrderFormData } from '@/lib/sushiValidation';
 import { getSizeByPieces } from '@/data/sushiData';
+import { escapeHtml } from '@/lib/escapeHtml';
 
 // Initialize Resend lazily to avoid build-time errors when API key is not set
 function getResendClient(): Resend | null {
@@ -92,19 +93,19 @@ export async function POST(request: NextRequest) {
               <div class="order-details">
                 <div class="detail-row">
                   <span class="label">Quantity:</span>
-                  <span class="value">${orderData.pieces} pieces</span>
+                  <span class="value">${escapeHtml(orderData.pieces)} pieces</span>
                 </div>
                 <div class="detail-row">
                   <span class="label">Variation:</span>
-                  <span class="value">${orderData.variation}</span>
+                  <span class="value">${escapeHtml(orderData.variation)}</span>
                 </div>
                 <div class="detail-row">
                   <span class="label">Price:</span>
-                  <span class="value price">£${orderData.price}</span>
+                  <span class="value price">£${escapeHtml(orderData.price)}</span>
                 </div>
                 <div class="detail-row">
                   <span class="label">Pickup:</span>
-                  <span class="value">${formattedPickup}</span>
+                  <span class="value">${escapeHtml(formattedPickup)}</span>
                 </div>
               </div>
 
@@ -113,22 +114,22 @@ export async function POST(request: NextRequest) {
               <div class="order-details">
                 <div class="detail-row">
                   <span class="label">Name:</span>
-                  <span class="value">${orderData.fullName}</span>
+                  <span class="value">${escapeHtml(orderData.fullName)}</span>
                 </div>
                 <div class="detail-row">
                   <span class="label">Phone:</span>
-                  <span class="value"><a href="tel:${orderData.phone}">${orderData.phone}</a></span>
+                  <span class="value"><a href="tel:${escapeHtml(orderData.phone)}">${escapeHtml(orderData.phone)}</a></span>
                 </div>
                 <div class="detail-row">
                   <span class="label">Email:</span>
-                  <span class="value"><a href="mailto:${orderData.email}">${orderData.email}</a></span>
+                  <span class="value"><a href="mailto:${escapeHtml(orderData.email)}">${escapeHtml(orderData.email)}</a></span>
                 </div>
               </div>
 
               ${orderData.specialRequests ? `
               <h2 style="color: #F79D28;">Special Requests</h2>
               <div class="special-requests">
-                <p style="margin: 0;">${orderData.specialRequests}</p>
+                <p style="margin: 0;">${escapeHtml(orderData.specialRequests)}</p>
               </div>
               ` : ''}
 
