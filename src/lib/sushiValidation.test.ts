@@ -77,6 +77,18 @@ describe('validatePickupDateTime', () => {
     );
   });
 
+  it('rejects an unparseable date string without throwing', () => {
+    // Regression: a malformed value used to reach SUSHI_OPENING_HOURS[undefined]
+    // and throw a TypeError instead of returning a validation message.
+    expect(() => validatePickupDateTime('not-a-date')).not.toThrow();
+    expect(validatePickupDateTime('not-a-date')).toBe(
+      'Please select a pickup date and time.'
+    );
+    expect(validatePickupDateTime('2026-13-45T99:99')).toBe(
+      'Please select a pickup date and time.'
+    );
+  });
+
   it('rejects a time less than 24 hours away', () => {
     // Same day, a couple of hours ahead.
     expect(validatePickupDateTime('2026-06-24T14:00')).toBe(
