@@ -7,6 +7,7 @@ import {
   validateSushiOrder,
   type SushiOrderFormData,
 } from './sushiValidation';
+import { sushiSizes } from '@/data/sushiData';
 
 // Fixed "now": Wednesday 2026-06-24 10:00 local time.
 // Opening hours are Mon-Sat 12:00-18:00, Sun 12:00-17:00.
@@ -127,7 +128,7 @@ function makeOrder(overrides: Partial<SushiOrderFormData> = {}): SushiOrderFormD
     specialRequests: '',
     variation: 'Mix',
     pieces: 16,
-    price: 25,
+    price: 24, // canonical price for 16 pieces (see sushiData)
     ...overrides,
   };
 }
@@ -165,6 +166,28 @@ describe('validateSushiOrder', () => {
     expect(validateSushiOrder(makeOrder({ pieces: 12 }))).toContain(
       'Please select a valid quantity.'
     );
+  });
+
+  it('accepts every canonical size at its canonical price', () => {
+    for (const size of sushiSizes) {
+      const errors = validateSushiOrder(
+        makeOrder({ pieces: size.pieces, price: size.price })
+      );
+      expect(errors).toEqual([]);
+    }
+  });
+
+  it('flags a price that does not match the selected size', () => {
+    // 16 pieces costs 24; submitting a tampered/stale price must be rejected.
+    expect(validateSushiOrder(makeOrder({ pieces: 16, price: 1 }))).toContain(
+      'Order price does not match the selected size.'
+    );
+  });
+
+  it('does not add a price error when the quantity itself is invalid', () => {
+    const errors = validateSushiOrder(makeOrder({ pieces: 12, price: 1 }));
+    expect(errors).toContain('Please select a valid quantity.');
+    expect(errors).not.toContain('Order price does not match the selected size.');
   });
 
   it('propagates the pickup datetime error', () => {
