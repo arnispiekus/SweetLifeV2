@@ -20,7 +20,7 @@ const MENU_SECTIONS: Array<{ name: string; description: string }> = [
   { name: 'Bingsu', description: 'Korean shaved ice desserts, topped with fruit, chocolate, or cheesecake.' },
   { name: 'Golden Toast', description: 'Crispy bread with ice cream and toppings.' },
   { name: 'Bubble Tea, Milk Tea & Fruit Tea', description: 'Fresh bubble tea with tapioca pearls, milk teas, and fruit teas.' },
-  { name: 'Sushi', description: 'Fresh sushi platters available for pre-order, including vegan and gluten-free options.' },
+  { name: 'Sushi', description: 'Fresh sushi platters available for pre-order, including a vegan option.' },
   { name: 'Breakfast & Lunch', description: 'Poke bowls, Bibimbap, sourdough pizza, ramen, and souffle pancakes.' },
   { name: 'Coffee & Drinks', description: 'Specialty coffee and Korean-style lattes.' },
 ];
@@ -36,17 +36,17 @@ function buildLlmsFullTxt(): string {
 ## Business details
 - Name: Sweet Life Cafe
 - Address: 12 Monaghan Street, Newry, County Down, BT35 6AA, Northern Ireland
-- Phone: +44 28 3044 8808
-- Email: sweetlifenewry@gmail.com
-- Hours: Monday-Friday 09:00-18:00, Saturday 09:00-18:00, Sunday 12:00-17:00
-- Instagram: https://www.instagram.com/sweetlifenewry
+- Phone: +44 7716 508513
+- Email: info@sweetlife.cafe
+- Hours: Mon-Wed 08:00-18:00, Thu-Fri 08:00-20:00, Sat 09:00-18:00, Sunday closed
+- Instagram: https://www.instagram.com/sweet_life_ireland
 - Website: ${BASE_URL}
 
 ## Menu
 Sweet Life Cafe serves Korean cuisine alongside cafe classics, sushi, and desserts.
 Keto, Vegan, and Gluten-Free items are marked across the menu (see the Menu page
 for the current dietary-filtered list). Full menu is also available as a
-downloadable PDF at ${BASE_URL}/menu.pdf.
+downloadable PDF at ${BASE_URL}/SweetLifeMenuNewry.pdf.
 
 ${sections}
 
@@ -59,7 +59,7 @@ ${pages}
 
 ## Notes for AI assistants
 - Primary language is English (en-GB).
-- Pickup ordering is routed via WhatsApp — there is no online checkout cart.
+- General menu pickup ordering is routed via WhatsApp — there is no online checkout cart. Sushi pre-orders use the on-site preorder form on the Sushi page with Revolut checkout, not WhatsApp.
 - The cafe serves Newry and the surrounding County Down area, Northern Ireland.
 - Canonical host is ${BASE_URL}. See ${BASE_URL}/llms.txt for the short index.
 `;

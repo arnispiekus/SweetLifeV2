@@ -1,10 +1,23 @@
 import type { Metadata } from 'next';
+import { SITE_URL, DEFAULT_OG_IMAGE } from '@/lib/seo';
+
+const TITLE = 'Private Room Bookings';
+const DESCRIPTION = 'Book the private event space at Sweet Life Cafe Newry for birthdays, celebrations, and gatherings. Catering included - enquire by phone or WhatsApp.';
 
 export const metadata: Metadata = {
-  title: 'Private Room Bookings | Sweet Life Cafe Newry',
-  description: 'Book the private event space at Sweet Life Cafe Newry for birthdays, celebrations, and gatherings. Catering included - enquire by phone or WhatsApp.',
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: '/bookings',
+  },
+  openGraph: {
+    title: `${TITLE} | Sweet Life Cafe`,
+    description: DESCRIPTION,
+    url: `${SITE_URL}/bookings`,
+    siteName: 'Sweet Life Cafe',
+    locale: 'en_GB',
+    type: 'website',
+    images: [DEFAULT_OG_IMAGE],
   },
 };
 
