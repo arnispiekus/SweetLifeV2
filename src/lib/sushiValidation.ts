@@ -30,6 +30,15 @@ export function validatePickupDateTime(dateTimeString: string): string {
   }
 
   const selectedDate = new Date(dateTimeString);
+
+  // Reject unparseable input before any date arithmetic. Without this guard a
+  // malformed string yields an Invalid Date whose getDay()/getHours() return
+  // NaN, so SUSHI_OPENING_HOURS[dayNames[NaN]] is undefined and reading .start
+  // throws a TypeError (surfaces as an opaque 500 from the order API route).
+  if (Number.isNaN(selectedDate.getTime())) {
+    return 'Please select a pickup date and time.';
+  }
+
   const now = new Date();
   const minAllowedTime = new Date(now.getTime() + 24 * 60 * 60 * 1000);
 
