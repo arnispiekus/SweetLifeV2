@@ -1,4 +1,4 @@
-import { SUSHI_OPENING_HOURS, type OpeningHours } from '@/data/sushiData';
+import { SUSHI_OPENING_HOURS, getSizeByPieces, type OpeningHours } from '@/data/sushiData';
 
 /**
  * Returns ISO string formatted for datetime-local input, 24 hours from now.
@@ -30,6 +30,15 @@ export function validatePickupDateTime(dateTimeString: string): string {
   }
 
   const selectedDate = new Date(dateTimeString);
+
+  // Reject unparseable input before any date arithmetic. Without this guard a
+  // malformed string yields an Invalid Date whose getDay()/getHours() return
+  // NaN, so SUSHI_OPENING_HOURS[dayNames[NaN]] is undefined and reading .start
+  // throws a TypeError (surfaces as an opaque 500 from the order API route).
+  if (Number.isNaN(selectedDate.getTime())) {
+    return 'Please select a pickup date and time.';
+  }
+
   const now = new Date();
   const minAllowedTime = new Date(now.getTime() + 24 * 60 * 60 * 1000);
 
@@ -130,8 +139,14 @@ export function validateSushiOrder(data: SushiOrderFormData): string[] {
     errors.push('Please select a valid sushi variation.');
   }
 
-  if (!data.pieces || ![8, 16, 20, 30, 50].includes(data.pieces)) {
+  // Validate the quantity against the canonical sizes (single source of truth
+  // in sushiData) and confirm the submitted price matches that size, so a
+  // tampered or stale client cannot submit a mismatched price.
+  const size = data.pieces ? getSizeByPieces(data.pieces) : undefined;
+  if (!size) {
     errors.push('Please select a valid quantity.');
+  } else if (data.price !== size.price) {
+    errors.push('Order price does not match the selected size.');
   }
 
   return errors;
