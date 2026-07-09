@@ -4,12 +4,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useRef } from 'react';
 import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion';
-import { MapPin, ArrowRight, ShoppingBag, Check, ChevronDown, Sparkles, Users, UtensilsCrossed, Lock, UserCheck } from 'lucide-react';
+import { MapPin, ArrowRight, MessageCircle, Check, ChevronDown, Sparkles, Users, UtensilsCrossed, Lock, UserCheck } from 'lucide-react';
 import FeaturedCarousel from '@/components/ui/FeaturedCarousel';
 import GoogleReviews from '@/components/ui/GoogleReviews';
 import { ScrollReveal, StaggerContainer, StaggerItem } from '@/components/motion';
 
-const FOODSERVE_URL = 'https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642';
+// Interim: FoodServe (foodserveadmin.com) ordering platform is no longer used.
+// Routed to WhatsApp for now, matching the existing booking CTA pattern.
+const WHATSAPP_ORDER_URL = 'https://wa.me/447716508513?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order%20for%20pickup.';
 
 export default function HomePage() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -103,13 +105,13 @@ export default function HomePage() {
             transition={{ duration: 0.8, delay: 0.7 }}
           >
             <a
-              href={FOODSERVE_URL}
+              href={WHATSAPP_ORDER_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary inline-flex items-center text-lg font-bold px-10 py-4 whitespace-nowrap"
             >
-              <ShoppingBag size={22} className="mr-3" />
-              Order Now
+              <MessageCircle size={22} className="mr-3" />
+              Order via WhatsApp
             </a>
             <Link
               href="/menu"
@@ -182,7 +184,7 @@ export default function HomePage() {
           {/* Left: Large Image */}
           <ScrollReveal direction="left" className="relative h-[300px] lg:h-auto">
             <Image
-              src="/sweetlifetakeaway.webp"
+              src="/SweetLifeTakeaway.webp"
               alt="Sweet Life takeaway in branded packaging"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -224,13 +226,13 @@ export default function HomePage() {
                 </StaggerContainer>
 
                 <a
-                  href={FOODSERVE_URL}
+                  href={WHATSAPP_ORDER_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary inline-flex items-center text-lg"
                 >
-                  <ShoppingBag size={20} className="mr-3" />
-                  Start Your Order
+                  <MessageCircle size={20} className="mr-3" />
+                  Order via WhatsApp
                 </a>
               </div>
             </ScrollReveal>

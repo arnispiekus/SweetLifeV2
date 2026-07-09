@@ -4,7 +4,11 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { Menu, X, ShoppingBag } from 'lucide-react';
+import { Menu, X, MessageCircle } from 'lucide-react';
+
+// Interim: FoodServe (foodserveadmin.com) ordering platform is no longer used.
+// Routed to WhatsApp for now, matching the existing booking CTA pattern.
+const WHATSAPP_ORDER_URL = 'https://wa.me/447716508513?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order%20for%20pickup.';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -101,13 +105,13 @@ const Header = () => {
             ))}
             <li>
               <a
-                href="https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642&client_is_mobile=true"
+                href={WHATSAPP_ORDER_URL}
                 className="btn btn-primary btn-glow ml-4 flex items-center gap-2 whitespace-nowrap"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ShoppingBag size={18} />
-                Order Now
+                <MessageCircle size={18} />
+                Order via WhatsApp
               </a>
             </li>
           </ul>
@@ -181,14 +185,14 @@ const Header = () => {
           ))}
           <li className="w-full flex justify-center">
             <a
-              href="https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642&client_is_mobile=true"
+              href={WHATSAPP_ORDER_URL}
               className="flex items-center justify-center gap-2 py-3 px-4 bg-primary text-stone-900 rounded-full font-semibold text-center w-full shadow-lg shadow-primary/25"
               onClick={closeMenu}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ShoppingBag size={18} />
-              Order Now
+              <MessageCircle size={18} />
+              Order via WhatsApp
             </a>
           </li>
         </ul>

@@ -3,7 +3,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": "Sweet Life Cafe",
-    "image": "https://sweetlife.cafe/images/hero-bg.jpg",
+    "image": "https://sweetlife.cafe/SweetLifeCafe_Hero_1.webp",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "12 Monaghan Street",

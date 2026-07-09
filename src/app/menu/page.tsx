@@ -6,10 +6,12 @@ import Image from 'next/image';
 import FeaturedCarousel from '@/components/ui/FeaturedCarousel';
 import MenuCategory from '@/components/menu/MenuCategory';
 import { menuData } from '@/data/menuData';
-import { ArrowRight, ShoppingBag, Download, Eye, FileText, Info, Leaf, Sparkles, Wheat } from 'lucide-react';
+import { ArrowRight, MessageCircle, Download, Eye, FileText, Info, Leaf, Sparkles, Wheat } from 'lucide-react';
 import { ScrollReveal, FadeIn, StaggerContainer, StaggerItem } from '@/components/motion';
 
-const FOODSERVE_URL = 'https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642';
+// Interim: FoodServe (foodserveadmin.com) ordering platform is no longer used.
+// Routed to WhatsApp for now, matching the existing booking CTA pattern.
+const WHATSAPP_ORDER_URL = 'https://wa.me/447716508513?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order%20for%20pickup.';
 
 // Dietary filter options
 const dietaryFilters = [
@@ -73,13 +75,13 @@ export default function MenuPage() {
             <FadeIn delay={0.6}>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href={FOODSERVE_URL}
+                  href={WHATSAPP_ORDER_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary btn-glow inline-flex items-center"
                 >
-                  <ShoppingBag size={20} className="mr-3" />
-                  Order Online
+                  <MessageCircle size={20} className="mr-3" />
+                  Order via WhatsApp
                 </a>
                 <a
                   href="/SweetLifeMenuNewry.pdf"
@@ -185,13 +187,13 @@ export default function MenuPage() {
                 <ArrowRight size={20} className="ml-3" />
               </Link>
               <a
-                href={FOODSERVE_URL}
+                href={WHATSAPP_ORDER_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline inline-flex items-center text-lg px-8 py-4"
               >
-                <ShoppingBag size={20} className="mr-3" />
-                Order Now
+                <MessageCircle size={20} className="mr-3" />
+                Order via WhatsApp
               </a>
             </div>
           </ScrollReveal>
@@ -327,13 +329,13 @@ export default function MenuPage() {
                 </p>
               </div>
               <a
-                href={FOODSERVE_URL}
+                href={WHATSAPP_ORDER_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn bg-charcoal text-white hover:bg-espresso whitespace-nowrap inline-flex items-center"
               >
-                <ShoppingBag size={20} className="mr-3" />
-                Order Now
+                <MessageCircle size={20} className="mr-3" />
+                Order via WhatsApp
               </a>
             </div>
           </ScrollReveal>
