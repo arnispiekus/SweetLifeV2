@@ -19,11 +19,15 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sweetlife.cafe"),
   title: {
     default: "Sweet Life Cafe | Korean Cafe & Restaurant in Newry",
     template: "%s | Sweet Life Cafe",
   },
   description: "Sweet Life Cafe - Authentic Korean cuisine, Bingsu, Bubble Tea, specialty coffee, sushi, and more in the heart of Newry. Order online for pickup or delivery.",
+  alternates: {
+    canonical: "/",
+  },
   keywords: [
     "cafe newry",
     "korean food newry",
