@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -169,6 +170,10 @@ const FloatingBubbles = () => {
 };
 
 export default function SpecialtyMenuPage() {
+  // Some Savory Signatures items don't have a real photo yet — hide the
+  // broken-image glyph instead of showing it if the source fails to load.
+  const [brokenSignatureImages, setBrokenSignatureImages] = useState<Set<number>>(new Set());
+
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: animationStyles }} />
@@ -292,7 +297,7 @@ export default function SpecialtyMenuPage() {
                 {
                   name: 'Ramen Soup',
                   description: 'Rich, savory broth with chewy noodles, tender pork, soft-boiled egg, and fresh vegetables.',
-                  image: '/Lunch/RamenSoup.webp',
+                  image: '/Lunch/Ramen.webp',
                   badge: 'Warming',
                   badgeColor: 'bg-amber-500 text-white'
                 },
@@ -314,13 +319,20 @@ export default function SpecialtyMenuPage() {
                 <StaggerItem key={idx}>
                   <div className="group bg-white rounded-2xl shadow-warm overflow-hidden hover:shadow-warm-lg transition-all duration-500 h-full hover:-translate-y-2">
                     <div className="relative aspect-[4/3] overflow-hidden">
-                      <Image
-                        src={item.image}
-                        alt={item.name}
-                        fill
-                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        className="object-cover group-hover:scale-105 transition-transform duration-700"
-                      />
+                      {brokenSignatureImages.has(idx) ? (
+                        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/15 to-warm-cream">
+                          <Utensils size={32} className="text-primary/50" />
+                        </div>
+                      ) : (
+                        <Image
+                          src={item.image}
+                          alt={item.name}
+                          fill
+                          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                          className="object-cover group-hover:scale-105 transition-transform duration-700"
+                          onError={() => setBrokenSignatureImages((prev) => new Set(prev).add(idx))}
+                        />
+                      )}
                       <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                       {item.badge && (
                         <div className={`absolute top-4 left-4 ${item.badgeColor} px-3 py-1 rounded-full text-xs font-bold`}>

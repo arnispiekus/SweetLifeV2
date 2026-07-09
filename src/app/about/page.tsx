@@ -379,12 +379,12 @@ export default function AboutPage() {
               </div>
               <div className="flex gap-4">
                 <a
-                  href="https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642"
+                  href="https://wa.me/447716508513?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order%20for%20pickup."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary whitespace-nowrap"
                 >
-                  Order Now
+                  Order via WhatsApp
                 </a>
                 <Link
                   href="/contact"

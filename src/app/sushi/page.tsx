@@ -310,7 +310,7 @@ export default function SushiPage() {
               {
                 name: 'Specialty Lattes',
                 description: 'Try our famous Korean-style lattes - taro, matcha, or caramel.',
-                image: '/Drinks/IcedMatcha.webp',
+                image: '/CoffeeTea/MatchaLatte.webp',
                 icon: Coffee,
                 link: '/menu#drinks'
               },

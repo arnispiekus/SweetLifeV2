@@ -427,8 +427,8 @@ export default function ContactPage() {
               },
               {
                 question: 'Do you offer online ordering for pickup?',
-                answer: 'Yes! You can order online for pickup through our FoodServe platform. Simply browse our menu, place your order, and pick it up at your selected time. Perfect for busy days!',
-                link: { text: 'Order Online', href: 'https://www.foodserveadmin.com/ordering/restaurant/menu?restaurant_uid=bf3e6aff-e235-4431-a82f-c5653e976642', external: true }
+                answer: 'Yes! Message us on WhatsApp with your order and pickup time and we’ll get it ready for you. Perfect for busy days!',
+                link: { text: 'Order via WhatsApp', href: 'https://wa.me/447716508513?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order%20for%20pickup.', external: true }
               },
               {
                 question: 'Is there parking available nearby?',
