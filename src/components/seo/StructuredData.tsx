@@ -1,7 +1,10 @@
+import { serializeJsonLd } from "@/lib/schema-utils";
+
 export default function StructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Restaurant",
+    "@id": "https://sweetlife.cafe/#restaurant",
     "name": "Sweet Life Cafe",
     "image": "https://sweetlife.cafe/SweetLifeCafe_Hero_1.webp",
     "address": {
@@ -74,7 +77,7 @@ export default function StructuredData() {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      dangerouslySetInnerHTML={{ __html: serializeJsonLd(structuredData) }}
     />
   );
 }
