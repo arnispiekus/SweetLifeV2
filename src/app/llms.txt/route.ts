@@ -39,7 +39,7 @@ ${pages}
 - Dietary options: Keto, Vegan, and Gluten-Free items are marked across the menu.
 - Ordering: general menu pickup enquiries are routed via WhatsApp, not an online cart. Sushi pre-orders use the on-site preorder form on the Sushi page with Revolut checkout.
 - Canonical host is ${BASE_URL}.
-- Full content dump for AI ingestion: ${BASE_URL}/llms-full.txt
+- Expanded profile with menu section summaries and page links: ${BASE_URL}/llms-full.txt
 `;
 }
 

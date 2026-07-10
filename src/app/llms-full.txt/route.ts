@@ -18,10 +18,11 @@ const PAGES: Array<{ label: string; path: string }> = [
 
 const MENU_SECTIONS: Array<{ name: string; description: string }> = [
   { name: 'Bingsu', description: 'Korean shaved ice desserts, topped with fruit, chocolate, or cheesecake.' },
-  { name: 'Golden Toast', description: 'Crispy bread with ice cream and toppings.' },
+  { name: 'Golden Toast', description: 'Crispy toasted bread loaded with your choice of toppings.' },
   { name: 'Bubble Tea, Milk Tea & Fruit Tea', description: 'Fresh bubble tea with tapioca pearls, milk teas, and fruit teas.' },
   { name: 'Sushi', description: 'Fresh sushi platters available for pre-order, including a vegan option.' },
-  { name: 'Breakfast & Lunch', description: 'Poke bowls, Bibimbap, sourdough pizza, ramen, and souffle pancakes.' },
+  { name: 'Breakfast & Lunch', description: 'Poke bowls, Bibimbap, sourdough pizza, and ramen.' },
+  { name: 'Hot Desserts', description: 'Crepes, American pancakes, bubble waffles, souffle pancakes, and Belgian waffles served warm.' },
   { name: 'Coffee & Drinks', description: 'Specialty coffee and Korean-style lattes.' },
 ];
 
