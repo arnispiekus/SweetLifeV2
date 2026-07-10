@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Playfair_Display } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -86,6 +87,7 @@ export default function RootLayout({
           <Footer />
           <WhatsAppWidget />
         </div>
+        <Analytics />
       </body>
     </html>
   );
