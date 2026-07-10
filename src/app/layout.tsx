@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppWidget from "@/components/ui/WhatsAppWidget";
 import StructuredData from "@/components/seo/StructuredData";
+import { DEFAULT_OG_IMAGE } from "@/lib/seo";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -19,11 +20,15 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sweetlife.cafe"),
   title: {
     default: "Sweet Life Cafe | Korean Cafe & Restaurant in Newry",
     template: "%s | Sweet Life Cafe",
   },
   description: "Sweet Life Cafe - Authentic Korean cuisine, Bingsu, Bubble Tea, specialty coffee, sushi, and more in the heart of Newry. Order online for pickup or delivery.",
+  alternates: {
+    canonical: "/",
+  },
   keywords: [
     "cafe newry",
     "korean food newry",
@@ -43,14 +48,7 @@ export const metadata: Metadata = {
     siteName: "Sweet Life Cafe",
     locale: "en_GB",
     type: "website",
-    images: [
-      {
-        url: "https://sweetlife.cafe/SweetLifeCafe_Hero_1.webp",
-        width: 1200,
-        height: 630,
-        alt: "Sweet Life Cafe - Korean Cafe & Restaurant in Newry",
-      },
-    ],
+    images: [DEFAULT_OG_IMAGE],
   },
   twitter: {
     card: "summary_large_image",

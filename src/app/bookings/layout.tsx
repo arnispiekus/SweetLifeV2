@@ -1,19 +1,19 @@
 import type { Metadata } from 'next';
 import { SITE_URL, DEFAULT_OG_IMAGE } from '@/lib/seo';
 
-const TITLE = 'Specialty Menu';
-const DESCRIPTION = 'Explore our signature Korean specialties including Bingsu shaved ice desserts, Golden Toast, Bubble Teas, Milk Teas, and Fruit Teas at Sweet Life Cafe Newry.';
+const TITLE = 'Private Room Bookings';
+const DESCRIPTION = 'Book the private event space at Sweet Life Cafe Newry for birthdays, celebrations, and gatherings. Catering included - enquire by phone or WhatsApp.';
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   alternates: {
-    canonical: '/specialty-menu',
+    canonical: '/bookings',
   },
   openGraph: {
     title: `${TITLE} | Sweet Life Cafe`,
     description: DESCRIPTION,
-    url: `${SITE_URL}/specialty-menu`,
+    url: `${SITE_URL}/bookings`,
     siteName: 'Sweet Life Cafe',
     locale: 'en_GB',
     type: 'website',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function SpecialtyMenuLayout({
+export default function BookingsLayout({
   children,
 }: {
   children: React.ReactNode;
