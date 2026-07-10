@@ -87,7 +87,8 @@ export default function RootLayout({
           <Footer />
           <WhatsAppWidget />
         </div>
-        <Analytics />
+        {/* explicit mode: auto would also collect on preview deployments (they run production bundles) */}
+        <Analytics mode={process.env.VERCEL_ENV === "production" ? "production" : "development"} />
       </body>
     </html>
   );
