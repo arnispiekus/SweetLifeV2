@@ -13,6 +13,8 @@
  * 6. Hostile JSON shapes for partySize (true / '0x10' / [8]) and a top-level
  *    array body → 400, and the intake fetch is never called.
  * 7. Rate limiting: requests beyond the per-IP cap in the window → 429.
+ * 8. Rate limiting: malformed bodies are shape-rejected before the limiter
+ *    ever sees them, so they don't consume a bucket slot.
  */
 
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
@@ -215,5 +217,24 @@ describe('POST /api/booking — rate limiting', () => {
     // Intake isn't configured in this describe block, so this hits the
     // honest 503 path — the point here is only that it isn't 429.
     expect(response.status).not.toBe(429);
+  });
+
+  it('does not consume the rate-limit bucket for malformed (shape-invalid) bodies', async () => {
+    const ip = freshIp();
+    // 6 hostile-shaped requests from the same IP — if these allocated or
+    // incremented a rate-limit bucket, the 6th (over the cap of 5) would
+    // already trip 429 instead of 400.
+    for (let i = 0; i < 6; i += 1) {
+      const request = makeRequest(validBookingBody({ partySize: true }), ip);
+      const response = await POST(request);
+      expect(response.status).toBe(400);
+    }
+
+    // A single valid request from the same IP right after is still let
+    // through (not 429), proving the hostile requests above never touched
+    // the limiter.
+    const validRequest = makeRequest(validBookingBody(), ip);
+    const validResponse = await POST(validRequest);
+    expect(validResponse.status).not.toBe(429);
   });
 });

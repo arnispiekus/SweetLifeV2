@@ -34,6 +34,19 @@ export async function POST(request: NextRequest) {
       });
     }
 
+    // Shape-check before the rate limiter touches its bucket map, so a
+    // flood of malformed bodies from distinct/spoofed IPs can't allocate a
+    // bucket per junk request — only requests that are at least the right
+    // shape reach the limiter.
+    const parsed = parseBookingPayload(body);
+    if ('errors' in parsed) {
+      return NextResponse.json(
+        { success: false, error: parsed.errors.join(' ') },
+        { status: 400 }
+      );
+    }
+    const bookingData = parsed.data;
+
     const ip = getClientIp(request);
     if (isRateLimited(`booking:${ip}`, RATE_LIMIT_MAX, RATE_LIMIT_WINDOW_MS)) {
       return NextResponse.json(
@@ -44,15 +57,6 @@ export async function POST(request: NextRequest) {
         { status: 429 }
       );
     }
-
-    const parsed = parseBookingPayload(body);
-    if ('errors' in parsed) {
-      return NextResponse.json(
-        { success: false, error: parsed.errors.join(' ') },
-        { status: 400 }
-      );
-    }
-    const bookingData = parsed.data;
 
     // Server-side validation
     const errors = validateBookingRequest(bookingData);
