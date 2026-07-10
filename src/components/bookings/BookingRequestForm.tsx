@@ -18,6 +18,9 @@ const BookingRequestForm = () => {
   const [formStatus, setFormStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [errors, setErrors] = useState<string[]>([]);
   const [formData, setFormData] = useState<BookingFormData>(emptyForm);
+  // Honeypot: hidden from real visitors via CSS, but a scripted bot filling
+  // in every field will often fill this too. Never rendered as visible UI.
+  const [honeypot, setHoneypot] = useState('');
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -49,7 +52,7 @@ const BookingRequestForm = () => {
       const response = await fetch('/api/booking', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, website: honeypot }),
       });
 
       const result = await response.json();
@@ -104,6 +107,20 @@ const BookingRequestForm = () => {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
+                {/* Honeypot field — hidden from sighted and screen-reader users alike.
+                    Left unstyled/visible would tip off bots; positioned off-screen
+                    instead of display:none since some bots skip that check. */}
+                <input
+                  type="text"
+                  name="website"
+                  value={honeypot}
+                  onChange={(e) => setHoneypot(e.target.value)}
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', opacity: 0 }}
+                />
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="fullName" className="block text-sm font-semibold text-charcoal mb-2">

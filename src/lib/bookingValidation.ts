@@ -1,3 +1,5 @@
+import { venueInfo } from '@/data/bookingsData';
+
 /**
  * Returns today's date as YYYY-MM-DD, for use as the `min` on a date input
  * so a booking preference can't be submitted for a date that has passed.
@@ -23,18 +25,35 @@ export function validatePhone(phone: string): boolean {
 /**
  * Validates that a booking date is a real calendar date and not in the past.
  * Accepts the YYYY-MM-DD format produced by an <input type="date">.
+ *
+ * JavaScript's Date silently rolls invalid components forward (e.g.
+ * 2027-02-30 becomes 2027-03-02), so a plain parseability check isn't
+ * enough — round-trip the parsed date back to year/month/day and confirm
+ * it matches what was submitted before accepting it.
  */
 export function validateBookingDate(dateString: string): string {
   if (!dateString) {
     return 'Please select a preferred date.';
   }
 
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(dateString)) {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateString);
+  if (!match) {
     return 'Please select a valid date.';
   }
 
+  const [, yearStr, monthStr, dayStr] = match;
+  const year = Number(yearStr);
+  const month = Number(monthStr);
+  const day = Number(dayStr);
+
   const selectedDate = new Date(`${dateString}T00:00:00`);
-  if (Number.isNaN(selectedDate.getTime())) {
+  const isRealCalendarDate =
+    !Number.isNaN(selectedDate.getTime()) &&
+    selectedDate.getFullYear() === year &&
+    selectedDate.getMonth() + 1 === month &&
+    selectedDate.getDate() === day;
+
+  if (!isRealCalendarDate) {
     return 'Please select a valid date.';
   }
 
@@ -90,13 +109,12 @@ export function validateBookingRequest(data: BookingFormData): string[] {
     errors.push('Valid phone number is required.');
   }
 
-  if (
-    !data.partySize ||
-    !Number.isInteger(data.partySize) ||
-    data.partySize < 1 ||
-    data.partySize > 500
-  ) {
+  if (!data.partySize || !Number.isInteger(data.partySize) || data.partySize < 1) {
     errors.push('Please enter a valid party size.');
+  } else if (data.partySize > venueInfo.capacity) {
+    errors.push(
+      `Our private space seats up to ${venueInfo.capacity} guests. For larger groups, please contact us directly.`
+    );
   }
 
   const dateError = validateBookingDate(data.bookingDate);
@@ -114,4 +132,72 @@ export function validateBookingRequest(data: BookingFormData): string[] {
   }
 
   return errors;
+}
+
+/**
+ * Strictly parses `partySize` from a raw JSON body. Unlike `Number(value)`,
+ * this refuses to coerce non-numeric shapes — `Number(true) === 1`,
+ * `Number('0x10') === 16`, and `Number([8]) === 8` all silently produce a
+ * "valid" party size from hostile input. Returns null for anything that
+ * isn't a plain integer or a base-10 digit string.
+ */
+function parsePartySize(value: unknown): number | null {
+  if (typeof value === 'number') {
+    return Number.isInteger(value) ? value : null;
+  }
+  if (typeof value === 'string' && /^\d+$/.test(value.trim())) {
+    return parseInt(value, 10);
+  }
+  return null;
+}
+
+export type ParsedBookingPayload =
+  | { data: BookingFormData }
+  | { errors: string[] };
+
+/**
+ * Type-checks a raw request body into `BookingFormData` before any semantic
+ * validation runs. The previous route trusted the TypeScript type
+ * annotation at runtime (`body.fullName`, `Number(body.partySize)`, …), so
+ * arrays, booleans, and hex-like strings could coerce into "valid" fields
+ * and non-string name/phone values threw uncaught 500s instead of a clean
+ * 400. This is the route boundary guard: every field's runtime type is
+ * checked explicitly before it's trusted.
+ */
+export function parseBookingPayload(body: unknown): ParsedBookingPayload {
+  if (typeof body !== 'object' || body === null || Array.isArray(body)) {
+    return { errors: ['Invalid request body.'] };
+  }
+
+  const record = body as Record<string, unknown>;
+  const { fullName, phone, bookingDate, bookingTime, notes } = record;
+
+  if (
+    typeof fullName !== 'string' ||
+    typeof phone !== 'string' ||
+    typeof bookingDate !== 'string' ||
+    typeof bookingTime !== 'string'
+  ) {
+    return { errors: ['Invalid request body.'] };
+  }
+
+  if (notes !== undefined && notes !== null && typeof notes !== 'string') {
+    return { errors: ['Invalid request body.'] };
+  }
+
+  const partySize = parsePartySize(record.partySize);
+  if (partySize === null) {
+    return { errors: ['Please enter a valid party size.'] };
+  }
+
+  return {
+    data: {
+      fullName,
+      phone,
+      partySize,
+      bookingDate,
+      bookingTime,
+      notes: typeof notes === 'string' ? notes : '',
+    },
+  };
 }

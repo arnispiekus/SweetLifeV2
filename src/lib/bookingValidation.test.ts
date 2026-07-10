@@ -5,8 +5,10 @@ import {
   validateBookingDate,
   validateBookingTime,
   validateBookingRequest,
+  parseBookingPayload,
   type BookingFormData,
 } from './bookingValidation';
+import { venueInfo } from '@/data/bookingsData';
 
 // Fixed "now": Wednesday 2026-06-24, local time.
 const NOW = new Date('2026-06-24T10:00:00');
@@ -70,6 +72,20 @@ describe('validateBookingDate', () => {
     expect(() => validateBookingDate('not-a-date')).not.toThrow();
     expect(validateBookingDate('not-a-date')).toBe('Please select a valid date.');
     expect(validateBookingDate('2026-13-45')).toBe('Please select a valid date.');
+  });
+
+  it('rejects an impossible calendar date that Date silently rolls over', () => {
+    // 2027-02-30 doesn't exist; Date normalizes it to 2027-03-02 instead of
+    // throwing, so a plain parseability check would wrongly accept it.
+    expect(validateBookingDate('2027-02-30')).toBe('Please select a valid date.');
+  });
+
+  it('rejects Feb 29 in a non-leap year', () => {
+    expect(validateBookingDate('2027-02-29')).toBe('Please select a valid date.');
+  });
+
+  it('accepts Feb 29 in a leap year', () => {
+    expect(validateBookingDate('2028-02-29')).toBe('');
   });
 
   it('rejects a date in the past', () => {
@@ -139,9 +155,21 @@ describe('validateBookingRequest', () => {
     );
   });
 
+  it('rejects a party size over the venue capacity with a friendly message', () => {
+    const errors = validateBookingRequest(validBooking({ partySize: venueInfo.capacity + 1 }));
+    expect(errors).toContain(
+      `Our private space seats up to ${venueInfo.capacity} guests. For larger groups, please contact us directly.`
+    );
+  });
+
+  it('accepts a party size at exactly the venue capacity', () => {
+    expect(validateBookingRequest(validBooking({ partySize: venueInfo.capacity }))).toEqual([]);
+  });
+
   it('rejects an absurdly large party size', () => {
-    expect(validateBookingRequest(validBooking({ partySize: 501 }))).toContain(
-      'Please enter a valid party size.'
+    const errors = validateBookingRequest(validBooking({ partySize: 501 }));
+    expect(errors).toContain(
+      `Our private space seats up to ${venueInfo.capacity} guests. For larger groups, please contact us directly.`
     );
   });
 
@@ -173,5 +201,94 @@ describe('validateBookingRequest', () => {
       validBooking({ fullName: '', phone: '', partySize: 0 })
     );
     expect(errors.length).toBeGreaterThanOrEqual(3);
+  });
+});
+
+describe('parseBookingPayload', () => {
+  const validBody = () => ({
+    fullName: 'Jane Doe',
+    phone: '07123456789',
+    partySize: 8,
+    bookingDate: '2026-06-25',
+    bookingTime: '18:30',
+    notes: 'A note',
+  });
+
+  it('parses a well-formed payload', () => {
+    const result = parseBookingPayload(validBody());
+    expect(result).toEqual({
+      data: {
+        fullName: 'Jane Doe',
+        phone: '07123456789',
+        partySize: 8,
+        bookingDate: '2026-06-25',
+        bookingTime: '18:30',
+        notes: 'A note',
+      },
+    });
+  });
+
+  it('accepts a numeric-string partySize', () => {
+    const result = parseBookingPayload({ ...validBody(), partySize: '8' });
+    expect(result).toEqual({ data: expect.objectContaining({ partySize: 8 }) });
+  });
+
+  it('defaults a missing notes field to an empty string', () => {
+    const body = validBody();
+    delete (body as { notes?: string }).notes;
+    const result = parseBookingPayload(body);
+    expect(result).toEqual({ data: expect.objectContaining({ notes: '' }) });
+  });
+
+  it('rejects a top-level array body', () => {
+    expect(parseBookingPayload([8])).toEqual({ errors: ['Invalid request body.'] });
+  });
+
+  it('rejects a null body', () => {
+    expect(parseBookingPayload(null)).toEqual({ errors: ['Invalid request body.'] });
+  });
+
+  it('rejects a non-object body', () => {
+    expect(parseBookingPayload('hello')).toEqual({ errors: ['Invalid request body.'] });
+  });
+
+  it('rejects partySize: true (boolean coerces via Number() but is not a real party size)', () => {
+    const result = parseBookingPayload({ ...validBody(), partySize: true });
+    expect(result).toEqual({ errors: ['Please enter a valid party size.'] });
+  });
+
+  it('rejects partySize: "0x10" (hex string coerces via Number() but is not a decimal party size)', () => {
+    const result = parseBookingPayload({ ...validBody(), partySize: '0x10' });
+    expect(result).toEqual({ errors: ['Please enter a valid party size.'] });
+  });
+
+  it('rejects partySize: [8] (single-element array coerces via Number() but is not a party size)', () => {
+    const result = parseBookingPayload({ ...validBody(), partySize: [8] });
+    expect(result).toEqual({ errors: ['Please enter a valid party size.'] });
+  });
+
+  it('rejects a non-integer partySize', () => {
+    const result = parseBookingPayload({ ...validBody(), partySize: 4.5 });
+    expect(result).toEqual({ errors: ['Please enter a valid party size.'] });
+  });
+
+  it('rejects a non-string fullName instead of throwing downstream', () => {
+    const result = parseBookingPayload({ ...validBody(), fullName: ['Jane'] });
+    expect(result).toEqual({ errors: ['Invalid request body.'] });
+  });
+
+  it('rejects a non-string phone instead of throwing downstream', () => {
+    const result = parseBookingPayload({ ...validBody(), phone: 447123456789 });
+    expect(result).toEqual({ errors: ['Invalid request body.'] });
+  });
+
+  it('rejects a non-string bookingDate', () => {
+    const result = parseBookingPayload({ ...validBody(), bookingDate: 20260625 });
+    expect(result).toEqual({ errors: ['Invalid request body.'] });
+  });
+
+  it('rejects a non-string notes field', () => {
+    const result = parseBookingPayload({ ...validBody(), notes: { nested: true } });
+    expect(result).toEqual({ errors: ['Invalid request body.'] });
   });
 });
