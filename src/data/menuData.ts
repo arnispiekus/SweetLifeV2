@@ -4,6 +4,12 @@ export interface MenuItem {
   description: string;
   price: number;
   image?: string;
+  // Live-menu only (optional; never set on the curated static data below):
+  // priceFrom marks an item whose price is the *lowest* of several sinra-os
+  // variants (rendered as "from £x.xx"); seasonal is a free-text label mum can
+  // set in the sinra-os item editor, rendered as a small badge.
+  priceFrom?: boolean;
+  seasonal?: string;
 }
 
 export interface MenuCategory {
