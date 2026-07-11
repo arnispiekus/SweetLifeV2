@@ -10,20 +10,41 @@ import { menuData, type MenuCategory } from '@/data/menuData';
  *
  * SAFE BY DEFAULT: the live path is only used when LIVE_MENU=1 and
  * SINRA_PUBLIC_MENU_URL is set. Any failure — flag off, url unset, network
- * error, non-200, or an empty/sparse live menu — falls back to the curated
- * static `menuData`, so the public site can never render an empty or broken
+ * error, non-200, an unparseable body, or a live menu that fails the
+ * completeness gate (see isCompleteEnough) — falls back to the curated static
+ * `menuData`, so the public site can never render an empty, sparse or broken
  * menu. Populating + curating the live DB to match the static menu (images,
  * dietary tags in item names) is the prerequisite before flipping LIVE_MENU on.
  */
+
+// This deployment serves the Newry site. sinra-os items carry an `available_at`
+// location array (e.g. ['newry'] | ['newry','drogheda']); items not offered
+// here must not appear. Items with no location data are treated as available
+// (backwards-compatible with the current public API, which omits the field).
+const SITE_LOCATION = 'newry';
+
+interface ApiVariant {
+  id: number;
+  name: string;
+  // Supabase serialises numeric/decimal columns as strings.
+  price: string | number | null;
+}
 
 interface ApiMenuItem {
   id: number;
   slug: string;
   name: string;
   description: string | null;
-  price: string | null;
+  price: string | number | null;
   is_available: boolean;
   image_url: string | null;
+  // Present when the item is priced by variant (sinra attaches item_variants).
+  item_variants?: ApiVariant[] | null;
+  // Cross-PR (sinra-os #5): these are edited in the admin item editor but are
+  // NOT yet in the public API SELECT. Modelled here so the consumer is coherent
+  // the moment sinra exposes them; inert (undefined) until then.
+  seasonal?: string | null;
+  available_at?: string[] | null;
 }
 
 interface ApiSubsection {
@@ -40,6 +61,33 @@ interface ApiSection {
 interface ApiMenu {
   business?: { name: string; slug: string };
   sections?: ApiSection[] | null;
+}
+
+// Curated-menu size, used to derive the completeness thresholds below.
+const STATIC_ITEM_COUNT = menuData.reduce((n, c) => n + c.items.length, 0);
+const STATIC_CATEGORY_COUNT = menuData.length;
+
+// Completeness gate (see finding: "sparse menu" safety). A live response must
+// carry at least half of the curated menu's breadth before it is allowed to
+// replace it; anything less almost certainly means a broken query / half-seeded
+// DB, and we fall back to the static menu rather than show a one-item page.
+// Derived from the static counts so it auto-tracks curation growth.
+export const MIN_LIVE_CATEGORIES = Math.ceil(STATIC_CATEGORY_COUNT * 0.5);
+export const MIN_LIVE_ITEMS = Math.ceil(STATIC_ITEM_COUNT * 0.5);
+
+// Parse a price coming off the API (string | number | null). Returns a finite,
+// non-negative number or null — never NaN, so the UI can never render "£NaN".
+function parsePrice(value: unknown): number | null {
+  if (value == null || value === '') return null;
+  const n = typeof value === 'number' ? value : Number(value);
+  return Number.isFinite(n) && n >= 0 ? n : null;
+}
+
+// Is this item offered at the location this site serves? Missing/empty location
+// data means "available everywhere" (the current public API omits the field).
+function availableHere(available_at: string[] | null | undefined): boolean {
+  if (!Array.isArray(available_at) || available_at.length === 0) return true;
+  return available_at.includes(SITE_LOCATION);
 }
 
 // Normalise an item name for image matching: drop dietary suffixes like "(GF)"
@@ -61,25 +109,68 @@ const STATIC_IMAGE_BY_NAME: Map<string, string> = new Map(
     .map((i) => [normalizeName(i.name), i.image])
 );
 
+// Resolve an item's displayable price from its parent price and any variants.
+// Returns the effective price and whether it is a "from" (lowest-of-many) price.
+// Returns null when no valid price can be derived (item should be dropped).
+function resolvePrice(it: ApiMenuItem): { price: number; from: boolean } | null {
+  const base = parsePrice(it.price);
+  const variantPrices = (it.item_variants ?? [])
+    .map((v) => parsePrice(v.price))
+    .filter((p): p is number => p != null);
+
+  const candidates = base != null ? [base, ...variantPrices] : variantPrices;
+  if (candidates.length === 0) return null;
+
+  const price = Math.min(...candidates);
+  // "from" only when there is genuine price spread across variants.
+  const from = new Set(candidates).size > 1;
+  return { price, from };
+}
+
 /**
  * Map the sinra-os public menu API response into the shape the site's
  * MenuCategory/MenuItem components already render. Pure + exported for tests.
+ *
+ * Per-item validation drops anything unrenderable — an item is kept only if it
+ * has a name, is available at this location, and yields a valid price (from its
+ * own price or its variants). Categories left empty are dropped.
  */
 export function mapApiMenu(api: ApiMenu): MenuCategory[] {
   return (api.sections ?? [])
     .map((section) => {
       const items = (section.subsections ?? [])
         .flatMap((ss) => ss.menu_items ?? [])
-        .map((it) => ({
-          id: it.id,
-          name: it.name,
-          description: it.description ?? '',
-          price: it.price != null && it.price !== '' ? Number(it.price) : 0,
-          image: it.image_url ?? STATIC_IMAGE_BY_NAME.get(normalizeName(it.name)),
-        }));
+        .filter((it) => Boolean(it?.name) && availableHere(it.available_at))
+        .map((it) => {
+          const resolved = resolvePrice(it);
+          if (resolved == null) return null;
+          const seasonal = typeof it.seasonal === 'string' && it.seasonal.trim() !== ''
+            ? it.seasonal.trim()
+            : undefined;
+          return {
+            id: it.id,
+            name: it.name,
+            description: it.description ?? '',
+            price: resolved.price,
+            priceFrom: resolved.from || undefined,
+            image: it.image_url ?? STATIC_IMAGE_BY_NAME.get(normalizeName(it.name)),
+            seasonal,
+          };
+        })
+        .filter((it): it is NonNullable<typeof it> => it != null);
       return { id: section.id, name: section.name, items };
     })
     .filter((cat) => cat.items.length > 0);
+}
+
+/**
+ * Is a mapped live menu complete enough to replace the curated static menu?
+ * Guards against a broken/half-seeded upstream silently wiping the public menu
+ * down to a handful of items. Exported for tests.
+ */
+export function isCompleteEnough(categories: MenuCategory[]): boolean {
+  const itemCount = categories.reduce((n, c) => n + c.items.length, 0);
+  return categories.length >= MIN_LIVE_CATEGORIES && itemCount >= MIN_LIVE_ITEMS;
 }
 
 /**
@@ -91,13 +182,21 @@ export async function getMenuCategories(): Promise<MenuCategory[]> {
   if (process.env.LIVE_MENU !== '1' || !url) return menuData;
 
   try {
-    // ISR-cached at 300s to match the menu page revalidate window; the signed
-    // webhook forces an earlier refresh when mum actually changes something.
-    const res = await fetch(url, { next: { revalidate: 300 } });
+    // ISR-cached at 300s; the signed webhook forces an earlier refresh by
+    // calling revalidatePath('/menu'), which re-runs this fetch. The
+    // `Cache-Control: no-cache` request header asks the upstream CDN to
+    // revalidate with its origin on that refetch so we don't read a stale edge
+    // copy. This is best-effort (a CDN may ignore request no-cache); the
+    // authoritative freshness fix is sinra revalidating its own public route on
+    // mutation — see PR notes / sinra-os #5.
+    const res = await fetch(url, {
+      next: { revalidate: 300 },
+      headers: { 'Cache-Control': 'no-cache' },
+    });
     if (!res.ok) return menuData;
     const json = (await res.json()) as ApiMenu;
     const mapped = mapApiMenu(json);
-    return mapped.length > 0 ? mapped : menuData;
+    return isCompleteEnough(mapped) ? mapped : menuData;
   } catch {
     return menuData;
   }

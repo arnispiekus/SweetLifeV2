@@ -10,6 +10,8 @@ interface MenuItemType {
   description: string;
   price: number;
   image?: string;
+  priceFrom?: boolean;
+  seasonal?: string;
 }
 
 interface MenuCategoryProps {
@@ -80,6 +82,8 @@ const MenuCategory = ({ name, items, defaultExpanded = true, activeFilter }: Men
               name={item.name}
               description={item.description}
               price={item.price}
+              priceFrom={item.priceFrom}
+              seasonal={item.seasonal}
               image={item.image}
               isPopular={isPopular(item.name)}
             />

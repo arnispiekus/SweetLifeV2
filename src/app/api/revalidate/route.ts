@@ -24,8 +24,11 @@ const MAX_SKEW_MS = 5 * 60 * 1000;
 export async function POST(req: NextRequest): Promise<NextResponse> {
   const secret = process.env.SWEETLIFE_REVALIDATE_SECRET;
   if (!secret) {
+    // Fail closed on an explicit "service not configured" gate: 503, not 500.
+    // No revalidation happens, so the current ISR page stands and refreshes
+    // naturally on its 300s window — the webhook simply has no effect.
     console.error('[revalidate] SWEETLIFE_REVALIDATE_SECRET not set');
-    return NextResponse.json({ error: 'not_configured' }, { status: 500 });
+    return NextResponse.json({ error: 'not_configured' }, { status: 503 });
   }
 
   const timestamp = req.headers.get('x-sinra-timestamp');
@@ -62,6 +65,9 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 
   const requested = Array.isArray(paths) ? paths.filter((p): p is string => typeof p === 'string') : [];
   const revalidated = requested.filter((p) => ALLOWED_PATHS.has(p));
+  // revalidatePath purges the route's Full Route + Data Cache, so the next
+  // /menu render re-runs the sinra fetch (getMenuCategories) with fresh data
+  // rather than re-serving the previously cached upstream response.
   for (const p of revalidated) revalidatePath(p);
 
   return NextResponse.json({ revalidated: true, paths: revalidated });

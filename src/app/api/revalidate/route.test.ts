@@ -11,7 +11,7 @@
  * 4. Wrong signature → 401 and no revalidation.
  * 5. Tampered body (valid sig over a different body) → 401.
  * 6. Stale timestamp outside the replay window → 401.
- * 7. Secret not configured → 500.
+ * 7. Secret not configured → 503 (fail-closed, service-not-configured gate).
  */
 
 import { describe, it, expect, vi, beforeEach } from 'vitest';
@@ -59,6 +59,14 @@ describe('POST /api/revalidate', () => {
     expect(revalidatePath).toHaveBeenCalledWith('/');
   });
 
+  it('revalidates nothing when no allow-listed path matched', async () => {
+    const res = await POST(makeReq({ paths: ['/admin'] }));
+    expect(res.status).toBe(200);
+    const json = await res.json();
+    expect(json.paths).toEqual([]);
+    expect(revalidatePath).not.toHaveBeenCalled();
+  });
+
   it('filters out non-allow-listed paths', async () => {
     const res = await POST(makeReq({ paths: ['/admin', '/menu'] }));
     expect(res.status).toBe(200);
@@ -98,10 +106,10 @@ describe('POST /api/revalidate', () => {
     expect(revalidatePath).not.toHaveBeenCalled();
   });
 
-  it('returns 500 when the secret is not configured', async () => {
+  it('returns 503 when the secret is not configured (fail closed, no revalidation)', async () => {
     delete process.env.SWEETLIFE_REVALIDATE_SECRET;
     const res = await POST(makeReq({ paths: ['/menu'] }));
-    expect(res.status).toBe(500);
+    expect(res.status).toBe(503);
     expect(revalidatePath).not.toHaveBeenCalled();
   });
 });
