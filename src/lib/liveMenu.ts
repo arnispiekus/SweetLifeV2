@@ -82,9 +82,12 @@ export const MIN_LIVE_ITEMS = Math.ceil(STATIC_ITEM_COUNT * 0.5);
 // strictly-positive number or null — never NaN, zero, or negative, so the UI can
 // never render "£NaN" or "£0.00" / "from £0.00". A zero, blank/whitespace-only,
 // or negative value means the item is unpriced (or a data error) and must be
-// dropped rather than shown as free.
+// dropped rather than shown as free. Only a number or a numeric string is
+// accepted — a boolean, array, or object is a malformed shape, not an
+// implicitly-coercible price, and is rejected outright.
 function parsePrice(value: unknown): number | null {
   if (value == null || value === '') return null;
+  if (typeof value !== 'number' && typeof value !== 'string') return null;
   const n = typeof value === 'number' ? value : Number(value);
   return Number.isFinite(n) && n > 0 ? n : null;
 }
@@ -139,10 +142,13 @@ function resolvePrice(it: ApiMenuItem): { price: number; from: boolean } | null 
  *
  * Per-item validation drops anything unrenderable — an item is kept only if it
  * has a string name, is marked is_available, is available at this location,
- * and yields a valid price (from its own price or its variants). A section
- * with a non-string name is dropped entirely rather than risk rendering a
- * malformed heading. All of this runs before the completeness gate
- * (isCompleteEnough), so malformed or missing data is always counted as
+ * yields a valid price (from its own price or its variants), and — when
+ * present — has a string description and a string image_url. description and
+ * image_url are optional/nullable, but a non-null value that isn't a string is
+ * a malformed shape (e.g. a stray object), not free-form data, and drops the
+ * item. A section with a non-string name is dropped entirely rather than risk
+ * rendering a malformed heading. All of this runs before the completeness
+ * gate (isCompleteEnough), so malformed or missing data is always counted as
  * absent, never as present. Categories left empty are dropped.
  */
 export function mapApiMenu(api: ApiMenu): MenuCategory[] {
@@ -161,6 +167,11 @@ export function mapApiMenu(api: ApiMenu): MenuCategory[] {
         .map((it) => {
           const resolved = resolvePrice(it);
           if (resolved == null) return null;
+          // description/image_url are optional/nullable, but a present
+          // non-string value is a malformed shape — drop the item rather than
+          // pass it through to a component that assumes a string.
+          if (it.description != null && typeof it.description !== 'string') return null;
+          if (it.image_url != null && typeof it.image_url !== 'string') return null;
           const seasonal = typeof it.seasonal === 'string' && it.seasonal.trim() !== ''
             ? it.seasonal.trim()
             : undefined;

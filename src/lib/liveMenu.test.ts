@@ -4,11 +4,13 @@
  * Unit tests for the live-menu integration.
  *
  * Coverage:
- * 1. mapApiMenu: sections→categories, subsection flattening, price parsing,
- *    variant ("from") pricing, invalid-price drops (no £NaN / £0.00), null
- *    description default, empty-category drop, image preference, seasonal
- *    passthrough, is_available rejection, fail-closed available_at location
- *    filtering, and structurally-malformed section/item name rejection.
+ * 1. mapApiMenu: sections→categories, subsection flattening, price parsing
+ *    (incl. rejecting non-numeric/boolean price values), variant ("from")
+ *    pricing, invalid-price drops (no £NaN / £0.00), null description
+ *    default, empty-category drop, image preference, seasonal passthrough,
+ *    is_available rejection, fail-closed available_at location filtering,
+ *    and structurally-malformed section/item name/description/image_url
+ *    rejection.
  * 2. isCompleteEnough: the sparse-menu gate.
  * 3. getMenuCategories: safe-by-default fallback to the static menu whenever the
  *    flag is off, the url is unset, the fetch is unhealthy/aborted, or the live
@@ -141,6 +143,42 @@ describe('mapApiMenu', () => {
         section('C', [
           item({ id: 1, name: 12345 as unknown as string }),
           item({ id: 2, name: 'Real Item' }),
+        ]),
+      ],
+    });
+    expect(out[0].items.map((i) => i.id)).toEqual([2]);
+  });
+
+  it('drops an item with a non-string description instead of propagating a malformed shape', () => {
+    const out = mapApiMenu({
+      sections: [
+        section('C', [
+          item({ id: 1, description: { foo: 'bar' } as unknown as string }),
+          item({ id: 2, description: 'Real description' }),
+        ]),
+      ],
+    });
+    expect(out[0].items.map((i) => i.id)).toEqual([2]);
+  });
+
+  it('drops an item with a non-string image_url instead of propagating a malformed shape', () => {
+    const out = mapApiMenu({
+      sections: [
+        section('C', [
+          item({ id: 1, image_url: { foo: 'bar' } as unknown as string }),
+          item({ id: 2, image_url: '/real.webp' }),
+        ]),
+      ],
+    });
+    expect(out[0].items.map((i) => i.id)).toEqual([2]);
+  });
+
+  it('rejects a boolean price instead of implicitly coercing it to a number', () => {
+    const out = mapApiMenu({
+      sections: [
+        section('C', [
+          item({ id: 1, price: true as unknown as string }),
+          item({ id: 2, price: '4.20' }),
         ]),
       ],
     });
@@ -342,6 +380,25 @@ describe('getMenuCategories', () => {
     vi.stubGlobal(
       'fetch',
       vi.fn().mockResolvedValue({ ok: true, json: async () => ({ sections: malformed }) })
+    );
+    expect(await getMenuCategories()).toBe(menuData);
+  });
+
+  it('falls back to the static menu, without crashing, when live items carry a non-string description at scale', async () => {
+    vi.stubEnv('LIVE_MENU', '1');
+    vi.stubEnv('SINRA_PUBLIC_MENU_URL', 'https://admin.example/api');
+    // Every item's description is an object — raw counts would clear the
+    // completeness gate, but the malformed shape must be treated as absent.
+    const sections = completeSections().map((s) => ({
+      ...s,
+      subsections: s.subsections!.map((ss) => ({
+        ...ss,
+        menu_items: ss.menu_items!.map((it) => ({ ...it, description: { bad: 'shape' } })),
+      })),
+    }));
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({ ok: true, json: async () => ({ sections }) })
     );
     expect(await getMenuCategories()).toBe(menuData);
   });
