@@ -19,8 +19,11 @@ import { menuData, type MenuCategory } from '@/data/menuData';
 
 // This deployment serves the Newry site. sinra-os items carry an `available_at`
 // location array (e.g. ['newry'] | ['newry','drogheda']); items not offered
-// here must not appear. Items with no location data are treated as available
-// (backwards-compatible with the current public API, which omits the field).
+// here must not appear. Fail-closed: missing/empty location data means the
+// item is NOT available anywhere. This PR and sinra-os #5 (which populates
+// available_at) land together, so live data always carries the field by the
+// time this path is active — a divergence between the two must hide items,
+// never leak them.
 const SITE_LOCATION = 'newry';
 
 interface ApiVariant {
@@ -86,10 +89,10 @@ function parsePrice(value: unknown): number | null {
   return Number.isFinite(n) && n > 0 ? n : null;
 }
 
-// Is this item offered at the location this site serves? Missing/empty location
-// data means "available everywhere" (the current public API omits the field).
+// Is this item offered at the location this site serves? Fail-closed: missing
+// or empty location data means "not available here" — see SITE_LOCATION note.
 function availableHere(available_at: string[] | null | undefined): boolean {
-  if (!Array.isArray(available_at) || available_at.length === 0) return true;
+  if (!Array.isArray(available_at) || available_at.length === 0) return false;
   return available_at.includes(SITE_LOCATION);
 }
 
@@ -135,15 +138,26 @@ function resolvePrice(it: ApiMenuItem): { price: number; from: boolean } | null 
  * MenuCategory/MenuItem components already render. Pure + exported for tests.
  *
  * Per-item validation drops anything unrenderable — an item is kept only if it
- * has a name, is available at this location, and yields a valid price (from its
- * own price or its variants). Categories left empty are dropped.
+ * has a string name, is marked is_available, is available at this location,
+ * and yields a valid price (from its own price or its variants). A section
+ * with a non-string name is dropped entirely rather than risk rendering a
+ * malformed heading. All of this runs before the completeness gate
+ * (isCompleteEnough), so malformed or missing data is always counted as
+ * absent, never as present. Categories left empty are dropped.
  */
 export function mapApiMenu(api: ApiMenu): MenuCategory[] {
   return (api.sections ?? [])
+    .filter((section) => typeof section?.name === 'string' && section.name.trim() !== '')
     .map((section) => {
       const items = (section.subsections ?? [])
         .flatMap((ss) => ss.menu_items ?? [])
-        .filter((it) => Boolean(it?.name) && availableHere(it.available_at))
+        .filter(
+          (it) =>
+            typeof it?.name === 'string' &&
+            it.name.trim() !== '' &&
+            it.is_available === true &&
+            availableHere(it.available_at)
+        )
         .map((it) => {
           const resolved = resolvePrice(it);
           if (resolved == null) return null;
@@ -191,10 +205,13 @@ export async function getMenuCategories(): Promise<MenuCategory[]> {
     // revalidate with its origin on that refetch so we don't read a stale edge
     // copy. This is best-effort (a CDN may ignore request no-cache); the
     // authoritative freshness fix is sinra revalidating its own public route on
-    // mutation — see PR notes / sinra-os #5.
+    // mutation — see PR notes / sinra-os #5. An 8s abort deadline guards
+    // against a stalled connection/body hanging the build/ISR request until
+    // platform timeout; the catch below falls back to the static menu.
     const res = await fetch(url, {
       next: { revalidate: 300 },
       headers: { 'Cache-Control': 'no-cache' },
+      signal: AbortSignal.timeout(8000),
     });
     if (!res.ok) return menuData;
     const json = (await res.json()) as ApiMenu;

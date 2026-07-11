@@ -7,11 +7,14 @@
  * 1. mapApiMenu: sections→categories, subsection flattening, price parsing,
  *    variant ("from") pricing, invalid-price drops (no £NaN / £0.00), null
  *    description default, empty-category drop, image preference, seasonal
- *    passthrough, and available_at location filtering.
+ *    passthrough, is_available rejection, fail-closed available_at location
+ *    filtering, and structurally-malformed section/item name rejection.
  * 2. isCompleteEnough: the sparse-menu gate.
  * 3. getMenuCategories: safe-by-default fallback to the static menu whenever the
- *    flag is off, the url is unset, the fetch is unhealthy, or the live menu is
- *    empty/sparse — and the mapped live menu when healthy AND complete.
+ *    flag is off, the url is unset, the fetch is unhealthy/aborted, or the live
+ *    menu is empty/sparse/structurally-malformed-at-scale — and the mapped
+ *    live menu when healthy AND complete. Also asserts the fetch carries an
+ *    abort deadline.
  */
 
 import { describe, it, expect, vi, afterEach } from 'vitest';
@@ -33,6 +36,9 @@ function item(overrides: Record<string, unknown> = {}) {
     price: '3.84',
     is_available: true,
     image_url: null,
+    // Post-pair (sinra-os #5) shape: every item carries available_at. Tests
+    // that specifically exercise location filtering override this.
+    available_at: ['newry'],
     ...overrides,
   };
 }
@@ -105,6 +111,40 @@ describe('mapApiMenu', () => {
     });
     expect(out[0].items.map((i) => i.id)).toEqual([5]);
     expect(out[0].items[0].price).toBe(4.2);
+  });
+
+  it('drops an item whose is_available is false, even with a valid price', () => {
+    const out = mapApiMenu({
+      sections: [
+        section('C', [
+          item({ id: 1, is_available: false }),
+          item({ id: 2, is_available: true }),
+        ]),
+      ],
+    });
+    expect(out[0].items.map((i) => i.id)).toEqual([2]);
+  });
+
+  it('drops a section with a non-string name instead of propagating a malformed shape', () => {
+    const out = mapApiMenu({
+      sections: [
+        { id: 1, name: 12345 as unknown as string, subsections: [{ id: 10, menu_items: [item({ id: 1 })] }] },
+        section('Valid', [item({ id: 2 })], 2),
+      ],
+    });
+    expect(out.map((c) => c.name)).toEqual(['Valid']);
+  });
+
+  it('drops an item with a non-string name instead of propagating a malformed shape', () => {
+    const out = mapApiMenu({
+      sections: [
+        section('C', [
+          item({ id: 1, name: 12345 as unknown as string }),
+          item({ id: 2, name: 'Real Item' }),
+        ]),
+      ],
+    });
+    expect(out[0].items.map((i) => i.id)).toEqual([2]);
   });
 
   it('excludes zero-priced variants when deriving the "from" price', () => {
@@ -199,18 +239,18 @@ describe('mapApiMenu', () => {
     expect(out[0].items[1].seasonal).toBeUndefined();
   });
 
-  it('filters out items not available at this location, keeping location-less items', () => {
+  it('fails closed on location: hides items missing available_at, not just ones assigned elsewhere', () => {
     const out = mapApiMenu({
       sections: [
         section('C', [
           item({ id: 1, available_at: ['drogheda'] }),
           item({ id: 2, available_at: ['newry', 'drogheda'] }),
           item({ id: 3, available_at: [] }),
-          item({ id: 4 }), // no available_at field at all
+          item({ id: 4, available_at: undefined }), // no available_at field at all
         ]),
       ],
     });
-    expect(out[0].items.map((i) => i.id)).toEqual([2, 3, 4]);
+    expect(out[0].items.map((i) => i.id)).toEqual([2]);
   });
 
   it('prefers DB image_url, else falls back to a static image matched by name', () => {
@@ -279,7 +319,7 @@ describe('getMenuCategories', () => {
     expect(await getMenuCategories()).toBe(menuData);
   });
 
-  it('ISR-caches the fetch and asks the upstream CDN to revalidate on refetch', async () => {
+  it('ISR-caches the fetch, asks the upstream CDN to revalidate on refetch, and sets an abort deadline', async () => {
     vi.stubEnv('LIVE_MENU', '1');
     vi.stubEnv('SINRA_PUBLIC_MENU_URL', 'https://admin.example/api');
     const fetchMock = vi
@@ -290,6 +330,47 @@ describe('getMenuCategories', () => {
     const [, opts] = fetchMock.mock.calls[0];
     expect(opts.next).toMatchObject({ revalidate: 300 });
     expect(opts.headers).toMatchObject({ 'Cache-Control': 'no-cache' });
+    expect(opts.signal).toBeInstanceOf(AbortSignal);
+  });
+
+  it('falls back to the static menu, without crashing, when a live response is structurally malformed at scale', async () => {
+    vi.stubEnv('LIVE_MENU', '1');
+    vi.stubEnv('SINRA_PUBLIC_MENU_URL', 'https://admin.example/api');
+    // Every section has a non-string name — raw counts would clear the
+    // completeness gate, but the malformed shape must be treated as absent.
+    const malformed = completeSections().map((s) => ({ ...s, name: 999 }));
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({ ok: true, json: async () => ({ sections: malformed }) })
+    );
+    expect(await getMenuCategories()).toBe(menuData);
+  });
+
+  it('falls back to the static menu when malformed prices silently remove roughly half the live menu', async () => {
+    vi.stubEnv('LIVE_MENU', '1');
+    vi.stubEnv('SINRA_PUBLIC_MENU_URL', 'https://admin.example/api');
+    const sections = completeSections().map((s) => ({
+      ...s,
+      subsections: s.subsections!.map((ss) => ({
+        ...ss,
+        menu_items: ss.menu_items!.map((it, i) => (i % 2 === 0 ? { ...it, price: 'oops' } : it)),
+      })),
+    }));
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({ ok: true, json: async () => ({ sections }) })
+    );
+    expect(await getMenuCategories()).toBe(menuData);
+  });
+
+  it('falls back to the static menu when the fetch is aborted by the timeout deadline', async () => {
+    vi.stubEnv('LIVE_MENU', '1');
+    vi.stubEnv('SINRA_PUBLIC_MENU_URL', 'https://admin.example/api');
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockRejectedValue(new DOMException('The operation was aborted.', 'TimeoutError'))
+    );
+    expect(await getMenuCategories()).toBe(menuData);
   });
 
   it('falls back to the static menu on a non-ok response', async () => {
