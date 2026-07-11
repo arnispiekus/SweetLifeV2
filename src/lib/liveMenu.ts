@@ -76,11 +76,14 @@ export const MIN_LIVE_CATEGORIES = Math.ceil(STATIC_CATEGORY_COUNT * 0.5);
 export const MIN_LIVE_ITEMS = Math.ceil(STATIC_ITEM_COUNT * 0.5);
 
 // Parse a price coming off the API (string | number | null). Returns a finite,
-// non-negative number or null — never NaN, so the UI can never render "£NaN".
+// strictly-positive number or null — never NaN, zero, or negative, so the UI can
+// never render "£NaN" or "£0.00" / "from £0.00". A zero, blank/whitespace-only,
+// or negative value means the item is unpriced (or a data error) and must be
+// dropped rather than shown as free.
 function parsePrice(value: unknown): number | null {
   if (value == null || value === '') return null;
   const n = typeof value === 'number' ? value : Number(value);
-  return Number.isFinite(n) && n >= 0 ? n : null;
+  return Number.isFinite(n) && n > 0 ? n : null;
 }
 
 // Is this item offered at the location this site serves? Missing/empty location

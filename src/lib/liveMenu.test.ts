@@ -91,6 +91,53 @@ describe('mapApiMenu', () => {
     expect(out[0].items[0].price).toBe(4.2);
   });
 
+  it('drops an item whose only price is zero or blank (never renders £0.00)', () => {
+    const out = mapApiMenu({
+      sections: [
+        section('C', [
+          item({ id: 1, price: 0 }),
+          item({ id: 2, price: '0' }),
+          item({ id: 3, price: '   ' }),
+          item({ id: 4, price: -0 }),
+          item({ id: 5, price: '4.20' }),
+        ]),
+      ],
+    });
+    expect(out[0].items.map((i) => i.id)).toEqual([5]);
+    expect(out[0].items[0].price).toBe(4.2);
+  });
+
+  it('excludes zero-priced variants when deriving the "from" price', () => {
+    const out = mapApiMenu({
+      sections: [
+        section('C', [
+          item({
+            id: 1,
+            price: null,
+            item_variants: [
+              { id: 1, name: 'Free', price: '0' },
+              { id: 2, name: 'Good', price: '2.20' },
+            ],
+          }),
+        ]),
+      ],
+    });
+    expect(out[0].items[0].price).toBe(2.2);
+    expect(out[0].items[0].priceFrom).toBeUndefined();
+  });
+
+  it('drops a variant-only item whose every variant price is zero', () => {
+    const out = mapApiMenu({
+      sections: [
+        section('C', [
+          item({ id: 1, price: null, item_variants: [{ id: 1, name: 'Free', price: 0 }] }),
+          item({ id: 2, price: '3.00' }),
+        ]),
+      ],
+    });
+    expect(out[0].items.map((i) => i.id)).toEqual([2]);
+  });
+
   it('prices a variant-only item "from" the lowest variant price', () => {
     const out = mapApiMenu({
       sections: [
