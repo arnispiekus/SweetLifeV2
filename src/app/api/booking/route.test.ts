@@ -107,7 +107,10 @@ describe('POST /api/booking — intake fetch outcomes', () => {
     const fetchSpy = vi.spyOn(global, 'fetch').mockResolvedValue(
       new Response(JSON.stringify({ ok: true }), { status: 200 })
     );
-    const request = makeRequest(validBookingBody({ fullName: 'Amy Smith' }), freshIp());
+    const request = makeRequest(
+      validBookingBody({ fullName: 'Amy Smith', email: 'amy@example.com' }),
+      freshIp()
+    );
 
     const response = await POST(request);
     const json = await response.json();
@@ -120,6 +123,7 @@ describe('POST /api/booking — intake fetch outcomes', () => {
     expect(init?.headers).toMatchObject({ Authorization: 'Bearer test-secret' });
     const sentBody = JSON.parse(init?.body as string);
     expect(sentBody.full_name).toBe('Amy Smith');
+    expect(sentBody.email).toBe('amy@example.com');
   });
 
   it('returns an honest 502 (not fake success) when intake responds with a failure status', async () => {

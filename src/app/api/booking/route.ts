@@ -93,6 +93,7 @@ export async function POST(request: NextRequest) {
         body: JSON.stringify({
           full_name: bookingData.fullName,
           phone: bookingData.phone,
+          email: bookingData.email ?? null,
           party_size: bookingData.partySize,
           booking_date: bookingData.bookingDate,
           booking_time: bookingData.bookingTime,

@@ -1,4 +1,5 @@
 import { venueInfo } from '@/data/bookingsData';
+import { validateEmail } from '@/lib/contactValidation';
 
 /**
  * Returns today's date as YYYY-MM-DD, for use as the `min` on a date input
@@ -86,6 +87,7 @@ export function validateBookingTime(timeString: string): string {
 export interface BookingFormData {
   fullName: string;
   phone: string;
+  email?: string;
   partySize: number;
   bookingDate: string;
   bookingTime: string;
@@ -107,6 +109,13 @@ export function validateBookingRequest(data: BookingFormData): string[] {
 
   if (!data.phone || !validatePhone(data.phone)) {
     errors.push('Valid phone number is required.');
+  }
+
+  const email = data.email?.trim();
+  if (email && email.length > 254) {
+    errors.push('Email must be 254 characters or fewer.');
+  } else if (email && !validateEmail(email)) {
+    errors.push('Please enter a valid email address.');
   }
 
   if (!data.partySize || !Number.isInteger(data.partySize) || data.partySize < 1) {
@@ -170,7 +179,7 @@ export function parseBookingPayload(body: unknown): ParsedBookingPayload {
   }
 
   const record = body as Record<string, unknown>;
-  const { fullName, phone, bookingDate, bookingTime, notes } = record;
+  const { fullName, phone, email, bookingDate, bookingTime, notes } = record;
 
   if (
     typeof fullName !== 'string' ||
@@ -185,6 +194,10 @@ export function parseBookingPayload(body: unknown): ParsedBookingPayload {
     return { errors: ['Invalid request body.'] };
   }
 
+  if (email !== undefined && email !== null && typeof email !== 'string') {
+    return { errors: ['Invalid request body.'] };
+  }
+
   const partySize = parsePartySize(record.partySize);
   if (partySize === null) {
     return { errors: ['Please enter a valid party size.'] };
@@ -194,6 +207,7 @@ export function parseBookingPayload(body: unknown): ParsedBookingPayload {
     data: {
       fullName,
       phone,
+      email: typeof email === 'string' && email.trim() ? email.trim() : undefined,
       partySize,
       bookingDate,
       bookingTime,
