@@ -124,8 +124,16 @@ describe('validateBookingTime', () => {
 });
 
 describe('validateBookingRequest', () => {
-  it('accepts a fully valid booking', () => {
+  it('accepts a fully valid booking without an email', () => {
     expect(validateBookingRequest(validBooking())).toEqual([]);
+  });
+
+  it('accepts an empty optional email', () => {
+    expect(validateBookingRequest(validBooking({ email: '' }))).toEqual([]);
+  });
+
+  it('accepts a valid optional email', () => {
+    expect(validateBookingRequest(validBooking({ email: 'jane@example.com' }))).toEqual([]);
   });
 
   it('rejects a missing/short name', () => {
@@ -137,6 +145,19 @@ describe('validateBookingRequest', () => {
   it('rejects an invalid phone', () => {
     expect(validateBookingRequest(validBooking({ phone: '123' }))).toContain(
       'Valid phone number is required.'
+    );
+  });
+
+  it('rejects an invalid optional email with a plain-English message', () => {
+    expect(validateBookingRequest(validBooking({ email: 'not-an-email' }))).toContain(
+      'Please enter a valid email address.'
+    );
+  });
+
+  it('rejects an optional email over 254 characters', () => {
+    const email = `${'a'.repeat(243)}@example.com`;
+    expect(validateBookingRequest(validBooking({ email }))).toContain(
+      'Email must be 254 characters or fewer.'
     );
   });
 
@@ -226,6 +247,14 @@ describe('parseBookingPayload', () => {
         notes: 'A note',
       },
     });
+  });
+
+  it('trims an optional email address when present', () => {
+    const result = parseBookingPayload({
+      ...validBody(),
+      email: '  jane@example.com  ',
+    });
+    expect(result).toEqual({ data: expect.objectContaining({ email: 'jane@example.com' }) });
   });
 
   it('accepts a numeric-string partySize', () => {

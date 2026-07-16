@@ -8,6 +8,7 @@ import { ScrollReveal } from '@/components/motion';
 const emptyForm: BookingFormData = {
   fullName: '',
   phone: '',
+  email: '',
   partySize: 0,
   bookingDate: '',
   bookingTime: '',
@@ -150,6 +151,26 @@ const BookingRequestForm = () => {
                       placeholder="Your phone number"
                     />
                   </div>
+                </div>
+
+                <div>
+                  <label htmlFor="email" className="block text-sm font-semibold text-charcoal mb-2">
+                    Email (optional)
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email ?? ''}
+                    onChange={handleInputChange}
+                    maxLength={254}
+                    aria-describedby="email-help"
+                    className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all duration-300"
+                    placeholder="Your email"
+                  />
+                  <p id="email-help" className="text-sm text-rich-brown/70 mt-2">
+                    So we can confirm your booking by email.
+                  </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
