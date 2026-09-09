@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Playfair_Display } from "next/font/google";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
@@ -61,6 +62,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: "MLuewCXrpyCpbnmeCzUU6PpS6bXy6ntXJdAVDin-8pw",
+  },
 };
 
 export default function RootLayout({
@@ -79,6 +83,33 @@ export default function RootLayout({
           fetchPriority="high"
         />
         <StructuredData />
+        {/* Source: Bailey, 9 Sep 2026. */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-3JD4LH4N1T"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-3JD4LH4N1T');
+          `}
+        </Script>
+        <Script id="meta-pixel" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1595394785271696');
+            fbq('track', 'PageView');
+          `}
+        </Script>
       </head>
       <body className={`${plusJakartaSans.variable} ${playfairDisplay.variable} font-sans antialiased`}>
         <div className="flex flex-col min-h-screen">
