@@ -8,6 +8,10 @@ interface MenuItemProps {
   name: string;
   description: string;
   price: number;
+  // Live-menu only: price is the lowest of several variants → render "from £x".
+  priceFrom?: boolean;
+  // Live-menu only: free-text seasonal label (e.g. "Summer only") → small badge.
+  seasonal?: string;
   image?: string;
   isPopular?: boolean;
 }
@@ -21,7 +25,7 @@ const getDietaryTags = (name: string) => {
   return tags;
 };
 
-const MenuItem = ({ name, description, price, image, isPopular }: MenuItemProps) => {
+const MenuItem = ({ name, description, price, priceFrom, seasonal, image, isPopular }: MenuItemProps) => {
   const dietaryTags = getDietaryTags(name);
 
   return (
@@ -55,9 +59,9 @@ const MenuItem = ({ name, description, price, image, isPopular }: MenuItemProps)
         <div className="flex justify-between items-start mb-2">
           <div className="flex-1">
             <h4 className="text-lg font-medium">{name}</h4>
-            {/* Dietary tags */}
-            {dietaryTags.length > 0 && (
-              <div className="flex gap-1 mt-1">
+            {/* Dietary tags + optional seasonal label */}
+            {(dietaryTags.length > 0 || seasonal) && (
+              <div className="flex flex-wrap gap-1 mt-1">
                 {dietaryTags.map((tag) => (
                   <span
                     key={tag.label}
@@ -66,10 +70,18 @@ const MenuItem = ({ name, description, price, image, isPopular }: MenuItemProps)
                     {tag.label}
                   </span>
                 ))}
+                {seasonal && (
+                  <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-primary/20 text-primary">
+                    {seasonal}
+                  </span>
+                )}
               </div>
             )}
           </div>
-          <span className="font-semibold text-primary ml-2">{'\u00A3'}{price.toFixed(2)}</span>
+          <span className="font-semibold text-primary ml-2 whitespace-nowrap">
+            {priceFrom && <span className="text-xs font-normal text-rich-brown/60 mr-1">from</span>}
+            {'\u00A3'}{price.toFixed(2)}
+          </span>
         </div>
         <p className="text-stone-600 text-sm">{description}</p>
       </div>

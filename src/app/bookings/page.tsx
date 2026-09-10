@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Check, ArrowRight, Phone, MessageCircle, Users, Sparkles } from 'lucide-react';
 import { ScrollReveal, FadeIn, StaggerContainer, StaggerItem } from '@/components/motion';
+import BookingRequestForm from '@/components/bookings/BookingRequestForm';
 import {
   eventTypes,
   includedItems,
@@ -278,6 +279,11 @@ export default function BookingsPage() {
           </div>
         </div>
       </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
+          BOOKING REQUEST FORM
+      ═══════════════════════════════════════════════════════════════════════════ */}
+      <BookingRequestForm />
 
       {/* ═══════════════════════════════════════════════════════════════════════════
           CTA SECTION - Book Now

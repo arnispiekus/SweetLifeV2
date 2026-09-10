@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Playfair_Display } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -86,6 +87,8 @@ export default function RootLayout({
           <Footer />
           <WhatsAppWidget />
         </div>
+        {/* explicit mode: auto would also collect on preview deployments (they run production bundles) */}
+        <Analytics mode={process.env.VERCEL_ENV === "production" ? "production" : "development"} />
       </body>
     </html>
   );
